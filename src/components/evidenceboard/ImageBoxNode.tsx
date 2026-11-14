@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
-import { Handle, Position, useReactFlow, useNodeId } from '@xyflow/react';
+import { useReactFlow, useNodeId } from '@xyflow/react';
 import type { NodeProps } from '@xyflow/react';
+import ConnectionHandles from './ConnectionHandles';
 import type { ImageBoxNodeType } from './types';
 import { uploadBoardImage } from "../../api/board";
 import toast from 'react-hot-toast';
@@ -57,8 +58,6 @@ export default function ImageBoxNode({ data, selected }: NodeProps<ImageBoxNodeT
         ${selected ? 'border-white/60 ring-2 ring-white/30' : 'border-zinc-700'}
       `}
     >
-      <Handle type="target" position={Position.Top} className="bg-zinc-400! w-2! h-2!" />
-      <Handle type="target" position={Position.Left} className="bg-zinc-400! w-2! h-2!" />
 
       <div className="relative w-full h-28 bg-zinc-800">
         {data.imageUrl ? (
@@ -127,8 +126,7 @@ export default function ImageBoxNode({ data, selected }: NodeProps<ImageBoxNodeT
         </p>
       )}
 
-      <Handle type="source" position={Position.Right} className="bg-zinc-400! w-2! h-2!" />
-      <Handle type="source" position={Position.Bottom} className="bg-zinc-400! w-2! h-2!" />
+      <ConnectionHandles />
     </div>
   );
 }
