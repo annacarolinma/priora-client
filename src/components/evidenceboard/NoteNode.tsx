@@ -1,6 +1,7 @@
 import { useCallback, useState } from 'react';
-import { Handle, Position, useReactFlow, useNodeId } from '@xyflow/react';
+import { useReactFlow, useNodeId } from '@xyflow/react';
 import type { NodeProps } from '@xyflow/react';
+import ConnectionHandles from './ConnectionHandles';
 import type { NoteNodeType } from './types';
 
 export default function NoteNode({ data, selected }: NodeProps<NoteNodeType>) {
@@ -21,7 +22,6 @@ export default function NoteNode({ data, selected }: NodeProps<NoteNodeType>) {
         ${selected ? 'outline outline-white/40 rounded' : ''}
       `}
     >
-      <Handle type="target" position={Position.Left} className="bg-transparent! border-none w-1! h-1!" />
 
       {isEditing ? (
         <input
@@ -51,7 +51,7 @@ export default function NoteNode({ data, selected }: NodeProps<NoteNodeType>) {
         </span>
       )}
 
-      <Handle type="source" position={Position.Right} className="bg-transparent! border-none w-1! h-1!" />
+      <ConnectionHandles className="bg-transparent! border-none w-1! h-1!" />
     </div>
   );
 }

@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { Handle, Position, NodeToolbar, useReactFlow, useNodeId } from '@xyflow/react';
+import { Position, NodeToolbar, useReactFlow, useNodeId } from '@xyflow/react';
 import type { NodeProps } from '@xyflow/react';
+import ConnectionHandles from './ConnectionHandles';
 import type { TextBoxNodeType } from './types';
 import ColorPicker from './ColorPicker';
 
@@ -130,8 +131,6 @@ export default function TextBoxNode({ data, selected }: NodeProps<TextBoxNodeTyp
           <ColorPicker value={color} onChange={handleColorChange} />
         </NodeToolbar>
 
-        <Handle type="target" position={Position.Top} className="bg-zinc-400! w-2! h-2!" />
-        <Handle type="target" position={Position.Left} className="bg-zinc-400! w-2! h-2!" />
 
         <div
           className={`relative w-40 min-h-[140px] p-3 shadow-[2px_4px_10px_rgba(0,0,0,0.45)] text-sm leading-snug ${
@@ -146,8 +145,7 @@ export default function TextBoxNode({ data, selected }: NodeProps<TextBoxNodeTyp
           {editable()}
         </div>
 
-        <Handle type="source" position={Position.Right} className="bg-zinc-400! w-2! h-2!" />
-        <Handle type="source" position={Position.Bottom} className="bg-zinc-400! w-2! h-2!" />
+        <ConnectionHandles />
       </div>
     );
   }
@@ -166,21 +164,19 @@ export default function TextBoxNode({ data, selected }: NodeProps<TextBoxNodeTyp
           <ColorPicker value={color} onChange={handleColorChange} />
         </NodeToolbar>
 
-        <Handle type="target" position={Position.Top} className="bg-zinc-400! w-2! h-2!" />
-        <Handle type="target" position={Position.Left} className="bg-zinc-400! w-2! h-2!" />
-
+        {/* quadrado girado 45° inscrito no nó: lado = 144/√2 ≈ 102px (inset de 21px),
+            assim os vértices caem nos pontos de conexão e as setas encostam neles */}
         <div
-          className={`absolute inset-2 rotate-45 border-2 shadow-lg ${selected ? 'ring-2 ring-white/40' : ''}`}
+          className={`absolute inset-[21px] rotate-45 border-2 shadow-lg ${selected ? 'ring-2 ring-white/40' : ''}`}
           style={boxStyle}
         />
-        <div className="absolute inset-0 flex items-center justify-center px-6 overflow-hidden">
+        <div className="absolute inset-0 flex items-center justify-center px-9 overflow-hidden">
           <div className="text-xs font-medium text-center leading-snug" style={{ color: boxStyle.color }}>
             {editable('text-center')}
           </div>
         </div>
 
-        <Handle type="source" position={Position.Right} className="bg-zinc-400! w-2! h-2!" />
-        <Handle type="source" position={Position.Bottom} className="bg-zinc-400! w-2! h-2!" />
+        <ConnectionHandles />
       </div>
     );
   }
@@ -199,13 +195,10 @@ export default function TextBoxNode({ data, selected }: NodeProps<TextBoxNodeTyp
           }`}
           style={boxStyle}
         >
-          <Handle type="target" position={Position.Top} className="bg-zinc-400! w-2! h-2!" />
-          <Handle type="target" position={Position.Left} className="bg-zinc-400! w-2! h-2!" />
 
           {editable('text-center')}
 
-          <Handle type="source" position={Position.Right} className="bg-zinc-400! w-2! h-2!" />
-          <Handle type="source" position={Position.Bottom} className="bg-zinc-400! w-2! h-2!" />
+          <ConnectionHandles />
         </div>
       </div>
     );
@@ -224,13 +217,10 @@ export default function TextBoxNode({ data, selected }: NodeProps<TextBoxNodeTyp
         }`}
         style={boxStyle}
       >
-        <Handle type="target" position={Position.Top} className="bg-zinc-400! w-2! h-2!" />
-        <Handle type="target" position={Position.Left} className="bg-zinc-400! w-2! h-2!" />
 
         {editable()}
 
-        <Handle type="source" position={Position.Right} className="bg-zinc-400! w-2! h-2!" />
-        <Handle type="source" position={Position.Bottom} className="bg-zinc-400! w-2! h-2!" />
+        <ConnectionHandles />
       </div>
     </div>
   );

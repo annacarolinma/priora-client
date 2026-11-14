@@ -1,0 +1,26 @@
+/* Pontos de conexão só aparecem quando importam (como no draw.io / Figma):
+   ao passar o mouse no nó, com o nó selecionado ou enquanto se arrasta uma seta. */
+.evidence-board .react-flow__handle {
+  opacity: 0;
+  transition: opacity 120ms ease, transform 120ms ease;
+}
+
+.evidence-board .react-flow__node:hover .react-flow__handle,
+.evidence-board .react-flow__node.selected .react-flow__handle,
+.evidence-board.is-connecting .react-flow__handle {
+  opacity: 1;
+}
+
+.evidence-board .react-flow__handle:hover,
+.evidence-board .react-flow__handle.connectingto {
+  transform: translate(-50%, -50%) scale(1.6);
+}
+
+/* realce da seta sob o mouse */
+.evidence-board .react-flow__edge-path {
+  transition: stroke 120ms ease;
+}
+
+.evidence-board .react-flow__edge:hover .react-flow__edge-path {
+  stroke: #d4d4d8;
+}

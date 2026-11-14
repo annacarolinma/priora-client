@@ -14,13 +14,20 @@ import {
   useEdgesState,
   addEdge,
   useReactFlow,
+  useConnection,
+  ConnectionMode,
+  ConnectionLineType,
+  MarkerType,
   type Connection,
+  type DefaultEdgeOptions,
 } from '@xyflow/react';
 import '@xyflow/react/dist/style.css';
+import '../../components/evidenceboard/board.css';
 
 import TextBoxNode from '../../components/evidenceboard/TextBoxNode';
 import ImageBoxNode from '../../components/evidenceboard/ImageBoxNode';
 import NoteNode from '../../components/evidenceboard/NoteNode';
+import FloatingEdge from '../../components/evidenceboard/FloatingEdge';
 import BoardToolbar, { type ShapeTool } from '../../components/evidenceboard/BoardToolbar';
 import type { BoardNode, BoardEdge } from '../../components/evidenceboard/types';
 
@@ -30,6 +37,26 @@ const nodeTypes = {
   note: NoteNode,
 };
 
+const edgeTypes = { floating: FloatingEdge };
+
+const EDGE_COLOR = '#a1a1aa';
+
+const defaultEdgeOptions: DefaultEdgeOptions = {
+  type: 'floating',
+  style: { stroke: EDGE_COLOR, strokeWidth: 1.5 },
+  markerEnd: { type: MarkerType.ArrowClosed, color: EDGE_COLOR, width: 12, height: 12 },
+};
+
+// Setas salvas antes usavam type 'step' presas a handles fixos (saíam sempre pela
+// direita/baixo). Converte para a seta flutuante, que escolhe o lado sozinha.
+function toFloatingEdge(edge: BoardEdge): BoardEdge {
+  return {
+    ...edge,
+    ...defaultEdgeOptions,
+    sourceHandle: null,
+    targetHandle: null,
+  };
+}
 
 function BoardCanvas({
   initialNodes,
@@ -50,6 +77,8 @@ function BoardCanvas({
   const [edges, setEdges, onEdgesChange] = useEdgesState(initialEdges);
   const wrapperRef = useRef<HTMLDivElement>(null);
   const { screenToFlowPosition } = useReactFlow();
+  // mostra todos os pontos de conexão enquanto uma seta está sendo arrastada
+  const isConnecting = useConnection((c) => c.inProgress);
 
   // quando o fetch do backend terminar e initialNodes/Edges chegarem, sincroniza o canvas
   useEffect(() => {
@@ -57,15 +86,18 @@ function BoardCanvas({
   }, [initialNodes, setNodes]);
 
   useEffect(() => {
-    setEdges(initialEdges);
+    setEdges(initialEdges.map(toFloatingEdge));
   }, [initialEdges, setEdges]);
 
   const onConnect = useCallback(
     (connection: Connection) =>
-      setEdges((eds) =>
-        addEdge({ ...connection, type: 'step', style: { stroke: '#e5e5e5' } }, eds)
-      ),
+      setEdges((eds) => addEdge(toFloatingEdge({ ...connection, id: crypto.randomUUID() }), eds)),
     [setEdges]
+  );
+
+  const isValidConnection = useCallback(
+    (connection: Connection | BoardEdge) => connection.source !== connection.target,
+    []
   );
 
   const handleAddShape = useCallback(
@@ -176,14 +208,20 @@ function BoardCanvas({
         />
       )}
 
-      <div ref={wrapperRef} className="flex-1">
+      <div ref={wrapperRef} className={`evidence-board flex-1 ${isConnecting ? 'is-connecting' : ''}`}>
         <ReactFlow
           nodes={nodes}
           edges={edges}
           onNodesChange={onNodesChange}
           onEdgesChange={onEdgesChange}
           onConnect={onConnect}
+          isValidConnection={isValidConnection}
           nodeTypes={nodeTypes}
+          edgeTypes={edgeTypes}
+          defaultEdgeOptions={defaultEdgeOptions}
+          connectionMode={ConnectionMode.Loose}
+          connectionLineType={ConnectionLineType.SmoothStep}
+          connectionLineStyle={{ stroke: EDGE_COLOR, strokeWidth: 1.5 }}
           nodesDraggable={!readOnly}
           nodesConnectable={!readOnly}
           deleteKeyCode={readOnly ? null : 'Backspace'}
