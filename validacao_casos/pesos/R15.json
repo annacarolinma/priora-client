@@ -1,0 +1,24 @@
+{
+  "id": "R15",
+  "pesos": [
+    {"evidencia": "E1", "r": 0.7, "vinculos": [], "justificativa": "r: testemunho presencial sem interesse; contexto sem suspeito."},
+    {"evidencia": "E2", "r": 0.9, "vinculos": [], "justificativa": "r: laudo pericial oficial; contexto sem suspeito."},
+    {"evidencia": "E3", "r": 0.9, "vinculos": [], "justificativa": "r: exames periciais; indica dois agressores, sem suspeito citado."},
+    {"evidencia": "E4", "r": 0.7, "vinculos": [], "justificativa": "r: constatação oficial; contexto sem suspeito."},
+    {"evidencia": "E5", "r": 0.7, "vinculos": [{"suspeito": "S1", "v": 0.9, "efeito": "Inocenta"}], "justificativa": "r: álibi confirmado por investigadores; v: estava no exterior, praticamente conclusivo para execução direta."},
+    {"evidencia": "E6", "r": 0.3, "vinculos": [{"suspeito": "S1", "v": 0.1, "efeito": "Incrimina"}, {"suspeito": "S4", "v": 0.1, "efeito": "Incrimina"}], "justificativa": "r: hipótese da imprensa; v: mera associação por antecedentes."},
+    {"evidencia": "E7", "r": 0.5, "vinculos": [{"suspeito": "S4", "v": 0.1, "efeito": "Incrimina"}, {"suspeito": "S2", "v": 0.7, "efeito": "Incrimina"}], "justificativa": "r: testemunho sem corroboração e mudado; v: descrição inicial compatível com muitos, reconhecimento posterior de S2 forte."},
+    {"evidencia": "E8", "r": 0.3, "vinculos": [{"suspeito": "S2", "v": 0.3, "efeito": "Incrimina"}, {"suspeito": "S3", "v": 0.3, "efeito": "Incrimina"}], "justificativa": "r: interpretação de comportamento; v: circunstancial."},
+    {"evidencia": "E9", "r": 0.7, "vinculos": [{"suspeito": "S2", "v": 0.5, "efeito": "Incrimina"}, {"suspeito": "S3", "v": 0.5, "efeito": "Incrimina"}], "justificativa": "r: registro de constatação oficial; v: lesões compatíveis com luta, mas têm explicação inocente."},
+    {"evidencia": "E10", "r": 0.7, "vinculos": [{"suspeito": "S2", "v": 0.5, "efeito": "Incrimina"}, {"suspeito": "S3", "v": 0.5, "efeito": "Incrimina"}], "justificativa": "r: recibo documental; v: horário atípico e apresentação espontânea sugerem álibi forjado, mas com explicação possível."},
+    {"evidencia": "E11", "r": 0.9, "vinculos": [{"suspeito": "S2", "v": 0.3, "efeito": "Incrimina"}, {"suspeito": "S3", "v": 0.3, "efeito": "Incrimina"}], "justificativa": "r: gravações ambientais; v: silêncio sobre o caso é circunstancial."},
+    {"evidencia": "E12", "r": 0.7, "vinculos": [{"suspeito": "S2", "v": 0.5, "efeito": "Incrimina"}, {"suspeito": "S3", "v": 0.5, "efeito": "Incrimina"}], "justificativa": "r: resíduo atribuído por análise oficial, mas isolado; v: contaminação plausível, como alega a defesa."},
+    {"evidencia": "E13", "r": 0.7, "vinculos": [{"suspeito": "S2", "v": 0.5, "efeito": "Incrimina"}, {"suspeito": "S3", "v": 0.5, "efeito": "Incrimina"}], "justificativa": "r: queixa e processo documentados; v: motivo concreto restrito a poucas pessoas, mas com explicação plausível."},
+    {"evidencia": "E14", "r": 0.5, "vinculos": [{"suspeito": "S2", "v": 0.3, "efeito": "Incrimina"}, {"suspeito": "S3", "v": 0.3, "efeito": "Incrimina"}], "justificativa": "r: depoimentos de vizinhos sem corroboração formal; v: hostilidade prévia circunstancial."},
+    {"evidencia": "E15", "r": 0.5, "vinculos": [{"suspeito": "S2", "v": 0.3, "efeito": "Incrimina"}], "justificativa": "r: relato de uma vizinha sem corroboração; v: preparo de versão antes do crime, circunstancial."},
+    {"evidencia": "E16", "r": 0.5, "vinculos": [{"suspeito": "S2", "v": 0.1, "efeito": "Incrimina"}, {"suspeito": "S3", "v": 0.1, "efeito": "Incrimina"}], "justificativa": "r: queixas antigas e descrição de isolamento; v: mera associação de perfil."},
+    {"evidencia": "E17", "r": 0.3, "vinculos": [{"suspeito": "S3", "v": 0.1, "efeito": "Incrimina"}], "justificativa": "r: relato de parentes e parte da defesa, segunda mão; v: história pessoal, mera associação."},
+    {"evidencia": "E18", "r": 0.7, "vinculos": [{"suspeito": "S3", "v": 0.3, "efeito": "Incrimina"}], "justificativa": "r: laudo, mas depende do achado de E3; v: ser canhota é compatível com muitas pessoas."},
+    {"evidencia": "E19", "r": 0.3, "vinculos": [{"suspeito": "S4", "v": 0.1, "efeito": "Incrimina"}], "justificativa": "r: tese da defesa sem prova, parte interessada; v: mera sugestão de um estranho."}
+  ]
+}

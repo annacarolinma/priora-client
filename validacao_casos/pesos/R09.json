@@ -1,0 +1,25 @@
+{
+  "id": "R09",
+  "pesos": [
+    {"evidencia": "E1", "r": 0.5, "vinculos": [], "justificativa": "Testemunho sem corroboração; contexto."},
+    {"evidencia": "E2", "r": 0.7, "vinculos": [], "justificativa": "Documento recebido; contexto."},
+    {"evidencia": "E3", "r": 0.7, "vinculos": [], "justificativa": "Documento publicado; contexto."},
+    {"evidencia": "E4", "r": 0.7, "vinculos": [], "justificativa": "Documentos recebidos; contexto."},
+    {"evidencia": "E5", "r": 0.5, "vinculos": [], "justificativa": "Relatos de ligações anônimas sem corroboração; contexto."},
+    {"evidencia": "E6", "r": 0.5, "vinculos": [], "justificativa": "Testemunho da vítima criança, sem corroboração; descrição genérica sem suspeito."},
+    {"evidencia": "E7", "r": 0.7, "vinculos": [], "justificativa": "Registro oficial de números de série; contexto."},
+    {"evidencia": "E8", "r": 0.7, "vinculos": [{"suspeito": "S1", "v": 0.7, "efeito": "Incrimina"}], "justificativa": "r: registro rastreável de nota; v: posse de nota do resgate, poucos compatíveis."},
+    {"evidencia": "E9", "r": 0.7, "vinculos": [{"suspeito": "S2", "v": 0.7, "efeito": "Incrimina"}], "justificativa": "r: registro de caixa e endereço confirmado; v: duas notas e versões conflitantes."},
+    {"evidencia": "E10", "r": 0.7, "vinculos": [{"suspeito": "S1", "v": 0.3, "efeito": "Incrimina"}], "justificativa": "r: registro oficial; v: nome falso é circunstancial isoladamente."},
+    {"evidencia": "E11", "r": 0.9, "vinculos": [{"suspeito": "S1", "v": 0.7, "efeito": "Incrimina"}, {"suspeito": "S2", "v": 0.7, "efeito": "Incrimina"}], "justificativa": "r: laudo de laboratório oficial; v: dinheiro queimado no fogão do casal, forte mas ambos compartilham a casa."},
+    {"evidencia": "E12", "r": 0.7, "vinculos": [{"suspeito": "S1", "v": 0.7, "efeito": "Incrimina"}], "justificativa": "r: achado físico oficial; v: ligação com S1 por contexto das demais provas, sem autoria direta."},
+    {"evidencia": "E13", "r": 0.5, "vinculos": [{"suspeito": "S1", "v": 0.5, "efeito": "Incrimina"}, {"suspeito": "S2", "v": 0.7, "efeito": "Incrimina"}], "justificativa": "r: declaração de coautor sem corroboração, contra o próprio interesse; v: participação de S2 afirmada com contradição interna."},
+    {"evidencia": "E14", "r": 0.7, "vinculos": [{"suspeito": "S1", "v": 0.1, "efeito": "Incrimina"}, {"suspeito": "S3", "v": 0.1, "efeito": "Incrimina"}], "justificativa": "r: registro prisional; v: mera associação."},
+    {"evidencia": "E15", "r": 0.5, "vinculos": [{"suspeito": "S3", "v": 0.3, "efeito": "Incrimina"}, {"suspeito": "S5", "v": 0.1, "efeito": "Incrimina"}], "justificativa": "r: testemunho sem corroboração; v: S3 procurando o casal é circunstancial; S5 mero parente."},
+    {"evidencia": "E16", "r": 0.7, "vinculos": [{"suspeito": "S3", "v": 0.9, "efeito": "Incrimina"}], "justificativa": "r: testemunho policial e apreensão do dinheiro; v: fuga deixando dinheiro do resgate, sem explicação inocente."},
+    {"evidencia": "E17", "r": 0.7, "vinculos": [{"suspeito": "S3", "v": 0.7, "efeito": "Incrimina"}], "justificativa": "r: laudo e relatos bancários; v: homem trocando notas do resgate, poucos compatíveis."},
+    {"evidencia": "E18", "r": 0.7, "vinculos": [{"suspeito": "S3", "v": 0.9, "efeito": "Incrimina"}], "justificativa": "r: achado físico oficial; v: equipamento de adulteração e dinheiro enterrado, praticamente exclusivo."},
+    {"evidencia": "E19", "r": 0.5, "vinculos": [{"suspeito": "S3", "v": 0.3, "efeito": "Incrimina"}, {"suspeito": "S4", "v": 0.5, "efeito": "Incrimina"}], "justificativa": "r: sinais interpretativos, depende de E17; v: S4 com antecedente e sinais de ajuda, explicação inocente plausível."},
+    {"evidencia": "E20", "r": 0.9, "vinculos": [{"suspeito": "S1", "v": 0.9, "efeito": "Incrimina"}, {"suspeito": "S2", "v": 0.7, "efeito": "Incrimina"}, {"suspeito": "S3", "v": 0.7, "efeito": "Incrimina"}], "justificativa": "r: laudo datiloscópico oficial; v: presença no local da divisão do dinheiro, S1 também nas latas dos bilhetes."}
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "R17",
+  "pesos": [
+    {"evidencia": "E1", "r": 0.9, "vinculos": [], "justificativa": "r: registros eletrônicos e de câmera; contexto sem suspeito."},
+    {"evidencia": "E2", "r": 0.9, "vinculos": [], "justificativa": "r: registro telefônico; contexto sem suspeito."},
+    {"evidencia": "E3", "r": 0.7, "vinculos": [], "justificativa": "r: achado oficial de cena; contexto."},
+    {"evidencia": "E4", "r": 0.7, "vinculos": [], "justificativa": "r: achado oficial de cena; contexto."},
+    {"evidencia": "E5", "r": 0.7, "vinculos": [], "justificativa": "r: conclusão da perícia sem cadeia de custódia descrita; contexto."},
+    {"evidencia": "E6", "r": 0.5, "vinculos": [], "justificativa": "r: testemunhos sem corroboração e sem hora precisa; contexto."},
+    {"evidencia": "E7", "r": 0.5, "vinculos": [{"suspeito": "S2", "v": 0.3, "efeito": "Inocenta"}], "justificativa": "r: relato sem corroboração integral; v: estar fora da cidade o afasta circunstancialmente."},
+    {"evidencia": "E8", "r": 0.7, "vinculos": [{"suspeito": "S2", "v": 0.7, "efeito": "Inocenta"}], "justificativa": "r: exame policial digital, resultado sem laudo detalhado; v: afasta com força, mas sem ser conclusivo."},
+    {"evidencia": "E9", "r": 0.7, "vinculos": [], "justificativa": "r: achado oficial; contexto."},
+    {"evidencia": "E10", "r": 0.9, "vinculos": [], "justificativa": "r: laudo pericial oficial; contexto sem suspeito."},
+    {"evidencia": "E11", "r": 0.5, "vinculos": [], "justificativa": "r: ausência de objeto, sem cadeia de custódia; contexto."},
+    {"evidencia": "E12", "r": 0.5, "vinculos": [{"suspeito": "S1", "v": 0.3, "efeito": "Incrimina"}], "justificativa": "r: testemunho próprio sem corroboração; v: ele revela presença e conhecimento, circunstancial."},
+    {"evidencia": "E13", "r": 0.7, "vinculos": [{"suspeito": "S1", "v": 0.1, "efeito": "Incrimina"}], "justificativa": "r: ato oficial; v: mera medida de investigação, associação."},
+    {"evidencia": "E14", "r": 0.7, "vinculos": [{"suspeito": "S1", "v": 0.1, "efeito": "Incrimina"}], "justificativa": "r: ato oficial; v: prisão sem acusação é mera associação."},
+    {"evidencia": "E15", "r": 0.5, "vinculos": [{"suspeito": "S3", "v": 0.1, "efeito": "Incrimina"}, {"suspeito": "S1", "v": 0.3, "efeito": "Incrimina"}], "justificativa": "r: testemunho sem corroboração de parte também suspeita; v S1: carro movido é circunstancial; S3 mera associação."},
+    {"evidencia": "E16", "r": 0.3, "vinculos": [{"suspeito": "S3", "v": 0.1, "efeito": "Incrimina"}, {"suspeito": "S1", "v": 0.1, "efeito": "Incrimina"}], "justificativa": "r: informação de segunda mão que depende de E15; v: mera associação para ambos."},
+    {"evidencia": "E17", "r": 0.5, "vinculos": [{"suspeito": "S3", "v": 0.3, "efeito": "Incrimina"}], "justificativa": "r: impressão de policiais sem detalhe; v: inconsistências são circunstanciais."},
+    {"evidencia": "E18", "r": 0.3, "vinculos": [{"suspeito": "S3", "v": 0.1, "efeito": "Incrimina"}], "justificativa": "r: caracterização subjetiva de um policial; v: mera sugestão."},
+    {"evidencia": "E19", "r": 0.7, "vinculos": [], "justificativa": "r: registro de câmera de má qualidade; contexto."},
+    {"evidencia": "E20", "r": 0.7, "vinculos": [], "justificativa": "r: diligência oficial sem resultado; contexto."}
+  ]
+}

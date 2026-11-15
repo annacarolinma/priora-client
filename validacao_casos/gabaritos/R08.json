@@ -1,0 +1,13 @@
+{
+  "id": "R08",
+  "titulo": "Sequestro e homicídio de Danielle van Dam (San Diego, 2002)",
+  "fonte": "Wikipedia (Murder of Danielle van Dam)",
+  "url": "https://en.wikipedia.org/wiki/Murder_of_Danielle_van_Dam",
+  "licenca_ou_uso": "Wikipedia CC BY-SA 4.0; pistas reescritas",
+  "culpado": ["S1"],
+  "chave_nomes": {"S1": "David Westerfield", "S2": "Neal Westerfield (filho)", "S3": "Damon van Dam", "S4": "Brenda van Dam"},
+  "solucao": "Em 21 de agosto de 2002 o júri condenou David Westerfield por homicídio em primeiro grau, sequestro e posse de pornografia infantil; recomendou pena de morte (16 set 2002), imposta em janeiro de 2003. Pais e filho nunca foram formalmente suspeitos; só foram levantados como alternativas pela defesa.",
+  "pais_epoca": "Estados Unidos, 2002",
+  "tipo_crime": "sequestro/desaparecimento e homicídio de criança",
+  "observacoes": "S2, S3 e S4 nunca foram suspeitos oficiais: foram incluídos como hipóteses levantadas pela defesa, para haver 4 suspeitos. Não usei a carta de confissão de outro homem (2003, depois do julgamento). Número de pistas ligadas a S1 desbalanceado: refletir o caso real. Wikipedia só resume; não consultei a decisão da Suprema Corte da Califórnia (S101709) por falta de acesso."
+}

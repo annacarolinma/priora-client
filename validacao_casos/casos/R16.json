@@ -1,0 +1,31 @@
+{
+  "id": "R16",
+  "tipo": "real",
+  "resumo": "Uma jovem religiosa, estudante, foi encontrada morta no poço de um convento-residência universitária, de madrugada, poucas horas depois de se levantar para estudar. A primeira conclusão oficial foi de suicídio, mas a investigação foi reaberta por outra agência por suspeita de homicídio e se arrastou por muitos anos.",
+  "suspeitos": [
+    {"id": "S1", "perfil": "sacerdote ligado à instituição religiosa vizinha, com acesso frequente ao local; segundo ele, não esteve no convento na noite do fato"},
+    {"id": "S2", "perfil": "religiosa moradora do mesmo convento, colega de residência da vítima"},
+    {"id": "S3", "perfil": "outro sacerdote ligado à mesma instituição vizinha; nega ter ido ao convento naquela noite"},
+    {"id": "S4", "perfil": "homem com antecedentes por pequenos furtos, que costumava invadir a área de madrugada para roubar materiais"}
+  ],
+  "evidencias": [
+    {"id": "E1", "tipo": "Física", "texto": "A vítima foi achada morta dentro de um poço com água no pátio do convento. Ela havia acordado por volta das 4h para estudar e, pelo que se sabe, foi à cozinha beber água.", "suspeitos": []},
+    {"id": "E2", "tipo": "Física", "texto": "Na cozinha, a porta da geladeira estava aberta e havia água derramada no chão. Um chinelo da vítima estava sob a geladeira e o outro, ao lado do poço.", "suspeitos": []},
+    {"id": "E3", "tipo": "Pericial", "texto": "A autópsia inicial registrou escoriações no ombro e no quadril direitos e duas pequenas lacerações acima da orelha direita, sem sinais de violência sexual, e concluiu por afogamento.", "suspeitos": []},
+    {"id": "E4", "tipo": "Pericial", "texto": "O legista que fez a autópsia declarou depois que havia ferimentos compatíveis com agressão. Segundo ele, a primeira polícia não o deixou visitar o local para formar opinião definitiva.", "suspeitos": []},
+    {"id": "E5", "tipo": "Documental", "texto": "O primeiro órgão investigador concluiu por suicídio e encerrou o caso cerca de nove meses depois. Um policial desse órgão disse depois que foi orientado por superior a registrar suicídio, o que provocou sua demissão.", "suspeitos": []},
+    {"id": "E6", "tipo": "Documental", "texto": "Segundo a agência federal que reabriu o caso, o auto de inquérito omitiu lesões, as roupas da vítima foram destruídas sem exame e fotografias de ferimentos sumiram do processo.", "suspeitos": []},
+    {"id": "E7", "tipo": "Pericial", "texto": "Peritos que simularam a queda no poço com um boneco concluíram, anos depois, que não era possível descartar homicídio.", "suspeitos": []},
+    {"id": "E8", "tipo": "Documental", "texto": "A agência federal apresentou três relatórios finais sucessivos (indeterminado, homicídio sem autor identificado, ausência de envolvimento de terceiros). O tribunal rejeitou os três e mandou continuar a apuração.", "suspeitos": []},
+    {"id": "E9", "tipo": "Pericial", "texto": "Uma auditoria do laboratório apontou que, no caderno de exame do swab vaginal da religiosa S2, a palavra 'não' foi acrescentada a 'detectado'. O laboratório respondeu que correções desse tipo são normais.", "suspeitos": ["S2"]},
+    {"id": "E10", "tipo": "Pericial", "texto": "Anos depois do fato, S1, S2 e S3 foram submetidos a narcoanálise e mapeamento cerebral. A acusação afirmou que os resultados indicavam que S2 teria golpeado a vítima com um machado e os dois sacerdotes teriam ajudado a jogar o corpo no poço. A defesa alegou que as gravações foram editadas e que o método não tem validade em juízo.", "suspeitos": ["S1", "S2", "S3"]},
+    {"id": "E11", "tipo": "Depoimento", "texto": "Uma testemunha prestou declaração formal afirmando que viu S1 no terreno do convento na noite do fato.", "suspeitos": ["S1"]},
+    {"id": "E12", "tipo": "Depoimento", "texto": "S4 declarou que invadiu o terreno do convento naquela madrugada para furtar e se deparou com uma cena envolvendo pessoas que ele depois apontou como ligadas à instituição. Ele foi a testemunha-chave da acusação.", "suspeitos": ["S4", "S1", "S2"]},
+    {"id": "E13", "tipo": "Antecedente", "texto": "S4 tinha antecedentes por furtos de pequeno valor na região. Ele descreveu na época ter procurado objetos de metal para vender.", "suspeitos": ["S4"]},
+    {"id": "E14", "tipo": "Motivação", "texto": "A acusação sustentou que a vítima teria visto algo comprometedor e foi silenciada. O motivo é relato da acusação e foi contestado pela defesa.", "suspeitos": ["S1", "S2", "S3"]},
+    {"id": "E15", "tipo": "Documental", "texto": "O policial que fez o primeiro inquérito deixou no próprio diário de caso a hipótese de que a vítima poderia ter visto algo impróprio e sido silenciada. Ele foi achado morto anos depois, com carta de suicídio que citava pressão da agência federal.", "suspeitos": []},
+    {"id": "E16", "tipo": "Documental", "texto": "Uma juíza, ao conceder liberdade provisória aos três religiosos presos, criticou a agência federal por fixar um alvo antes de achar provas ('perseguir a sombra').", "suspeitos": ["S1", "S2", "S3"]},
+    {"id": "E17", "tipo": "Documental", "texto": "Registros mostram que muitas testemunhas mudaram seus depoimentos ao longo dos anos e se retrataram no julgamento.", "suspeitos": []},
+    {"id": "E18", "tipo": "Depoimento", "texto": "Nenhuma testemunha declarou ter visto S3 no convento naquela noite, e a acusação não apresentou outro elemento que o colocasse no local.", "suspeitos": ["S3"]}
+  ]
+}

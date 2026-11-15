@@ -1,0 +1,31 @@
+{
+  "id": "R08",
+  "tipo": "real",
+  "resumo": "Uma menina de 7 anos desapareceu de seu quarto, numa casa de bairro residencial, durante uma madrugada em que o pai estava em casa e a mãe saiu para um bar. A menina foi dada como desaparecida pela manhã. Semanas depois, o corpo dela foi encontrado ao lado de uma estrada rural.",
+  "suspeitos": [
+    {"id": "S1", "perfil": "vizinho de duas casas, engenheiro de 49 anos sem antecedentes; viajou num trailer motorizado logo após o desaparecimento"},
+    {"id": "S2", "perfil": "filho adulto de S1, com acesso ao computador do pai"},
+    {"id": "S3", "perfil": "pai da menina; colocou-a para dormir e ficou em casa durante a noite"},
+    {"id": "S4", "perfil": "mãe da menina; passou a noite num bar e voltou de madrugada"}
+  ],
+  "evidencias": [
+    {"id": "E1", "tipo": "Depoimento", "texto": "O pai colocou a menina na cama por volta das 22h30. A mãe voltou perto das 2h, viu uma luz de alarme piscando e a porta lateral da garagem aberta. Depois o pai encontrou aberta a porta de correr de vidro e a fechou.", "suspeitos": ["S3", "S4"]},
+    {"id": "E2", "tipo": "Documental", "texto": "O desaparecimento foi comunicado à polícia às 9h39 da manhã seguinte.", "suspeitos": []},
+    {"id": "E3", "tipo": "Depoimento", "texto": "Uma testemunha disse ter deixado destrancada a porta lateral da garagem, por onde um invasor poderia ter entrado.", "suspeitos": []},
+    {"id": "E4", "tipo": "Comportamento", "texto": "Na manhã seguinte, vizinhos entrevistados notaram que o vizinho de duas casas não estava em casa. Ele saiu às 9h50, poucos minutos depois da ligação da mãe para a polícia.", "suspeitos": ["S1"]},
+    {"id": "E5", "tipo": "Depoimento", "texto": "O vizinho disse que foi ao deserto e à praia, acampou, voltou para casa para buscar a carteira esquecida, e atolou o trailer na areia, precisando de reboque. Registros de telefone, combustível, cartão e uma testemunha que o viu com a carteira apoiaram partes dessa versão.", "suspeitos": ["S1"]},
+    {"id": "E6", "tipo": "Depoimento", "texto": "A mãe esteve naquela noite num bar. O vizinho admitiu ter estado no mesmo bar e a mãe confirmou.", "suspeitos": ["S1", "S4"]},
+    {"id": "E7", "tipo": "Comportamento", "texto": "Na segunda-feira, o vizinho levou duas colchas, duas fronhas e um casaco a uma lavanderia. Ele não mencionou essa parada na primeira entrevista, embora tenha descrito quase todas as outras.", "suspeitos": ["S1"]},
+    {"id": "E8", "tipo": "Biológica", "texto": "O casaco levado à lavanderia tinha traços de sangue da menina.", "suspeitos": ["S1"]},
+    {"id": "E9", "tipo": "Comportamento", "texto": "O vizinho limpou o trailer ao voltar da viagem; ele diz que sempre fazia isso.", "suspeitos": ["S1"]},
+    {"id": "E10", "tipo": "DNA", "texto": "Duas pequenas manchas de sangue da menina foram achadas numa roupa do vizinho e no piso do trailer, que foi apreendido junto com o carro dele.", "suspeitos": ["S1"]},
+    {"id": "E11", "tipo": "Digital", "texto": "Impressões digitais da menina foram encontradas dentro do trailer.", "suspeitos": ["S1"]},
+    {"id": "E12", "tipo": "Física", "texto": "Pelos do cachorro da família estavam na colcha do vizinho, e pelos compatíveis com os da menina foram achados no lençol da cama dele.", "suspeitos": ["S1"]},
+    {"id": "E13", "tipo": "Física", "texto": "Fibras acrílicas coincidentes foram encontradas no corpo da menina e na casa do vizinho.", "suspeitos": ["S1"]},
+    {"id": "E14", "tipo": "Pericial", "texto": "O corpo foi achado, em decomposição parcial, perto de uma estrada rural, cerca de 3 semanas e meia depois. O legista não determinou causa da morte nem se houve agressão sexual; a identificação foi por registros dentários.", "suspeitos": []},
+    {"id": "E15", "tipo": "Pericial", "texto": "Entomologistas da defesa disseram que insetos colonizaram o corpo em meados do mês, depois do início da vigilância sobre o vizinho; o perito da acusação disse que a colonização poderia ter começado no dia do desaparecimento.", "suspeitos": ["S1"]},
+    {"id": "E16", "tipo": "Documental", "texto": "A defesa alegou que o vizinho foi interrogado por mais de 9 horas, sem atender a pedidos de advogado, comida e sono.", "suspeitos": ["S1"]},
+    {"id": "E17", "tipo": "Digital", "texto": "Material de abuso sexual infantil foi achado no computador do vizinho. A defesa sugeriu que o filho adulto o baixou; o filho negou sob juramento.", "suspeitos": ["S1", "S2"]},
+    {"id": "E18", "tipo": "Documental", "texto": "A defesa argumentou que o estilo de vida dos pais da menina poderia ter levado outras pessoas à casa naquela noite, sem identificar alguém específico.", "suspeitos": ["S3", "S4"]}
+  ]
+}

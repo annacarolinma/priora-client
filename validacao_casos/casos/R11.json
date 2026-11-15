@@ -1,0 +1,41 @@
+{
+  "id": "R11",
+  "tipo": "real",
+  "resumo": "Numa noite de inverno, o gerente de um depósito de uma transportadora de valores e sua família são sequestrados por homens que fingem ser policiais. Em seguida, o gerente é usado para entrar no depósito, onde 14 funcionários são rendidos e uma quantia recorde em cédulas é levada. Parte do dinheiro e dos veículos é encontrada nos dias seguintes.",
+  "suspeitos": [
+    {"id": "S1", "perfil": "telhadista e lutador amador de artes marciais, conhecido de S3 e S8 pelo esporte; mora perto do depósito"},
+    {"id": "S2", "perfil": "gerente do depósito, treinado para esconder o endereço e variar o trajeto; casado, um filho pequeno; foi a primeira pessoa sequestrada"},
+    {"id": "S3", "perfil": "lutador profissional de artes marciais e traficante de drogas, dono de carro esportivo amarelo"},
+    {"id": "S4", "perfil": "estrangeiro contratado por agência de mão de obra temporária, começou a trabalhar no depósito semanas antes do roubo"},
+    {"id": "S5", "perfil": "comerciante de vans usadas, aluga um pátio industrial onde guarda seu barco"},
+    {"id": "S6", "perfil": "amigo próximo de S3, sem profissão declarada"},
+    {"id": "S7", "perfil": "homem de meia-idade da região, mora em casa própria no litoral do mesmo condado"},
+    {"id": "S8", "perfil": "estrangeiro, segurança de casa noturna e amigo de infância de S4, casado"}
+  ],
+  "evidencias": [
+    {"id": "E1", "tipo": "Depoimento", "texto": "O gerente relata que, ao voltar para casa à noite, foi parado numa estrada por um carro com luzes azuis na grade e dois homens uniformizados. Ele saiu do carro, foi algemado e levado, descumprindo a regra de só seguir a polícia até uma delegacia. Uma esposa que recebeu a visita falsa foi enganada com a história de que o marido sofrera um acidente.", "suspeitos": ["S2"]},
+    {"id": "E2", "tipo": "Documental", "texto": "O gerente tinha duas chaves do cofre, embora o regulamento permitisse apenas uma.", "suspeitos": ["S2"]},
+    {"id": "E3", "tipo": "Digital", "texto": "No computador da casa do gerente foram encontradas fotografias do depósito e de seus funcionários.", "suspeitos": ["S2"]},
+    {"id": "E4", "tipo": "Comportamento", "texto": "O gerente pediu a técnicos de câmeras que adiassem uma visita ao depósito. Depois que os assaltantes foram embora, esperou cerca de 30 minutos antes de acionar o alarme, embora soubesse que eles não tinham como voltar a entrar.", "suspeitos": ["S2"]},
+    {"id": "E5", "tipo": "Audiovisual", "texto": "As câmeras do prédio registraram o assalto inteiro. O gerente, sem que ninguém lhe pedisse, apertou o botão que abriu o portão para os veículos entrarem. Ele também incentivou os funcionários a obedecer. Os criminosos usavam balaclavas e armas longas e curtas, e um deles marcava o tempo com um cronômetro.", "suspeitos": ["S2"]},
+    {"id": "E6", "tipo": "Depoimento", "texto": "Na sua integração, o funcionário temporário recém-contratado fez perguntas sobre as medidas de segurança do depósito. Na noite do roubo, ele soube que estava de folga e foi a um show com a namorada.", "suspeitos": ["S4"]},
+    {"id": "E7", "tipo": "Telefônica", "texto": "Registros de celular mostram que S8 ligou para S4 às 2h38, quando o grupo saía do depósito. A ligação não foi atendida.", "suspeitos": ["S4", "S8"]},
+    {"id": "E8", "tipo": "Antecedente", "texto": "S4 e S8 estudaram juntos no mesmo colégio em seu país de origem e eram amigos de infância. Em juízo, ambos disseram não se conhecer.", "suspeitos": ["S4", "S8"]},
+    {"id": "E9", "tipo": "Antecedente", "texto": "S8 conheceu S1 num treino de artes marciais dado por S1 num centro esportivo perto do depósito. S1 também conhecia S3 do mesmo meio esportivo.", "suspeitos": ["S1", "S8", "S3"]},
+    {"id": "E10", "tipo": "Antecedente", "texto": "Meses antes do roubo, S3 foi abordado pela polícia dentro de um carro numa estrada que dá vista para o depósito, acompanhado de dois homens não identificados.", "suspeitos": ["S3"]},
+    {"id": "E11", "tipo": "Telefônica", "texto": "Registros de celular colocam S6, S5, S3, S7 e S1 numa reunião na casa de S7, semanas antes do roubo.", "suspeitos": ["S6", "S5", "S3", "S7", "S1"]},
+    {"id": "E12", "tipo": "Documental", "texto": "O dono de uma loja de equipamentos de vigilância contou que S3 comprou uma microcâmera com gravador. Uma lente foi sujada de cola e a câmera foi trocada pela loja. Ela foi acoplada a um cinto, e o funcionário temporário usou-a para filmar o interior do depósito.", "suspeitos": ["S3", "S4"]},
+    {"id": "E13", "tipo": "Digital", "texto": "Dois celulares descartáveis foram deixados em um carro esportivo batido dias antes do roubo e depois recuperados pela polícia. Eles continham números de outros membros do grupo e fotos de uma casa noturna que mostram S3 junto de S6.", "suspeitos": ["S3", "S6"]},
+    {"id": "E14", "tipo": "Digital", "texto": "Num desses celulares há uma gravação acidental de S3 conversando com S1 sobre como executar um roubo.", "suspeitos": ["S3", "S1"]},
+    {"id": "E15", "tipo": "Antecedente", "texto": "Dias antes do roubo, S6 foi parado por excesso de velocidade (cerca de 185 km/h) dirigindo com carteira provisória vencida um carro emprestado, sem seguro nem inspeção, que foi apreendido.", "suspeitos": ["S6"]},
+    {"id": "E16", "tipo": "Documental", "texto": "O caminhão de 7,5 toneladas usado para carregar o dinheiro foi alugado no nome de S7.", "suspeitos": ["S7"]},
+    {"id": "E17", "tipo": "Física", "texto": "Na casa de S1 a polícia achou filmagens da casa do gerente, armas e plantas do depósito. No galpão do quintal havia balaclavas, roupas de uniforme de carteiro e um rádio sintonizado em frequência de serviços de emergência.", "suspeitos": ["S1"]},
+    {"id": "E18", "tipo": "Física", "texto": "Uma van de um amigo de S8 e S1, estacionada no hotel de um aeroporto, continha balaclava, colete à prova de balas, uma submetralhadora e sacos com cerca de 1,3 milhão em cédulas do roubo.", "suspeitos": ["S8", "S1"]},
+    {"id": "E19", "tipo": "Física", "texto": "No pátio industrial alugado por S5, dentro de um contêiner, havia cerca de 9,6 milhões em cédulas do roubo, e outros 50 mil foram achados num saco de lixo em outro ponto.", "suspeitos": ["S5"]},
+    {"id": "E20", "tipo": "Física", "texto": "Numa garagem alugada perto da casa de S1 havia cerca de 8,6 milhões em cédulas do roubo. A garagem estava sublocada a um primo de S1.", "suspeitos": ["S1"]},
+    {"id": "E21", "tipo": "Física", "texto": "Numa fazenda de propriedade de terceiros, usada como cativeiro da família, a polícia achou 30 mil em notas no porta-malas de um carro e mais de 105 mil enterrados num pomar. Gaiolas metálicas e outros objetos do local do crime foram achados em outra fazenda, alugada por um conhecido do dono da primeira.", "suspeitos": []},
+    {"id": "E22", "tipo": "Comportamento", "texto": "Quatro dias depois do roubo, S3 e S6 saíram do país, passaram pela Holanda e foram para o Marrocos, onde gastaram muito em casas, joias e drogas.", "suspeitos": ["S3", "S6"]},
+    {"id": "E23", "tipo": "Antecedente", "texto": "S3 era traficante de drogas, além de lutador. S3 também foi preso por agressão numa ocorrência sem julgamento, ao abandonar o carro esportivo batido.", "suspeitos": ["S3"]},
+    {"id": "E24", "tipo": "Depoimento", "texto": "O gerente não contava a colegas onde morava e usava trajetos diferentes para o trabalho, mas foi interceptado numa estrada e a família foi buscada em casa pelos criminosos. Os funcionários foram deixados presos em gaiolas vazias e nenhum alarme foi acionado.", "suspeitos": ["S2"]}
+  ]
+}

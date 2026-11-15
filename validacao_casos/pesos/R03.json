@@ -1,0 +1,15 @@
+{
+  "id": "R03",
+  "pesos": [
+    {"evidencia": "E1", "r": 0.5, "vinculos": [{"suspeito": "S4", "v": 0.3, "efeito": "Incrimina"}, {"suspeito": "S5", "v": 0.3, "efeito": "Incrimina"}], "justificativa": "r: contexto sem fonte detalhada; v: ameaças de grupos amplos de madeireiros e proprietários, circunstancial."},
+    {"evidencia": "E2", "r": 0.9, "vinculos": [], "justificativa": "r: constatação pericial/oficial da cena; sem vínculo com suspeito."},
+    {"evidencia": "E3", "r": 0.7, "vinculos": [{"suspeito": "S1", "v": 0.7, "efeito": "Incrimina"}, {"suspeito": "S2", "v": 0.7, "efeito": "Incrimina"}], "justificativa": "r: testemunha presencial sem interesse; v: dois homens armados no local do crime, poucas pessoas compatíveis."},
+    {"evidencia": "E4", "r": 0.7, "vinculos": [{"suspeito": "S1", "v": 0.7, "efeito": "Incrimina"}, {"suspeito": "S2", "v": 0.7, "efeito": "Incrimina"}], "justificativa": "r: registro oficial de identificação; v: identificados como os abordantes."},
+    {"evidencia": "E5", "r": 0.7, "vinculos": [{"suspeito": "S4", "v": 0.5, "efeito": "Incrimina"}], "justificativa": "r: carta e multa oficiais; v: motivo claro, mas com explicação inocente plausível (outros também tinham motivos)."},
+    {"evidencia": "E6", "r": 0.7, "vinculos": [{"suspeito": "S4", "v": 0.3, "efeito": "Incrimina"}, {"suspeito": "S5", "v": 0.3, "efeito": "Incrimina"}], "justificativa": "r: documento oficial; v: interesse em área cobiçada por muitos fazendeiros, circunstancial."},
+    {"evidencia": "E7", "r": 0.3, "vinculos": [{"suspeito": "S3", "v": 0.7, "efeito": "Incrimina"}, {"suspeito": "S4", "v": 0.7, "efeito": "Incrimina"}, {"suspeito": "S5", "v": 0.7, "efeito": "Incrimina"}], "justificativa": "r: relato de parte interessada também processada; v: aponta diretamente os três como contratantes/intermediário."},
+    {"evidencia": "E8", "r": 0.3, "vinculos": [{"suspeito": "S1", "v": 0.5, "efeito": "Incrimina"}, {"suspeito": "S4", "v": 0.5, "efeito": "Inocenta"}, {"suspeito": "S5", "v": 0.5, "efeito": "Inocenta"}], "justificativa": "r: declaração de parte interessada; v: admite autoria (S1, se for ele) e nega contratação, afastando parcialmente os fazendeiros."},
+    {"evidencia": "E9", "r": 0.7, "vinculos": [{"suspeito": "S5", "v": 0.1, "efeito": "Incrimina"}], "justificativa": "r: registro oficial; v: antecedente em outro processo, mera associação."},
+    {"evidencia": "E10", "r": 0.3, "vinculos": [{"suspeito": "S1", "v": 0.3, "efeito": "Incrimina"}, {"suspeito": "S2", "v": 0.3, "efeito": "Incrimina"}], "justificativa": "r: testemunho que repete E3; v: presença da cena vista de longe, circunstancial."}
+  ]
+}

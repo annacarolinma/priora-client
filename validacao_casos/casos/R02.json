@@ -1,0 +1,26 @@
+{
+  "id": "R02",
+  "tipo": "real",
+  "resumo": "Uma grande obra de sede de órgão do Judiciário, iniciada na década de 1990, consome centenas de milhões de reais em recursos públicos sem ser concluída. Auditorias e uma comissão parlamentar apuram quem se beneficiou do desvio.",
+  "suspeitos": [
+    {"id": "S1", "perfil": "magistrado que presidia a comissão de obras do órgão e administrava os recursos"},
+    {"id": "S2", "perfil": "senador e empresário, dono de um grupo de construtoras de outra cidade"},
+    {"id": "S3", "perfil": "dono da construtora que executava a obra"},
+    {"id": "S4", "perfil": "executivo ligado à construtora executora da obra"},
+    {"id": "S5", "perfil": "ex-secretário-geral da Presidência da República; admitiu contatos com o presidente da comissão de obras"}
+  ],
+  "evidencias": [
+    {"id": "E1", "tipo": "Documental", "texto": "A licitação da obra foi aberta no começo da década de 1990. A auditoria do tribunal de contas aponta que houve conluio entre a construtora executora e um grupo empresarial para disputá-la.", "suspeitos": ["S2","S3"]},
+    {"id": "E2", "tipo": "Documental", "texto": "Em um ano o Tesouro liberou cerca de R$ 100 milhões para a obra, mas apenas cerca de um quarto foi aplicado de forma adequada.", "suspeitos": ["S1"]},
+    {"id": "E3", "tipo": "Documental", "texto": "No ano seguinte foram destinados mais R$ 52 milhões à construção, sem que as autoridades percebessem irregularidades.", "suspeitos": ["S1"]},
+    {"id": "E4", "tipo": "Documental", "texto": "Antes mesmo do início efetivo das obras, fiscais e auditores identificaram irregularidades; o tribunal de contas recomendou anular a licitação, rescindir o contrato e devolver cerca de R$ 35,7 milhões.", "suspeitos": ["S1","S3"]},
+    {"id": "E5", "tipo": "Documental", "texto": "No ano seguinte o tribunal de contas confirmou as irregularidades, mas a obra e os pagamentos continuaram.", "suspeitos": ["S1"]},
+    {"id": "E6", "tipo": "Documental", "texto": "O Ministério Público descobriu a saída de cerca de R$ 70 mil por dia de recursos da obra e as obras foram interrompidas. O presidente da comissão seguiu administrando os recursos por cerca de mais um mês, até ser afastado.", "suspeitos": ["S1"]},
+    {"id": "E7", "tipo": "Documental", "texto": "Uma comissão parlamentar de inquérito quebrou o sigilo bancário dos envolvidos e revelou os valores pagos e as contas que os receberam.", "suspeitos": ["S1","S2","S3","S4"]},
+    {"id": "E8", "tipo": "Pericial", "texto": "A auditoria concluiu que foram repassados R$ 223,9 milhões, dos quais R$ 169,5 milhões foram desvios ou superfaturamento; o custo de reprodução da obra, com terreno, era de R$ 62,5 milhões.", "suspeitos": []},
+    {"id": "E9", "tipo": "Documental", "texto": "O presidente da comissão vendeu por US$ 750 mil um apartamento no exterior que havia comprado por US$ 800 mil.", "suspeitos": ["S1"]},
+    {"id": "E10", "tipo": "Comportamento", "texto": "Antes da expedição da ordem de prisão, o presidente da comissão passou duas semanas no exterior com a família, hospedado em hotel de luxo com três apartamentos.", "suspeitos": ["S1"]},
+    {"id": "E11", "tipo": "Depoimento", "texto": "O ex-secretário-geral da Presidência admitiu ter tido contatos com o presidente da comissão, mas negou qualquer envolvimento comercial.", "suspeitos": ["S5"]},
+    {"id": "E12", "tipo": "Documental", "texto": "O grupo de construtoras do empresário-senador tinha sede em outra cidade e participou da disputa da obra junto com a construtora executora.", "suspeitos": ["S2","S3"]}
+  ]
+}

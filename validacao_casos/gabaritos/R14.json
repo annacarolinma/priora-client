@@ -1,0 +1,13 @@
+{
+  "id": "R14",
+  "titulo": "Desaparecimento e assassinato de Peter Falconio (Austrália, 2001)",
+  "fonte": "Wikipedia (en): Murder of Peter Falconio",
+  "url": "https://en.wikipedia.org/wiki/Murder_of_Peter_Falconio",
+  "licenca_ou_uso": "CC BY-SA 4.0 (texto reescrito com minhas palavras)",
+  "culpado": ["S1"],
+  "chave_nomes": {"S1": "Bradley John Murdoch", "S2": "Joanne Lees", "S3": "James Hepi", "S4": "Vince Millar"},
+  "solucao": "Murdoch foi condenado em dezembro de 2005 pela Suprema Corte do Território do Norte pelo assassinato de Falconio e pelo ataque e tentativa de sequestro de Lees, com pena de prisão perpétua (recursos rejeitados). O corpo nunca foi achado.",
+  "pais_epoca": "Austrália, 2001",
+  "tipo_crime": "homicídio e tentativa de sequestro",
+  "observacoes": "Caso muito famoso internacionalmente, apesar da anonimização (deserto, van camper, 4x4 branco): reconhecível por leitor atento; usei por falta de alternativas ricas em fontes abertas. Só 4 suspeitos e S2/S4 são improváveis por construção; S3 aparece pouco. Incluí itens do julgamento (provas de acusação), não o veredito. E14 e E9 são pistas fortes e conhecidas; o texto reflete o artigo da Wikipedia, sem os autos."
+}

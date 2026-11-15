@@ -1,0 +1,20 @@
+{
+  "id": "R06",
+  "pesos": [
+    {"evidencia": "E1", "r": 0.7, "vinculos": [], "justificativa": "Conclusão técnica oficial de investigadores sobre o mecanismo; contexto sem suspeito."},
+    {"evidencia": "E2", "r": 0.7, "vinculos": [], "justificativa": "Achado oficial do corpo; contexto sem suspeito."},
+    {"evidencia": "E3", "r": 0.5, "vinculos": [{"suspeito": "S3", "v": 0.9, "efeito": "Incrimina"}], "justificativa": "r: testemunho sem corroboração, mas contra o próprio interesse; v: admite participação direta, sem explicação inocente."},
+    {"evidencia": "E4", "r": 0.7, "vinculos": [{"suspeito": "S1", "v": 0.3, "efeito": "Incrimina"}, {"suspeito": "S6", "v": 0.3, "efeito": "Incrimina"}], "justificativa": "r: documento oficial; v: pedido de seguro é circunstancial, comum a qualquer dono de loja sinistrada."},
+    {"evidencia": "E5", "r": 0.7, "vinculos": [{"suspeito": "S1", "v": 0.5, "efeito": "Incrimina"}, {"suspeito": "S6", "v": 0.5, "efeito": "Incrimina"}], "justificativa": "r: documento de apólice; v: grupo de dois proprietários, com explicação inocente plausível."},
+    {"evidencia": "E6", "r": 0.7, "vinculos": [{"suspeito": "S1", "v": 0.3, "efeito": "Incrimina"}, {"suspeito": "S6", "v": 0.3, "efeito": "Incrimina"}], "justificativa": "r: documento de orçamento; v: recusar orçamento é circunstancial."},
+    {"evidencia": "E7", "r": 0.7, "vinculos": [{"suspeito": "S1", "v": 0.3, "efeito": "Incrimina"}, {"suspeito": "S6", "v": 0.3, "efeito": "Incrimina"}], "justificativa": "r: dificuldades e multa registradas; v: motivação circunstancial, compatível com muitos."},
+    {"evidencia": "E8", "r": 0.5, "vinculos": [{"suspeito": "S1", "v": 0.3, "efeito": "Incrimina"}, {"suspeito": "S6", "v": 0.3, "efeito": "Incrimina"}], "justificativa": "r: planos sem registro descrito; v: motivação circunstancial."},
+    {"evidencia": "E9", "r": 0.5, "vinculos": [{"suspeito": "S3", "v": 0.7, "efeito": "Incrimina"}, {"suspeito": "S5", "v": 0.5, "efeito": "Incrimina"}], "justificativa": "r: parte documental, parte relato sem fonte clara; v: S3 organizador do esquema, S5 apenas guardou mercadoria."},
+    {"evidencia": "E10", "r": 0.5, "vinculos": [{"suspeito": "S3", "v": 0.3, "efeito": "Incrimina"}], "justificativa": "r: registro sem autoria precisa; v: pessoa apenas ligada ao esquema, circunstancial."},
+    {"evidencia": "E11", "r": 0.5, "vinculos": [{"suspeito": "S5", "v": 0.5, "efeito": "Incrimina"}], "justificativa": "r: testemunho de vizinhos sem corroboração; v: fuga compatível com envolvimento ou medo."},
+    {"evidencia": "E12", "r": 0.5, "vinculos": [{"suspeito": "S4", "v": 0.7, "efeito": "Incrimina"}], "justificativa": "r: declaração sem corroboração, contra o próprio interesse; v: presença no local, poucas pessoas compatíveis."},
+    {"evidencia": "E13", "r": 0.5, "vinculos": [{"suspeito": "S1", "v": 0.1, "efeito": "Incrimina"}, {"suspeito": "S2", "v": 0.3, "efeito": "Incrimina"}], "justificativa": "r: avaliação dos investigadores sem corroboração; v: S1 mera associação, S2 omissão circunstancial."},
+    {"evidencia": "E14", "r": 0.3, "vinculos": [{"suspeito": "S3", "v": 0.1, "efeito": "Incrimina"}, {"suspeito": "S6", "v": 0.5, "efeito": "Incrimina"}], "justificativa": "r: relato de parte interessada, segunda mão; v: S6 teria ajudado, plausível mas contestável; S3 apenas fonte."},
+    {"evidencia": "E15", "r": 0.3, "vinculos": [{"suspeito": "S1", "v": 0.5, "efeito": "Incrimina"}, {"suspeito": "S5", "v": 0.1, "efeito": "Incrimina"}], "justificativa": "r: parte interessada sob pressão policial; v: S1 apontado como centro, S5 mera associação."}
+  ]
+}

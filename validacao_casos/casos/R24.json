@@ -1,0 +1,236 @@
+{
+ "id": "R24",
+ "tipo": "real",
+ "resumo": "Numa manhã de dia útil, uma estudante universitária de 22 anos caminhava com uma amiga por uma alameda interna de um grande campus quando foi atingida na cabeça por um único tiro de pequeno calibre, e morreu dias depois. Não foram achados arma nem cápsula. A investigação examinou dezenas de pessoas ligadas ao campus e, depois, concentrou-se em pessoas que frequentavam um instituto de uma faculdade de direito.",
+ "suspeitos": [
+  {
+   "id": "S1",
+   "perfil": "Professor assistente (cerca de 29 anos) do instituto de filosofia do direito. Diz que estava com um professor em outro prédio e depois numa secretaria da faculdade, pedindo um certificado."
+  },
+  {
+   "id": "S2",
+   "perfil": "Outro professor assistente (cerca de 30 anos) do mesmo instituto, amigo de S1. Diz que estava em casa estudando com a irmã e que recebeu a visita de um conhecido."
+  },
+  {
+   "id": "S3",
+   "perfil": "Contínuo/atendente do instituto, formado em direito, que costuma circular pelas salas do andar."
+  },
+  {
+   "id": "S4",
+   "perfil": "Diretor do instituto (professor catedrático), superior hierárquico dos assistentes."
+  },
+  {
+   "id": "S5",
+   "perfil": "Funcionário da biblioteca do campus, considerado suspeito logo nos primeiros dias."
+  },
+  {
+   "id": "S6",
+   "perfil": "Ex-namorado da vítima. Afirma ter álibi para o horário do tiro."
+  },
+  {
+   "id": "S7",
+   "perfil": "Estudante do campus, amigo de pessoas do instituto, que respondia a outro processo por tentativa de homicídio e era suspeito de possuir uma arma de fogo desaparecida."
+  }
+ ],
+ "evidencias": [
+  {
+   "id": "E1",
+   "tipo": "Física",
+   "texto": "O disparo ocorreu pouco antes do meio-dia, numa alameda entre três prédios de faculdades. Testemunhas descreveram um estampido abafado, o que sugeriu a possibilidade de silenciador. O projétil era de calibre .22.",
+   "suspeitos": []
+  },
+  {
+   "id": "E2",
+   "tipo": "Física",
+   "texto": "Nem a arma nem o estojo (cápsula) do projétil foram encontrados no local ou nas imediações.",
+   "suspeitos": []
+  },
+  {
+   "id": "E3",
+   "tipo": "Pericial",
+   "texto": "Cerca de duas semanas depois, foi achada no peitoril da janela de uma sala do segundo andar, usada pelos assistentes do instituto de filosofia do direito, uma partícula microscópica com ferro, bário e antimônio, parecida com resíduo de tiro. Peritos observaram depois que partículas semelhantes podem vir de poluição ambiental e que apareceram também em outras janelas próximas.",
+   "suspeitos": [
+    "S1",
+    "S2",
+    "S3"
+   ]
+  },
+  {
+   "id": "E4",
+   "tipo": "Pericial",
+   "texto": "Segundo peritos, um tiro vindo dessa sala só atingiria a vítima na posição em que ela estava se a cabeça dela estivesse inclinada para a direita. Com a cabeça em outra posição, seria mais compatível um tiro vindo de um banheiro ou de outra sala do prédio vizinho, o de estatística.",
+   "suspeitos": []
+  },
+  {
+   "id": "E5",
+   "tipo": "Pericial",
+   "texto": "O projétil tinha fibras de lã de vidro iguais às do forro do teto de um banheiro do prédio de estatística. Essas fibras não existiam na sala onde foi achada a partícula do peitoril. Peritos consideraram possível o uso de silenciador.",
+   "suspeitos": []
+  },
+  {
+   "id": "E6",
+   "tipo": "Pericial",
+   "texto": "Testes de resíduos de tiro feitos nos primeiros dias em várias pessoas deram negativo, mas peritos os consideraram pouco confiáveis pelo tempo decorrido. No ex-namorado da vítima o teste detectou traço compatível em uma das mãos, mas ele apresentou álibi para o horário.",
+   "suspeitos": [
+    "S6"
+   ]
+  },
+  {
+   "id": "E7",
+   "tipo": "Pericial",
+   "texto": "Foram encontradas partículas na bolsa de S2. A acusação as chamou de resíduo de tiro; a defesa disse que eram pó de pastilha de freio. Um perito posterior achou-as parecidas, mas não idênticas, às do projétil.",
+   "suspeitos": [
+    "S2"
+   ]
+  },
+  {
+   "id": "E8",
+   "tipo": "Física",
+   "texto": "S2 é canhoto. Peritos concluíram que o atirador seria provavelmente destro.",
+   "suspeitos": [
+    "S2"
+   ]
+  },
+  {
+   "id": "E9",
+   "tipo": "Pericial",
+   "texto": "Um perito calculou que, para atirar pela janela da sala em questão, o atirador teria de se debruçar cerca de um metro para fora, e que mesmo um atirador hábil teria só uns 30% de chance de acertar um alvo em movimento a essa distância.",
+   "suspeitos": [
+    "S1"
+   ]
+  },
+  {
+   "id": "E10",
+   "tipo": "Telefônica",
+   "texto": "Registros da operadora mostram que a ligação da amiga da vítima, de um telefone público do campus, terminou às 11h39 e não por volta das 11h30, como ela lembrava. Houve debate sobre o efeito disso na reconstrução do horário do tiro.",
+   "suspeitos": []
+  },
+  {
+   "id": "E11",
+   "tipo": "Depoimento",
+   "texto": "Uma professora do instituto (T1) disse primeiro que a sala estava vazia. Depois de pressão nos interrogatórios, lembrou que havia um homem e uma mulher lá dentro e passou a citar S1, S2, S3, S4 e outras pessoas como frequentadoras ou presentes. Um neurocientista consultado considerou a lembrança dela pouco confiável.",
+   "suspeitos": [
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+   ]
+  },
+  {
+   "id": "E12",
+   "tipo": "Telefônica",
+   "texto": "Os registros internos da universidade mostram duas ligações consecutivas feitas pela professora T1, às 11h44 e às 11h48. A operadora confirma duas chamadas seguidas, e ela mudou depois a sua versão sobre elas.",
+   "suspeitos": []
+  },
+  {
+   "id": "E13",
+   "tipo": "Depoimento",
+   "texto": "Uma funcionária administrativa do instituto (T2), citada por T1, foi interrogada cerca de treze vezes em três dias, com gravação. Primeiro negou ter estado na sala; depois acusou S1 e S2 de terem disparado. Descreveu uma pistola preta, depois um objeto brilhante, e acabou dizendo que não tinha certeza. Desenhou uma arma sem silenciador.",
+   "suspeitos": [
+    "S1",
+    "S2"
+   ]
+  },
+  {
+   "id": "E14",
+   "tipo": "Audiovisual",
+   "texto": "A gravação em vídeo de um dos interrogatórios de T2 mostra pressão dos investigadores sobre ela. Outra gravação, de conversa dela com um cunhado, registra T2 dizendo que não estava na sala. Ela afirmou depois que temia ser acusada.",
+   "suspeitos": []
+  },
+  {
+   "id": "E15",
+   "tipo": "Depoimento",
+   "texto": "S3 disse inicialmente que S1 e S2 estavam envolvidos. Mais tarde se retratou, dizendo ter sido pressionado pela polícia e ter inventado ameaças de S2.",
+   "suspeitos": [
+    "S3",
+    "S1",
+    "S2"
+   ]
+  },
+  {
+   "id": "E16",
+   "tipo": "Depoimento",
+   "texto": "S4 foi citado por T1, ficou em prisão domiciliar por suspeita de ocultar informações e negou ter sabido de qualquer disparo.",
+   "suspeitos": [
+    "S4"
+   ]
+  },
+  {
+   "id": "E17",
+   "tipo": "Depoimento",
+   "texto": "Álibi de S1: disse que se encontrou com um professor em outro prédio e que por volta de 11h50 foi à secretaria de outra faculdade buscar um certificado; um colega confirmou tê-lo visto perto do fim da fila. Outro estudante o situou em outro departamento às 12h15, mas foi depois processado por falso testemunho.",
+   "suspeitos": [
+    "S1"
+   ]
+  },
+  {
+   "id": "E18",
+   "tipo": "Depoimento",
+   "texto": "Álibi de S2: disse que estudava em casa com a irmã e que um conhecido o visitou entre 11h30 e 12h30. O conhecido confirmou uma visita breve, mas o relato dele sobre telefonemas feitos de um bar não bateu com os registros telefônicos, e ele foi processado por favorecimento.",
+   "suspeitos": [
+    "S2"
+   ]
+  },
+  {
+   "id": "E19",
+   "tipo": "Depoimento",
+   "texto": "S7, que respondia por outro processo e era suspeito de ter uma arma de fogo desaparecida, disse que o álibi de S2 era falso.",
+   "suspeitos": [
+    "S2",
+    "S7"
+   ]
+  },
+  {
+   "id": "E20",
+   "tipo": "Depoimento",
+   "texto": "Uma mulher disse, cerca de dois meses depois, ter visto S1 e S2 saindo apressados por volta do meio-dia, e descreveu uma bolsa que carregavam. Depois de conversar com investigadores, alterou a descrição da bolsa.",
+   "suspeitos": [
+    "S1",
+    "S2"
+   ]
+  },
+  {
+   "id": "E21",
+   "tipo": "Telefônica",
+   "texto": "Os registros mostram que S1 ligou para a casa de S2 antes das 13h. A linha de S2 teve chamadas por volta das 13h05 e 13h07, e a primeira notícia de televisão sobre o caso saiu às 13h35.",
+   "suspeitos": [
+    "S1",
+    "S2"
+   ]
+  },
+  {
+   "id": "E22",
+   "tipo": "Comportamento",
+   "texto": "Um funcionário da biblioteca do campus foi tratado como suspeito forte nos primeiros dias; as informações públicas não detalham o motivo.",
+   "suspeitos": [
+    "S5"
+   ]
+  },
+  {
+   "id": "E23",
+   "tipo": "Antecedente",
+   "texto": "Nos primeiros dias, os investigadores examinaram a vida pessoal da vítima (família, amigos, relações anteriores). A hipótese de que o alvo seria um funcionário de uma empresa de limpeza do campus levou à investigação de dois funcionários, e foi abandonada.",
+   "suspeitos": []
+  },
+  {
+   "id": "E24",
+   "tipo": "Documental",
+   "texto": "Foram levantadas outras teorias (erro de pessoa, terrorismo de diferentes orientações). Estudantes estrangeiros distribuíam panfletos a cerca de 50 metros do local no momento do tiro. No total, cerca de 40 pessoas chegaram a ser registradas como investigadas.",
+   "suspeitos": []
+  },
+  {
+   "id": "E25",
+   "tipo": "Depoimento",
+   "texto": "O irmão de S3 foi investigado sob a suspeita de ter escondido a arma, mas não chegou a ser indiciado.",
+   "suspeitos": [
+    "S3"
+   ]
+  },
+  {
+   "id": "E26",
+   "tipo": "Depoimento",
+   "texto": "Uma pesquisadora disse que T2 saiu agitada de um dos interrogatórios e contou que a haviam alertado sobre a situação de sua filha pequena. O depoimento da pesquisadora foi contestado.",
+   "suspeitos": []
+  }
+ ]
+}

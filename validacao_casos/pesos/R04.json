@@ -1,0 +1,17 @@
+{
+  "id": "R04",
+  "pesos": [
+    {"evidencia": "E1", "r": 0.9, "vinculos": [], "justificativa": "r: dados periciais sobre os ferimentos; sem vínculo com suspeito."},
+    {"evidencia": "E2", "r": 0.5, "vinculos": [{"suspeito": "S1", "v": 0.5, "efeito": "Incrimina"}, {"suspeito": "S2", "v": 0.5, "efeito": "Incrimina"}], "justificativa": "r: depoimento sem corroboração detalhada; v: descreve os executores, mas a identificação deles não é dada na pista."},
+    {"evidencia": "E3", "r": 0.3, "vinculos": [{"suspeito": "S5", "v": 0.3, "efeito": "Incrimina"}, {"suspeito": "S6", "v": 0.3, "efeito": "Incrimina"}], "justificativa": "r: inferência sobre estudo da rotina, parcialmente duplicada por E10; v: circunstancial."},
+    {"evidencia": "E4", "r": 0.7, "vinculos": [{"suspeito": "S1", "v": 0.5, "efeito": "Incrimina"}, {"suspeito": "S2", "v": 0.5, "efeito": "Incrimina"}], "justificativa": "r: registro policial oficial; v: prisão rápida indica envolvimento, sem detalhar a prova."},
+    {"evidencia": "E5", "r": 0.7, "vinculos": [{"suspeito": "S7", "v": 0.3, "efeito": "Incrimina"}], "justificativa": "r: denúncias documentadas pela vítima; v: motivação circunstancial, compatível com muitos interessados."},
+    {"evidencia": "E6", "r": 0.7, "vinculos": [{"suspeito": "S7", "v": 0.3, "efeito": "Incrimina"}], "justificativa": "r: relatório documentado; v: circunstancial, ligação indireta com as irregularidades."},
+    {"evidencia": "E7", "r": 0.7, "vinculos": [{"suspeito": "S8", "v": 0.3, "efeito": "Incrimina"}], "justificativa": "r: ato judicial registrado; v: motivo de ressentimento circunstancial."},
+    {"evidencia": "E8", "r": 0.7, "vinculos": [], "justificativa": "r: registros oficiais; contexto de ameaças sem vínculo com suspeito específico."},
+    {"evidencia": "E9", "r": 0.5, "vinculos": [{"suspeito": "S3", "v": 0.7, "efeito": "Incrimina"}, {"suspeito": "S4", "v": 0.7, "efeito": "Incrimina"}], "justificativa": "r: informação sem cadeia de custódia descrita; v: apenas quem forneceu a arma e a moto, poucas pessoas compatíveis."},
+    {"evidencia": "E10", "r": 0.5, "vinculos": [{"suspeito": "S5", "v": 0.7, "efeito": "Incrimina"}, {"suspeito": "S6", "v": 0.7, "efeito": "Incrimina"}], "justificativa": "r: afirmação da investigação sem detalhar prova; v: monitoramento direto, poucas pessoas compatíveis."},
+    {"evidencia": "E11", "r": 0.3, "vinculos": [{"suspeito": "S7", "v": 0.3, "efeito": "Inocenta"}, {"suspeito": "S8", "v": 0.3, "efeito": "Inocenta"}, {"suspeito": "S9", "v": 0.3, "efeito": "Inocenta"}], "justificativa": "r: tese de defesa, parte interessada e contestada; v: latrocínio afastaria mandantes, de forma circunstancial."},
+    {"evidencia": "E12", "r": 0.3, "vinculos": [{"suspeito": "S9", "v": 0.1, "efeito": "Inocenta"}], "justificativa": "r: negativa de parte interessada; v: mera sugestão."}
+  ]
+}

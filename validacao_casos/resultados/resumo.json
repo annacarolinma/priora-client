@@ -1,0 +1,46 @@
+{
+ "real": {
+  "n_casos": 25,
+  "top1": 16,
+  "top1_pct": 64.0,
+  "top1_ic95": [
+   44.5,
+   79.8
+  ],
+  "top2": 22,
+  "top2_pct": 88.0,
+  "posicao_media_culpado": 1.64,
+  "mrr": 0.792,
+  "prob_media_culpado": 61.0,
+  "brier": 0.234,
+  "base_aleatoria_pct": 48.1,
+  "base_mais_vinculos_pct": 72.5,
+  "base_mais_citado_pct": 76.0,
+  "sem_inocenta_top1_pct": 64.0,
+  "mc_culpado_primeiro_medio_pct": 69.3,
+  "suspeitos_media": 5.5,
+  "evidencias_media": 19.0
+ },
+ "todos": {
+  "n_casos": 25,
+  "top1": 16,
+  "top1_pct": 64.0,
+  "top1_ic95": [
+   44.5,
+   79.8
+  ],
+  "top2": 22,
+  "top2_pct": 88.0,
+  "posicao_media_culpado": 1.64,
+  "mrr": 0.792,
+  "prob_media_culpado": 61.0,
+  "brier": 0.234,
+  "base_aleatoria_pct": 48.1,
+  "base_mais_vinculos_pct": 72.5,
+  "base_mais_citado_pct": 76.0,
+  "sem_inocenta_top1_pct": 64.0,
+  "mc_culpado_primeiro_medio_pct": 69.3,
+  "suspeitos_media": 5.5,
+  "evidencias_media": 19.0
+ }
+}

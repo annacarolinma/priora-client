@@ -1,0 +1,13 @@
+{
+  "id": "R10",
+  "titulo": "Assassinato de Holly Bobo (Tennessee, 2011)",
+  "fonte": "Wikipedia (Murder of Holly Bobo)",
+  "url": "https://en.wikipedia.org/wiki/Murder_of_Holly_Bobo",
+  "licenca_ou_uso": "Wikipedia CC BY-SA 4.0; pistas reescritas",
+  "culpado": ["S3", "S2"],
+  "chave_nomes": {"S1": "Terry Britt", "S2": "Dylan Adams", "S3": "Zach Adams", "S4": "Jason Autry", "S5": "Shayne Austin", "S6": "Jeffrey Pearcy", "S7": "Mark Pearcy"},
+  "solucao": "Zach Adams foi condenado em 22/09/2017 por homicídio em primeiro grau, sequestro agravado e estupro agravado (prisão perpétua sem condicional mais 50 anos). Dylan Adams fez declaração Alford em 2018 (facilitação de homicídio e sequestro, 35 anos). Jason Autry fez acordo (8 anos) e depois se retratou do testemunho. Austin morreu em 2015 sem acusação; Britt e os Pearcy não foram condenados.",
+  "pais_epoca": "Estados Unidos, 2011 (julgamento 2017)",
+  "tipo_crime": "sequestro/desaparecimento e homicídio",
+  "observacoes": "CASO CONTESTADO: não há DNA; condenação baseada em testemunhos de coacusados, com Autry retratando-se (2024). Culpado oficial = decisão judicial (S3 e S2; S4 declarou-se culpado por acordo mas sem condenação por homicídio doloso, deixado fora). Pode ser tratado como caso difícil ou excluído do cálculo de acerto. 25 pistas. Não incluí as confissões/testemunhos de Autry de que fez vigia e ocultou o corpo."
+}

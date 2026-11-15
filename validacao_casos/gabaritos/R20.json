@@ -1,0 +1,13 @@
+{
+  "id": "R20",
+  "titulo": "Assassinato de Luis Donaldo Colosio (Tijuana, México, 1994)",
+  "fonte": "Wikipedia (ES) - Asesinato de Luis Donaldo Colosio",
+  "url": "https://es.wikipedia.org/wiki/Asesinato_de_Luis_Donaldo_Colosio",
+  "licenca_ou_uso": "CC BY-SA (texto reescrito em fatos)",
+  "culpado": ["S1"],
+  "chave_nomes": {"S1": "Mario Aburto Martínez (condenado, 45 anos)", "S2": "Tranquilino Sánchez Venegas (solto por falta de provas)", "S3": "José Rodolfo Rivapalacio Tinajero (solto)", "S4": "Vicente Mayoral Valenzuela (solto)", "S5": "Othón Cortés Vázquez (absolvido em 1996)", "S6": "Jorge Antonio Sánchez Ortega (liberado)", "S7": "Fernando de la Sota Rodalléguez (absolvido em 1996)", "S8": "Héctor Javier Hernández Thomassiny 'El Lentes' (sem vínculo)"},
+  "solucao": "Mario Aburto foi capturado no ato, condenado em 1994 a 42 anos, depois 45; as teorias de segundo atirador e cumplicidade foram rejeitadas ou abandonadas e os demais investigados foram soltos ou absolvidos.",
+  "pais_epoca": "México, 1994",
+  "tipo_crime": "homicídio (assassinato político)",
+  "observacoes": "O culpado é muito evidente: foi preso no local, o que torna o caso fácil. Omiti confissões de Aburto e a sentença. A fonte é uma página da Wikipédia de mais de 160 mil caracteres; li só os primeiros 100 mil, então pode haver pistas omitidas. E14 não tem suspeito ligado, pois o apelido seria identificador. Foi feito para testar discriminação entre muitos suspeitos que são inocentes."
+}

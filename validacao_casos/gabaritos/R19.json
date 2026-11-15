@@ -1,0 +1,13 @@
+{
+  "id": "R19",
+  "titulo": "Caso Rocío Wanninkhof (Mijas, Espanha)",
+  "fonte": "Wikipedia (ES) - Caso Wanninkhof",
+  "url": "https://es.wikipedia.org/wiki/Caso_Wanninkhof",
+  "licenca_ou_uso": "CC BY-SA (texto reescrito em fatos)",
+  "culpado": ["S5"],
+  "chave_nomes": {"S1": "Dolores Vázquez (condenada em 2001, anulada, libertada)", "S2": "Antonio José Jurado (namorado, solto sem acusação)", "S3": "tio-avô materno 1 (álibi)", "S4": "tio-avô materno 2 (álibi)", "S5": "Tony Alexander King (DNA, condenado em 2006 a 19 anos)"},
+  "solucao": "Dolores Vázquez foi condenada por júri em 2001 (15 anos), mas o veredito foi anulado e ela foi solta em 2003. Após o assassinato de Sonia Carabantes, o DNA de Tony King ligou-se a bituca no local do crime de Rocío; ele foi condenado por ambos (36 anos por Sonia, 19 por Rocío).",
+  "pais_epoca": "Espanha, 1999-2006",
+  "tipo_crime": "homicídio",
+  "observacoes": "Nuance de retrospecto: E11 e E12 só ligaram a S5 depois de 2003 e S5 não era suspeito inicial; seu perfil já o destaca como 'outsider'. Omiti o dado de DNA nas unhas de Sonia, as condenações e a absolvição formal. Não incluí a mãe (Alicia Hornos) nem o companheiro dela como suspeitos."
+}

@@ -1,0 +1,23 @@
+{
+  "id": "R08",
+  "pesos": [
+    {"evidencia": "E1", "r": 0.5, "vinculos": [{"suspeito": "S3", "v": 0.3, "efeito": "Incrimina"}, {"suspeito": "S4", "v": 0.1, "efeito": "Incrimina"}], "justificativa": "r: relatos dos pais sem corroboração; v: pai presente na casa, circunstancial; mãe apenas ausente."},
+    {"evidencia": "E2", "r": 0.7, "vinculos": [], "justificativa": "Registro oficial do horário; contexto."},
+    {"evidencia": "E3", "r": 0.5, "vinculos": [], "justificativa": "Testemunho sem corroboração; não cita suspeito."},
+    {"evidencia": "E4", "r": 0.5, "vinculos": [{"suspeito": "S1", "v": 0.3, "efeito": "Incrimina"}], "justificativa": "r: testemunho de vizinhos; v: partida logo após é circunstancial."},
+    {"evidencia": "E5", "r": 0.7, "vinculos": [{"suspeito": "S1", "v": 0.1, "efeito": "Inocenta"}], "justificativa": "r: registros e testemunha corroboram parcialmente; v: apoia só partes da versão, mera sugestão."},
+    {"evidencia": "E6", "r": 0.7, "vinculos": [{"suspeito": "S1", "v": 0.3, "efeito": "Incrimina"}, {"suspeito": "S4", "v": 0.3, "efeito": "Inocenta"}], "justificativa": "r: confirmação mútua; v: presença no mesmo bar é circunstancial; mãe fora de casa afasta-a parcialmente."},
+    {"evidencia": "E7", "r": 0.5, "vinculos": [{"suspeito": "S1", "v": 0.5, "efeito": "Incrimina"}], "justificativa": "r: depoimento e omissão sem cadeia; v: explicação inocente plausível, mas omissão incomum."},
+    {"evidencia": "E8", "r": 0.7, "vinculos": [{"suspeito": "S1", "v": 0.9, "efeito": "Incrimina"}], "justificativa": "r: achado biológico em objeto de lavanderia, custódia indireta; v: sangue da vítima em casaco dele, sem explicação inocente."},
+    {"evidencia": "E9", "r": 0.5, "vinculos": [{"suspeito": "S1", "v": 0.3, "efeito": "Incrimina"}], "justificativa": "r: comportamento relatado; v: hábito alegado, circunstancial."},
+    {"evidencia": "E10", "r": 0.9, "vinculos": [{"suspeito": "S1", "v": 0.7, "efeito": "Incrimina"}], "justificativa": "r: laudo de DNA oficial; v: pequenas manchas em roupa e trailer, forte mas com poucas explicações alternativas."},
+    {"evidencia": "E11", "r": 0.7, "vinculos": [{"suspeito": "S1", "v": 0.5, "efeito": "Incrimina"}], "justificativa": "r: registro pericial; v: impressões podem ser de visita anterior, explicação inocente plausível."},
+    {"evidencia": "E12", "r": 0.7, "vinculos": [{"suspeito": "S1", "v": 0.3, "efeito": "Incrimina"}], "justificativa": "r: exame pericial; v: pelos compatíveis, circunstancial."},
+    {"evidencia": "E13", "r": 0.7, "vinculos": [{"suspeito": "S1", "v": 0.3, "efeito": "Incrimina"}], "justificativa": "r: exame pericial; v: fibras acrílicas comuns, compatíveis com muitos."},
+    {"evidencia": "E14", "r": 0.9, "vinculos": [], "justificativa": "Laudo oficial sobre o corpo; contexto sem suspeito."},
+    {"evidencia": "E15", "r": 0.3, "vinculos": [{"suspeito": "S1", "v": 0.3, "efeito": "Inocenta"}], "justificativa": "r: perícia da defesa contestada por outra perícia; v: afasta de forma circunstancial."},
+    {"evidencia": "E16", "r": 0.3, "vinculos": [{"suspeito": "S1", "v": 0.1, "efeito": "Inocenta"}], "justificativa": "r: alegação da defesa, parte interessada; v: mera sugestão."},
+    {"evidencia": "E17", "r": 0.7, "vinculos": [{"suspeito": "S1", "v": 0.3, "efeito": "Incrimina"}, {"suspeito": "S2", "v": 0.1, "efeito": "Incrimina"}], "justificativa": "r: achado digital; v: relaciona o perfil, não o crime; filho com mera possibilidade sugerida pela defesa."},
+    {"evidencia": "E18", "r": 0.3, "vinculos": [{"suspeito": "S3", "v": 0.1, "efeito": "Incrimina"}, {"suspeito": "S4", "v": 0.1, "efeito": "Incrimina"}], "justificativa": "r: argumento da defesa, parte interessada; v: sem ninguém específico, mera sugestão."}
+  ]
+}

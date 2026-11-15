@@ -1,0 +1,312 @@
+{
+ "id": "R24",
+ "pesos": [
+  {
+   "evidencia": "E1",
+   "r": 0.7,
+   "vinculos": [],
+   "justificativa": "Constatacao pericial (r 0.7); contexto."
+  },
+  {
+   "evidencia": "E2",
+   "r": 0.7,
+   "vinculos": [],
+   "justificativa": "Constatacao das buscas (r 0.7); contexto."
+  },
+  {
+   "evidencia": "E3",
+   "r": 0.5,
+   "vinculos": [
+    {
+     "suspeito": "S1",
+     "v": 0.1,
+     "efeito": "Incrimina"
+    },
+    {
+     "suspeito": "S2",
+     "v": 0.1,
+     "efeito": "Incrimina"
+    },
+    {
+     "suspeito": "S3",
+     "v": 0.1,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Achado pericial contestado, sem cadeia clara (r 0.5); particulas semelhantes em outras janelas, mera associacao (v 0.1)."
+  },
+  {
+   "evidencia": "E4",
+   "r": 0.7,
+   "vinculos": [],
+   "justificativa": "Analise pericial (r 0.7); sem suspeito."
+  },
+  {
+   "evidencia": "E5",
+   "r": 0.7,
+   "vinculos": [],
+   "justificativa": "Exame pericial do projetil (r 0.7); sem suspeito."
+  },
+  {
+   "evidencia": "E6",
+   "r": 0.3,
+   "vinculos": [
+    {
+     "suspeito": "S6",
+     "v": 0.3,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Testes considerados pouco confiaveis (r 0.3); traco em uma mao, mas com alibi, circunstancial (v 0.3)."
+  },
+  {
+   "evidencia": "E7",
+   "r": 0.5,
+   "vinculos": [
+    {
+     "suspeito": "S2",
+     "v": 0.3,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Pericia disputada, particulas nao identicas (r 0.5); explicacao inocente plausivel (v 0.3)."
+  },
+  {
+   "evidencia": "E8",
+   "r": 0.5,
+   "vinculos": [
+    {
+     "suspeito": "S2",
+     "v": 0.3,
+     "efeito": "Inocenta"
+    }
+   ],
+   "justificativa": "Inferencia pericial sobre destreza (r 0.5); afasta de forma circunstancial (v 0.3)."
+  },
+  {
+   "evidencia": "E9",
+   "r": 0.5,
+   "vinculos": [
+    {
+     "suspeito": "S1",
+     "v": 0.3,
+     "efeito": "Inocenta"
+    }
+   ],
+   "justificativa": "Calculo pericial de probabilidade (r 0.5); afasta de forma circunstancial, vale para qualquer um da sala (v 0.3)."
+  },
+  {
+   "evidencia": "E10",
+   "r": 0.9,
+   "vinculos": [],
+   "justificativa": "Registro eletronico da operadora (r 0.9); contexto."
+  },
+  {
+   "evidencia": "E11",
+   "r": 0.1,
+   "vinculos": [
+    {
+     "suspeito": "S1",
+     "v": 0.3,
+     "efeito": "Incrimina"
+    },
+    {
+     "suspeito": "S2",
+     "v": 0.3,
+     "efeito": "Incrimina"
+    },
+    {
+     "suspeito": "S3",
+     "v": 0.3,
+     "efeito": "Incrimina"
+    },
+    {
+     "suspeito": "S4",
+     "v": 0.3,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Memoria sugestionada e considerada pouco confiavel (r 0.1); presenca na sala e circunstancial (v 0.3)."
+  },
+  {
+   "evidencia": "E12",
+   "r": 0.9,
+   "vinculos": [],
+   "justificativa": "Registro eletronico confirmado pela operadora (r 0.9); sem suspeito."
+  },
+  {
+   "evidencia": "E13",
+   "r": 0.1,
+   "vinculos": [
+    {
+     "suspeito": "S1",
+     "v": 0.7,
+     "efeito": "Incrimina"
+    },
+    {
+     "suspeito": "S2",
+     "v": 0.7,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Testemunha coagida, versoes contraditorias (r 0.1); acusacao direta de autoria seria forte (v 0.7)."
+  },
+  {
+   "evidencia": "E14",
+   "r": 0.7,
+   "vinculos": [],
+   "justificativa": "Gravacoes em video (r 0.7); desacredita E13, sem vinculo proprio a suspeito."
+  },
+  {
+   "evidencia": "E15",
+   "r": 0.1,
+   "vinculos": [
+    {
+     "suspeito": "S1",
+     "v": 0.3,
+     "efeito": "Incrimina"
+    },
+    {
+     "suspeito": "S2",
+     "v": 0.3,
+     "efeito": "Incrimina"
+    },
+    {
+     "suspeito": "S3",
+     "v": 0.1,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Depoimento retratado sob pressao (r 0.1); envolvimento alegado, circunstancial (v 0.3); mera associacao para S3 (v 0.1)."
+  },
+  {
+   "evidencia": "E16",
+   "r": 0.3,
+   "vinculos": [
+    {
+     "suspeito": "S4",
+     "v": 0.1,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Citacao por T1, nao confiavel (r 0.3); mera associacao (v 0.1)."
+  },
+  {
+   "evidencia": "E17",
+   "r": 0.5,
+   "vinculos": [
+    {
+     "suspeito": "S1",
+     "v": 0.5,
+     "efeito": "Inocenta"
+    }
+   ],
+   "justificativa": "Alibi parcialmente corroborado, com segunda testemunha desacreditada (r 0.5); cobre o horario so em parte (v 0.5)."
+  },
+  {
+   "evidencia": "E18",
+   "r": 0.3,
+   "vinculos": [
+    {
+     "suspeito": "S2",
+     "v": 0.1,
+     "efeito": "Inocenta"
+    }
+   ],
+   "justificativa": "Alibi dado por familiar e por visitante processado (r 0.3); mera sugestao (v 0.1)."
+  },
+  {
+   "evidencia": "E19",
+   "r": 0.1,
+   "vinculos": [
+    {
+     "suspeito": "S2",
+     "v": 0.1,
+     "efeito": "Incrimina"
+    },
+    {
+     "suspeito": "S7",
+     "v": 0.1,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Declaracao de parte interessada e suspeita (r 0.1); mera sugestao (v 0.1)."
+  },
+  {
+   "evidencia": "E20",
+   "r": 0.3,
+   "vinculos": [
+    {
+     "suspeito": "S1",
+     "v": 0.5,
+     "efeito": "Incrimina"
+    },
+    {
+     "suspeito": "S2",
+     "v": 0.5,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Testemunho tardio com descricao alterada (r 0.3); saida apressada compativel com explicacao inocente (v 0.5)."
+  },
+  {
+   "evidencia": "E21",
+   "r": 0.9,
+   "vinculos": [
+    {
+     "suspeito": "S1",
+     "v": 0.1,
+     "efeito": "Incrimina"
+    },
+    {
+     "suspeito": "S2",
+     "v": 0.1,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Registro eletronico de chamadas (r 0.9); contato entre eles e mera associacao (v 0.1)."
+  },
+  {
+   "evidencia": "E22",
+   "r": 0.1,
+   "vinculos": [
+    {
+     "suspeito": "S5",
+     "v": 0.1,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Informacao publica sem motivo detalhado (r 0.1); mera associacao (v 0.1)."
+  },
+  {
+   "evidencia": "E23",
+   "r": 0.7,
+   "vinculos": [],
+   "justificativa": "Registro de linhas investigativas (r 0.7); contexto."
+  },
+  {
+   "evidencia": "E24",
+   "r": 0.7,
+   "vinculos": [],
+   "justificativa": "Registro de teorias investigadas (r 0.7); contexto."
+  },
+  {
+   "evidencia": "E25",
+   "r": 0.5,
+   "vinculos": [
+    {
+     "suspeito": "S3",
+     "v": 0.1,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Registro de investigacao do irmao (r 0.5); parentesco, mera associacao (v 0.1)."
+  },
+  {
+   "evidencia": "E26",
+   "r": 0.3,
+   "vinculos": [],
+   "justificativa": "Depoimento contestado (r 0.3); contexto sobre os interrogatorios."
+  }
+ ]
+}

@@ -1,0 +1,174 @@
+{
+ "id": "R14",
+ "tipo": "real",
+ "resumo": "Um casal de turistas estrangeiros viaja numa van camper por uma estrada isolada de deserto quando um motorista os faz parar, alegando faíscas no escapamento. A mulher consegue escapar para o mato; o companheiro desaparece e nunca é encontrado. Há uma mancha de sangue na estrada e a van do casal é encontrada escondida a cerca de 1 km dali.",
+ "suspeitos": [
+  {
+   "id": "S1",
+   "perfil": "motorista de caminhonete e transportador de drogas de longa distância, mora numa cidade litorânea a milhares de km, carrega revólveres e viaja com cachorro"
+  },
+  {
+   "id": "S2",
+   "perfil": "namorada da vítima, sobrevivente do ataque, única testemunha direta; suas declarações tiveram inconsistências"
+  },
+  {
+   "id": "S3",
+   "perfil": "sócio de S1 no tráfico de drogas, preso depois por outro crime"
+  },
+  {
+   "id": "S4",
+   "perfil": "caminhoneiro que a encontrou na estrada de madrugada e a levou ao posto da rodovia"
+  }
+ ],
+ "evidencias": [
+  {
+   "id": "E1",
+   "tipo": "Depoimento",
+   "texto": "S2 diz que por volta das 19h30 um veículo 4x4 branco com cobertura verde e luz interna acesa, com um cachorro no banco, os seguiu por uns 10 km e fez sinais para parar. O motorista, descrito como alto, de meia-idade, com bigode em ferradura, disse ter visto faíscas saindo do escapamento da van.",
+   "suspeitos": [
+    "S2",
+    "S1"
+   ]
+  },
+  {
+   "id": "E2",
+   "tipo": "Depoimento",
+   "texto": "S2 afirma que, enquanto o namorado e o homem foram olhar o escapamento, ouviu um estouro vindo de trás e pensou que fosse o motor. Em seguida o homem apareceu na porta, com um revólver prateado, e prendeu suas mãos com abraçadeiras de nylon pretas. Resistiu à tentativa de prender as pernas e levou um soco na cabeça.",
+   "suspeitos": [
+    "S2"
+   ]
+  },
+  {
+   "id": "E3",
+   "tipo": "Depoimento",
+   "texto": "Segundo S2, foi colocada encapuzada na parte traseira do veículo do agressor, escapou quando ele se distraiu e correu uns 60 metros para o mato. Ele a procurou com lanterna e com o cachorro e passou perto três vezes. Ela ficou escondida por horas, ouviu arrastar algo no cascalho e depois o veículo partir.",
+   "suspeitos": [
+    "S2"
+   ]
+  },
+  {
+   "id": "E4",
+   "tipo": "Depoimento",
+   "texto": "Cerca de uma da manhã, S2, com as mãos amarradas, parou um caminhoneiro, que cortou as abraçadeiras com um alicate. Ao saber que o agressor estava armado, ele preferiu ir ao posto mais próximo e dar o alarme em vez de procurar o desaparecido.",
+   "suspeitos": [
+    "S4",
+    "S2"
+   ]
+  },
+  {
+   "id": "E5",
+   "tipo": "Física",
+   "texto": "A polícia chegou de madrugada e achou, na beira do asfalto, uma poça de sangue coberta de terra. A van do casal foi encontrada escondida cerca de 100 metros dentro do mato, 1 km ao sul. Buscas e rastreadores locais só encontraram as pegadas de S2.",
+   "suspeitos": [
+    "S2"
+   ]
+  },
+  {
+   "id": "E6",
+   "tipo": "Documental",
+   "texto": "Bloqueios foram feitos em 12 estradas só oito horas depois do resgate. Nunca foram achados o corpo, os pertences do desaparecido nem a arma.",
+   "suspeitos": []
+  },
+  {
+   "id": "E7",
+   "tipo": "Depoimento",
+   "texto": "Um motorista que passou pela região naquela noite viu um veículo grande, branco, possivelmente um utilitário 4x4 com cobertura verde, parado na beira da estrada ao lado de uma van laranja.",
+   "suspeitos": []
+  },
+  {
+   "id": "E8",
+   "tipo": "Pericial",
+   "texto": "Peritos não acharam fragmentos de bala nem tecido no local, o que sugere um cartucho de baixa potência, como um .22, disparado na cabeça sem orifício de saída.",
+   "suspeitos": []
+  },
+  {
+   "id": "E9",
+   "tipo": "Audiovisual",
+   "texto": "Câmeras de um posto de combustível na cidade ao sul, às 0h38-0h45, filmaram um homem num 4x4 branco comprando diesel e suprimentos. A polícia divulgou as imagens, mas ninguém se apresentou. Peritos concluíram depois que o homem filmado era S1, e o pai de S1 e o sócio S3 teriam confirmado.",
+   "suspeitos": [
+    "S1",
+    "S3"
+   ]
+  },
+  {
+   "id": "E10",
+   "tipo": "Documental",
+   "texto": "O diesel permitiu restringir o veículo a um modelo específico de utilitário. A lista de proprietários desse modelo foi cruzada com 36 nomes de homens apontados por ligações anônimas, e S1 foi interrogado meses depois.",
+   "suspeitos": [
+    "S1"
+   ]
+  },
+  {
+   "id": "E11",
+   "tipo": "Depoimento",
+   "texto": "S1 apresentou um álibi: estaria em sua cidade natal às 4h, dois dias depois, o que os detetives julgaram improvável, pois seriam quase 2.000 km em 27 horas. Em juízo, disse que no dia do crime tomou uma estrada para oeste, a centenas de km do local.",
+   "suspeitos": [
+    "S1"
+   ]
+  },
+  {
+   "id": "E12",
+   "tipo": "Documental",
+   "texto": "Recibos mostram que S1 comprou peças numa loja de autopeças na mesma cidade, diante de um restaurante em que o casal almoçou, na mesma hora. Segundo a acusação, ele saiu da cidade no horário e na direção compatíveis com chegar ao local do crime.",
+   "suspeitos": [
+    "S1"
+   ]
+  },
+  {
+   "id": "E13",
+   "tipo": "Biológica",
+   "texto": "Foi achado um traço de DNA masculino não identificado na camiseta de S2, nas abraçadeiras e, em quantidade mínima, na alavanca de câmbio da van, além de sangue manchado na camiseta, indicando contato direto com sangue ainda úmido.",
+   "suspeitos": []
+  },
+  {
+   "id": "E14",
+   "tipo": "DNA",
+   "texto": "Depois que S1 foi preso por outro caso, a amostra dele foi comparada ao DNA do local: o perfil da camiseta era 150 quadrilhões de vezes mais provável de ser dele. A defesa disse que o DNA veio de transferência acidental de sangue numa porta do restaurante ou foi plantado, e não explicou a presença nas abraçadeiras.",
+   "suspeitos": [
+    "S1"
+   ]
+  },
+  {
+   "id": "E15",
+   "tipo": "Depoimento",
+   "texto": "O sócio S3, flagrado com 4 kg de maconha, contou em troca de pena menor que, na época, S1 raspou o cabelo comprido e o bigode e alterou muito a caminhonete.",
+   "suspeitos": [
+    "S3",
+    "S1"
+   ]
+  },
+  {
+   "id": "E16",
+   "tipo": "Depoimento",
+   "texto": "Várias testemunhas disseram que S1 tinha um revólver .22 prateado e o carregava no carro em viagens longas. O próprio S1 admitiu transportar maconha pelo país e portar dois revólveres para proteção, mas negou o crime.",
+   "suspeitos": [
+    "S1"
+   ]
+  },
+  {
+   "id": "E17",
+   "tipo": "Comportamento",
+   "texto": "Depois de ser entrevistado numa primeira vez e de o irmão ser contactado para fornecer DNA, S1 foi avisado pelo irmão por telefone e fugiu, sendo preso dias depois por outro crime.",
+   "suspeitos": [
+    "S1"
+   ]
+  },
+  {
+   "id": "E18",
+   "tipo": "Comportamento",
+   "texto": "Nas semanas seguintes, inconsistências nas declarações de S2 (retrato falado, tipo de veículo, cachorro, imagens do posto) e seu comportamento levaram parte da imprensa a duvidar de sua versão.",
+   "suspeitos": [
+    "S2"
+   ]
+  },
+  {
+   "id": "E19",
+   "tipo": "Depoimento",
+   "texto": "Interrogada pela defesa, S2 admitiu que o cano da arma encostada na sua cabeça não parecia quente nem cheirava a pólvora, e que não viu o corpo do namorado ao ser arrastada para o veículo. Mais de um ano depois, ela reconheceu S1 em fotos e, no julgamento, pessoalmente.",
+   "suspeitos": [
+    "S2",
+    "S1"
+   ]
+  }
+ ]
+}

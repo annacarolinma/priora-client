@@ -1,0 +1,13 @@
+{
+  "id": "R06",
+  "titulo": "Incêndio da Woodbine Building Supply (Toronto, 2001)",
+  "fonte": "Wikipedia (Woodbine Building Supply fire); decisão ONCA R. v. Magno, 2015 ONCA 111 e R. v. Roks, citadas na imprensa",
+  "url": "https://en.wikipedia.org/wiki/Woodbine_Building_Supply_fire",
+  "licenca_ou_uso": "Wikipedia CC BY-SA 4.0; pistas reescritas",
+  "culpado": ["S1", "S2", "S3", "S4"],
+  "chave_nomes": {"S1": "John Magno", "S2": "Adrian Roks Jr.", "S3": "Sam Paskalis", "S4": "Shaun McMaster", "S5": "Jason Regaldo", "S6": "Frank Magno"},
+  "solucao": "Incêndio criminoso por seguro e desvio de estoque. John Magno foi absolvido de homicídio doloso mas condenado por homicídio culposo (manslaughter) e três acusações de incêndio (12 anos; apelação negada em 2015). Roks foi condenado a prisão perpétua em 2007 por homicídio em segundo grau. Paskalis e McMaster declararam-se culpados de homicídio culposo e incêndio. Regaldo foi condenado por conspiração (pena suspensa). Frank Magno nunca foi acusado. Vítima fatal: o jovem executor (Tony Jarcevic).",
+  "pais_epoca": "Canadá, 2001 (julgamentos 2005-2011)",
+  "tipo_crime": "incêndio criminoso com morte (fraude de seguro)",
+  "observacoes": "Culpados variam em grau (S5 só conspiração, S6 não acusado, por isso fora da lista). Boa parte das pistas vem de testemunhos de coautores colaboradores (credibilidade debatida em apelação). Wikipedia é detalhado só em motivação e papéis; faltam laudos de incêndio e telefonia. 15 pistas, número perto do mínimo. Fatos de pós-solução (pleas, sentenças) deixados de fora."
+}

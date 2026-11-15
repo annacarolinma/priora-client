@@ -1,0 +1,248 @@
+{
+ "id": "R21",
+ "pesos": [
+  {
+   "evidencia": "E1",
+   "r": 0.7,
+   "vinculos": [
+    {
+     "suspeito": "S1",
+     "v": 0.3,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Documento de testamento (r 0.7); beneficio comum a varios herdeiros, motivo circunstancial (v 0.3)."
+  },
+  {
+   "evidencia": "E2",
+   "r": 0.5,
+   "vinculos": [
+    {
+     "suspeito": "S1",
+     "v": 0.3,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Informacao bancaria repassada pelo gerente a vitima, sem registro anexado (r 0.5); saque da conta conjunta e circunstancial (v 0.3)."
+  },
+  {
+   "evidencia": "E3",
+   "r": 0.3,
+   "vinculos": [
+    {
+     "suspeito": "S1",
+     "v": 0.3,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Relato de segunda mao ('teria dito') de discussao (r 0.3); motivo circunstancial (v 0.3)."
+  },
+  {
+   "evidencia": "E4",
+   "r": 0.3,
+   "vinculos": [
+    {
+     "suspeito": "S1",
+     "v": 0.3,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Familiares com interesse e acusacoes sem prova (r 0.3); aponta para a esposa, mas sem fato concreto (v 0.3)."
+  },
+  {
+   "evidencia": "E5",
+   "r": 0.7,
+   "vinculos": [],
+   "justificativa": "Constatacao do crime (r 0.7); contexto, sem suspeito."
+  },
+  {
+   "evidencia": "E6",
+   "r": 0.5,
+   "vinculos": [
+    {
+     "suspeito": "S1",
+     "v": 0.1,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Observacao policial sem registro (r 0.5); gesto com explicacao inocente plausivel (v 0.1)."
+  },
+  {
+   "evidencia": "E7",
+   "r": 0.5,
+   "vinculos": [
+    {
+     "suspeito": "S1",
+     "v": 0.3,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Fatos relatados pela policia, sem corroboracao formal (r 0.5); comportamento circunstancial (v 0.3)."
+  },
+  {
+   "evidencia": "E8",
+   "r": 0.3,
+   "vinculos": [
+    {
+     "suspeito": "S1",
+     "v": 0.1,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Informacao condicional ('teria') e de segunda mao (r 0.3); mera associacao de conduta (v 0.1)."
+  },
+  {
+   "evidencia": "E9",
+   "r": 0.5,
+   "vinculos": [
+    {
+     "suspeito": "S1",
+     "v": 0.3,
+     "efeito": "Incrimina"
+    },
+    {
+     "suspeito": "S6",
+     "v": 0.1,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Declaracao do proprio motorista, contra seu interesse (r 0.5); reforca relacao extraconjugal da esposa (v 0.3) e mera associacao do motorista (v 0.1)."
+  },
+  {
+   "evidencia": "E10",
+   "r": 0.5,
+   "vinculos": [
+    {
+     "suspeito": "S1",
+     "v": 0.1,
+     "efeito": "Incrimina"
+    },
+    {
+     "suspeito": "S2",
+     "v": 0.1,
+     "efeito": "Incrimina"
+    },
+    {
+     "suspeito": "S3",
+     "v": 0.1,
+     "efeito": "Incrimina"
+    },
+    {
+     "suspeito": "S4",
+     "v": 0.1,
+     "efeito": "Incrimina"
+    },
+    {
+     "suspeito": "S5",
+     "v": 0.1,
+     "efeito": "Incrimina"
+    },
+    {
+     "suspeito": "S6",
+     "v": 0.1,
+     "efeito": "Incrimina"
+    },
+    {
+     "suspeito": "S7",
+     "v": 0.1,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Quebra de sigilo oficial, mas sem conteudo divulgado (r 0.5); mera associacao/contato (v 0.1)."
+  },
+  {
+   "evidencia": "E11",
+   "r": 0.7,
+   "vinculos": [
+    {
+     "suspeito": "S2",
+     "v": 0.3,
+     "efeito": "Incrimina"
+    },
+    {
+     "suspeito": "S3",
+     "v": 0.3,
+     "efeito": "Incrimina"
+    },
+    {
+     "suspeito": "S4",
+     "v": 0.3,
+     "efeito": "Incrimina"
+    },
+    {
+     "suspeito": "S7",
+     "v": 0.3,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Fatos de funcao documentados (r 0.7); conhecimento da rotina compativel com muitas pessoas (v 0.3)."
+  },
+  {
+   "evidencia": "E12",
+   "r": 0.3,
+   "vinculos": [
+    {
+     "suspeito": "S2",
+     "v": 0.3,
+     "efeito": "Incrimina"
+    },
+    {
+     "suspeito": "S3",
+     "v": 0.3,
+     "efeito": "Incrimina"
+    },
+    {
+     "suspeito": "S4",
+     "v": 0.3,
+     "efeito": "Incrimina"
+    },
+    {
+     "suspeito": "S7",
+     "v": 0.3,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Depende de E11 e da interpretacao da policia (r 0.3); circunstancial (v 0.3)."
+  },
+  {
+   "evidencia": "E13",
+   "r": 0.3,
+   "vinculos": [
+    {
+     "suspeito": "S2",
+     "v": 0.3,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Conclusao da policia sobre fato nao imputado (r 0.3); circunstancial (v 0.3)."
+  },
+  {
+   "evidencia": "E14",
+   "r": 0.5,
+   "vinculos": [],
+   "justificativa": "Testemunho isolado sobre o perfil da vitima (r 0.5); contexto."
+  },
+  {
+   "evidencia": "E15",
+   "r": 0.3,
+   "vinculos": [
+    {
+     "suspeito": "S4",
+     "v": 0.1,
+     "efeito": "Inocenta"
+    },
+    {
+     "suspeito": "S5",
+     "v": 0.1,
+     "efeito": "Inocenta"
+    },
+    {
+     "suspeito": "S7",
+     "v": 0.1,
+     "efeito": "Inocenta"
+    }
+   ],
+   "justificativa": "Caracterizacao feita pelas defesas, partes interessadas (r 0.3); apenas sugere fragilidade do decreto (v 0.1)."
+  }
+ ]
+}

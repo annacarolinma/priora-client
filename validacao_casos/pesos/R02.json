@@ -1,0 +1,17 @@
+{
+  "id": "R02",
+  "pesos": [
+    {"evidencia": "E1", "r": 0.7, "vinculos": [{"suspeito": "S2", "v": 0.5, "efeito": "Incrimina"}, {"suspeito": "S3", "v": 0.5, "efeito": "Incrimina"}], "justificativa": "r: auditoria oficial do tribunal de contas; v: conluio na licitação compatível com um grupo pequeno, mas sem prova de desvio em si."},
+    {"evidencia": "E2", "r": 0.7, "vinculos": [{"suspeito": "S1", "v": 0.5, "efeito": "Incrimina"}], "justificativa": "r: registro oficial; v: ele administrava os recursos, mas outros também tinham acesso."},
+    {"evidencia": "E3", "r": 0.7, "vinculos": [{"suspeito": "S1", "v": 0.3, "efeito": "Incrimina"}], "justificativa": "r: registro oficial; v: circunstancial, falha de controle sem apontar autoria."},
+    {"evidencia": "E4", "r": 0.7, "vinculos": [{"suspeito": "S1", "v": 0.5, "efeito": "Incrimina"}, {"suspeito": "S3", "v": 0.5, "efeito": "Incrimina"}], "justificativa": "r: recomendação oficial do tribunal; v: irregularidades de gestão e contrato, compatível com os responsáveis."},
+    {"evidencia": "E5", "r": 0.5, "vinculos": [{"suspeito": "S1", "v": 0.5, "efeito": "Incrimina"}], "justificativa": "r: registro oficial, mas continuidade dos pagamentos ecoa E4; v: manteve a obra apesar de confirmação das irregularidades."},
+    {"evidencia": "E6", "r": 0.7, "vinculos": [{"suspeito": "S1", "v": 0.5, "efeito": "Incrimina"}], "justificativa": "r: apuração do Ministério Público; v: seguiu administrando recursos após a descoberta, compatível com explicação burocrática."},
+    {"evidencia": "E7", "r": 0.7, "vinculos": [{"suspeito": "S1", "v": 0.3, "efeito": "Incrimina"}, {"suspeito": "S2", "v": 0.3, "efeito": "Incrimina"}, {"suspeito": "S3", "v": 0.3, "efeito": "Incrimina"}, {"suspeito": "S4", "v": 0.3, "efeito": "Incrimina"}], "justificativa": "r: quebra de sigilo bancário, registro oficial; v: o texto não diz o que foi encontrado em cada conta, circunstancial."},
+    {"evidencia": "E8", "r": 0.9, "vinculos": [], "justificativa": "r: auditoria pericial oficial; quantifica o desvio sem apontar suspeito."},
+    {"evidencia": "E9", "r": 0.7, "vinculos": [{"suspeito": "S1", "v": 0.3, "efeito": "Incrimina"}], "justificativa": "r: registro documental; v: operação imobiliária de significado ambíguo."},
+    {"evidencia": "E10", "r": 0.5, "vinculos": [{"suspeito": "S1", "v": 0.5, "efeito": "Incrimina"}], "justificativa": "r: fato noticiado sem documento citado; v: viagem antes da ordem de prisão sugere consciência, com explicação inocente possível."},
+    {"evidencia": "E11", "r": 0.3, "vinculos": [{"suspeito": "S5", "v": 0.1, "efeito": "Incrimina"}], "justificativa": "r: declaração da parte interessada que nega o envolvimento; v: mero contato."},
+    {"evidencia": "E12", "r": 0.3, "vinculos": [{"suspeito": "S2", "v": 0.3, "efeito": "Incrimina"}, {"suspeito": "S3", "v": 0.1, "efeito": "Incrimina"}], "justificativa": "r: repete parte de E1; v: participação conjunta na disputa é circunstancial/associação."}
+  ]
+}

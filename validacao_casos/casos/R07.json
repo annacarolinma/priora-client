@@ -1,0 +1,30 @@
+{
+  "id": "R07",
+  "tipo": "real",
+  "resumo": "Um homem foi encontrado morto num quarto trancado da própria casa, ao lado de um recipiente de anticongelante e de um copo de líquido esverdeado, e o legista concluiu que foi suicídio. Anos antes, o primeiro marido da viúva morrera de causa atribuída a infarto. Tempos depois, a filha adolescente da viúva foi encontrada inconsciente, com um bilhete confessando as mortes dos dois homens.",
+  "suspeitos": [
+    {"id": "S1", "perfil": "viúva do homem encontrado morto e também viúva do primeiro marido; mãe da jovem encontrada inconsciente"},
+    {"id": "S2", "perfil": "filha da viúva, filha do primeiro marido; tinha cerca de 11 anos quando o primeiro marido morreu e relação tensa com o padrasto"},
+    {"id": "S3", "perfil": "o próprio homem encontrado morto, segundo a conclusão inicial do legista (hipótese de suicídio por anticongelante, deprimido e trancado no quarto)"}
+  ],
+  "evidencias": [
+    {"id": "E1", "tipo": "Depoimento", "texto": "O primeiro marido da viúva morreu e médicos atribuíram a morte a um infarto. A irmã dele pediu autópsia, mas a viúva recusou.", "suspeitos": ["S1"]},
+    {"id": "E2", "tipo": "Pericial", "texto": "Após exumação do primeiro marido, o exame toxicológico revelou intoxicação por anticongelante (etilenoglicol).", "suspeitos": ["S1", "S2"]},
+    {"id": "E3", "tipo": "Pericial", "texto": "Cristais de oxalato de cálcio nos rins foram encontrados tanto na autópsia do primeiro marido quanto na do segundo, achado associado a envenenamento por anticongelante.", "suspeitos": ["S1", "S2", "S3"]},
+    {"id": "E4", "tipo": "Depoimento", "texto": "A viúva ligou para a polícia dizendo que o marido se trancara no quarto, deprimido. Ele foi encontrado morto, com um recipiente de anticongelante e um copo pela metade de líquido verde por perto; o legista decidiu por suicídio.", "suspeitos": ["S1", "S3"]},
+    {"id": "E5", "tipo": "Digital", "texto": "As impressões digitais da viúva estavam no copo; as do homem morto não estavam no copo nem no recipiente.", "suspeitos": ["S1", "S3"]},
+    {"id": "E6", "tipo": "Biológica", "texto": "Uma pipeta de cozinha (tipo peru) com DNA do homem morto e com etilenoglicol foi achada no lixo da cozinha.", "suspeitos": ["S1", "S2", "S3"]},
+    {"id": "E7", "tipo": "Depoimento", "texto": "Durante a doença que antecedeu a morte, a viúva dizia que o marido parecia bem; a evolução do quadro foi usada pelos investigadores para questionar a versão de ingestão voluntária.", "suspeitos": ["S1", "S3"]},
+    {"id": "E8", "tipo": "Motivação", "texto": "Havia seguros de vida e heranças envolvidos, e o testamento do segundo marido foi alterado de modo a excluir o filho dele da herança.", "suspeitos": ["S1"]},
+    {"id": "E9", "tipo": "Comportamento", "texto": "Investigadores vigiaram a casa e os túmulos dos dois maridos, esperando visitas de uma viúva enlutada. Ela nunca foi aos túmulos.", "suspeitos": ["S1"]},
+    {"id": "E10", "tipo": "Documental", "texto": "Segundo a defesa, a filha tinha relação tensa com o padrasto e possível ciúme, e poderia ter agido contra o pai mesmo aos 11 anos.", "suspeitos": ["S2"]},
+    {"id": "E11", "tipo": "Depoimento", "texto": "Após a filha ser interrogada sobre o envenenamento do pai, a mãe a convidou para beber. A jovem foi achada em coma cerca de 17 horas depois, com analgésicos potencialmente fatais no sangue; ela só se lembra de que a mãe fez a bebida. A mãe não buscou ajuda durante essas horas e fez a ligação de emergência.", "suspeitos": ["S1", "S2"]},
+    {"id": "E12", "tipo": "Documental", "texto": "Ao lado da jovem inconsciente havia um bilhete com suposta confissão dos dois envenenamentos. A mãe pegou o bilhete e o entregou aos paramédicos. A filha diz que não o escreveu.", "suspeitos": ["S1", "S2"]},
+    {"id": "E13", "tipo": "Digital", "texto": "O bilhete tinha impressões digitais da mãe e nenhuma da filha.", "suspeitos": ["S1", "S2"]},
+    {"id": "E14", "tipo": "Digital", "texto": "Várias versões do bilhete foram encontradas no computador da casa, com horários de gravação em que a filha estava na escola.", "suspeitos": ["S1", "S2"]},
+    {"id": "E15", "tipo": "Audiovisual", "texto": "Numa escuta telefônica, ouviram-se barulhos de digitação enquanto a mãe dizia não lembrar de ter usado o computador naquele dia. A filha disse que o computador era escondido dela.", "suspeitos": ["S1", "S2"]},
+    {"id": "E16", "tipo": "Pericial", "texto": "No bilhete, a palavra anticongelante aparece com a mesma grafia incompleta quatro vezes; a mãe usou a mesma forma numa entrevista e disse que se interrompera no meio da palavra.", "suspeitos": ["S1", "S2"]},
+    {"id": "E17", "tipo": "Pericial", "texto": "Um perito farmacêutico da defesa contestou que a jovem tivesse sido drogada pela mãe.", "suspeitos": ["S1", "S2"]},
+    {"id": "E18", "tipo": "Depoimento", "texto": "A viúva afirmou que o marido teria tirado a ideia de suicídio por anticongelante de uma notícia sobre outra envenenadora.", "suspeitos": ["S1", "S3"]}
+  ]
+}

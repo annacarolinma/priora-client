@@ -1,0 +1,41 @@
+{
+  "id": "R10",
+  "tipo": "real",
+  "resumo": "Uma estudante de enfermagem de 20 anos desapareceu de casa, numa área rural, numa manhã em que os pais estavam no trabalho e o irmão dormia. Havia sangue na garagem e uma testemunha viu um homem de camuflagem levá-la para o mato. Os restos mortais só foram achados cerca de três anos depois.",
+  "suspeitos": [
+    {"id": "S1", "perfil": "homem da região com condenações anteriores por estupro, que combinava com a descrição da testemunha"},
+    {"id": "S2", "perfil": "jovem com deficiência intelectual, preso por porte de armas, irmão de S3"},
+    {"id": "S3", "perfil": "homem da região, dono de uma caminhonete branca, irmão de S2"},
+    {"id": "S4", "perfil": "conhecido de S3 e S5, inicialmente acusado e depois colaborador"},
+    {"id": "S5", "perfil": "conhecido de S3, com contatos frequentes com ele no dia; morreu antes de qualquer julgamento"},
+    {"id": "S6", "perfil": "homem acusado de acobertamento com base no relato de um ex-colega de casa"},
+    {"id": "S7", "perfil": "irmão de S6, acusado de acobertamento"}
+  ],
+  "evidencias": [
+    {"id": "E1", "tipo": "Telefônica", "texto": "Às 7h30 a moça atendeu uma ligação do namorado, que caçava perto dali. Cerca de 12 minutos depois fez a última ligação feita por ela; depois só houve chamadas e mensagens recebidas sem resposta.", "suspeitos": []},
+    {"id": "E2", "tipo": "Depoimento", "texto": "Uma vizinha ouviu um grito. O irmão, acordado pelos cães, viu a irmã na garagem com um homem de camuflagem, que supôs ser o namorado. A mãe disse que não era ele; o irmão viu depois o homem levá-la para o mato.", "suspeitos": []},
+    {"id": "E3", "tipo": "Depoimento", "texto": "O irmão descreveu o homem como tendo de 1,78 a 1,83 m, 80 a 90 kg, cabelo escuro até a gola, boné, camuflagem e voz muito grave.", "suspeitos": ["S1", "S5"]},
+    {"id": "E4", "tipo": "Física", "texto": "Foram achadas manchas de sangue da moça na garagem. A mãe ligou primeiro para um despachante do condado errado antes de a emergência ser acionada.", "suspeitos": []},
+    {"id": "E5", "tipo": "Telefônica", "texto": "O celular da moça se deslocou para o norte, rumo a uma área de mata perto de uma rodovia, parou de 20 a 30 minutos, voltou para o sul por outro caminho, e deu o último sinal onde o aparelho e o chip foram depois achados.", "suspeitos": []},
+    {"id": "E6", "tipo": "Física", "texto": "Itens dela foram encontrados espalhados pela região: marmita, recibo com seu nome, carteirinha da escola, o celular e o chip removido do aparelho.", "suspeitos": []},
+    {"id": "E7", "tipo": "Física", "texto": "O recibo foi achado a uns 23 metros da entrada da casa de S5, e um cartão de anotações foi achado na estrada onde ele morava.", "suspeitos": ["S5"]},
+    {"id": "E8", "tipo": "Pericial", "texto": "Cerca de três anos depois, colhedores de ginseng acharam restos parciais a uns 30 km, perto da rodovia: crânio, dentes, costelas e uma omoplata. A causa foi tiro na nuca; a morte foi considerada homicídio.", "suspeitos": []},
+    {"id": "E9", "tipo": "Documental", "texto": "O dono do terreno disse que muita gente caçava ali sem autorização. Notícias iniciais ligaram, por engano, o crânio à propriedade da família de S3 e S2; o corpo estava cerca de 16 km de distância.", "suspeitos": ["S2", "S3"]},
+    {"id": "E10", "tipo": "Depoimento", "texto": "Um vizinho viu uma caminhonete branca passar em alta velocidade na manhã do desaparecimento. S3 dirigia uma caminhonete branca.", "suspeitos": ["S3"]},
+    {"id": "E11", "tipo": "Digital", "texto": "Uma impressão de palma foi achada no carro da moça. Quatro homens foram excluídos como origem, mas S1 não pôde ser excluído.", "suspeitos": ["S1"]},
+    {"id": "E12", "tipo": "Antecedente", "texto": "S1 tinha condenações por estupros, combinava com a descrição e teve a casa revistada e o telefone grampeado pela polícia estadual; nunca foi acusado.", "suspeitos": ["S1"]},
+    {"id": "E13", "tipo": "Depoimento", "texto": "O álibi de S1 (instalação de uma banheira que exigiria ajuda da esposa) não era sustentado pelos registros da loja, e ele cortou o cabelo depois do desaparecimento. A defesa disse que ele tinha histórico de perseguir mulheres loiras.", "suspeitos": ["S1"]},
+    {"id": "E14", "tipo": "Depoimento", "texto": "O irmão da moça disse que a voz de uma amostra de S1 se parecia com a que ouviu. Um oficial federal disse que S1 afirmou que iria 'se declarar culpado', sem especificar de quê.", "suspeitos": ["S1"]},
+    {"id": "E15", "tipo": "Depoimento", "texto": "S2, preso por porte de armas sem relação com o caso, contou à polícia que viu a moça viva na sala de S3 com S4, e depois se retratou, dizendo ter sido pressionado. A família diz que ele tem deficiência intelectual e que o agente fez perguntas indutoras.", "suspeitos": ["S2", "S3", "S4"]},
+    {"id": "E16", "tipo": "Comportamento", "texto": "Muitos detalhes do relato de S2 não combinavam com as provas físicas. Um acordo sem prisão foi supostamente condicionado a morar com um policial aposentado, e cinco semanas depois ele quis confessar.", "suspeitos": ["S2"]},
+    {"id": "E17", "tipo": "Telefônica", "texto": "Registros mostram vários contatos entre S5 e S3 no dia do desaparecimento. S5 combinava em altura e peso, mas não na cor do cabelo.", "suspeitos": ["S3", "S5"]},
+    {"id": "E18", "tipo": "Comportamento", "texto": "Foi oferecida imunidade a S5 em troca do local do corpo; o acordo foi retirado porque ele não levou a polícia ao local, e o promotor disse que ele não fora totalmente verdadeiro. Ele foi achado morto num hotel, aparentemente por suicídio.", "suspeitos": ["S5"]},
+    {"id": "E19", "tipo": "Depoimento", "texto": "Uma ex-namorada de S3 disse que ele afirmou que a amarraria 'como a' moça desaparecida. S3 teria ameaçado o irmão para que ficasse calado.", "suspeitos": ["S3", "S2"]},
+    {"id": "E20", "tipo": "Física", "texto": "Um morador local levou a polícia a um revólver calibre .32, dizendo que S5 e S4 o venderam por drogas. A arma foi achada na água e não tinha DNA nem digitais; a balística não a ligou ao crime.", "suspeitos": ["S4", "S5"]},
+    {"id": "E21", "tipo": "Audiovisual", "texto": "S2 afirmou que S3 filmou a agressão, mas o vídeo nunca foi achado, apesar da análise de mais de 20 telefones.", "suspeitos": ["S2", "S3"]},
+    {"id": "E22", "tipo": "Depoimento", "texto": "Um ex-colega de casa de S6 disse ter visto parte de um vídeo. S6 e S7 foram presos por acobertamento e negaram a existência do vídeo; as acusações foram depois retiradas.", "suspeitos": ["S6", "S7"]},
+    {"id": "E23", "tipo": "Telefônica", "texto": "Um perito da defesa afirmou que os celulares de S2 e da moça estiveram em setores de antena diferentes quase todo o intervalo do sequestro, só se aproximando por volta das 9h10.", "suspeitos": ["S2"]},
+    {"id": "E24", "tipo": "Documental", "texto": "Não foi produzida nenhuma prova de DNA ligando qualquer suspeito à moça, embora a promotoria tenha sugerido publicamente que havia DNA na casa de S3.", "suspeitos": ["S3"]},
+    {"id": "E25", "tipo": "Documental", "texto": "S4 foi inicialmente acusado junto com S2 e S3; seu advogado disse que prisões eram feitas sem causa provável.", "suspeitos": ["S4"]}
+  ]
+}

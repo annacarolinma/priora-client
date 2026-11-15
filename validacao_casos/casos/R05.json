@@ -1,0 +1,27 @@
+{
+  "id": "R05",
+  "tipo": "real",
+  "resumo": "Quatro pessoas a serviço de uma fiscalização pública são mortas a tiros em uma estrada rural, enquanto se deslocavam entre propriedades. Fiscalizações anteriores haviam gerado numerosas autuações contra produtores da região.",
+  "suspeitos": [
+    {"id": "S1", "perfil": "homem da região apontado como um dos atiradores"},
+    {"id": "S2", "perfil": "segundo homem apontado como atirador"},
+    {"id": "S3", "perfil": "terceiro homem apontado como atirador ou motorista do grupo"},
+    {"id": "S4", "perfil": "empresário local que, segundo a acusação, intermediou a contratação dos executores"},
+    {"id": "S5", "perfil": "outro empresário local, apontado também como intermediário"},
+    {"id": "S6", "perfil": "grande produtor rural da região, alvo de numerosas autuações trabalhistas milionárias"},
+    {"id": "S7", "perfil": "irmão do produtor rural, ex-prefeito da cidade, acusado depois pelo Ministério Público"}
+  ],
+  "evidencias": [
+    {"id": "E1", "tipo": "Depoimento", "texto": "As vítimas faziam uma diligência de rotina em propriedades rurais quando o veículo foi interceptado por atiradores numa estrada rural.", "suspeitos": []},
+    {"id": "E2", "tipo": "Depoimento", "texto": "O motorista da equipe, baleado na cabeça, ainda dirigiu cerca de 7 km antes de a caminhonete parar; foi socorrido por um policial militar, mas morreu.", "suspeitos": []},
+    {"id": "E3", "tipo": "Depoimento", "texto": "Segundo o delegado, os atacantes seguiram a equipe até uma fazenda, abordaram o carro e atiraram em todos, sem chance de defesa.", "suspeitos": ["S1","S2","S3"]},
+    {"id": "E4", "tipo": "Motivação", "texto": "O produtor rural havia sido alvo de numerosas autuações trabalhistas milionárias, a maioria por suposto trabalho análogo ao escravo, decorrentes das fiscalizações da equipe.", "suspeitos": ["S6"]},
+    {"id": "E5", "tipo": "Depoimento", "texto": "O delegado afirmou que havia insatisfação e inconformismo na família do produtor com as fiscalizações.", "suspeitos": ["S6","S7"]},
+    {"id": "E6", "tipo": "Depoimento", "texto": "Uma testemunha disse que o produtor teria pedido a um empresário local que contratasse pistoleiros para matar especificamente um dos fiscais.", "suspeitos": ["S6","S4"]},
+    {"id": "E7", "tipo": "Documental", "texto": "Segundo a denúncia do Ministério Público, o primeiro empresário intermediou a contratação de dois pistoleiros e de um motorista.", "suspeitos": ["S4","S1","S2","S3"]},
+    {"id": "E8", "tipo": "Depoimento", "texto": "Um testemunho indica que o valor pago pelo crime foi de R$ 39 mil.", "suspeitos": ["S4","S5"]},
+    {"id": "E9", "tipo": "Depoimento", "texto": "O segundo empresário, que colaborou com a investigação, disse acreditar que o mentor do crime foi o produtor rural, e não deu depoimento equivalente sobre o irmão dele.", "suspeitos": ["S5","S6","S7"]},
+    {"id": "E10", "tipo": "Física", "texto": "No dia anterior ao ataque, um veículo Marea azul, igual ao usado pela esposa de um dos irmãos, foi visto num local ligado ao crime, segundo o MP.", "suspeitos": ["S7"]},
+    {"id": "E11", "tipo": "Documental", "texto": "A denúncia do MP, apresentada semanas depois do crime, atingiu oito pessoas; cerca de três semanas depois o MP incluiu o ex-prefeito como mandante, ao lado do irmão.", "suspeitos": ["S6","S7"]}
+  ]
+}

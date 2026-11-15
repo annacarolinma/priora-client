@@ -1,0 +1,1346 @@
+[
+ {
+  "id": "R01",
+  "tipo": "real",
+  "titulo": "Caso Bernardo Boldrini (Três Passos, RS, 2014)",
+  "tipo_crime": "homicídio qualificado (infanticídio por envenenamento/sedação), ocultação de cadáver",
+  "pais_epoca": "Brasil, 2014",
+  "n_suspeitos": 4,
+  "n_evidencias": 21,
+  "n_vinculos_incrimina": 28,
+  "n_vinculos_inocenta": 1,
+  "culpado": [
+   "S1",
+   "S2",
+   "S3",
+   "S4"
+  ],
+  "ranking": [
+   [
+    "S2",
+    37.8
+   ],
+   [
+    "S1",
+    29.3
+   ],
+   [
+    "S3",
+    19.9
+   ],
+   [
+    "S4",
+    13.0
+   ]
+  ],
+  "posicao_culpado": 1,
+  "prob_culpado": 100.0,
+  "lider": "S2",
+  "acertou_top1": true,
+  "acertou_top2": true,
+  "margem_1o_2o": 8.6,
+  "base_aleatoria": 1.0,
+  "base_mais_vinculos_incrimina": 1.0,
+  "base_mais_citado": 1.0,
+  "sem_inocenta_posicao": 1,
+  "sem_inocenta_top1": true,
+  "retirar_1_evidencia_muda_lider": 2,
+  "mc_lider_igual_pct": 90.1,
+  "mc_culpado_primeiro_pct": 100.0
+ },
+ {
+  "id": "R02",
+  "tipo": "real",
+  "titulo": "Caso Lalau / fraude na obra do Fórum Trabalhista (TRT-SP)",
+  "tipo_crime": "peculato / corrupção / fraude em licitação (crime contra a administração pública)",
+  "pais_epoca": "Brasil, 1992-2000 (desvio), condenações 2006-2012",
+  "n_suspeitos": 5,
+  "n_evidencias": 12,
+  "n_vinculos_incrimina": 17,
+  "n_vinculos_inocenta": 0,
+  "culpado": [
+   "S1",
+   "S2"
+  ],
+  "ranking": [
+   [
+    "S1",
+    51.5
+   ],
+   [
+    "S3",
+    14.7
+   ],
+   [
+    "S2",
+    12.9
+   ],
+   [
+    "S4",
+    10.5
+   ],
+   [
+    "S5",
+    10.3
+   ]
+  ],
+  "posicao_culpado": 1,
+  "prob_culpado": 64.4,
+  "lider": "S1",
+  "acertou_top1": true,
+  "acertou_top2": true,
+  "margem_1o_2o": 36.8,
+  "base_aleatoria": 0.4,
+  "base_mais_vinculos_incrimina": 1.0,
+  "base_mais_citado": 1.0,
+  "sem_inocenta_posicao": 1,
+  "sem_inocenta_top1": true,
+  "retirar_1_evidencia_muda_lider": 0,
+  "mc_lider_igual_pct": 100.0,
+  "mc_culpado_primeiro_pct": 100.0
+ },
+ {
+  "id": "R03",
+  "tipo": "real",
+  "titulo": "Assassinato da missionária Dorothy Stang (Anapu, PA, 2005)",
+  "tipo_crime": "homicídio qualificado por encomenda (conflito agrário)",
+  "pais_epoca": "Brasil, 2005",
+  "n_suspeitos": 5,
+  "n_evidencias": 10,
+  "n_vinculos_incrimina": 16,
+  "n_vinculos_inocenta": 2,
+  "culpado": [
+   "S1",
+   "S2",
+   "S3",
+   "S4",
+   "S5"
+  ],
+  "ranking": [
+   [
+    "S1",
+    25.8
+   ],
+   [
+    "S2",
+    22.4
+   ],
+   [
+    "S4",
+    20.6
+   ],
+   [
+    "S5",
+    16.4
+   ],
+   [
+    "S3",
+    14.8
+   ]
+  ],
+  "posicao_culpado": 1,
+  "prob_culpado": 100.0,
+  "lider": "S1",
+  "acertou_top1": true,
+  "acertou_top2": true,
+  "margem_1o_2o": 3.4,
+  "base_aleatoria": 1.0,
+  "base_mais_vinculos_incrimina": 1.0,
+  "base_mais_citado": 1.0,
+  "sem_inocenta_posicao": 1,
+  "sem_inocenta_top1": true,
+  "retirar_1_evidencia_muda_lider": 1,
+  "mc_lider_igual_pct": 88.2,
+  "mc_culpado_primeiro_pct": 100.0
+ },
+ {
+  "id": "R04",
+  "tipo": "real",
+  "titulo": "Assassinato do juiz Alexandre Martins de Castro Filho (Vila Velha, ES, 2003)",
+  "tipo_crime": "homicídio qualificado por encomenda (crime organizado)",
+  "pais_epoca": "Brasil, 2003",
+  "n_suspeitos": 9,
+  "n_evidencias": 12,
+  "n_vinculos_incrimina": 13,
+  "n_vinculos_inocenta": 4,
+  "culpado": [
+   "S1",
+   "S2",
+   "S3",
+   "S4",
+   "S5",
+   "S6"
+  ],
+  "ranking": [
+   [
+    "S7",
+    12.4
+   ],
+   [
+    "S1",
+    12.2
+   ],
+   [
+    "S2",
+    12.2
+   ],
+   [
+    "S5",
+    11.4
+   ],
+   [
+    "S6",
+    11.4
+   ],
+   [
+    "S3",
+    10.9
+   ],
+   [
+    "S4",
+    10.9
+   ],
+   [
+    "S8",
+    10.3
+   ],
+   [
+    "S9",
+    8.3
+   ]
+  ],
+  "posicao_culpado": 2,
+  "prob_culpado": 69.0,
+  "lider": "S7",
+  "acertou_top1": false,
+  "acertou_top2": true,
+  "margem_1o_2o": 0.2,
+  "base_aleatoria": 0.667,
+  "base_mais_vinculos_incrimina": 0.8,
+  "base_mais_citado": 0.0,
+  "sem_inocenta_posicao": 2,
+  "sem_inocenta_top1": false,
+  "retirar_1_evidencia_muda_lider": 2,
+  "mc_lider_igual_pct": 45.0,
+  "mc_culpado_primeiro_pct": 54.5
+ },
+ {
+  "id": "R05",
+  "tipo": "real",
+  "titulo": "Chacina de Unaí (MG, 2004)",
+  "tipo_crime": "homicídio qualificado (chacina) por encomenda / crime contra servidores públicos em fiscalização",
+  "pais_epoca": "Brasil, 2004",
+  "n_suspeitos": 7,
+  "n_evidencias": 11,
+  "n_vinculos_incrimina": 19,
+  "n_vinculos_inocenta": 1,
+  "culpado": [
+   "S1",
+   "S2",
+   "S3",
+   "S4",
+   "S5",
+   "S6",
+   "S7"
+  ],
+  "ranking": [
+   [
+    "S6",
+    21.2
+   ],
+   [
+    "S4",
+    15.1
+   ],
+   [
+    "S5",
+    13.0
+   ],
+   [
+    "S1",
+    12.8
+   ],
+   [
+    "S2",
+    12.8
+   ],
+   [
+    "S3",
+    12.8
+   ],
+   [
+    "S7",
+    12.4
+   ]
+  ],
+  "posicao_culpado": 1,
+  "prob_culpado": 100.0,
+  "lider": "S6",
+  "acertou_top1": true,
+  "acertou_top2": true,
+  "margem_1o_2o": 6.0,
+  "base_aleatoria": 1.0,
+  "base_mais_vinculos_incrimina": 1.0,
+  "base_mais_citado": 1.0,
+  "sem_inocenta_posicao": 1,
+  "sem_inocenta_top1": true,
+  "retirar_1_evidencia_muda_lider": 0,
+  "mc_lider_igual_pct": 100.0,
+  "mc_culpado_primeiro_pct": 100.0
+ },
+ {
+  "id": "R06",
+  "tipo": "real",
+  "titulo": "Incêndio da Woodbine Building Supply (Toronto, 2001)",
+  "tipo_crime": "incêndio criminoso com morte (fraude de seguro)",
+  "pais_epoca": "Canadá, 2001 (julgamentos 2005-2011)",
+  "n_suspeitos": 6,
+  "n_evidencias": 15,
+  "n_vinculos_incrimina": 22,
+  "n_vinculos_inocenta": 0,
+  "culpado": [
+   "S1",
+   "S2",
+   "S3",
+   "S4"
+  ],
+  "ranking": [
+   [
+    "S3",
+    20.8
+   ],
+   [
+    "S1",
+    19.7
+   ],
+   [
+    "S6",
+    19.2
+   ],
+   [
+    "S5",
+    14.9
+   ],
+   [
+    "S4",
+    14.1
+   ],
+   [
+    "S2",
+    11.3
+   ]
+  ],
+  "posicao_culpado": 1,
+  "prob_culpado": 65.9,
+  "lider": "S3",
+  "acertou_top1": true,
+  "acertou_top2": true,
+  "margem_1o_2o": 1.2,
+  "base_aleatoria": 0.667,
+  "base_mais_vinculos_incrimina": 1.0,
+  "base_mais_citado": 1.0,
+  "sem_inocenta_posicao": 1,
+  "sem_inocenta_top1": true,
+  "retirar_1_evidencia_muda_lider": 3,
+  "mc_lider_igual_pct": 52.3,
+  "mc_culpado_primeiro_pct": 81.0
+ },
+ {
+  "id": "R07",
+  "tipo": "real",
+  "titulo": "Caso Stacey Castor (Nova York, 2005-2009)",
+  "tipo_crime": "envenenamento (etilenoglicol)",
+  "pais_epoca": "Estados Unidos, 2005-2009",
+  "n_suspeitos": 3,
+  "n_evidencias": 18,
+  "n_vinculos_incrimina": 24,
+  "n_vinculos_inocenta": 10,
+  "culpado": [
+   "S1"
+  ],
+  "ranking": [
+   [
+    "S1",
+    97.2
+   ],
+   [
+    "S3",
+    1.9
+   ],
+   [
+    "S2",
+    0.9
+   ]
+  ],
+  "posicao_culpado": 1,
+  "prob_culpado": 97.2,
+  "lider": "S1",
+  "acertou_top1": true,
+  "acertou_top2": true,
+  "margem_1o_2o": 95.3,
+  "base_aleatoria": 0.333,
+  "base_mais_vinculos_incrimina": 1.0,
+  "base_mais_citado": 1.0,
+  "sem_inocenta_posicao": 1,
+  "sem_inocenta_top1": true,
+  "retirar_1_evidencia_muda_lider": 0,
+  "mc_lider_igual_pct": 100.0,
+  "mc_culpado_primeiro_pct": 100.0
+ },
+ {
+  "id": "R08",
+  "tipo": "real",
+  "titulo": "Sequestro e homicídio de Danielle van Dam (San Diego, 2002)",
+  "tipo_crime": "sequestro/desaparecimento e homicídio de criança",
+  "pais_epoca": "Estados Unidos, 2002",
+  "n_suspeitos": 4,
+  "n_evidencias": 18,
+  "n_vinculos_incrimina": 15,
+  "n_vinculos_inocenta": 4,
+  "culpado": [
+   "S1"
+  ],
+  "ranking": [
+   [
+    "S1",
+    76.4
+   ],
+   [
+    "S3",
+    8.6
+   ],
+   [
+    "S2",
+    8.2
+   ],
+   [
+    "S4",
+    6.8
+   ]
+  ],
+  "posicao_culpado": 1,
+  "prob_culpado": 76.4,
+  "lider": "S1",
+  "acertou_top1": true,
+  "acertou_top2": true,
+  "margem_1o_2o": 67.8,
+  "base_aleatoria": 0.25,
+  "base_mais_vinculos_incrimina": 1.0,
+  "base_mais_citado": 1.0,
+  "sem_inocenta_posicao": 1,
+  "sem_inocenta_top1": true,
+  "retirar_1_evidencia_muda_lider": 0,
+  "mc_lider_igual_pct": 100.0,
+  "mc_culpado_primeiro_pct": 100.0
+ },
+ {
+  "id": "R09",
+  "tipo": "real",
+  "titulo": "Sequestro de George Weyerhaeuser (Tacoma, 1935)",
+  "tipo_crime": "sequestro para resgate",
+  "pais_epoca": "Estados Unidos, 1935-1936",
+  "n_suspeitos": 5,
+  "n_evidencias": 20,
+  "n_vinculos_incrimina": 20,
+  "n_vinculos_inocenta": 0,
+  "culpado": [
+   "S1",
+   "S2",
+   "S3",
+   "S4"
+  ],
+  "ranking": [
+   [
+    "S3",
+    36.1
+   ],
+   [
+    "S1",
+    32.9
+   ],
+   [
+    "S2",
+    17.5
+   ],
+   [
+    "S4",
+    7.1
+   ],
+   [
+    "S5",
+    6.5
+   ]
+  ],
+  "posicao_culpado": 1,
+  "prob_culpado": 93.5,
+  "lider": "S3",
+  "acertou_top1": true,
+  "acertou_top2": true,
+  "margem_1o_2o": 3.2,
+  "base_aleatoria": 0.8,
+  "base_mais_vinculos_incrimina": 1.0,
+  "base_mais_citado": 1.0,
+  "sem_inocenta_posicao": 1,
+  "sem_inocenta_top1": true,
+  "retirar_1_evidencia_muda_lider": 3,
+  "mc_lider_igual_pct": 64.2,
+  "mc_culpado_primeiro_pct": 100.0
+ },
+ {
+  "id": "R10",
+  "tipo": "real",
+  "titulo": "Assassinato de Holly Bobo (Tennessee, 2011)",
+  "tipo_crime": "sequestro/desaparecimento e homicídio",
+  "pais_epoca": "Estados Unidos, 2011 (julgamento 2017)",
+  "n_suspeitos": 7,
+  "n_evidencias": 25,
+  "n_vinculos_incrimina": 22,
+  "n_vinculos_inocenta": 6,
+  "culpado": [
+   "S2",
+   "S3"
+  ],
+  "ranking": [
+   [
+    "S1",
+    28.6
+   ],
+   [
+    "S5",
+    20.8
+   ],
+   [
+    "S3",
+    12.5
+   ],
+   [
+    "S4",
+    10.6
+   ],
+   [
+    "S6",
+    10.3
+   ],
+   [
+    "S7",
+    10.3
+   ],
+   [
+    "S2",
+    6.9
+   ]
+  ],
+  "posicao_culpado": 3,
+  "prob_culpado": 19.4,
+  "lider": "S1",
+  "acertou_top1": false,
+  "acertou_top2": false,
+  "margem_1o_2o": 7.7,
+  "base_aleatoria": 0.286,
+  "base_mais_vinculos_incrimina": 0.333,
+  "base_mais_citado": 1.0,
+  "sem_inocenta_posicao": 3,
+  "sem_inocenta_top1": false,
+  "retirar_1_evidencia_muda_lider": 0,
+  "mc_lider_igual_pct": 95.3,
+  "mc_culpado_primeiro_pct": 0.0
+ },
+ {
+  "id": "R11",
+  "tipo": "real",
+  "titulo": "Roubo ao depósito Securitas em Tonbridge (2006)",
+  "tipo_crime": "roubo a depósito de valores com sequestro",
+  "pais_epoca": "Reino Unido (Kent), 2006",
+  "n_suspeitos": 8,
+  "n_evidencias": 24,
+  "n_vinculos_incrimina": 36,
+  "n_vinculos_inocenta": 0,
+  "culpado": [
+   "S1",
+   "S3",
+   "S4",
+   "S5",
+   "S6",
+   "S7",
+   "S8"
+  ],
+  "ranking": [
+   [
+    "S2",
+    20.6
+   ],
+   [
+    "S1",
+    18.7
+   ],
+   [
+    "S3",
+    16.1
+   ],
+   [
+    "S4",
+    10.5
+   ],
+   [
+    "S6",
+    9.6
+   ],
+   [
+    "S8",
+    9.2
+   ],
+   [
+    "S5",
+    8.1
+   ],
+   [
+    "S7",
+    7.3
+   ]
+  ],
+  "posicao_culpado": 2,
+  "prob_culpado": 79.4,
+  "lider": "S2",
+  "acertou_top1": false,
+  "acertou_top2": true,
+  "margem_1o_2o": 1.9,
+  "base_aleatoria": 0.875,
+  "base_mais_vinculos_incrimina": 1.0,
+  "base_mais_citado": 1.0,
+  "sem_inocenta_posicao": 2,
+  "sem_inocenta_top1": false,
+  "retirar_1_evidencia_muda_lider": 5,
+  "mc_lider_igual_pct": 64.3,
+  "mc_culpado_primeiro_pct": 35.7
+ },
+ {
+  "id": "R12",
+  "tipo": "real",
+  "titulo": "Fraude de manipulação de ações Guinness (Guinness share-trading fraud, 1986-1990)",
+  "tipo_crime": "fraude financeira / manipulação de mercado",
+  "pais_epoca": "Reino Unido, 1986-1990",
+  "n_suspeitos": 5,
+  "n_evidencias": 9,
+  "n_vinculos_incrimina": 9,
+  "n_vinculos_inocenta": 4,
+  "culpado": [
+   "S1",
+   "S2",
+   "S3",
+   "S4"
+  ],
+  "ranking": [
+   [
+    "S1",
+    33.6
+   ],
+   [
+    "S5",
+    16.8
+   ],
+   [
+    "S2",
+    16.5
+   ],
+   [
+    "S3",
+    16.5
+   ],
+   [
+    "S4",
+    16.5
+   ]
+  ],
+  "posicao_culpado": 1,
+  "prob_culpado": 83.2,
+  "lider": "S1",
+  "acertou_top1": true,
+  "acertou_top2": true,
+  "margem_1o_2o": 16.8,
+  "base_aleatoria": 0.8,
+  "base_mais_vinculos_incrimina": 1.0,
+  "base_mais_citado": 1.0,
+  "sem_inocenta_posicao": 1,
+  "sem_inocenta_top1": true,
+  "retirar_1_evidencia_muda_lider": 0,
+  "mc_lider_igual_pct": 100.0,
+  "mc_culpado_primeiro_pct": 100.0
+ },
+ {
+  "id": "R13",
+  "tipo": "real",
+  "titulo": "Caso Dominici (triplo assassinato de Lurs, 1952)",
+  "tipo_crime": "homicídio triplo",
+  "pais_epoca": "França (Alpes), 1952",
+  "n_suspeitos": 7,
+  "n_evidencias": 29,
+  "n_vinculos_incrimina": 27,
+  "n_vinculos_inocenta": 4,
+  "culpado": [
+   "S1"
+  ],
+  "ranking": [
+   [
+    "S2",
+    20.1
+   ],
+   [
+    "S5",
+    15.1
+   ],
+   [
+    "S1",
+    14.9
+   ],
+   [
+    "S3",
+    14.0
+   ],
+   [
+    "S4",
+    13.3
+   ],
+   [
+    "S6",
+    11.5
+   ],
+   [
+    "S7",
+    11.1
+   ]
+  ],
+  "posicao_culpado": 3,
+  "prob_culpado": 14.9,
+  "lider": "S2",
+  "acertou_top1": false,
+  "acertou_top2": false,
+  "margem_1o_2o": 5.0,
+  "base_aleatoria": 0.143,
+  "base_mais_vinculos_incrimina": 0.0,
+  "base_mais_citado": 0.0,
+  "sem_inocenta_posicao": 3,
+  "sem_inocenta_top1": false,
+  "retirar_1_evidencia_muda_lider": 0,
+  "mc_lider_igual_pct": 89.8,
+  "mc_culpado_primeiro_pct": 2.8
+ },
+ {
+  "id": "R14",
+  "tipo": "real",
+  "titulo": "Desaparecimento e assassinato de Peter Falconio (Austrália, 2001)",
+  "tipo_crime": "homicídio e tentativa de sequestro",
+  "pais_epoca": "Austrália, 2001",
+  "n_suspeitos": 4,
+  "n_evidencias": 19,
+  "n_vinculos_incrimina": 15,
+  "n_vinculos_inocenta": 5,
+  "culpado": [
+   "S1"
+  ],
+  "ranking": [
+   [
+    "S1",
+    78.2
+   ],
+   [
+    "S3",
+    8.6
+   ],
+   [
+    "S4",
+    6.7
+   ],
+   [
+    "S2",
+    6.5
+   ]
+  ],
+  "posicao_culpado": 1,
+  "prob_culpado": 78.2,
+  "lider": "S1",
+  "acertou_top1": true,
+  "acertou_top2": true,
+  "margem_1o_2o": 69.6,
+  "base_aleatoria": 0.25,
+  "base_mais_vinculos_incrimina": 1.0,
+  "base_mais_citado": 1.0,
+  "sem_inocenta_posicao": 1,
+  "sem_inocenta_top1": true,
+  "retirar_1_evidencia_muda_lider": 0,
+  "mc_lider_igual_pct": 100.0,
+  "mc_culpado_primeiro_pct": 100.0
+ },
+ {
+  "id": "R15",
+  "tipo": "real",
+  "titulo": "Chacina de Erba (Itália, 2006)",
+  "tipo_crime": "homicídio quádruplo com incêndio",
+  "pais_epoca": "Itália (Lombardia), 2006",
+  "n_suspeitos": 4,
+  "n_evidencias": 19,
+  "n_vinculos_incrimina": 24,
+  "n_vinculos_inocenta": 1,
+  "culpado": [
+   "S2",
+   "S3"
+  ],
+  "ranking": [
+   [
+    "S2",
+    41.2
+   ],
+   [
+    "S3",
+    38.0
+   ],
+   [
+    "S4",
+    13.1
+   ],
+   [
+    "S1",
+    7.6
+   ]
+  ],
+  "posicao_culpado": 1,
+  "prob_culpado": 79.2,
+  "lider": "S2",
+  "acertou_top1": true,
+  "acertou_top2": true,
+  "margem_1o_2o": 3.2,
+  "base_aleatoria": 0.5,
+  "base_mais_vinculos_incrimina": 1.0,
+  "base_mais_citado": 1.0,
+  "sem_inocenta_posicao": 1,
+  "sem_inocenta_top1": true,
+  "retirar_1_evidencia_muda_lider": 2,
+  "mc_lider_igual_pct": 68.5,
+  "mc_culpado_primeiro_pct": 100.0
+ },
+ {
+  "id": "R16",
+  "tipo": "real",
+  "titulo": "Assassinato de Irmã Abhaya (Kottayam, Kerala)",
+  "tipo_crime": "homicídio",
+  "pais_epoca": "Índia, 1992 (condenação em 2020)",
+  "n_suspeitos": 4,
+  "n_evidencias": 18,
+  "n_vinculos_incrimina": 12,
+  "n_vinculos_inocenta": 4,
+  "culpado": [
+   "S1",
+   "S2"
+  ],
+  "ranking": [
+   [
+    "S4",
+    30.0
+   ],
+   [
+    "S1",
+    27.7
+   ],
+   [
+    "S2",
+    23.7
+   ],
+   [
+    "S3",
+    18.7
+   ]
+  ],
+  "posicao_culpado": 2,
+  "prob_culpado": 51.4,
+  "lider": "S4",
+  "acertou_top1": false,
+  "acertou_top2": true,
+  "margem_1o_2o": 2.3,
+  "base_aleatoria": 0.5,
+  "base_mais_vinculos_incrimina": 1.0,
+  "base_mais_citado": 1.0,
+  "sem_inocenta_posicao": 1,
+  "sem_inocenta_top1": true,
+  "retirar_1_evidencia_muda_lider": 2,
+  "mc_lider_igual_pct": 71.5,
+  "mc_culpado_primeiro_pct": 28.6
+ },
+ {
+  "id": "R17",
+  "tipo": "real",
+  "titulo": "Assassinato de Joanna Yeates (Bristol, Reino Unido)",
+  "tipo_crime": "homicídio",
+  "pais_epoca": "Reino Unido (Inglaterra), 2010-2011",
+  "n_suspeitos": 3,
+  "n_evidencias": 20,
+  "n_vinculos_incrimina": 9,
+  "n_vinculos_inocenta": 2,
+  "culpado": [
+   "S3"
+  ],
+  "ranking": [
+   [
+    "S1",
+    44.2
+   ],
+   [
+    "S3",
+    37.9
+   ],
+   [
+    "S2",
+    17.9
+   ]
+  ],
+  "posicao_culpado": 2,
+  "prob_culpado": 37.9,
+  "lider": "S1",
+  "acertou_top1": false,
+  "acertou_top2": true,
+  "margem_1o_2o": 6.3,
+  "base_aleatoria": 0.333,
+  "base_mais_vinculos_incrimina": 0.0,
+  "base_mais_citado": 0.0,
+  "sem_inocenta_posicao": 2,
+  "sem_inocenta_top1": false,
+  "retirar_1_evidencia_muda_lider": 0,
+  "mc_lider_igual_pct": 93.2,
+  "mc_culpado_primeiro_pct": 6.8
+ },
+ {
+  "id": "R18",
+  "tipo": "real",
+  "titulo": "Assassinato de Anni Dewani (lua de mel, Cidade do Cabo, 2010)",
+  "tipo_crime": "homicídio / sequestro de veículo",
+  "pais_epoca": "Africa do Sul, 2010",
+  "n_suspeitos": 5,
+  "n_evidencias": 20,
+  "n_vinculos_incrimina": 15,
+  "n_vinculos_inocenta": 7,
+  "culpado": [
+   "S2",
+   "S4",
+   "S5"
+  ],
+  "ranking": [
+   [
+    "S5",
+    24.3
+   ],
+   [
+    "S4",
+    23.7
+   ],
+   [
+    "S3",
+    21.2
+   ],
+   [
+    "S2",
+    18.4
+   ],
+   [
+    "S1",
+    12.3
+   ]
+  ],
+  "posicao_culpado": 1,
+  "prob_culpado": 66.4,
+  "lider": "S5",
+  "acertou_top1": true,
+  "acertou_top2": true,
+  "margem_1o_2o": 0.6,
+  "base_aleatoria": 0.6,
+  "base_mais_vinculos_incrimina": 0.5,
+  "base_mais_citado": 1.0,
+  "sem_inocenta_posicao": 1,
+  "sem_inocenta_top1": true,
+  "retirar_1_evidencia_muda_lider": 3,
+  "mc_lider_igual_pct": 49.1,
+  "mc_culpado_primeiro_pct": 92.2
+ },
+ {
+  "id": "R19",
+  "tipo": "real",
+  "titulo": "Caso Rocío Wanninkhof (Mijas, Espanha)",
+  "tipo_crime": "homicídio",
+  "pais_epoca": "Espanha, 1999-2006",
+  "n_suspeitos": 5,
+  "n_evidencias": 22,
+  "n_vinculos_incrimina": 13,
+  "n_vinculos_inocenta": 12,
+  "culpado": [
+   "S5"
+  ],
+  "ranking": [
+   [
+    "S5",
+    35.3
+   ],
+   [
+    "S2",
+    19.7
+   ],
+   [
+    "S3",
+    16.8
+   ],
+   [
+    "S4",
+    16.8
+   ],
+   [
+    "S1",
+    11.6
+   ]
+  ],
+  "posicao_culpado": 1,
+  "prob_culpado": 35.3,
+  "lider": "S5",
+  "acertou_top1": true,
+  "acertou_top2": true,
+  "margem_1o_2o": 15.6,
+  "base_aleatoria": 0.2,
+  "base_mais_vinculos_incrimina": 0.0,
+  "base_mais_citado": 0.0,
+  "sem_inocenta_posicao": 2,
+  "sem_inocenta_top1": false,
+  "retirar_1_evidencia_muda_lider": 0,
+  "mc_lider_igual_pct": 100.0,
+  "mc_culpado_primeiro_pct": 100.0
+ },
+ {
+  "id": "R20",
+  "tipo": "real",
+  "titulo": "Assassinato de Luis Donaldo Colosio (Tijuana, México, 1994)",
+  "tipo_crime": "homicídio (assassinato político)",
+  "pais_epoca": "México, 1994",
+  "n_suspeitos": 8,
+  "n_evidencias": 20,
+  "n_vinculos_incrimina": 13,
+  "n_vinculos_inocenta": 4,
+  "culpado": [
+   "S1"
+  ],
+  "ranking": [
+   [
+    "S1",
+    15.7
+   ],
+   [
+    "S4",
+    14.1
+   ],
+   [
+    "S6",
+    13.5
+   ],
+   [
+    "S3",
+    12.5
+   ],
+   [
+    "S2",
+    12.3
+   ],
+   [
+    "S8",
+    11.5
+   ],
+   [
+    "S5",
+    10.8
+   ],
+   [
+    "S7",
+    9.5
+   ]
+  ],
+  "posicao_culpado": 1,
+  "prob_culpado": 15.7,
+  "lider": "S1",
+  "acertou_top1": true,
+  "acertou_top2": true,
+  "margem_1o_2o": 1.6,
+  "base_aleatoria": 0.125,
+  "base_mais_vinculos_incrimina": 0.5,
+  "base_mais_citado": 1.0,
+  "sem_inocenta_posicao": 1,
+  "sem_inocenta_top1": true,
+  "retirar_1_evidencia_muda_lider": 2,
+  "mc_lider_igual_pct": 70.0,
+  "mc_culpado_primeiro_pct": 70.0
+ },
+ {
+  "id": "R21",
+  "tipo": "real",
+  "titulo": "Assassinato de Renné Senna (Rio Bonito, RJ, 2007) - caso da 'viúva da Mega-Sena'",
+  "tipo_crime": "homicídio qualificado por mandato (execução em bar)",
+  "pais_epoca": "Brasil, 2007 (crime em janeiro de 2007; julgamentos 2009, 2011, 2016)",
+  "n_suspeitos": 7,
+  "n_evidencias": 15,
+  "n_vinculos_incrimina": 25,
+  "n_vinculos_inocenta": 3,
+  "culpado": [
+   "S1",
+   "S2",
+   "S3"
+  ],
+  "ranking": [
+   [
+    "S1",
+    25.9
+   ],
+   [
+    "S2",
+    13.7
+   ],
+   [
+    "S3",
+    12.6
+   ],
+   [
+    "S4",
+    12.2
+   ],
+   [
+    "S7",
+    12.2
+   ],
+   [
+    "S6",
+    12.0
+   ],
+   [
+    "S5",
+    11.4
+   ]
+  ],
+  "posicao_culpado": 1,
+  "prob_culpado": 52.2,
+  "lider": "S1",
+  "acertou_top1": true,
+  "acertou_top2": true,
+  "margem_1o_2o": 12.1,
+  "base_aleatoria": 0.429,
+  "base_mais_vinculos_incrimina": 1.0,
+  "base_mais_citado": 1.0,
+  "sem_inocenta_posicao": 1,
+  "sem_inocenta_top1": true,
+  "retirar_1_evidencia_muda_lider": 0,
+  "mc_lider_igual_pct": 100.0,
+  "mc_culpado_primeiro_pct": 100.0
+ },
+ {
+  "id": "R22",
+  "tipo": "real",
+  "titulo": "Assassinato de Debra Sue Carter (Ada, Oklahoma, 1982) - caso Williamson/Fritz/Gore",
+  "tipo_crime": "homicidio (com violencia sexual)",
+  "pais_epoca": "Estados Unidos, 1982 (julgamentos 1988, 2003, 2006)",
+  "n_suspeitos": 4,
+  "n_evidencias": 26,
+  "n_vinculos_incrimina": 21,
+  "n_vinculos_inocenta": 1,
+  "culpado": [
+   "S3"
+  ],
+  "ranking": [
+   [
+    "S1",
+    33.2
+   ],
+   [
+    "S3",
+    29.0
+   ],
+   [
+    "S4",
+    19.1
+   ],
+   [
+    "S2",
+    18.8
+   ]
+  ],
+  "posicao_culpado": 2,
+  "prob_culpado": 29.0,
+  "lider": "S1",
+  "acertou_top1": false,
+  "acertou_top2": true,
+  "margem_1o_2o": 4.2,
+  "base_aleatoria": 0.25,
+  "base_mais_vinculos_incrimina": 0.0,
+  "base_mais_citado": 0.0,
+  "sem_inocenta_posicao": 2,
+  "sem_inocenta_top1": false,
+  "retirar_1_evidencia_muda_lider": 4,
+  "mc_lider_igual_pct": 73.0,
+  "mc_culpado_primeiro_pct": 27.1
+ },
+ {
+  "id": "R23",
+  "tipo": "real",
+  "titulo": "Russell Street bombing (Melbourne, Australia, 27 de marco de 1986)",
+  "tipo_crime": "atentado a bomba com homicidio",
+  "pais_epoca": "Australia, 1986",
+  "n_suspeitos": 7,
+  "n_evidencias": 24,
+  "n_vinculos_incrimina": 27,
+  "n_vinculos_inocenta": 1,
+  "culpado": [
+   "S1",
+   "S2"
+  ],
+  "ranking": [
+   [
+    "S3",
+    22.1
+   ],
+   [
+    "S2",
+    20.9
+   ],
+   [
+    "S5",
+    16.2
+   ],
+   [
+    "S4",
+    14.4
+   ],
+   [
+    "S1",
+    10.0
+   ],
+   [
+    "S7",
+    9.1
+   ],
+   [
+    "S6",
+    7.4
+   ]
+  ],
+  "posicao_culpado": 2,
+  "prob_culpado": 30.8,
+  "lider": "S3",
+  "acertou_top1": false,
+  "acertou_top2": true,
+  "margem_1o_2o": 1.3,
+  "base_aleatoria": 0.286,
+  "base_mais_vinculos_incrimina": 1.0,
+  "base_mais_citado": 1.0,
+  "sem_inocenta_posicao": 2,
+  "sem_inocenta_top1": false,
+  "retirar_1_evidencia_muda_lider": 5,
+  "mc_lider_igual_pct": 64.2,
+  "mc_culpado_primeiro_pct": 34.5
+ },
+ {
+  "id": "R24",
+  "tipo": "real",
+  "titulo": "Homicídio de Marta Russo (Universidade La Sapienza, Roma, 1997)",
+  "tipo_crime": "homicídio",
+  "pais_epoca": "Itália, 1997 (julgamento 1999, apelação 2002, trânsito em julgado 2003)",
+  "n_suspeitos": 7,
+  "n_evidencias": 26,
+  "n_vinculos_incrimina": 23,
+  "n_vinculos_inocenta": 4,
+  "culpado": [
+   "S1"
+  ],
+  "ranking": [
+   [
+    "S2",
+    16.2
+   ],
+   [
+    "S6",
+    15.1
+   ],
+   [
+    "S3",
+    14.9
+   ],
+   [
+    "S4",
+    14.3
+   ],
+   [
+    "S5",
+    14.0
+   ],
+   [
+    "S7",
+    13.9
+   ],
+   [
+    "S1",
+    11.6
+   ]
+  ],
+  "posicao_culpado": 7,
+  "prob_culpado": 11.6,
+  "lider": "S2",
+  "acertou_top1": false,
+  "acertou_top2": false,
+  "margem_1o_2o": 1.2,
+  "base_aleatoria": 0.143,
+  "base_mais_vinculos_incrimina": 0.0,
+  "base_mais_citado": 0.0,
+  "sem_inocenta_posicao": 2,
+  "sem_inocenta_top1": false,
+  "retirar_1_evidencia_muda_lider": 1,
+  "mc_lider_igual_pct": 71.7,
+  "mc_culpado_primeiro_pct": 0.1
+ },
+ {
+  "id": "R25",
+  "tipo": "real",
+  "titulo": "Estupro e homicídio de Gina Tenney (Youngstown, Ohio, dezembro de 1985) - State v. Adams",
+  "tipo_crime": "homicídio com estupro/sequestro",
+  "pais_epoca": "EUA (Ohio), 1985",
+  "n_suspeitos": 5,
+  "n_evidencias": 23,
+  "n_vinculos_incrimina": 22,
+  "n_vinculos_inocenta": 6,
+  "culpado": [
+   "S1"
+  ],
+  "ranking": [
+   [
+    "S1",
+    74.1
+   ],
+   [
+    "S5",
+    9.6
+   ],
+   [
+    "S3",
+    7.9
+   ],
+   [
+    "S4",
+    4.8
+   ],
+   [
+    "S2",
+    3.6
+   ]
+  ],
+  "posicao_culpado": 1,
+  "prob_culpado": 74.1,
+  "lider": "S1",
+  "acertou_top1": true,
+  "acertou_top2": true,
+  "margem_1o_2o": 64.5,
+  "base_aleatoria": 0.2,
+  "base_mais_vinculos_incrimina": 1.0,
+  "base_mais_citado": 1.0,
+  "sem_inocenta_posicao": 1,
+  "sem_inocenta_top1": true,
+  "retirar_1_evidencia_muda_lider": 0,
+  "mc_lider_igual_pct": 100.0,
+  "mc_culpado_primeiro_pct": 100.0
+ }
+]

@@ -1,0 +1,13 @@
+{
+  "id": "R02",
+  "titulo": "Caso Lalau / fraude na obra do Fórum Trabalhista (TRT-SP)",
+  "fonte": "Wikipédia (pt) - Nicolau dos Santos Neto; TCU (série Fiscobras); imprensa (STJ/TRF3)",
+  "url": "https://pt.wikipedia.org/wiki/Nicolau_dos_Santos_Neto ; https://portal.tcu.gov.br/imprensa/noticias/serie-especial-sobre-os-vinte-anos-do-fiscobras-relembra-auditoria-historica-no-predio-do-trt-de-sp ; https://www.congressoemfoco.com.br/noticias/stj-mantem-condenacao-de-luiz-estevao-a-31-anos-de-prisao/",
+  "licenca_ou_uso": "Wikipédia CC BY-SA 4.0; TCU/imprensa: fatos reescritos, uso interno",
+  "culpado": ["S1","S2"],
+  "chave_nomes": {"S1": "Nicolau dos Santos Neto (Lalau)", "S2": "Luiz Estêvão (Grupo OK)", "S3": "Fábio Monteiro de Barros Filho (Incal)", "S4": "José Eduardo Teixeira Ferraz (ligado à Incal)", "S5": "Eduardo Jorge Caldas Pereira"},
+  "solucao": "Nicolau foi condenado a cerca de 26 anos por peculato, estelionato e corrupção passiva (2006, mantido), e Luiz Estêvão foi condenado pela Justiça Federal (STJ manteve; fontes divergem sobre a pena: 31 a 36 anos). Há acordo posterior de devolução de valores (R$ 468 mi pelo Grupo OK).",
+  "pais_epoca": "Brasil, 1992-2000 (desvio), condenações 2006-2012",
+  "tipo_crime": "peculato / corrupção / fraude em licitação (crime contra a administração pública)",
+  "observacoes": "Apenas 12 pistas (abaixo do mínimo ideal de 10-30, mas acima de 8). A condenação de S3 e S4 não foi verificada nas fontes lidas (ambos foram presos em 2000), por isso o gabarito lista só S1 e S2 como culpados com fonte; tratar S3/S4 com cautela. S5 não foi condenado. As penas divergem entre fontes. Não li a sentença nem o acórdão. Omiti a conta na Suíça (2008) e o resultado dos julgamentos por serem posteriores."
+}

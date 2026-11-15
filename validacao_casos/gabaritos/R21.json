@@ -1,0 +1,21 @@
+{
+  "id": "R21",
+  "titulo": "Assassinato de Renné Senna (Rio Bonito, RJ, 2007) - caso da 'viúva da Mega-Sena'",
+  "fonte": "Wikipédia pt (ponto de partida), Wikipédia en, ConJur, MPRJ, reportagens G1/Veja/Época/Jornal do Brasil citadas nas referências, STF/STJ via imprensa",
+  "url": "https://pt.wikipedia.org/wiki/Assassinato_de_Renn%C3%A9_Senna ; https://en.wikipedia.org/wiki/Renn%C3%A9_Senna_case ; https://www.conjur.com.br/2008-jan-03/viuva_milionario_mega-sena_continuara_presa//?print=1 ; https://www.mprj.mp.br/web/guest/visualizar?noticiaId=102 ; https://istoe.com.br/alexandre-nega-anulacao-de-juri-da-viuva-da-mega-sena ; http://g1.globo.com/Noticias/Rio/0,,MUL14432-5606,00-VIUVA+PLANEJOU+MORTE+DE+MILIONARIO+APONTA+INQUERITO+ENCERRADO.html (G1 nao acessivel ao pesquisador; usada so como referencia citada)",
+  "licenca_ou_uso": "Wikipédia CC BY-SA; demais fontes com todos os direitos reservados (uso interno, fatos reescritos)",
+  "culpado": ["S1", "S2", "S3"],
+  "chave_nomes": {
+    "S1": "Adriana Ferreira Almeida (viúva, mandante)",
+    "S2": "Anderson Silva de Souza (ex-PM, ex-segurança, atirador)",
+    "S3": "Ednei Gonçalves Pereira (ex-segurança, piloto/garupa da moto)",
+    "S4": "Marco Antônio Vicente (cabo PM, ex-segurança)",
+    "S5": "Janaína Silva de Oliveira (professora, esposa de S2 segundo o ConJur)",
+    "S6": "Robson de Andrade Oliveira (motorista de van, amante de S1)",
+    "S7": "Ronaldo Amaral de Oliveira (soldado PM, ex-segurança)"
+  },
+  "solucao": "O júri de Rio Bonito condenou em 2009 (4 a 3) Anderson e Ednei a 18 anos como executores. A viúva foi absolvida em 2011, mas o TJRJ anulou o júri por quebra de incomunicabilidade de jurados; em dezembro de 2016 foi condenada a 20 anos como mandante. O STF (HC 167348, relator Alexandre de Moraes, 2019) negou anular o júri, a condenação transitou em julgado e o TJRJ a declarou indigna de herdar (2022). Os demais presos/acusados (S4, S5, S7) foram absolvidos em 2011 ou não foram condenados (a Wikipédia diz 'três outros réus absolvidos' sem nomear); S6 reconheceu o relacionamento com S1 e não consta condenado.",
+  "pais_epoca": "Brasil, 2007 (crime em janeiro de 2007; julgamentos 2009, 2011, 2016)",
+  "tipo_crime": "homicídio qualificado por mandato (execução em bar)",
+  "observacoes": "Limitações: (1) a fonte não detalha com segurança quem foi absolvido em 2011 (confirmado apenas que a Wikipédia fala em 'três outros réus'); a classificação de S4, S5, S6 e S7 como não autores é por não terem sido condenados, e S6 talvez nunca tenha sido réu. (2) O crime é reconhecível pela origem da fortuna da vítima; no arquivo cego troquei isso por 'enriqueceu de forma repentina'. (3) Quase não há evidência sobre S4, S5 e S7 nas fontes abertas, então o número de pistas por suspeito é desigual (S1 concentra a maioria), o que pode entregar o autor mandante, embora S2 e S3 tenham poucas pistas próprias. (4) Material pericial/balístico e conteúdo das escutas não estão em fonte aberta. (5) Deixei de fora a sentença, a lista de condenados, a tese final da denúncia e a conclusão do inquérito (que nomeava a viúva como mandante). (6) Nota: a Wikipédia diz que S2 era amante de S1; o ConJur diz que S5 era esposa de S2; não usei a hipótese do amante de S2 no arquivo cego como fato. (7) Condenação da mandante 'transitada em julgado' segundo uma notícia, ainda com tentativa de revisão criminal; confirmar antes de publicar."
+}

@@ -1,0 +1,259 @@
+{
+ "id": "R13",
+ "tipo": "real",
+ "resumo": "Numa noite de verão em meados do século XX, um casal estrangeiro e a filha de 10 anos, acampados ao lado de uma estrada rural, são mortos a tiros e a coronhadas perto da casa de uma família de agricultores. Os corpos são achados de manhã numa cena muito alterada por curiosos. Uma arma de guerra quebrada é recuperada no rio no dia seguinte.",
+ "suspeitos": [
+  {
+   "id": "S1",
+   "perfil": "patriarca de 75 anos, dono da fazenda ao lado da estrada, autoritário e pouco falante, sem antecedentes"
+  },
+  {
+   "id": "S2",
+   "perfil": "filho favorito do patriarca, agricultor e pedreiro, mora na fazenda com a esposa e um bebê; foi o primeiro a dizer que descobriu os corpos"
+  },
+  {
+   "id": "S3",
+   "perfil": "esposa de S2, grávida, mora na fazenda; dá uma versão idêntica à do marido"
+  },
+  {
+   "id": "S4",
+   "perfil": "filho mais velho do patriarca, funcionário de ferrovia, mora em povoado vizinho e tem relação ruim com o pai"
+  },
+  {
+   "id": "S5",
+   "perfil": "vizinho, ferroviário e secretário de uma célula política local, conhece os moradores da fazenda"
+  },
+  {
+   "id": "S6",
+   "perfil": "vizinho de uma colina próxima, parente da família, dono de um fuzil de guerra"
+  },
+  {
+   "id": "S7",
+   "perfil": "neto adolescente do patriarca, de 17 anos, filho de uma das filhas"
+  }
+ ],
+ "evidencias": [
+  {
+   "id": "E1",
+   "tipo": "Física",
+   "texto": "O pai e a mãe foram mortos a tiros perto do carro, de um lado e do outro da estrada. A menina de 10 anos foi morta com golpes de coronha na cabeça, a cerca de 77 metros, numa encosta voltada para o rio. Disparos foram ouvidos por volta de 1h10 da madrugada.",
+   "suspeitos": []
+  },
+  {
+   "id": "E2",
+   "tipo": "Depoimento",
+   "texto": "Três motoristas que passaram de madrugada deram versões diferentes do local: às 4h30 havia um catre diante do carro e um pano cobrindo os vidros; às 4h50 nada disso era visto; às 5h20 o catre estava encostado ao carro. Um camponês e outros disseram ter visto almofadas ao redor do carro às 3h45.",
+   "suspeitos": []
+  },
+  {
+   "id": "E3",
+   "tipo": "Depoimento",
+   "texto": "S2 diz que acordou às 5h30 e encontrou apenas o corpo da menina por volta das 5h45. Perto das 6h, pediu a um motociclista que passava para avisar a polícia, embora tivesse moto própria.",
+   "suspeitos": [
+    "S2"
+   ]
+  },
+  {
+   "id": "E4",
+   "tipo": "Depoimento",
+   "texto": "O motociclista afirma que S2 o chamou de trás do capô do carro e disse que havia um homem morto no barranco. S2 afirma que estava uns quinze metros adiante, na saída do caminho, e que só mencionou um morto, apontando para o rio. Ele manteve a versão por horas de interrogatório, mas depois admitiu que o chamou na altura do capô.",
+   "suspeitos": [
+    "S2"
+   ]
+  },
+  {
+   "id": "E5",
+   "tipo": "Depoimento",
+   "texto": "Por volta das 6h30, S4 e um cunhado, de bicicleta, pararam na fazenda e foram ao local onde estava o corpo da menina. O cunhado notou que S4 parecia saber a posição exata do corpo e o impediu de chegar mais perto.",
+   "suspeitos": [
+    "S4"
+   ]
+  },
+  {
+   "id": "E6",
+   "tipo": "Comportamento",
+   "texto": "Interrogado pelos policiais dias depois, o cunhado negou ter parado na fazenda naquela manhã. Semanas mais tarde reconheceu a mentira, sem explicá-la, e disse apenas ter ouvido a palavra cadáver sobre a menina.",
+   "suspeitos": [
+    "S4",
+    "S2"
+   ]
+  },
+  {
+   "id": "E7",
+   "tipo": "Física",
+   "texto": "Gendarmes acharam um pedaço de pele de mão, de cerca de 4 cm², preso ao para-choque traseiro do carro. A porta dianteira estava fechada, a porta traseira dupla estava só empurrada e a chave estava do lado de fora.",
+   "suspeitos": []
+  },
+  {
+   "id": "E8",
+   "tipo": "Física",
+   "texto": "A cerca de 6 metros da traseira do carro havia uma grande poça de sangue de aproximadamente um metro quadrado. Nenhuma amostra foi coletada para análise.",
+   "suspeitos": []
+  },
+  {
+   "id": "E9",
+   "tipo": "Física",
+   "texto": "Foram achados dois estojos vazios e dois cartuchos intactos, agrupados em pares a cerca de 9 metros entre si. Os estojos tinham marcação diferente da dos cartuchos intactos.",
+   "suspeitos": []
+  },
+  {
+   "id": "E10",
+   "tipo": "Física",
+   "texto": "Perto do corpo da menina havia pegadas frescas de sola de crepe, que foram protegidas e fotografadas.",
+   "suspeitos": []
+  },
+  {
+   "id": "E11",
+   "tipo": "Física",
+   "texto": "No dia seguinte, um fuzil de guerra quebrado em dois foi retirado do rio. Estava muito danificado e consertado de forma improvisada: mira feita com meia moeda, anel de bicicleta no lugar do anel original, cobertura de madeira ausente, e iniciais na coronha.",
+   "suspeitos": []
+  },
+  {
+   "id": "E12",
+   "tipo": "Pericial",
+   "texto": "Perícia do lubrificante do fuzil do crime concluiu que ele é muito diferente do lubrificante das armas de S2 e de S5.",
+   "suspeitos": [
+    "S2",
+    "S5"
+   ]
+  },
+  {
+   "id": "E13",
+   "tipo": "Documental",
+   "texto": "Uma carta de um irmão de S2 diz que as iniciais da coronha são de um morador falecido do povoado, de cuja fazenda, vizinha da de S5, foram roubadas armas no dia do enterro. As iniciais também podem se referir ao fabricante. Uma carta anônima diz que S5 roubou o fuzil nesse enterro.",
+   "suspeitos": [
+    "S5",
+    "S2"
+   ]
+  },
+  {
+   "id": "E14",
+   "tipo": "Depoimento",
+   "texto": "A autora da carta anônima foi identificada: uma agricultora da região disse ter visto, no verão de 1950, a arma pendurada num prego na cozinha de S5.",
+   "suspeitos": [
+    "S5"
+   ]
+  },
+  {
+   "id": "E15",
+   "tipo": "Física",
+   "texto": "Numa busca na casa de S5 foram achadas duas submetralhadoras com carregadores escondidas no forno do fogão. Ele não deu explicação convincente e passou a se lembrar de ter ouvido, na tarde do crime, um tiro de fuzil de guerra vindo do rio. Não foi processado por posse de arma, em troca de colaborar com os investigadores.",
+   "suspeitos": [
+    "S5"
+   ]
+  },
+  {
+   "id": "E16",
+   "tipo": "Física",
+   "texto": "Um fuzil de S6 foi apreendido. Ele disse ter atirado em corvos que atacavam sua vinha na tarde do crime, o que corresponderia ao tiro que S5 diz ter ouvido.",
+   "suspeitos": [
+    "S6",
+    "S5"
+   ]
+  },
+  {
+   "id": "E17",
+   "tipo": "Física",
+   "texto": "Na fazenda foram apreendidas uma espingarda calibre 12, um velho fuzil de guerra adaptado para caça e uma carabina de 9 mm. S2 recusou-se a responder às perguntas, apresentando um atestado médico de conveniência.",
+   "suspeitos": [
+    "S2",
+    "S1"
+   ]
+  },
+  {
+   "id": "E18",
+   "tipo": "Depoimento",
+   "texto": "Os moradores da fazenda disseram ter ouvido os tiros, mas não os gritos de socorro das vítimas. Várias pessoas da família cruzaram com o casal estrangeiro durante a noite, indo e vindo da fazenda ao campo de irrigação.",
+   "suspeitos": [
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+   ]
+  },
+  {
+   "id": "E19",
+   "tipo": "Depoimento",
+   "texto": "Logo depois do crime, S3 contou a um vizinho que S2 vira uma mulher de preto com os estrangeiros na véspera. Dias depois, interrogada, não falou mais dessa mulher.",
+   "suspeitos": [
+    "S3",
+    "S2"
+   ]
+  },
+  {
+   "id": "E20",
+   "tipo": "Depoimento",
+   "texto": "S2 e S3 prestaram versões idênticas, palavra por palavra, sobre os estrangeiros e sobre S3 não ter saído da cozinha. S3 nega que lhe tenham pedido água, comida ou autorização para acampar.",
+   "suspeitos": [
+    "S2",
+    "S3"
+   ]
+  },
+  {
+   "id": "E21",
+   "tipo": "Depoimento",
+   "texto": "Uma carta anônima diz que S2 estava fora da fazenda, com um desconhecido, entre 23h30 e meia-noite. Um caminhoneiro disse ter visto às 23h15 um homem sentado no carro dos estrangeiros e, perto da meia-noite, uma moto com sidecar. A família depois disse que um sidecar parou na fazenda às 23h30.",
+   "suspeitos": [
+    "S2",
+    "S1"
+   ]
+  },
+  {
+   "id": "E22",
+   "tipo": "Depoimento",
+   "texto": "Testemunhas relataram ver um homem encorpado, de cerca de 40 anos e 1,80 m, parado perto do carro à 0h20; uma silhueta se movendo perto do carro à 1h30; e um homem alto debruçado sob o capô aberto, com lanterna, às 23h30 e às 3h50. Outro motorista viu à meia-noite um homem magro, de mangas arregaçadas, olhando pelas janelas traseiras.",
+   "suspeitos": []
+  },
+  {
+   "id": "E23",
+   "tipo": "Depoimento",
+   "texto": "Um radiotécnico, dono de um cinema ambulante, passou de carro pela estrada à 0h50 e não viu nada de anormal, nem nenhum cobertor do lado direito do carro. Moradores da outra margem do rio ouviram 4 ou 5 tiros e talvez gritos, sem barulho de motor nem faróis.",
+   "suspeitos": []
+  },
+  {
+   "id": "E24",
+   "tipo": "Física",
+   "texto": "Um cão policial farejou o corpo da menina e seguiu a trilha por uns 50 metros, depois pelos trilhos por cerca de 100 metros, atravessou a estrada e subiu até um canal de irrigação, onde parou.",
+   "suspeitos": []
+  },
+  {
+   "id": "E25",
+   "tipo": "Física",
+   "texto": "Um coveiro achou uma lasca de coronha perto da cabeça da menina. S1 disse que a achou a 30 cm da cabeça e a entregou a um policial, e pediu para cobrir o corpo da menina com um cobertor tirado do catre.",
+   "suspeitos": [
+    "S1"
+   ]
+  },
+  {
+   "id": "E26",
+   "tipo": "Pericial",
+   "texto": "Às 9h15 o médico viu que os membros e o tronco da menina ainda estavam flexíveis e que seus pés estavam limpos. Uma calcinha de criança foi achada num matagal a cerca de 450 metros da fazenda.",
+   "suspeitos": []
+  },
+  {
+   "id": "E27",
+   "tipo": "Depoimento",
+   "texto": "O capitão da polícia chegou e viu uma bicicleta ao pé de uma amoreira, a de S2. Este disse ter ido buscar giz a pé pedido por policiais e depois afirmou ter usado a bicicleta; os policiais o contestaram, e a bicicleta sumiu sem que se soubesse quem a levou.",
+   "suspeitos": [
+    "S2"
+   ]
+  },
+  {
+   "id": "E28",
+   "tipo": "Comportamento",
+   "texto": "Perto das 8h, um policial viu S7 de bicicleta indo à fazenda e voltando a pé com o avô e S2. S3 foi levada ao mercado e só voltou depois das 16h, embora normalmente compre em outra cidade e volte para o almoço.",
+   "suspeitos": [
+    "S7",
+    "S1",
+    "S2",
+    "S3"
+   ]
+  },
+  {
+   "id": "E29",
+   "tipo": "Depoimento",
+   "texto": "Um homem se apresentou como testemunha ocular dos assassinatos, mas sua história foi considerada falsa. Uma recompensa de grande valor fora oferecida por jornais para quem apontasse os culpados.",
+   "suspeitos": []
+  }
+ ]
+}

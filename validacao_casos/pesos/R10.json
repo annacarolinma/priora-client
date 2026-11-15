@@ -1,0 +1,30 @@
+{
+  "id": "R10",
+  "pesos": [
+    {"evidencia": "E1", "r": 0.9, "vinculos": [], "justificativa": "Registro eletrônico de chamadas; contexto."},
+    {"evidencia": "E2", "r": 0.7, "vinculos": [], "justificativa": "Testemunhos presenciais parcialmente corroborados (vizinha, mãe); descrição sem suspeito."},
+    {"evidencia": "E3", "r": 0.5, "vinculos": [{"suspeito": "S1", "v": 0.3, "efeito": "Incrimina"}, {"suspeito": "S5", "v": 0.3, "efeito": "Incrimina"}], "justificativa": "r: testemunho único sem corroboração; v: descrição física compatível com muitos homens."},
+    {"evidencia": "E4", "r": 0.7, "vinculos": [], "justificativa": "Achado físico oficial; contexto."},
+    {"evidencia": "E5", "r": 0.9, "vinculos": [], "justificativa": "Registro eletrônico de localização; contexto."},
+    {"evidencia": "E6", "r": 0.7, "vinculos": [], "justificativa": "Achados físicos registrados; contexto."},
+    {"evidencia": "E7", "r": 0.7, "vinculos": [{"suspeito": "S5", "v": 0.5, "efeito": "Incrimina"}], "justificativa": "r: achado físico registrado; v: proximidade da casa, compatível com grupo pequeno ou descarte por terceiros."},
+    {"evidencia": "E8", "r": 0.9, "vinculos": [], "justificativa": "Laudo pericial oficial; contexto."},
+    {"evidencia": "E9", "r": 0.3, "vinculos": [{"suspeito": "S2", "v": 0.1, "efeito": "Inocenta"}, {"suspeito": "S3", "v": 0.1, "efeito": "Inocenta"}], "justificativa": "r: informação de terceiros e notícias; v: apenas desfaz associação errada, mera sugestão."},
+    {"evidencia": "E10", "r": 0.5, "vinculos": [{"suspeito": "S3", "v": 0.3, "efeito": "Incrimina"}], "justificativa": "r: testemunho sem corroboração; v: caminhonete branca é comum, circunstancial."},
+    {"evidencia": "E11", "r": 0.7, "vinculos": [{"suspeito": "S1", "v": 0.5, "efeito": "Incrimina"}], "justificativa": "r: exame datiloscópico oficial; v: não excluído, mas carro pode ter sido tocado por muitos."},
+    {"evidencia": "E12", "r": 0.7, "vinculos": [{"suspeito": "S1", "v": 0.5, "efeito": "Incrimina"}], "justificativa": "r: registros policiais; v: antecedente e descrição compatíveis com grupo pequeno, nunca acusado."},
+    {"evidencia": "E13", "r": 0.5, "vinculos": [{"suspeito": "S1", "v": 0.5, "efeito": "Incrimina"}], "justificativa": "r: registros de loja e relato sem cadeia; v: álibi não sustentado e corte de cabelo, explicação inocente plausível."},
+    {"evidencia": "E14", "r": 0.5, "vinculos": [{"suspeito": "S1", "v": 0.3, "efeito": "Incrimina"}], "justificativa": "r: reconhecimento de voz e fala ambígua sem corroboração; v: circunstancial."},
+    {"evidencia": "E15", "r": 0.3, "vinculos": [{"suspeito": "S2", "v": 0.3, "efeito": "Incrimina"}, {"suspeito": "S3", "v": 0.5, "efeito": "Incrimina"}, {"suspeito": "S4", "v": 0.5, "efeito": "Incrimina"}], "justificativa": "r: declaração retratada, sob pressão e indução, de pessoa com deficiência; v: aponta S3 e S4 como presentes, com explicação inocente plausível."},
+    {"evidencia": "E16", "r": 0.5, "vinculos": [{"suspeito": "S2", "v": 0.5, "efeito": "Inocenta"}], "justificativa": "r: observações sobre a investigação sem laudo; v: relato incompatível com provas físicas, afasta parcialmente a confiabilidade."},
+    {"evidencia": "E17", "r": 0.7, "vinculos": [{"suspeito": "S3", "v": 0.3, "efeito": "Incrimina"}, {"suspeito": "S5", "v": 0.3, "efeito": "Incrimina"}], "justificativa": "r: registros telefônicos; v: contatos entre conhecidos, circunstancial."},
+    {"evidencia": "E18", "r": 0.5, "vinculos": [{"suspeito": "S5", "v": 0.5, "efeito": "Incrimina"}], "justificativa": "r: fatos documentados sem prova direta; v: aparente conhecimento e comportamento evasivo, explicação alternativa plausível."},
+    {"evidencia": "E19", "r": 0.3, "vinculos": [{"suspeito": "S3", "v": 0.5, "efeito": "Incrimina"}, {"suspeito": "S2", "v": 0.1, "efeito": "Incrimina"}], "justificativa": "r: relato de ex-namorada, parte potencialmente interessada, segunda mão; v: S3 fala ambígua, S2 mera associação."},
+    {"evidencia": "E20", "r": 0.5, "vinculos": [{"suspeito": "S4", "v": 0.1, "efeito": "Incrimina"}, {"suspeito": "S5", "v": 0.1, "efeito": "Incrimina"}], "justificativa": "r: relato de morador e achado sem vestígios; v: balística não liga ao crime, mera associação."},
+    {"evidencia": "E21", "r": 0.3, "vinculos": [{"suspeito": "S2", "v": 0.3, "efeito": "Incrimina"}, {"suspeito": "S3", "v": 0.5, "efeito": "Incrimina"}], "justificativa": "r: alegação não comprovada, vídeo nunca achado; v: S3 como autor filmador, S2 presença implícita."},
+    {"evidencia": "E22", "r": 0.3, "vinculos": [{"suspeito": "S6", "v": 0.1, "efeito": "Incrimina"}, {"suspeito": "S7", "v": 0.1, "efeito": "Incrimina"}], "justificativa": "r: relato de segunda mão de ex-colega; v: acusações retiradas, mera associação."},
+    {"evidencia": "E23", "r": 0.5, "vinculos": [{"suspeito": "S2", "v": 0.5, "efeito": "Inocenta"}], "justificativa": "r: perito da defesa sobre dados de antena, parte interessada com base em registros; v: afasta parcialmente a presença no intervalo."},
+    {"evidencia": "E24", "r": 0.7, "vinculos": [{"suspeito": "S3", "v": 0.3, "efeito": "Inocenta"}], "justificativa": "r: ausência de prova documentada; v: afasta circunstancialmente."},
+    {"evidencia": "E25", "r": 0.3, "vinculos": [{"suspeito": "S4", "v": 0.1, "efeito": "Inocenta"}], "justificativa": "r: caracterização do advogado, parte interessada; v: mera sugestão."}
+  ]
+}

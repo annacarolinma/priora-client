@@ -1,0 +1,30 @@
+{
+  "id": "R06",
+  "tipo": "real",
+  "resumo": "Na noite de um feriado, uma explosão seguida de grande incêndio destruiu uma loja de materiais de construção em área urbana densa. Semanas depois, o corpo de um jovem foi encontrado nos escombros e outro homem sobreviveu com queimaduras graves. A investigação examinou a situação financeira da loja e as pessoas ligadas a ela.",
+  "suspeitos": [
+    {"id": "S1", "perfil": "presidente e coproprietário da loja; estava com a família na noite do incêndio"},
+    {"id": "S2", "perfil": "empresário sem antecedentes, dono de salões de bronzeamento; esteve com a família do presidente da loja na noite do feriado"},
+    {"id": "S3", "perfil": "golpista com antecedentes de fraude, gravemente queimado na explosão e em coma por meses"},
+    {"id": "S4", "perfil": "ajudante que mexeu em mercadorias e esperou numa van perto da loja"},
+    {"id": "S5", "perfil": "amigo de S3 que concordou em guardar mercadorias retiradas da loja"},
+    {"id": "S6", "perfil": "irmão de S1, coproprietário da loja e sargento auxiliar de uma polícia provincial"}
+  ],
+  "evidencias": [
+    {"id": "E1", "tipo": "Física", "texto": "Destroços da explosão ficaram cravados em carros estacionados do outro lado da rua. Os investigadores concluíram que vapores inflamáveis se acumularam no porão e se incendiaram, possivelmente após uma tentativa anterior de iniciar o fogo que falhou.", "suspeitos": []},
+    {"id": "E2", "tipo": "Pericial", "texto": "O corpo de um jovem de 22 anos, que cursava formação em prevenção de incêndios, foi encontrado nos escombros cerca de duas semanas e meia depois. Ele não era funcionário conhecido da loja.", "suspeitos": []},
+    {"id": "E3", "tipo": "Depoimento", "texto": "O sobrevivente gravemente queimado, ao se recuperar, disse que ele e o jovem morto espalhavam gasolina e fertilizante no porão, que ele saiu por causa dos gases e que o jovem o chamou de volta pouco antes da explosão.", "suspeitos": ["S3"]},
+    {"id": "E4", "tipo": "Documental", "texto": "Depois do incêndio, a loja apresentou um pedido de indenização de seguro de 3,5 milhões de dólares.", "suspeitos": ["S1", "S6"]},
+    {"id": "E5", "tipo": "Documental", "texto": "Algumas semanas antes do incêndio, os dois irmãos proprietários aumentaram o valor da cobertura do seguro da loja.", "suspeitos": ["S1", "S6"]},
+    {"id": "E6", "tipo": "Documental", "texto": "Uma empresa de demolição orçou 145 mil dólares para limpar o terreno do estabelecimento; os proprietários recusaram o orçamento.", "suspeitos": ["S1", "S6"]},
+    {"id": "E7", "tipo": "Motivação", "texto": "A loja tinha dificuldades diante de uma grande rede concorrente instalada perto e havia sido multada em cerca de 11,8 mil dólares por armazenamento irregular de materiais.", "suspeitos": ["S1", "S6"]},
+    {"id": "E8", "tipo": "Motivação", "texto": "Os irmãos proprietários tinham planos de construir um condomínio residencial no terreno da loja.", "suspeitos": ["S1", "S6"]},
+    {"id": "E9", "tipo": "Documental", "texto": "Antes do incêndio, cerca de 1 milhão de dólares em estoque foi retirado da loja. Uma parte das mercadorias foi guardada por um amigo do golpista e usada como pagamento a quem iria incendiar o prédio.", "suspeitos": ["S3", "S5"]},
+    {"id": "E10", "tipo": "Documental", "texto": "Números de cartões de crédito de clientes da loja foram obtidos e usados indevidamente por pessoa ligada ao esquema de desvio de estoque.", "suspeitos": ["S3"]},
+    {"id": "E11", "tipo": "Depoimento", "texto": "Vizinhos notaram barulho de uma caixa registradora derrubada no estacionamento durante a madrugada; o amigo que guardava mercadorias fugiu logo depois dessa queda.", "suspeitos": ["S5"]},
+    {"id": "E12", "tipo": "Depoimento", "texto": "Um homem declarou que esperou numa van enquanto outros preparavam o local, tentou sem sucesso falar com os dois que estavam lá dentro depois da explosão e fugiu.", "suspeitos": ["S4"]},
+    {"id": "E13", "tipo": "Comportamento", "texto": "O empresário dos salões de bronzeamento estava com a família do presidente da loja na noite do feriado, e foi investigado por causa de suas relações com os envolvidos. Os investigadores propuseram retirar uma acusação contra ele se desse declaração completa, mas consideraram que não contou tudo.", "suspeitos": ["S1", "S2"]},
+    {"id": "E14", "tipo": "Depoimento", "texto": "Segundo o golpista sobrevivente, o irmão sargento auxiliar foi procurado por conhecidos na polícia e mandou os executores terem cuidado; os envolvidos também teriam sido avisados por um informante de que a polícia investigava.", "suspeitos": ["S3", "S6"]},
+    {"id": "E15", "tipo": "Depoimento", "texto": "O amigo que guardava mercadorias passou a afirmar à polícia que o presidente da loja era o centro do esquema; segundo ele, só falou depois de pressão policial e por temer ser processado pelo presidente pelos danos.", "suspeitos": ["S1", "S5"]}
+  ]
+}

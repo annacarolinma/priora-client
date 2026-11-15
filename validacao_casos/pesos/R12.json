@@ -1,0 +1,14 @@
+{
+  "id": "R12",
+  "pesos": [
+    {"evidencia": "E1", "r": 0.7, "vinculos": [], "justificativa": "r: documentos oficiais da operação; contexto sem relação com suspeito específico."},
+    {"evidencia": "E2", "r": 0.7, "vinculos": [{"suspeito": "S1", "v": 0.5, "efeito": "Incrimina"}, {"suspeito": "S2", "v": 0.5, "efeito": "Incrimina"}, {"suspeito": "S3", "v": 0.5, "efeito": "Incrimina"}, {"suspeito": "S4", "v": 0.5, "efeito": "Incrimina"}], "justificativa": "r: documento oficial da garantia; v: os executivos não são nomeados, grupo pequeno de participantes com explicação possível de prática de mercado."},
+    {"evidencia": "E3", "r": 0.7, "vinculos": [], "justificativa": "r: registros contábeis oficiais; contexto dos pagamentos, sem suspeito citado."},
+    {"evidencia": "E4", "r": 0.3, "vinculos": [{"suspeito": "S1", "v": 0.7, "efeito": "Incrimina"}], "justificativa": "r: informação de um preso com interesse em benefício, repassada a terceiros; v: aporte específico atribuído a S1, forte se verdadeiro."},
+    {"evidencia": "E5", "r": 0.7, "vinculos": [{"suspeito": "S1", "v": 0.7, "efeito": "Incrimina"}], "justificativa": "r: documentos oficiais do conselho e valor; v: arranjo sem aprovação do conselho aponta o executivo principal, poucos compatíveis."},
+    {"evidencia": "E6", "r": 0.3, "vinculos": [{"suspeito": "S1", "v": 0.3, "efeito": "Incrimina"}], "justificativa": "r: caracterização dos investigadores, contestada por especialistas; v: descrição contábil incorreta é circunstancial."},
+    {"evidencia": "E7", "r": 0.5, "vinculos": [{"suspeito": "S5", "v": 0.3, "efeito": "Incrimina"}, {"suspeito": "S1", "v": 0.3, "efeito": "Incrimina"}], "justificativa": "r: pagamento documentado, repasse apenas suspeita; v: circunstancial, comissão de sucesso tem explicação plausível."},
+    {"evidencia": "E8", "r": 0.3, "vinculos": [{"suspeito": "S2", "v": 0.1, "efeito": "Inocenta"}, {"suspeito": "S3", "v": 0.1, "efeito": "Inocenta"}, {"suspeito": "S4", "v": 0.1, "efeito": "Inocenta"}], "justificativa": "r: tese da defesa, parte interessada; v: mera sugestão de que a conduta era legítima."},
+    {"evidencia": "E9", "r": 0.7, "vinculos": [{"suspeito": "S1", "v": 0.1, "efeito": "Inocenta"}], "justificativa": "r: registro oficial das entrevistas; v: cooperação compulsória, mera sugestão de afastamento."}
+  ]
+}

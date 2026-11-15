@@ -1,0 +1,16 @@
+{
+  "id": "R05",
+  "pesos": [
+    {"evidencia": "E1", "r": 0.5, "vinculos": [], "justificativa": "r: relato sem corroboração descrita; contexto sem suspeito."},
+    {"evidencia": "E2", "r": 0.5, "vinculos": [], "justificativa": "r: relato sem corroboração descrita; contexto sem suspeito."},
+    {"evidencia": "E3", "r": 0.5, "vinculos": [{"suspeito": "S1", "v": 0.5, "efeito": "Incrimina"}, {"suspeito": "S2", "v": 0.5, "efeito": "Incrimina"}, {"suspeito": "S3", "v": 0.5, "efeito": "Incrimina"}], "justificativa": "r: narrativa do delegado sem prova direta citada; v: descreve a ação dos atacantes, mas a identificação não está na pista."},
+    {"evidencia": "E4", "r": 0.7, "vinculos": [{"suspeito": "S6", "v": 0.5, "efeito": "Incrimina"}], "justificativa": "r: autuações oficiais; v: motivo forte, mas outros produtores também foram autuados."},
+    {"evidencia": "E5", "r": 0.3, "vinculos": [{"suspeito": "S6", "v": 0.3, "efeito": "Incrimina"}, {"suspeito": "S7", "v": 0.3, "efeito": "Incrimina"}], "justificativa": "r: opinião do delegado sobre sentimentos de terceiros; v: circunstancial."},
+    {"evidencia": "E6", "r": 0.5, "vinculos": [{"suspeito": "S6", "v": 0.7, "efeito": "Incrimina"}, {"suspeito": "S4", "v": 0.5, "efeito": "Incrimina"}], "justificativa": "r: testemunho sem corroboração; v: pedido direto ao empresário, mas o empresário só é citado como destinatário."},
+    {"evidencia": "E7", "r": 0.3, "vinculos": [{"suspeito": "S4", "v": 0.7, "efeito": "Incrimina"}, {"suspeito": "S1", "v": 0.5, "efeito": "Incrimina"}, {"suspeito": "S2", "v": 0.5, "efeito": "Incrimina"}, {"suspeito": "S3", "v": 0.5, "efeito": "Incrimina"}], "justificativa": "r: tese da acusação; v: aponta o intermediário e os contratados, com mesma ideia de E6 e E3."},
+    {"evidencia": "E8", "r": 0.5, "vinculos": [{"suspeito": "S4", "v": 0.5, "efeito": "Incrimina"}, {"suspeito": "S5", "v": 0.5, "efeito": "Incrimina"}], "justificativa": "r: testemunho único sobre valor; v: liga os intermediários ao pagamento sem mais detalhes."},
+    {"evidencia": "E9", "r": 0.3, "vinculos": [{"suspeito": "S5", "v": 0.1, "efeito": "Incrimina"}, {"suspeito": "S6", "v": 0.5, "efeito": "Incrimina"}, {"suspeito": "S7", "v": 0.3, "efeito": "Inocenta"}], "justificativa": "r: opinião de colaborador interessado; v: crença sem fatos contra S6, e silêncio sobre S7 afasta apenas de forma circunstancial."},
+    {"evidencia": "E10", "r": 0.3, "vinculos": [{"suspeito": "S7", "v": 0.3, "efeito": "Incrimina"}], "justificativa": "r: alegação do MP sobre modelo de carro comum; v: circunstancial."},
+    {"evidencia": "E11", "r": 0.3, "vinculos": [{"suspeito": "S6", "v": 0.3, "efeito": "Incrimina"}, {"suspeito": "S7", "v": 0.3, "efeito": "Incrimina"}], "justificativa": "r: ato de acusação, sem prova nova; v: circunstancial."}
+  ]
+}

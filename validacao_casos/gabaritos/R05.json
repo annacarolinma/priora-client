@@ -1,0 +1,13 @@
+{
+  "id": "R05",
+  "titulo": "Chacina de Unaí (MG, 2004)",
+  "fonte": "Wikipédia (pt) - Chacina de Unaí; Hoje em Dia; Tribuna PR; STJ/TRF6 (via imprensa)",
+  "url": "https://pt.wikipedia.org/wiki/Chacina_de_Unaí ; https://www.hojeemdia.com.br/minas/chacina-de-unai-1-dia-de-julgamento-e-marcado-por-oitivas-de-testemunhas-de-acusac-o-1.901182 ; https://portal.trf6.jus.br/trf6-determina-prisao-imediata-de-mandantes-da-chacina-de-unai-2/",
+  "licenca_ou_uso": "Wikipédia CC BY-SA 4.0; imprensa: fatos reescritos, uso interno",
+  "culpado": ["S1","S2","S3","S4","S5","S6","S7"],
+  "chave_nomes": {"S1": "Rogério Alan Rocha Rios", "S2": "Erinaldo de Vasconcelos Silva", "S3": "William Gomes de Miranda", "S4": "José Alberto de Castro", "S5": "Hugo Alves Pimenta", "S6": "Norberto Mânica", "S7": "Antério Mânica"},
+  "solucao": "Os três executores foram condenados em 2013 (penas somadas de 226 anos); os intermediários S4 e S5 confessaram e foram condenados; S6 foi condenado em 2015 (100 anos); S7 foi condenado em 2015 (100 anos), a condenação foi anulada pelo TRF-1 em 2018 e ele foi condenado de novo em 2022 (64 anos, STJ reduziu penas em 2022, execução provisória em 2023; entregou-se à PF em set/2023).",
+  "pais_epoca": "Brasil, 2004",
+  "tipo_crime": "homicídio qualificado (chacina) por encomenda / crime contra servidores públicos em fiscalização",
+  "observacoes": "Apenas 11 pistas, sem laudos, dados telefônicos ou álibis (não achados nas fontes). Pistas E6 a E9 dependem de delação/testemunho. A participação de S7 é a mais frágil (condenação anulada uma vez; irmão assumiu ser único mandante depois), então o gabarito inclui S7 pela condenação final de 2022, mas pode ser discutível. Os nomes dos executores vêm da Wikipédia (dois) e do Hoje em Dia (três). Os resultados exatos de penas variam entre fontes. Antes de usar, vale checar o acórdão do TRF6/STJ."
+}
