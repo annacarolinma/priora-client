@@ -1,4 +1,5 @@
 import AxisInfo from "./AxisInfo";
+import SeriesSwatch from "./SeriesSwatch";
 import { PROFILE_TYPE_LABEL } from "./types";
 import type { ProfileAxis, ProfileType } from "./types";
 
@@ -22,11 +23,7 @@ function ValueRow({
   return (
     <div className="flex items-center justify-between gap-3 text-xs">
       <span className="flex items-center gap-2 text-white/65">
-        <span
-          aria-hidden="true"
-          className="h-2 w-2 flex-shrink-0 rounded-full"
-          style={{ backgroundColor: color }}
-        />
+        <SeriesSwatch color={color} size={10} />
         {label}
       </span>
       <span className="font-semibold text-white">{value}</span>
