@@ -1,0 +1,725 @@
+{
+ "caso": {
+  "nome": "Furto na Joalheria Meridiana",
+  "descricao": "Furto qualificado de joias e relógios na madrugada de 12/09/2026. O cofre foi aberto sem sinais de arrombamento e o alarme foi desligado às 02h14 com um código de acesso. Caso fictício, criado para a demonstração do Priora.",
+  "status": "Ativo",
+  "prioridade": "Alta",
+  "dataOcorrencia": "2026-09-12",
+  "enderecoCep": "13015-001",
+  "enderecoLogradouro": "Rua Barão de Jaguara",
+  "enderecoNumero": "812",
+  "enderecoBairro": "Centro",
+  "enderecoCidade": "Campinas",
+  "enderecoEstado": "SP"
+ },
+ "suspeitos": [
+  {
+   "chave": "rafael",
+   "nome": "Rafael Teixeira",
+   "idade": 34,
+   "descricao": "Ex-vendedor demitido há dois meses; conhecia o sistema de alarme.",
+   "historicoCriminal": 30,
+   "caracteristicasCriminais": 45,
+   "significanciaTempoLugar": 70,
+   "coerenciaInterpessoal": 60,
+   "conscienciaForense": 40,
+   "crimeSimilarAntes": "Não",
+   "histDescumprimento": "Não"
+  },
+  {
+   "chave": "otavio",
+   "nome": "Otávio Brandão",
+   "idade": 29,
+   "descricao": "Segurança noturno, de plantão na madrugada do furto.",
+   "historicoCriminal": 65,
+   "caracteristicasCriminais": 60,
+   "significanciaTempoLugar": 80,
+   "coerenciaInterpessoal": 45,
+   "conscienciaForense": 75,
+   "crimeSimilarAntes": "Sim",
+   "histDescumprimento": "Não sei"
+  },
+  {
+   "chave": "helena",
+   "nome": "Helena Duarte",
+   "idade": 38,
+   "descricao": "Contadora externa; tem acesso aos livros-caixa e uma cópia da chave do cofre.",
+   "historicoCriminal": 10,
+   "caracteristicasCriminais": 20,
+   "significanciaTempoLugar": 30,
+   "coerenciaInterpessoal": 80,
+   "conscienciaForense": 30,
+   "crimeSimilarAntes": "Não",
+   "histDescumprimento": "Não"
+  },
+  {
+   "chave": "camila",
+   "nome": "Camila Ferraz",
+   "idade": 41,
+   "descricao": "Gerente da loja; guarda a senha do cofre. Estava viajando.",
+   "historicoCriminal": 10,
+   "caracteristicasCriminais": 15,
+   "significanciaTempoLugar": 40,
+   "coerenciaInterpessoal": 75,
+   "conscienciaForense": 25,
+   "crimeSimilarAntes": "Não",
+   "histDescumprimento": "Não"
+  }
+ ],
+ "evidencias": [
+  {
+   "chave": "E1",
+   "nome": "Cofre aberto sem sinais de arrombamento",
+   "tipo": "Pericial",
+   "status": "Coletada",
+   "peso": 0.9,
+   "vinculos": [
+    {
+     "suspeito": "camila",
+     "pesoVinculo": 0.5,
+     "efeito": "Incrimina"
+    },
+    {
+     "suspeito": "rafael",
+     "pesoVinculo": 0.3,
+     "efeito": "Incrimina"
+    },
+    {
+     "suspeito": "otavio",
+     "pesoVinculo": 0.3,
+     "efeito": "Incrimina"
+    }
+   ],
+   "dataColeta": "2026-09-12",
+   "fonte": "Laudo pericial do local",
+   "descricao": "Fechadura intacta: quem abriu conhecia a senha ou tinha a chave."
+  },
+  {
+   "chave": "E2",
+   "nome": "Alarme desligado com o código antigo de Rafael",
+   "tipo": "Digital",
+   "status": "Coletada",
+   "peso": 0.9,
+   "vinculos": [
+    {
+     "suspeito": "rafael",
+     "pesoVinculo": 0.9,
+     "efeito": "Incrimina"
+    }
+   ],
+   "dataColeta": "2026-09-12",
+   "fonte": "Registro do sistema de alarme",
+   "descricao": "Desativação às 02h14 usando o código de Rafael, que não havia sido cancelado."
+  },
+  {
+   "chave": "E3",
+   "nome": "Passagem aérea de Camila para Salvador",
+   "tipo": "Documental",
+   "status": "Coletada",
+   "peso": 0.7,
+   "vinculos": [
+    {
+     "suspeito": "camila",
+     "pesoVinculo": 0.7,
+     "efeito": "Inocenta"
+    }
+   ],
+   "dataColeta": "2026-09-14",
+   "fonte": "Companhia aérea",
+   "descricao": "Voo de Camila saiu às 23h do dia anterior; ela estava fora da cidade."
+  },
+  {
+   "chave": "E4",
+   "nome": "Câmera registra Otávio fora da guarita",
+   "tipo": "Audiovisual",
+   "status": "Coletada",
+   "peso": 0.7,
+   "vinculos": [
+    {
+     "suspeito": "otavio",
+     "pesoVinculo": 0.5,
+     "efeito": "Incrimina"
+    }
+   ],
+   "dataColeta": "2026-09-13",
+   "fonte": "Câmera do estacionamento",
+   "descricao": "Otávio aparece fora da guarita entre 01h50 e 02h30."
+  },
+  {
+   "chave": "E5",
+   "nome": "Depoimento de Otávio: não saiu da guarita",
+   "tipo": "Depoimento",
+   "status": "Coletada",
+   "peso": 0.5,
+   "vinculos": [
+    {
+     "suspeito": "otavio",
+     "pesoVinculo": 0.3,
+     "efeito": "Incrimina"
+    }
+   ],
+   "dataColeta": "2026-09-13",
+   "fonte": "Depoimento na delegacia",
+   "descricao": "Contradiz a imagem da câmera do estacionamento."
+  },
+  {
+   "chave": "E6",
+   "nome": "Demissão de Rafael há dois meses",
+   "tipo": "Motivação",
+   "status": "Coletada",
+   "peso": 0.7,
+   "vinculos": [
+    {
+     "suspeito": "rafael",
+     "pesoVinculo": 0.5,
+     "efeito": "Incrimina"
+    }
+   ],
+   "dataColeta": "2026-09-15",
+   "fonte": "Ficha de funcionário",
+   "descricao": "Saiu em conflito com o dono da loja."
+  },
+  {
+   "chave": "E7",
+   "nome": "Retiradas de caixa sem comprovante",
+   "tipo": "Documental",
+   "status": "Coletada",
+   "peso": 0.7,
+   "vinculos": [
+    {
+     "suspeito": "helena",
+     "pesoVinculo": 0.5,
+     "efeito": "Incrimina"
+    }
+   ],
+   "dataColeta": "2026-09-16",
+   "fonte": "Livro-caixa da loja",
+   "descricao": "Saques de valor médio, sem nota, nos últimos seis meses."
+  },
+  {
+   "chave": "E8",
+   "nome": "Cabelo encontrado junto ao cofre",
+   "tipo": "Biológica",
+   "status": "Enviada a perícia",
+   "peso": 0.7,
+   "vinculos": [
+    {
+     "suspeito": "otavio",
+     "pesoVinculo": 0.9,
+     "efeito": "Incrimina"
+    }
+   ],
+   "dataColeta": "2026-09-12",
+   "fonte": "Perícia no local",
+   "descricao": "Amostra aguardando exame comparativo."
+  },
+  {
+   "chave": "E9",
+   "nome": "Denúncia anônima citando Helena",
+   "tipo": "Depoimento",
+   "status": "Coletada",
+   "peso": 0.1,
+   "vinculos": [
+    {
+     "suspeito": "helena",
+     "pesoVinculo": 0.9,
+     "efeito": "Incrimina"
+    }
+   ],
+   "dataColeta": "2026-09-17",
+   "fonte": "Disque-denúncia",
+   "descricao": "Sem identificação e sem detalhes verificáveis."
+  },
+  {
+   "chave": "E10",
+   "nome": "Rafael devia dinheiro ao dono da loja",
+   "tipo": "Documental",
+   "status": "Coletada",
+   "peso": 0.7,
+   "vinculos": [
+    {
+     "suspeito": "rafael",
+     "pesoVinculo": 0.5,
+     "efeito": "Incrimina"
+    }
+   ],
+   "dataColeta": "2026-09-16",
+   "fonte": "Contrato de empréstimo",
+   "descricao": "Dívida em aberto desde a demissão."
+  },
+  {
+   "chave": "E11",
+   "nome": "Mensagens de Rafael ameaçando o patrão",
+   "tipo": "Digital",
+   "status": "Coletada",
+   "peso": 0.7,
+   "vinculos": [
+    {
+     "suspeito": "rafael",
+     "pesoVinculo": 0.5,
+     "efeito": "Incrimina"
+    }
+   ],
+   "dataColeta": "2026-09-18",
+   "fonte": "Celular do dono da loja",
+   "descricao": "Mensagens de agosto cobrando o acerto da rescisão."
+  },
+  {
+   "chave": "E12",
+   "nome": "Rafael sem álibi para a noite do furto",
+   "tipo": "Depoimento",
+   "status": "Coletada",
+   "peso": 0.5,
+   "vinculos": [
+    {
+     "suspeito": "rafael",
+     "pesoVinculo": 0.5,
+     "efeito": "Incrimina"
+    }
+   ],
+   "dataColeta": "2026-09-18",
+   "fonte": "Depoimento na delegacia",
+   "descricao": "Diz que estava em casa, sem ninguém que confirme."
+  },
+  {
+   "chave": "E13",
+   "nome": "Otávio já teve passagem por receptação",
+   "tipo": "Antecedente",
+   "status": "Coletada",
+   "peso": 0.7,
+   "vinculos": [
+    {
+     "suspeito": "otavio",
+     "pesoVinculo": 0.3,
+     "efeito": "Incrimina"
+    }
+   ],
+   "dataColeta": "2026-09-19",
+   "fonte": "Certidão de antecedentes",
+   "descricao": "Ocorrência arquivada de há quatro anos."
+  },
+  {
+   "chave": "E14",
+   "nome": "Otávio desligou a câmera interna às 01h55",
+   "tipo": "Comportamento",
+   "status": "Coletada",
+   "peso": 0.7,
+   "vinculos": [
+    {
+     "suspeito": "otavio",
+     "pesoVinculo": 0.5,
+     "efeito": "Incrimina"
+    }
+   ],
+   "dataColeta": "2026-09-19",
+   "fonte": "Log do sistema de câmeras",
+   "descricao": "A câmera da sala do cofre ficou desligada por 40 minutos."
+  },
+  {
+   "chave": "E15",
+   "nome": "Seguro das joias renovado na semana anterior",
+   "tipo": "Documental",
+   "status": "Em análise",
+   "peso": 0.7,
+   "vinculos": [
+    {
+     "suspeito": "helena",
+     "pesoVinculo": 0.3,
+     "efeito": "Incrimina"
+    }
+   ],
+   "dataColeta": "2026-09-20",
+   "fonte": "Apólice de seguro",
+   "descricao": "Renovação feita pela contabilidade; origem do pedido em apuração."
+  },
+  {
+   "chave": "E16",
+   "nome": "Helena tinha cópia da chave do cofre",
+   "tipo": "Depoimento",
+   "status": "Coletada",
+   "peso": 0.5,
+   "vinculos": [
+    {
+     "suspeito": "helena",
+     "pesoVinculo": 0.5,
+     "efeito": "Incrimina"
+    }
+   ],
+   "dataColeta": "2026-09-20",
+   "fonte": "Depoimento do dono da loja",
+   "descricao": "A cópia foi entregue há anos e nunca devolvida."
+  },
+  {
+   "chave": "E17",
+   "nome": "Camila guarda a senha do cofre",
+   "tipo": "Documental",
+   "status": "Coletada",
+   "peso": 0.7,
+   "vinculos": [
+    {
+     "suspeito": "camila",
+     "pesoVinculo": 0.5,
+     "efeito": "Incrimina"
+    }
+   ],
+   "dataColeta": "2026-09-20",
+   "fonte": "Protocolo interno da loja",
+   "descricao": "Só a gerente conhece a senha atual."
+  }
+ ],
+ "demonstracao": {
+  "novo_suspeito": {
+   "chave": "murilo",
+   "nome": "Murilo Vasconcelos",
+   "idade": 22,
+   "descricao": "Entregador de moto que atende o comércio da rua.",
+   "historicoCriminal": 10,
+   "caracteristicasCriminais": 15,
+   "significanciaTempoLugar": 20,
+   "coerenciaInterpessoal": 80,
+   "conscienciaForense": 10,
+   "crimeSimilarAntes": "Não",
+   "histDescumprimento": "Não"
+  },
+  "evidencia_1": {
+   "chave": "E18",
+   "nome": "Moto de Murilo passou perto da loja",
+   "tipo": "Digital",
+   "status": "Coletada",
+   "peso": 0.5,
+   "vinculos": [
+    {
+     "suspeito": "murilo",
+     "pesoVinculo": 0.1,
+     "efeito": "Incrimina"
+    }
+   ],
+   "dataColeta": "2026-09-21",
+   "fonte": "Radar de trânsito",
+   "descricao": "Passou pela rua às 21h, horas antes do furto. Sem outra ligação com o caso."
+  },
+  "evidencia_2": {
+   "chave": "E19",
+   "nome": "Ligações de Otávio para um receptador conhecido",
+   "tipo": "Telefônica",
+   "status": "Coletada",
+   "peso": 0.9,
+   "vinculos": [
+    {
+     "suspeito": "otavio",
+     "pesoVinculo": 0.7,
+     "efeito": "Incrimina"
+    }
+   ],
+   "dataColeta": "2026-09-22",
+   "fonte": "Operadora, quebra de sigilo autorizada",
+   "descricao": "Quatro ligações na semana anterior para um número ligado a receptação."
+  },
+  "perfil_estimado": {
+   "historicoCriminal": 60,
+   "caracteristicasCriminais": 55,
+   "significanciaTempoLugar": 75,
+   "coerenciaInterpessoal": 40,
+   "conscienciaForense": 80
+  }
+ },
+ "quadro": {
+  "nodes": [
+   {
+    "id": "n0",
+    "type": "textBox",
+    "position": {
+     "x": 420,
+     "y": 40
+    },
+    "data": {
+     "label": "Furto na Joalheria Meridiana",
+     "color": "#2bc28f",
+     "shape": "rectangle",
+     "variant": "box"
+    }
+   },
+   {
+    "id": "s1",
+    "type": "textBox",
+    "position": {
+     "x": 60,
+     "y": 190
+    },
+    "data": {
+     "label": "Rafael",
+     "color": "#f5a45d",
+     "shape": "circle",
+     "variant": "box"
+    }
+   },
+   {
+    "id": "s2",
+    "type": "textBox",
+    "position": {
+     "x": 330,
+     "y": 190
+    },
+    "data": {
+     "label": "Otávio",
+     "color": "#f5a45d",
+     "shape": "circle",
+     "variant": "box"
+    }
+   },
+   {
+    "id": "s3",
+    "type": "textBox",
+    "position": {
+     "x": 600,
+     "y": 190
+    },
+    "data": {
+     "label": "Helena",
+     "color": "#f5a45d",
+     "shape": "circle",
+     "variant": "box"
+    }
+   },
+   {
+    "id": "s4",
+    "type": "textBox",
+    "position": {
+     "x": 860,
+     "y": 190
+    },
+    "data": {
+     "label": "Camila",
+     "color": "#f5a45d",
+     "shape": "circle",
+     "variant": "box"
+    }
+   },
+   {
+    "id": "e1",
+    "type": "textBox",
+    "position": {
+     "x": 20,
+     "y": 380
+    },
+    "data": {
+     "label": "Alarme com o código antigo",
+     "color": "#e8736b",
+     "shape": "rectangle",
+     "variant": "box"
+    }
+   },
+   {
+    "id": "e2",
+    "type": "textBox",
+    "position": {
+     "x": 20,
+     "y": 470
+    },
+    "data": {
+     "label": "Demissão e dívida",
+     "color": "#e8736b",
+     "shape": "rectangle",
+     "variant": "box"
+    }
+   },
+   {
+    "id": "e3",
+    "type": "textBox",
+    "position": {
+     "x": 290,
+     "y": 380
+    },
+    "data": {
+     "label": "Câmera fora da guarita",
+     "color": "#e8736b",
+     "shape": "rectangle",
+     "variant": "box"
+    }
+   },
+   {
+    "id": "e4",
+    "type": "textBox",
+    "position": {
+     "x": 290,
+     "y": 470
+    },
+    "data": {
+     "label": "Cabelo no cofre (perícia)",
+     "color": "#e8736b",
+     "shape": "rectangle",
+     "variant": "box"
+    }
+   },
+   {
+    "id": "e5",
+    "type": "textBox",
+    "position": {
+     "x": 560,
+     "y": 380
+    },
+    "data": {
+     "label": "Retiradas sem comprovante",
+     "color": "#e8736b",
+     "shape": "rectangle",
+     "variant": "box"
+    }
+   },
+   {
+    "id": "e6",
+    "type": "textBox",
+    "position": {
+     "x": 560,
+     "y": 470
+    },
+    "data": {
+     "label": "Cópia da chave",
+     "color": "#e8736b",
+     "shape": "rectangle",
+     "variant": "box"
+    }
+   },
+   {
+    "id": "e7",
+    "type": "textBox",
+    "position": {
+     "x": 830,
+     "y": 380
+    },
+    "data": {
+     "label": "Álibi: voo para Salvador",
+     "color": "#e8736b",
+     "shape": "rectangle",
+     "variant": "box"
+    }
+   },
+   {
+    "id": "p1",
+    "type": "textBox",
+    "position": {
+     "x": 760,
+     "y": 20
+    },
+    "data": {
+     "label": "Cofre aberto sem arrombamento: quem abriu conhecia a senha ou tinha a chave.",
+     "color": "#fde68a",
+     "variant": "postit"
+    }
+   },
+   {
+    "id": "p2",
+    "type": "textBox",
+    "position": {
+     "x": 60,
+     "y": 580
+    },
+    "data": {
+     "label": "Pendente: resultado do exame do cabelo.",
+     "color": "#fde68a",
+     "variant": "postit"
+    }
+   }
+  ],
+  "edges": [
+   {
+    "id": "c1",
+    "source": "n0",
+    "target": "s1",
+    "type": "step",
+    "style": {
+     "stroke": "#e5e5e5"
+    }
+   },
+   {
+    "id": "c2",
+    "source": "n0",
+    "target": "s2",
+    "type": "step",
+    "style": {
+     "stroke": "#e5e5e5"
+    }
+   },
+   {
+    "id": "c3",
+    "source": "n0",
+    "target": "s3",
+    "type": "step",
+    "style": {
+     "stroke": "#e5e5e5"
+    }
+   },
+   {
+    "id": "c4",
+    "source": "n0",
+    "target": "s4",
+    "type": "step",
+    "style": {
+     "stroke": "#e5e5e5"
+    }
+   },
+   {
+    "id": "c5",
+    "source": "s1",
+    "target": "e1",
+    "type": "step",
+    "style": {
+     "stroke": "#e5e5e5"
+    }
+   },
+   {
+    "id": "c6",
+    "source": "s1",
+    "target": "e2",
+    "type": "step",
+    "style": {
+     "stroke": "#e5e5e5"
+    }
+   },
+   {
+    "id": "c7",
+    "source": "s2",
+    "target": "e3",
+    "type": "step",
+    "style": {
+     "stroke": "#e5e5e5"
+    }
+   },
+   {
+    "id": "c8",
+    "source": "s2",
+    "target": "e4",
+    "type": "step",
+    "style": {
+     "stroke": "#e5e5e5"
+    }
+   },
+   {
+    "id": "c9",
+    "source": "s3",
+    "target": "e5",
+    "type": "step",
+    "style": {
+     "stroke": "#e5e5e5"
+    }
+   },
+   {
+    "id": "c10",
+    "source": "s3",
+    "target": "e6",
+    "type": "step",
+    "style": {
+     "stroke": "#e5e5e5"
+    }
+   },
+   {
+    "id": "c11",
+    "source": "s4",
+    "target": "e7",
+    "type": "step",
+    "style": {
+     "stroke": "#e5e5e5"
+    }
+   }
+  ]
+ }
+}
