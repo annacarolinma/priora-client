@@ -1,0 +1,21 @@
+{
+ "id": "R25",
+ "titulo": "Estupro e homicídio de Gina Tenney (Youngstown, Ohio, dezembro de 1985) - State v. Adams",
+ "fonte": "Supreme Court of Ohio, State v. Adams, 144 Ohio St.3d 429, 2015-Ohio-3954 (1 out. 2015), via Harvard Caselaw Access Project (domínio público); sentença de morte anulada, condenação por homicídio qualificado mantida.",
+ "url": "https://static.case.law/ohio-st-3d/144/cases/0429-01.json ; https://www.courtnewsohio.gov/cases/2016/SCO/0519/121274.asp ; https://www.wfmj.com/story/51337009/appeal-denied-for-man-convicted-in-1985-murder-of-ysu-student",
+ "licenca_ou_uso": "Decisão judicial dos EUA (domínio público / CAP CC0); imprensa só como complemento.",
+ "culpado": [
+  "S1"
+ ],
+ "chave_nomes": {
+  "S1": "Bennie Adams",
+  "S2": "Horace Landers",
+  "S3": "Ed Tragesser",
+  "S4": "Mark Passarello",
+  "S5": "Adena Fedelia"
+ },
+ "solucao": "Adams foi preso em 30/12/1985 com o cartão da vítima no bolso, mas o caso esfriou e o grande júri não o indiciou por receptação. Em 2007 testes de DNA do laboratório estadual (BCI) não o excluíram como fonte do sêmen (1 em 38 trilhões), enquanto Landers foi excluído e o DNA de Passarello só apareceu na roupa íntima, não no sêmen. Em 2008 Adams foi condenado por homicídio qualificado; a Suprema Corte de Ohio manteve a condenação em 2015 (sentença de morte anulada) e a 7a Câmara negou novo julgamento em 2024.",
+ "pais_epoca": "EUA (Ohio), 1985",
+ "tipo_crime": "homicídio com estupro/sequestro",
+ "observacoes": "Omitidos de propósito: o teste de DNA de 2007, o apontamento posterior de Adams por John Allie (por foto, depois da fila de reconhecimento), a retratação de Sandra Allie, depoimentos de amigas feitos só no julgamento (medo declarado de Adams), as condenações anteriores/estupro em Boardman e a sentença. As evidências E16 a E20 (impressões, sêmen e cabelos) são de materiais apreendidos quando Adams já era suspeito (30/12/1985), mas resultados de laboratório saíram em jan/fev 1986. Adams era suspeito desde o início (policial desconfiava dele pelo relato da vítima), não foi preso em flagrante nem confessou; apenas deu uma versão sobre o cartão. S3 e S5 têm poucos fatos próprios. A autoria é contestada pela defesa (nova solicitação de novo julgamento negada em 2024), mas é definida por decisão judicial definitiva. Fonte única principal (a opinião da corte); fatos vêm do relato do julgamento."
+}

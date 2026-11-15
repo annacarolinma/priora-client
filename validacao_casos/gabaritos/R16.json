@@ -1,0 +1,13 @@
+{
+  "id": "R16",
+  "titulo": "Assassinato de Irmã Abhaya (Kottayam, Kerala)",
+  "fonte": "Wikipedia (Sister Abhaya murder case)",
+  "url": "https://en.wikipedia.org/wiki/Sister_Abhaya_murder_case",
+  "licenca_ou_uso": "CC BY-SA (reescrito com palavras próprias)",
+  "culpado": ["S1", "S2"],
+  "chave_nomes": {"S1": "Padre Thomas Kottoor", "S2": "Irmã Sephy", "S3": "Padre Jose Poothrukkayil (absolvido em 2018)", "S4": "Adakka Raju (ladrão, testemunha-chave)"},
+  "solucao": "Em dezembro de 2020 o tribunal da CBI condenou Kottoor e Sephy por homicídio, com prisão perpétua, apoiado sobretudo no depoimento de Adakka Raju. Poothrukkayil foi absolvido em 2018 por falta de provas. O caso foi inicialmente encerrado como suicídio.",
+  "pais_epoca": "Índia, 1992 (condenação em 2020)",
+  "tipo_crime": "homicídio",
+  "observacoes": "O culpado oficial é pela sentença de 1a instância (recurso possível). Não é caso de inocente identificado por DNA: o foco inicial foi a tese de suicídio. A página não traz álibis detalhados. Incluí a narcoanálise como alegação contestada. 4 suspeitos, 18 pistas. A pista E12 é o depoimento da testemunha-chave, decisivo no julgamento; mantida por ter sido prestada antes da sentença."
+}

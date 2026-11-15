@@ -1,0 +1,34 @@
+{
+  "id": "R09",
+  "tipo": "real",
+  "resumo": "Um menino de 9 anos, filho de um empresário rico, foi sequestrado quando voltava a pé da escola. Os sequestradores exigiram um resgate em notas não marcadas por cartas, anúncios de jornal e telefonemas, receberam o dinheiro e soltaram a criança com vida uma semana depois. A investigação seguiu o rastro do dinheiro.",
+  "suspeitos": [
+    {"id": "S1", "perfil": "homem de meia-idade que gastou notas do resgate; conhecera S3 na prisão"},
+    {"id": "S2", "perfil": "esposa de S1, flagrada passando uma nota do resgate"},
+    {"id": "S3", "perfil": "ex-presidiário, conhecido de S1, que usava nome falso e fugiu de um policial"},
+    {"id": "S4", "perfil": "conhecido de S3, com condenação anterior por outro sequestro, que ajudou a trocar dinheiro"},
+    {"id": "S5", "perfil": "avô de S2, em cuja casa S3 apareceu à procura do casal"}
+  ],
+  "evidencias": [
+    {"id": "E1", "tipo": "Depoimento", "texto": "O menino saiu mais cedo da escola, preferiu voltar a pé em vez de esperar o motorista e foi abordado ao cortar caminho por quadras de tênis.", "suspeitos": []},
+    {"id": "E2", "tipo": "Documental", "texto": "Na noite do sequestro chegou uma carta por entrega especial pedindo 200 mil dólares em notas sem marcação. O envelope trazia a assinatura do menino a lápis.", "suspeitos": []},
+    {"id": "E3", "tipo": "Documental", "texto": "Anúncios pessoais assinados com um pseudônimo foram publicados num jornal em três dias, como sinal de que a família aceitava as exigências.", "suspeitos": []},
+    {"id": "E4", "tipo": "Documental", "texto": "Outra carta mandou o pai se hospedar num hotel e trouxe um bilhete do menino dizendo estar bem. Um motorista de táxi entregou uma terceira mensagem, com marcadores de pano branco na estrada; o segundo marcador não tinha nada.", "suspeitos": []},
+    {"id": "E5", "tipo": "Telefônica", "texto": "Ligações anônimas repreenderam o pai por não seguir instruções; uma delas, de alguém com sotaque estrangeiro, o conduziu por vários passos até um bilhete numa lata e a um sinal com a luz interna do carro. O resgate foi levado por um homem que saiu do mato e partiu com o carro.", "suspeitos": []},
+    {"id": "E6", "tipo": "Depoimento", "texto": "O menino descreveu um homem de uns 40 anos, cabelo castanho e bigode, um segundo homem no banco da frente e uma mulher que os acompanhou na viagem; os captores se chamavam por apelidos. Contou que ficou em buracos, acorrentado, depois num porta-malas, numa casa de outro estado, num armário e por fim num barraco.", "suspeitos": []},
+    {"id": "E7", "tipo": "Documental", "texto": "Os números de série das notas do resgate foram registrados e enviados a bancos, hotéis, ferrovias e lojas por todo o país.", "suspeitos": []},
+    {"id": "E8", "tipo": "Documental", "texto": "Uma nota de 20 dólares do resgate foi usada para comprar passagem de trem entre duas cidades; o comprador foi identificado como S1.", "suspeitos": ["S1"]},
+    {"id": "E9", "tipo": "Documental", "texto": "Numa loja de departamentos, uma caixa notou S2 apresentando uma nota do resgate; uma segunda nota estava na bolsa dela. Ela deu versões conflitantes, mas o endereço foi confirmado.", "suspeitos": ["S2"]},
+    {"id": "E10", "tipo": "Documental", "texto": "S1 registrou seu carro com nome falso.", "suspeitos": ["S1"]},
+    {"id": "E11", "tipo": "Pericial", "texto": "Cerca de 3.700 dólares do resgate foram queimados no fogão do casal; o laboratório da polícia federal identificou notas pelas partes preservadas.", "suspeitos": ["S1", "S2"]},
+    {"id": "E12", "tipo": "Física", "texto": "Perto de 90 mil dólares do resgate foram encontrados enterrados.", "suspeitos": ["S1"]},
+    {"id": "E13", "tipo": "Depoimento", "texto": "S1 disse que S2 só soube do plano ao chegarem a uma cidade, mas também afirmou que ela esteve no esconderijo e ajudou nas negociações.", "suspeitos": ["S1", "S2"]},
+    {"id": "E14", "tipo": "Antecedente", "texto": "S1 e S3 se conheceram em uma penitenciária estadual anos antes.", "suspeitos": ["S1", "S3"]},
+    {"id": "E15", "tipo": "Depoimento", "texto": "O avô de S2 contou que um homem com a descrição de S3 foi à casa dele procurar o casal, e se alarmou ao saber que ambos haviam sido presos.", "suspeitos": ["S3", "S5"]},
+    {"id": "E16", "tipo": "Comportamento", "texto": "Um policial reconheceu S3 numa cidade distante e tentou prendê-lo; ele escapou deixando o carro com cerca de 15 mil dólares do resgate.", "suspeitos": ["S3"]},
+    {"id": "E17", "tipo": "Documental", "texto": "Quase um ano depois, passaram a circular notas com números de série alterados; o laboratório mostrou que eram notas do resgate. Bancos relataram um homem trocando essas notas.", "suspeitos": ["S3"]},
+    {"id": "E18", "tipo": "Física", "texto": "Na garagem alugada por S3 havia tintas e equipamento para alterar números de série, e cerca de 14 mil dólares em notas de 100 estavam enterrados em outro estado.", "suspeitos": ["S3"]},
+    {"id": "E19", "tipo": "Antecedente", "texto": "S4 tinha condenação por um sequestro de cerca de uma década antes e foi encontrado num hotel, com sinais de que ajudou S3 a trocar o dinheiro.", "suspeitos": ["S3", "S4"]},
+    {"id": "E20", "tipo": "Digital", "texto": "O laboratório achou impressões de S1, S2 e S3 no barraco onde o dinheiro foi dividido; as de S1 estavam nas latas usadas para os bilhetes, e as de S2 também no esconderijo.", "suspeitos": ["S1", "S2", "S3"]}
+  ]
+}

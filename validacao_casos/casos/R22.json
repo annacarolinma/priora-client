@@ -1,0 +1,222 @@
+{
+ "id": "R22",
+ "tipo": "real",
+ "resumo": "Uma jovem que trabalhava como garçonete em um bar de uma cidade pequena foi encontrada morta no apartamento onde morava, nua, estrangulada e violentada, com frases escritas na parede e no corpo. A polícia ficou anos sem prender ninguém; mais tarde, dois amigos foram denunciados, e outros homens ligados à vítima ou ao bar também entraram na investigação.",
+ "suspeitos": [
+  {
+   "id": "S1",
+   "perfil": "morador local com longo histórico de tratamento psiquiátrico, conhecido da vítima e frequentador do mesmo bar; segundo a mãe, estava em casa por volta das 22h na noite do crime."
+  },
+  {
+   "id": "S2",
+   "perfil": "amigo próximo de S1, investigado e processado em conjunto com ele; sem ligação anterior conhecida com a vítima."
+  },
+  {
+   "id": "S3",
+   "perfil": "cliente habitual do bar onde a vítima trabalhava; foi visto conversando com ela no estacionamento no fim da noite; disse depois ter ido a outro bar."
+  },
+  {
+   "id": "S4",
+   "perfil": "homem que, meses após as primeiras prisões, se apresentou espontaneamente à polícia dizendo que cometera o crime; conhecia a vítima desde a infância e era usuário pesado de drogas."
+  }
+ ],
+ "evidencias": [
+  {
+   "id": "E1",
+   "tipo": "Física",
+   "texto": "Na manhã seguinte, uma pessoa próxima encontrou vidro quebrado na escada do apartamento, a porta de tela aberta, o vidro da janela da porta da frente quebrado, o rádio ligado e a porta destravada. Uma pulseira continuava no pulso da vítima e havia dinheiro no chão.",
+   "suspeitos": []
+  },
+  {
+   "id": "E2",
+   "tipo": "Física",
+   "texto": "O quarto mostrava sinais de luta: a cama estava empurrada contra a porta e a roupa de cama no chão. A vítima estava de bruços, nua exceto por uma meia, com um pano de rosto enfiado na boca e na garganta e um cinto e um fio elétrico sob o corpo.",
+   "suspeitos": []
+  },
+  {
+   "id": "E3",
+   "tipo": "Documental",
+   "texto": "Havia escritos no local: na parede, uma frase dizendo que um certo homem seria o próximo a morrer; na mesa da cozinha, uma frase mal escrita pedindo que não procurassem 'por nós'; nas costas da vítima, outro nome escrito com molho de cozinha; no peito, a palavra 'morra' escrita com esmalte. Nenhum dos dois nomes foi ligado a alguém conhecido do caso.",
+   "suspeitos": []
+  },
+  {
+   "id": "E4",
+   "tipo": "Pericial",
+   "texto": "A autópsia indicou morte por asfixia causada por estrangulamento com ligadura, com hematomas e escoriações no rosto, pescoço, tronco e membros, marcas de mordida dentro da boca e lesões na região genital. Havia espermatozoides íntegros em mais de uma cavidade.",
+   "suspeitos": []
+  },
+  {
+   "id": "E5",
+   "tipo": "Física",
+   "texto": "Uma marca de palma ensanguentada foi encontrada na parede, perto do chão. Após a exumação do corpo, o laboratório estadual concluiu que a marca pertencia à própria vítima.",
+   "suspeitos": []
+  },
+  {
+   "id": "E6",
+   "tipo": "Pericial",
+   "texto": "O sangue sob as unhas da vítima era do tipo dela. O sêmen no lençol e na calcinha, assim como os espermatozoides do exame vaginal, não mostrou atividade de antígenos, o que é compatível com um doador não secretor ou com nível muito baixo de antígenos.",
+   "suspeitos": []
+  },
+  {
+   "id": "E7",
+   "tipo": "Pericial",
+   "texto": "O laboratório estadual classificou S1 e S2 como não secretores de sangue do grupo O. Das 20 pessoas testadas, 12 não mostraram atividade de antígenos, número acima do esperado para a população.",
+   "suspeitos": [
+    "S1",
+    "S2"
+   ]
+  },
+  {
+   "id": "E8",
+   "tipo": "Pericial",
+   "texto": "Centenas de fios de cabelo foram recolhidos no apartamento. Um perito relatou que dois pelos pubianos da roupa de cama e dois cabelos do pano de rosto eram microscopicamente consistentes com o material de S1 e que a fonte poderia ser a mesma.",
+   "suspeitos": [
+    "S1"
+   ]
+  },
+  {
+   "id": "E9",
+   "tipo": "Pericial",
+   "texto": "O mesmo perito relatou 11 pelos pubianos e 2 cabelos do local consistentes com S2. Em um julgamento posterior, um perito da defesa contou apenas dois fios compatíveis com S2.",
+   "suspeitos": [
+    "S2"
+   ]
+  },
+  {
+   "id": "E10",
+   "tipo": "Pericial",
+   "texto": "Amostras de cabelo de S3 foram coletadas, mas os 32 fios não identificados do apartamento nunca foram comparados com elas. Suas impressões digitais nunca foram enviadas para confronto e sua saliva nunca foi submetida ao teste de secretor.",
+   "suspeitos": [
+    "S3"
+   ]
+  },
+  {
+   "id": "E11",
+   "tipo": "Depoimento",
+   "texto": "Uma amiga da vítima recebeu entre 2h30 e 3h da madrugada uma ligação em que a vítima pedia carona porque alguém no local a deixava desconfortável; a amiga ouviu ruídos abafados. A vítima ligou de novo, disse que ficaria em casa e mudou de assunto quando perguntada sobre quem estava com ela.",
+   "suspeitos": []
+  },
+  {
+   "id": "E12",
+   "tipo": "Depoimento",
+   "texto": "O bar fechou mais cedo naquela noite por falta de movimento. Algumas testemunhas viram a vítima no estacionamento, ao lado do carro, com S3 de pé do lado de fora; segundo uma versão, ela o empurrou para fechar a porta e partiu sozinha. Outras não notaram nada de estranho.",
+   "suspeitos": [
+    "S3"
+   ]
+  },
+  {
+   "id": "E13",
+   "tipo": "Depoimento",
+   "texto": "Um frequentador do bar disse a colegas de trabalho que vira a vítima discutindo com S3 ao entrar no carro e que ele a empurrara. Depois, em depoimento formal, descreveu apenas uma conversa entre os dois.",
+   "suspeitos": [
+    "S3"
+   ]
+  },
+  {
+   "id": "E14",
+   "tipo": "Depoimento",
+   "texto": "O amigo que levara S3 ao bar contou que, depois de o bar fechar, os dois tomaram café da manhã em um restaurante. S3 pediu para ser levado na direção da casa da mãe e desceu perto de uma igreja; o amigo o viu caminhar a pé.",
+   "suspeitos": [
+    "S3"
+   ]
+  },
+  {
+   "id": "E15",
+   "tipo": "Depoimento",
+   "texto": "Logo após o crime, S3 contou à polícia que a vítima o chamara para dançar porque S1 a estava importunando no bar. Ele foi a única testemunha que colocou S1 com a vítima naquela noite.",
+   "suspeitos": [
+    "S1",
+    "S3"
+   ]
+  },
+  {
+   "id": "E16",
+   "tipo": "Comportamento",
+   "texto": "S3 disse à polícia que, depois do bar, foi a outro estabelecimento. Aceitou fazer o teste do polígrafo, que nunca foi aplicado.",
+   "suspeitos": [
+    "S3"
+   ]
+  },
+  {
+   "id": "E17",
+   "tipo": "Antecedente",
+   "texto": "Alguns anos depois do crime, S3 cumpria pena de 40 anos por invasão de domicílio, sequestro e agressões contra uma mulher e a filha dela. Os pais dele escreveram ao promotor, no ano da denúncia contra S1 e S2, avisando que ele era perigoso.",
+   "suspeitos": [
+    "S3"
+   ]
+  },
+  {
+   "id": "E18",
+   "tipo": "Depoimento",
+   "texto": "No ano seguinte ao crime, S1 foi interrogado na casa da mãe, que afirmou que ele chegara em casa antes das 22h. Ele deu amostras de cabelo e saliva. Em outra ocasião, gravou em vídeo um depoimento de cerca de duas horas, com polígrafo, negando qualquer envolvimento. O vídeo só chegou à defesa depois da primeira fase do julgamento.",
+   "suspeitos": [
+    "S1"
+   ]
+  },
+  {
+   "id": "E19",
+   "tipo": "Depoimento",
+   "texto": "Cerca de dois anos depois, uma detenta que dividira cela com S1 em um caso não relacionado disse ter ouvido uma confissão dele. Ela tinha três condenações anteriores, respondia por emissão de cheques sem fundo e pagara pouco do que devia; afirmou não ter recebido benefício algum. Só relatou o fato ao promotor mais de um ano depois.",
+   "suspeitos": [
+    "S1"
+   ]
+  },
+  {
+   "id": "E20",
+   "tipo": "Depoimento",
+   "texto": "Já com a denúncia formalizada, outra detenta disse ter ouvido S1 comentar fotos da vítima com S2 após a audiência preliminar.",
+   "suspeitos": [
+    "S1",
+    "S2"
+   ]
+  },
+  {
+   "id": "E21",
+   "tipo": "Depoimento",
+   "texto": "No dia seguinte à prisão de S1, um agente do laboratório estadual afirmou que ele relatou um 'sonho' em que matava a vítima; depois um funcionário do xerife disse ter ouvido outro 'sonho' semelhante. A conversa com o agente não foi gravada nem assinada por S1.",
+   "suspeitos": [
+    "S1"
+   ]
+  },
+  {
+   "id": "E22",
+   "tipo": "Motivação",
+   "texto": "Testemunhas disseram que a vítima recusara um convite de S1 para sair e que ele teria afirmado ter matado a vítima porque ela o desprezou.",
+   "suspeitos": [
+    "S1"
+   ]
+  },
+  {
+   "id": "E23",
+   "tipo": "Antecedente",
+   "texto": "Há depoimentos de que a vítima temia que S1 a matasse e relatórios policiais sobre uma agressão de S1 a outra mulher que morava perto do apartamento da vítima.",
+   "suspeitos": [
+    "S1"
+   ]
+  },
+  {
+   "id": "E24",
+   "tipo": "Comportamento",
+   "texto": "S1 tem tratamento psiquiátrico desde alguns anos antes do crime, com diagnósticos como esquizofrenia e transtorno bipolar. Foi considerado incapaz em outro processo e estava havia mais de um mês sem medicação quando foi preso. Na audiência preliminar, derrubou uma mesa e foi retirado.",
+   "suspeitos": [
+    "S1"
+   ]
+  },
+  {
+   "id": "E25",
+   "tipo": "Depoimento",
+   "texto": "Meses depois das primeiras prisões, S4 entrou numa delegacia dizendo que cometera o crime; no dia seguinte gravou um relato em vídeo. Disse conhecer a vítima desde a infância e ter trabalhado com a mãe dela, descreveu a escrita na parede e 'coisas com sangue', falou em violência sexual e estrangulamento e disse que outra pessoa participara. Admitiu uso pesado de drogas, inclusive LSD, naquela noite.",
+   "suspeitos": [
+    "S4"
+   ]
+  },
+  {
+   "id": "E26",
+   "tipo": "Pericial",
+   "texto": "Cabelo e saliva de S4 foram enviados ao laboratório estadual pouco depois da confissão. Os registros não mostram que a saliva tenha sido testada. A defesa dos dois primeiros acusados tinha a fita da confissão, mas não a apresentou no julgamento.",
+   "suspeitos": [
+    "S4"
+   ]
+  }
+ ]
+}

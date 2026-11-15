@@ -1,0 +1,13 @@
+{
+  "id": "R13",
+  "titulo": "Caso Dominici (triplo assassinato de Lurs, 1952)",
+  "fonte": "Wikipedia (fr): Affaire Dominici",
+  "url": "https://fr.wikipedia.org/wiki/Affaire_Dominici",
+  "licenca_ou_uso": "CC BY-SA 4.0 (texto reescrito com minhas palavras, em português)",
+  "culpado": ["S1"],
+  "chave_nomes": {"S1": "Gaston Dominici", "S2": "Gustave Dominici", "S3": "Yvette Dominici", "S4": "Clovis Dominici", "S5": "Paul Maillet", "S6": "Aimé Perrin", "S7": "Roger Perrin"},
+  "solucao": "Gaston Dominici foi condenado à morte em 1954 pelo triplo homicídio dos Drummond (decisão final mantida; pena comutada em prisão perpétua em 1957 e ele foi libertado por graça em 1960, sem revisão do julgamento). Há forte controvérsia histórica sobre a condenação (erro judiciário alegado, confissões redigidas em francês por um réu que falava provençal), mas é a decisão judicial definitiva.",
+  "pais_epoca": "França (Alpes), 1952",
+  "tipo_crime": "homicídio triplo",
+  "observacoes": "Caso com desfecho judicial contestado: o 'culpado' é o definido pela Justiça, não necessariamente a verdade histórica; o avaliador deve saber disso. Usei somente pistas do período de investigação até o outono de 1952 (excluí as confissões posteriores, a reconstituição, o julgamento e o desfecho). Há muitos nomes de ruas/horários no original e testemunhos conflitantes. A pista E1 omite a nacionalidade das vítimas. Reconhecimento possível pelo tipo de cena (dado famoso na França); cidade, rio e datas foram omitidos."
+}

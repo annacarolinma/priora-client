@@ -1,0 +1,280 @@
+{
+  "id": "R19",
+  "pesos": [
+    {
+      "evidencia": "E1",
+      "r": 0.5,
+      "vinculos": [
+        {
+          "suspeito": "S2",
+          "v": 0.3,
+          "efeito": "Incrimina"
+        }
+      ],
+      "justificativa": "r: testemunho sem corroboracao; v: ultimo a ve-la, circunstancial."
+    },
+    {
+      "evidencia": "E2",
+      "r": 0.5,
+      "vinculos": [],
+      "justificativa": "Testemunho de contexto sem vinculo."
+    },
+    {
+      "evidencia": "E3",
+      "r": 0.7,
+      "vinculos": [],
+      "justificativa": "Registro fisico de contexto."
+    },
+    {
+      "evidencia": "E4",
+      "r": 0.5,
+      "vinculos": [
+        {
+          "suspeito": "S1",
+          "v": 0.3,
+          "efeito": "Incrimina"
+        },
+        {
+          "suspeito": "S5",
+          "v": 0.3,
+          "efeito": "Incrimina"
+        }
+      ],
+      "justificativa": "r: marcas sem cadeia de custodia detalhada; v: compativel com muitos carros."
+    },
+    {
+      "evidencia": "E5",
+      "r": 0.7,
+      "vinculos": [],
+      "justificativa": "Laudo de contexto."
+    },
+    {
+      "evidencia": "E6",
+      "r": 0.5,
+      "vinculos": [],
+      "justificativa": "Contexto fisico."
+    },
+    {
+      "evidencia": "E7",
+      "r": 0.3,
+      "vinculos": [
+        {
+          "suspeito": "S1",
+          "v": 0.1,
+          "efeito": "Incrimina"
+        },
+        {
+          "suspeito": "S3",
+          "v": 0.1,
+          "efeito": "Incrimina"
+        },
+        {
+          "suspeito": "S4",
+          "v": 0.1,
+          "efeito": "Incrimina"
+        }
+      ],
+      "justificativa": "r: interpretacao de investigadores; v: associacao com familia."
+    },
+    {
+      "evidencia": "E8",
+      "r": 0.3,
+      "vinculos": [
+        {
+          "suspeito": "S1",
+          "v": 0.3,
+          "efeito": "Inocenta"
+        }
+      ],
+      "justificativa": "r: laudo contestado e superado; v: analise posterior afasta circunstancialmente."
+    },
+    {
+      "evidencia": "E9",
+      "r": 0.7,
+      "vinculos": [
+        {
+          "suspeito": "S1",
+          "v": 0.3,
+          "efeito": "Inocenta"
+        }
+      ],
+      "justificativa": "r: registro pericial; v: afasta circunstancialmente."
+    },
+    {
+      "evidencia": "E10",
+      "r": 0.7,
+      "vinculos": [
+        {
+          "suspeito": "S1",
+          "v": 0.5,
+          "efeito": "Inocenta"
+        }
+      ],
+      "justificativa": "r: registro oficial; v: afasta parcialmente (carro nao corresponde)."
+    },
+    {
+      "evidencia": "E11",
+      "r": 0.9,
+      "vinculos": [
+        {
+          "suspeito": "S1",
+          "v": 0.5,
+          "efeito": "Inocenta"
+        },
+        {
+          "suspeito": "S2",
+          "v": 0.5,
+          "efeito": "Inocenta"
+        },
+        {
+          "suspeito": "S3",
+          "v": 0.5,
+          "efeito": "Inocenta"
+        },
+        {
+          "suspeito": "S4",
+          "v": 0.5,
+          "efeito": "Inocenta"
+        }
+      ],
+      "justificativa": "r: perfil de DNA (pericial); v: nao corresponde, mas bituca pode ser alheia ao crime."
+    },
+    {
+      "evidencia": "E12",
+      "r": 0.5,
+      "vinculos": [
+        {
+          "suspeito": "S5",
+          "v": 0.5,
+          "efeito": "Incrimina"
+        }
+      ],
+      "justificativa": "r: achado sem cadeia documentada; v: compativel com grupo pequeno de donos do modelo."
+    },
+    {
+      "evidencia": "E13",
+      "r": 0.9,
+      "vinculos": [
+        {
+          "suspeito": "S1",
+          "v": 0.3,
+          "efeito": "Inocenta"
+        }
+      ],
+      "justificativa": "r: registro eletronico integro; v: ligacoes parcialmente cobrem o periodo mas compativel com muitos."
+    },
+    {
+      "evidencia": "E14",
+      "r": 0.5,
+      "vinculos": [
+        {
+          "suspeito": "S1",
+          "v": 0.3,
+          "efeito": "Incrimina"
+        }
+      ],
+      "justificativa": "r: testemunho nao corroborado; v: circunstancial."
+    },
+    {
+      "evidencia": "E15",
+      "r": 0.3,
+      "vinculos": [
+        {
+          "suspeito": "S1",
+          "v": 0.3,
+          "efeito": "Incrimina"
+        }
+      ],
+      "justificativa": "r: testemunho retratado; v: circunstancial."
+    },
+    {
+      "evidencia": "E16",
+      "r": 0.3,
+      "vinculos": [
+        {
+          "suspeito": "S1",
+          "v": 0.1,
+          "efeito": "Inocenta"
+        }
+      ],
+      "justificativa": "r: testemunha interessada (parente); v: mera sugestao."
+    },
+    {
+      "evidencia": "E17",
+      "r": 0.1,
+      "vinculos": [
+        {
+          "suspeito": "S1",
+          "v": 0.3,
+          "efeito": "Incrimina"
+        }
+      ],
+      "justificativa": "r: relato de vidente, boato; v: circunstancial."
+    },
+    {
+      "evidencia": "E18",
+      "r": 0.3,
+      "vinculos": [
+        {
+          "suspeito": "S1",
+          "v": 0.1,
+          "efeito": "Incrimina"
+        }
+      ],
+      "justificativa": "r: interpretacao sem exames; v: mera associacao."
+    },
+    {
+      "evidencia": "E19",
+      "r": 0.3,
+      "vinculos": [
+        {
+          "suspeito": "S1",
+          "v": 0.1,
+          "efeito": "Incrimina"
+        }
+      ],
+      "justificativa": "r: caracterizacoes de partes interessadas; v: mera associacao."
+    },
+    {
+      "evidencia": "E20",
+      "r": 0.3,
+      "vinculos": [
+        {
+          "suspeito": "S2",
+          "v": 0.1,
+          "efeito": "Incrimina"
+        }
+      ],
+      "justificativa": "r: relatos conflitantes; v: mera associacao."
+    },
+    {
+      "evidencia": "E21",
+      "r": 0.3,
+      "vinculos": [
+        {
+          "suspeito": "S2",
+          "v": 0.3,
+          "efeito": "Inocenta"
+        }
+      ],
+      "justificativa": "r: relato da parte interessada; v: solto sem acusacao, afasta circunstancialmente."
+    },
+    {
+      "evidencia": "E22",
+      "r": 0.3,
+      "vinculos": [
+        {
+          "suspeito": "S3",
+          "v": 0.3,
+          "efeito": "Inocenta"
+        },
+        {
+          "suspeito": "S4",
+          "v": 0.3,
+          "efeito": "Inocenta"
+        }
+      ],
+      "justificativa": "r: apontamento de terceiro por reconhecimento na TV; v: alibis afastam circunstancialmente."
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "R16",
+  "pesos": [
+    {"evidencia": "E1", "r": 0.7, "vinculos": [], "justificativa": "r: achado oficial da cena; contexto sem suspeito."},
+    {"evidencia": "E2", "r": 0.7, "vinculos": [], "justificativa": "r: achado físico de cena; contexto sem suspeito."},
+    {"evidencia": "E3", "r": 0.7, "vinculos": [], "justificativa": "r: laudo oficial inicial, depois contestado; contexto sem suspeito."},
+    {"evidencia": "E4", "r": 0.5, "vinculos": [], "justificativa": "r: declaração posterior do legista, sem cadeia documentada; contexto."},
+    {"evidencia": "E5", "r": 0.3, "vinculos": [], "justificativa": "r: relato de policial demitido, parte interessada; contexto."},
+    {"evidencia": "E6", "r": 0.3, "vinculos": [], "justificativa": "r: caracterização feita pela agência que reabriu o caso (parte interessada); contexto."},
+    {"evidencia": "E7", "r": 0.5, "vinculos": [], "justificativa": "r: simulação pericial sem cadeia de custódia, anos depois; contexto."},
+    {"evidencia": "E8", "r": 0.7, "vinculos": [], "justificativa": "r: decisão judicial oficial; contexto."},
+    {"evidencia": "E9", "r": 0.5, "vinculos": [{"suspeito": "S2", "v": 0.1, "efeito": "Incrimina"}], "justificativa": "r: auditoria contestada pelo laboratório; v: rasura de exame sem ligação direta com a autoria, mera associação."},
+    {"evidencia": "E10", "r": 0.3, "vinculos": [{"suspeito": "S1", "v": 0.5, "efeito": "Incrimina"}, {"suspeito": "S2", "v": 0.7, "efeito": "Incrimina"}, {"suspeito": "S3", "v": 0.5, "efeito": "Incrimina"}], "justificativa": "r: interpretação da acusação (parte interessada) de método contestado; v: aponta nominalmente, mas de método sem validade, S2 como autora mais específica."},
+    {"evidencia": "E11", "r": 0.5, "vinculos": [{"suspeito": "S1", "v": 0.5, "efeito": "Incrimina"}], "justificativa": "r: testemunho formal sem corroboração; v: o coloca no local, mas o relato é isolado e a explicação pode ser inocente (acesso frequente)."},
+    {"evidencia": "E12", "r": 0.3, "vinculos": [{"suspeito": "S4", "v": 0.3, "efeito": "Incrimina"}, {"suspeito": "S1", "v": 0.3, "efeito": "Incrimina"}, {"suspeito": "S2", "v": 0.3, "efeito": "Incrimina"}], "justificativa": "r: testemunha com interesse e antecedentes, relato vago; v: circunstancial para todos."},
+    {"evidencia": "E13", "r": 0.7, "vinculos": [{"suspeito": "S4", "v": 0.3, "efeito": "Incrimina"}], "justificativa": "r: registro de antecedentes; v: presença habitual no local, circunstancial."},
+    {"evidencia": "E14", "r": 0.3, "vinculos": [{"suspeito": "S1", "v": 0.3, "efeito": "Incrimina"}, {"suspeito": "S2", "v": 0.3, "efeito": "Incrimina"}, {"suspeito": "S3", "v": 0.3, "efeito": "Incrimina"}], "justificativa": "r: motivo alegado por parte interessada e contestado; v: circunstancial."},
+    {"evidencia": "E15", "r": 0.3, "vinculos": [], "justificativa": "r: hipótese pessoal registrada por policial, segunda mão; contexto sem suspeito."},
+    {"evidencia": "E16", "r": 0.7, "vinculos": [{"suspeito": "S1", "v": 0.3, "efeito": "Inocenta"}, {"suspeito": "S2", "v": 0.3, "efeito": "Inocenta"}, {"suspeito": "S3", "v": 0.3, "efeito": "Inocenta"}], "justificativa": "r: decisão judicial oficial; v: crítica ao método da acusação afasta apenas circunstancialmente."},
+    {"evidencia": "E17", "r": 0.7, "vinculos": [], "justificativa": "r: registros oficiais; contexto sobre confiabilidade das testemunhas."},
+    {"evidencia": "E18", "r": 0.5, "vinculos": [{"suspeito": "S3", "v": 0.3, "efeito": "Inocenta"}], "justificativa": "r: ausência de testemunho, sem corroboração positiva; v: falta de elementos afasta circunstancialmente."}
+  ]
+}

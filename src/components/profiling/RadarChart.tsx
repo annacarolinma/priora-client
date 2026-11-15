@@ -1,3 +1,4 @@
+import SeriesSwatch, { RADAR_FILL_OPACITY } from "./SeriesSwatch";
 import type { ProfileAxis, ProfileValues } from "./types";
 
 type RadarSeries = {
@@ -127,7 +128,7 @@ export default function RadarChart({ axes, series, max = 100, className = "" }: 
                 <polygon
                   points={toPoints(coords)}
                   fill={s.color}
-                  fillOpacity={0.5}
+                  fillOpacity={RADAR_FILL_OPACITY}
                   stroke={s.color}
                   strokeWidth={2}
                   strokeLinejoin="round"
@@ -196,11 +197,7 @@ export default function RadarChart({ axes, series, max = 100, className = "" }: 
         <ul className="mt-4 flex flex-wrap items-center justify-center gap-x-6 gap-y-2">
           {series.map((s) => (
             <li key={s.id} className="flex items-center gap-2 text-xs text-white/70">
-              <span
-                className="inline-block h-2.5 w-2.5 rounded-full"
-                style={{ backgroundColor: s.color }}
-                aria-hidden="true"
-              />
+              <SeriesSwatch color={s.color} />
               {s.label}
             </li>
           ))}

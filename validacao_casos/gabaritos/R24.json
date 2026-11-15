@@ -1,0 +1,25 @@
+{
+ "id": "R24",
+ "titulo": "Homicídio de Marta Russo (Universidade La Sapienza, Roma, 1997)",
+ "fonte": "Wikipédia italiana (ponto de partida) e Wikipédia inglesa; ambas resumem decisões da Corte d'assise di Roma (1999), apelação (2002) e Corte de Cassação (2001-2003) e imprensa italiana",
+ "url": "https://it.wikipedia.org/wiki/Omicidio_di_Marta_Russo ; https://en.wikipedia.org/wiki/Murder_of_Marta_Russo",
+ "licenca_ou_uso": "Texto da Wikipédia sob CC BY-SA; fatos reescritos com palavras próprias, sem cópia de trechos",
+ "culpado": [
+  "S1"
+ ],
+ "chave_nomes": {
+  "S1": "Giovanni Scattone",
+  "S2": "Salvatore Ferraro",
+  "S3": "Francesco Liparota",
+  "S4": "Bruno Romano",
+  "S5": "Carmelo (Rino) Zingale",
+  "S6": "ex-namorado da vítima (nome não registrado)",
+  "S7": "Domenico Condemi",
+  "T1": "Maria Chiara Lipari (testemunha)",
+  "T2": "Gabriella Alletto (testemunha)"
+ },
+ "solucao": "A sentença definitiva (2003) condenou S1 por homicídio culposo agravado (cerca de 5 anos e 4 meses após a apelação) e S2 por favorecimento pessoal (cerca de 4 anos e 2 meses), sem condená-lo pelo concurso no tiro. S3 foi absolvido/não punido pela Cassação e S4 foi absolvido; S5, S6 e S7 nunca foram acusados do tiro. A condenação baseou-se sobretudo em testemunhos, depois que a perícia da partícula do peitoril foi desqualificada. Culpado = S1 (autor do disparo, segundo a sentença); S2 é condenado só por ajudar depois.",
+ "pais_epoca": "Itália, 1997 (julgamento 1999, apelação 2002, trânsito em julgado 2003)",
+ "tipo_crime": "homicídio",
+ "observacoes": "Caso polêmico: S1 e S2 sempre negaram, e há movimento a favor da inocência deles; foi só a decisão judicial definitiva que usei como gabarito. A identificação de S1 apoiou-se em testemunho (T2), não em confissão nem flagrante. Deixei de fora: a sentença, os trechos de julgamento e as decisões posteriores (a Cassação chamou a partícula de 'erro'; apelação disse que ela 'quase certamente' não vinha do cartucho), por serem posteriores à acusação. Limitação: fontes consultadas só em resumos de Wikipédia (IT e EN, a página italiana foi lida só até cerca de 100 mil caracteres), sem acesso ao texto das sentenças; as imprensas italianas (Corriere, Repubblica) não foram abertas. O relato E10-E12 e E14 vem de reconstruções da defesa e pode ter nuances. Caso amplamente conhecido na Itália, mas sem fama internacional; anonimizado."
+}

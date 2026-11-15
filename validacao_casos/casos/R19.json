@@ -1,0 +1,36 @@
+{
+  "id": "R19",
+  "tipo": "real",
+  "resumo": "Uma jovem de 19 anos saiu da casa do namorado à noite em uma área litorânea turística e desapareceu. Seu corpo, muito decomposto e com várias facadas, foi achado semanas depois a algumas dezenas de quilômetros. Um júri e recursos sucessivos marcaram a investigação nos anos seguintes.",
+  "suspeitos": [
+    {"id": "S1", "perfil": "ex-companheira da mãe da vítima, de personalidade descrita como dominadora; diz que ficou em casa naquela noite, saindo só para comprar cigarros"},
+    {"id": "S2", "perfil": "namorado da vítima, menor de idade; foi o último a vê-la; interrogado como principal suspeito no início"},
+    {"id": "S3", "perfil": "tio-avô da vítima pelo lado materno, apontado por um dono de restaurante que o reconheceu na TV; tem álibi"},
+    {"id": "S4", "perfil": "outro tio-avô materno, também apontado pelo mesmo dono de restaurante; tem álibi"},
+    {"id": "S5", "perfil": "homem estrangeiro que morava na região e tinha um carro de certo modelo; não aparece na investigação inicial"}
+  ],
+  "evidencias": [
+    {"id": "E1", "tipo": "Depoimento", "texto": "A vítima saiu da casa do namorado por volta de 21h30 para voltar para casa e não chegou.", "suspeitos": ["S2"]},
+    {"id": "E2", "tipo": "Depoimento", "texto": "Um taxista disse ter visto, por volta de 22h, um veículo off-road parado e ouvido um grito forte. Seu relato foi usado para fixar o horário do ataque.", "suspeitos": []},
+    {"id": "E3", "tipo": "Física", "texto": "Em uma clareira foram achados tênis e um lenço da vítima, com manchas de sangue dela, além de um rastro de gotas que leva a uma grande poça.", "suspeitos": []},
+    {"id": "E4", "tipo": "Física", "texto": "As marcas de pneu no local sugeriam um carro pequeno com pneus de modelo já descontinuado, com uns seis anos de uso.", "suspeitos": ["S1", "S5"]},
+    {"id": "E5", "tipo": "Pericial", "texto": "Peritos concluíram que a vítima morreu no local, em 4 a 6 horas, e depois foi levada e vestida; o corpo estava em decomposição muito avançada, o que surpreendeu.", "suspeitos": []},
+    {"id": "E6", "tipo": "Física", "texto": "Perto do corpo estavam dois sacos de lixo industriais pretos, unidos com fita, usados como mortalha; um tinha o número 8.", "suspeitos": []},
+    {"id": "E7", "tipo": "Física", "texto": "Perto do corpo havia um adesivo das buscas da família, o que, para os investigadores, sugeria alguém próximo da busca ou da família.", "suspeitos": ["S1", "S3", "S4"]},
+    {"id": "E8", "tipo": "Pericial", "texto": "Fibras de roupa esportiva de S1 foram apresentadas como iguais às do corpo; uma análise posterior da Guarda Civil concluiu que as roupas não eram parecidas.", "suspeitos": ["S1"]},
+    {"id": "E9", "tipo": "Física", "texto": "As impressões digitais nos sacos não eram de S1; o pedido da defesa de comparar as digitais dos objetos dentro dos sacos foi negado.", "suspeitos": ["S1"]},
+    {"id": "E10", "tipo": "Física", "texto": "O carro de S1 não correspondia aos pneus achados na cena; os investigadores especularam que ela poderia ter alugado outro carro, mas não houve registro de aluguel.", "suspeitos": ["S1"]},
+    {"id": "E11", "tipo": "DNA", "texto": "Uma bituca de cigarro a cerca de 2,5 m da mancha de sangue tinha perfil de DNA masculino, que não correspondia a nenhum dos investigados.", "suspeitos": ["S1", "S2", "S3", "S4"]},
+    {"id": "E12", "tipo": "Física", "texto": "Perto da cena foi achado um fragmento em forma de tulipa de uma lanterna, com sangue, de um tipo usado em um modelo específico de carro.", "suspeitos": ["S5"]},
+    {"id": "E13", "tipo": "Telefônica", "texto": "O registro telefônico de S1 mostra ligações entre 22h34 e 23h10 e outra às 23h17; ela diz que só saiu para comprar cigarros.", "suspeitos": ["S1"]},
+    {"id": "E14", "tipo": "Depoimento", "texto": "Uma funcionária de restaurante disse que S1 comprou cigarros por volta de 23h30 e parecia nervosa; também falou de chamas na chaminé da casa dela naquele mês.", "suspeitos": ["S1"]},
+    {"id": "E15", "tipo": "Depoimento", "texto": "Uma empregada doméstica disse ter visto S1 esfaquear um cartaz com a foto da vítima, mas depois mudou a declaração.", "suspeitos": ["S1"]},
+    {"id": "E16", "tipo": "Depoimento", "texto": "Uma sobrinha de S1, que dava álibi para ela, depois admitiu um erro na história do cartaz esfaqueado.", "suspeitos": ["S1"]},
+    {"id": "E17", "tipo": "Depoimento", "texto": "Uma vidente declarou que S1 falara de planos de vingança contra a vítima.", "suspeitos": ["S1"]},
+    {"id": "E18", "tipo": "Pericial", "texto": "Um relatório de psicólogo da Guarda Civil descreveu S1 como manipuladora e violenta, mas baseado em conversas, não em exames psicológicos.", "suspeitos": ["S1"]},
+    {"id": "E19", "tipo": "Motivação", "texto": "A família da vítima descrevia S1 como dominadora e ciumenta, enquanto S1 dizia ter sido figura paterna generosa que pagou a casa da família.", "suspeitos": ["S1"]},
+    {"id": "E20", "tipo": "Depoimento", "texto": "Houve relatos conflitantes sobre a roupa da vítima: a família citou uma camiseta branca; o namorado nunca a vira com ela e descreveu um body bordô.", "suspeitos": ["S2"]},
+    {"id": "E21", "tipo": "Comportamento", "texto": "O namorado foi interrogado como principal suspeito, depois solto sem acusação, e afirmou ter sido maltratado pela polícia.", "suspeitos": ["S2"]},
+    {"id": "E22", "tipo": "Depoimento", "texto": "Um dono de restaurante disse reconhecer na TV dois tios-avôs da mãe da vítima como pessoas vistas na região; ambos tinham álibis, e os investigadores acharam que alguém podia estar tentando incriminá-los.", "suspeitos": ["S3", "S4"]}
+  ]
+}

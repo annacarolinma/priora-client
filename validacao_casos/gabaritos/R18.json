@@ -1,0 +1,13 @@
+{
+  "id": "R18",
+  "titulo": "Assassinato de Anni Dewani (lua de mel, Cidade do Cabo, 2010)",
+  "fonte": "Wikipedia (EN) - Murder of Anni Dewani",
+  "url": "https://en.wikipedia.org/wiki/Murder_of_Anni_Dewani",
+  "licenca_ou_uso": "CC BY-SA (texto reescrito em fatos)",
+  "culpado": ["S2", "S4", "S5"],
+  "chave_nomes": {"S1": "Shrien Dewani (marido, absolvido em 2014)", "S2": "Zola Tongo (motorista, admitiu culpa, 18 anos)", "S3": "Monde Mbolombo (recepcionista, imunidade, perjúrio apontado, sem processo)", "S4": "Xolile Mngeni (condenado por homicídio em 2012; achado sobre quem atirou depois contestado; morreu preso em 2014)", "S5": "Mziwamadoda Qwabe (acordo, 25 anos)"},
+  "solucao": "Tongo e Qwabe admitiram culpa em acordos e Mngeni foi condenado em 2012; a versão de mandante (o marido) foi rejeitada em 2014 quando a juíza absolveu Dewani por falta de prova credível e apontou comunicações inventadas por Tongo e Mbolombo. Mbolombo nao foi processado.",
+  "pais_epoca": "Africa do Sul, 2010",
+  "tipo_crime": "homicídio / sequestro de veículo",
+  "observacoes": "Quem de fato atirou é incerto (condenação de Mngeni por atirar foi revista). Os 3 culpados são os condenados definitivamente; o caso tem grau de ambiguidade (mandante nunca provado). Deixei de fora confissões e acordos judiciais. Wikipedia não traz registros telefônicos nem CCTV detalhados."
+}

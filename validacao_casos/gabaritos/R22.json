@@ -1,0 +1,20 @@
+{
+ "id": "R22",
+ "titulo": "Assassinato de Debra Sue Carter (Ada, Oklahoma, 1982) - caso Williamson/Fritz/Gore",
+ "fonte": "Opinioes judiciais abertas (Harvard Caselaw Access Project) e Wikipedia como ponto de partida",
+ "url": "https://static.case.law/f-supp/904/html/1529-01.html (Williamson v. Reynolds, 904 F.Supp. 1529, E.D. Okla. 1995); https://static.case.law/p3d/119/html/1268-01.html (Gore v. State, 2005 OK CR 14, 119 P.3d 1268); https://en.wikipedia.org/wiki/The_Innocent_Man:_Murder_and_Injustice_in_a_Small_Town",
+ "licenca_ou_uso": "Opinioes judiciais dos EUA sao domínio público (CAP, CC0/public domain); Wikipedia CC BY-SA. Pistas reescritas com palavras proprias.",
+ "culpado": [
+  "S3"
+ ],
+ "chave_nomes": {
+  "S1": "Ronald Keith (Ron) Williamson",
+  "S2": "Dennis Fritz",
+  "S3": "Glen Dale Gore",
+  "S4": "Ricky Joe Simmons"
+ },
+ "solucao": "Williamson e Fritz foram condenados em 1988 (Williamson a morte, Fritz a prisao perpetua) e libertados em 1999 depois de exame de DNA que os excluiu como doadores do esperma. O DNA ligou depois Glen Gore, ultimo a ser visto com a vitima, ao esperma encontrado; ele foi condenado em 2003 (condenacao revertida em 2005 pela Corte de Apelacoes Criminais de Oklahoma, por exclusao indevida de prova de terceiro suspeito) e novamente condenado em 2006 a prisao perpetua sem liberdade condicional (fonte: Wikipedia e Gore v. State, 2005 OK CR 14). A confirmacao do recurso de 2006 nao foi verificada por mim.",
+ "pais_epoca": "Estados Unidos, 1982 (julgamentos 1988, 2003, 2006)",
+ "tipo_crime": "homicidio (com violencia sexual)",
+ "observacoes": "Caso conhecido nos EUA pelo livro 'The Innocent Man' (John Grisham, 2006), mas pouco conhecido fora de la; anonimizado. As pistas vem sobretudo de duas opinioes judiciais (mais uma fonte secundaria): nao consegui pagina de imprensa independente (varios sites juridicos bloqueiam acesso automatico), entao o criterio de 'fontes diferentes' foi cumprido so parcialmente. Excluidas de proposito, por criterio 6: o resultado do DNA que excluiu S1/S2 e ligou S3 ao esperma, a fuga de S3 do trabalho externo no dia da divulgacao do DNA, a recusa de S3 em dar amostras em 1997-98 e a opiniao de perito de reconstrucao feita para o julgamento de S3. Incluidas, por serem anteriores: os testemunhos que indicavam S1 e S2 (hair, informantes, 'sonhos'). Atencao: o autor (S3) foi suspeito desde o inicio e a evidencia contra ele e circunstancial e de omissoes (provas nao feitas), enquanto ha mais pistas incriminando os nao autores S1/S2 (que foram condenados e depois inocentados): bom teste de vies. Nao incluidos Mike Carpenter (amostras coletadas; detalhe duvidoso) nem 'Jim Smith/Duke Graham' (nomes escritos na cena nunca identificados). Dependencias: E5 e E6 derivam do mesmo laboratorio mas sao exames distintos. Itens E19 a E23 vem das opinioes sobre o julgamento de S1 e da oferta de prova no julgamento de S3. Atenção ao E23: baseado na oferta de prova da defesa de S3 (2003), portanto alegacao, nao fato provado. A cidade e o laboratorio estadual foram generalizados no arquivo cego."
+}

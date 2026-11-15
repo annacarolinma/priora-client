@@ -1,0 +1,24 @@
+{
+  "id": "R14",
+  "pesos": [
+    {"evidencia": "E1", "r": 0.5, "vinculos": [{"suspeito": "S2", "v": 0.1, "efeito": "Inocenta"}, {"suspeito": "S1", "v": 0.5, "efeito": "Incrimina"}], "justificativa": "r: testemunha única sem corroboração; v: descrição de veículo, cachorro e bigode compatível com poucos; relato como vítima apenas sugere inocência de S2."},
+    {"evidencia": "E2", "r": 0.5, "vinculos": [{"suspeito": "S2", "v": 0.1, "efeito": "Inocenta"}], "justificativa": "r: relato único não corroborado; v: relato de vítima agredida, mera sugestão de inocência."},
+    {"evidencia": "E3", "r": 0.5, "vinculos": [{"suspeito": "S2", "v": 0.1, "efeito": "Inocenta"}], "justificativa": "r: relato único não corroborado; v: mesma narrativa de vítima, mera sugestão."},
+    {"evidencia": "E4", "r": 0.7, "vinculos": [{"suspeito": "S4", "v": 0.3, "efeito": "Inocenta"}, {"suspeito": "S2", "v": 0.5, "efeito": "Inocenta"}], "justificativa": "r: testemunho presencial sem interesse; v: viu S2 amarrada, afasta parcialmente; S4 agiu como socorrista, afasta circunstancialmente."},
+    {"evidencia": "E5", "r": 0.7, "vinculos": [{"suspeito": "S2", "v": 0.1, "efeito": "Incrimina"}], "justificativa": "r: constatação policial; v: apenas as pegadas dela, ambíguo, mera sugestão contra S2."},
+    {"evidencia": "E6", "r": 0.7, "vinculos": [], "justificativa": "r: registro oficial das buscas; contexto sem suspeito."},
+    {"evidencia": "E7", "r": 0.5, "vinculos": [], "justificativa": "r: testemunho único; veículo compatível, sem suspeito citado."},
+    {"evidencia": "E8", "r": 0.7, "vinculos": [], "justificativa": "r: parecer de peritos sobre calibre sem arma; contexto sem suspeito."},
+    {"evidencia": "E9", "r": 0.7, "vinculos": [{"suspeito": "S1", "v": 0.7, "efeito": "Incrimina"}, {"suspeito": "S3", "v": 0.1, "efeito": "Incrimina"}], "justificativa": "r: imagem eletrônica, mas identificação por peritos e conhecidos; v: S1 na cidade ao sul pouco depois, forte; S3 apenas confirmou a identidade, mera associação."},
+    {"evidencia": "E10", "r": 0.5, "vinculos": [{"suspeito": "S1", "v": 0.5, "efeito": "Incrimina"}], "justificativa": "r: cruzamento documental com denúncias anônimas; v: modelo comum, grupo pequeno de proprietários."},
+    {"evidencia": "E11", "r": 0.5, "vinculos": [{"suspeito": "S1", "v": 0.3, "efeito": "Incrimina"}], "justificativa": "r: declaração do próprio S1; v: álibi considerado improvável e versões mudadas, circunstancial."},
+    {"evidencia": "E12", "r": 0.7, "vinculos": [{"suspeito": "S1", "v": 0.5, "efeito": "Incrimina"}], "justificativa": "r: recibos documentais; v: presença na mesma cidade e hora, compatível com explicação inocente."},
+    {"evidencia": "E13", "r": 0.9, "vinculos": [], "justificativa": "r: achado laboratorial; DNA não identificado, sem suspeito citado."},
+    {"evidencia": "E14", "r": 0.9, "vinculos": [{"suspeito": "S1", "v": 0.7, "efeito": "Incrimina"}], "justificativa": "r: laudo de DNA; v: forte, mas a defesa levanta transferência e não explica totalmente as abraçadeiras."},
+    {"evidencia": "E15", "r": 0.3, "vinculos": [{"suspeito": "S3", "v": 0.1, "efeito": "Incrimina"}, {"suspeito": "S1", "v": 0.5, "efeito": "Incrimina"}], "justificativa": "r: delator com benefício, parte interessada; v: mudança de aparência é compatível com consciência de culpa; S3 mera associação."},
+    {"evidencia": "E16", "r": 0.5, "vinculos": [{"suspeito": "S1", "v": 0.5, "efeito": "Incrimina"}], "justificativa": "r: testemunhos e admissão parcial; v: .22 prateado é compatível com um grupo pequeno, mas há muitos revólveres."},
+    {"evidencia": "E17", "r": 0.7, "vinculos": [{"suspeito": "S1", "v": 0.5, "efeito": "Incrimina"}], "justificativa": "r: registros policiais; v: fuga sugere culpa, com explicação possível por outro crime."},
+    {"evidencia": "E18", "r": 0.3, "vinculos": [{"suspeito": "S2", "v": 0.3, "efeito": "Incrimina"}], "justificativa": "r: interpretação da imprensa; v: inconsistências circunstanciais."},
+    {"evidencia": "E19", "r": 0.5, "vinculos": [{"suspeito": "S2", "v": 0.3, "efeito": "Incrimina"}, {"suspeito": "S1", "v": 0.3, "efeito": "Incrimina"}], "justificativa": "r: depoimento sem corroboração, reconhecimento tardio; v: lacunas em seu relato circunstanciais; reconhecimento um ano depois fraco."}
+  ]
+}

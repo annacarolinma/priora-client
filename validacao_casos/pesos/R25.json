@@ -1,0 +1,299 @@
+{
+ "id": "R25",
+ "pesos": [
+  {
+   "evidencia": "E1",
+   "r": 0.3,
+   "vinculos": [
+    {
+     "suspeito": "S4",
+     "v": 0.1,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "r: relato de segunda mão (amiga repetindo o que a vítima disse); v: S4 só aparece como contato que esteve com ela, mera associação."
+  },
+  {
+   "evidencia": "E2",
+   "r": 0.5,
+   "vinculos": [],
+   "justificativa": "r: relato da vítima via terceiros com vestígios físicos parciais (sinais leves de arrombamento); sem suspeito citado, contexto."
+  },
+  {
+   "evidencia": "E3",
+   "r": 0.3,
+   "vinculos": [
+    {
+     "suspeito": "S3",
+     "v": 0.3,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "r: caracterização do detetive, interpretação de terceiro sem prova; v: pegadas até o endereço são circunstanciais e ligam-se à invasão, não necessariamente ao crime final."
+  },
+  {
+   "evidencia": "E4",
+   "r": 0.3,
+   "vinculos": [
+    {
+     "suspeito": "S1",
+     "v": 0.3,
+     "efeito": "Incrimina"
+    },
+    {
+     "suspeito": "S5",
+     "v": 0.1,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "r: conclusão inferida pela amiga (interpretação de terceiro); v: invasor dentro do prédio é compatível com todos os moradores, S5 só por coabitação."
+  },
+  {
+   "evidencia": "E5",
+   "r": 0.5,
+   "vinculos": [
+    {
+     "suspeito": "S1",
+     "v": 0.5,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "r: testemunho de amigos sem corroboração objetiva; v: fixação e assédio por S1 o tornam compatível, mas não prova autoria."
+  },
+  {
+   "evidencia": "E6",
+   "r": 0.5,
+   "vinculos": [
+    {
+     "suspeito": "S1",
+     "v": 0.5,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "r: envelope achado pela polícia, mas autoria do envio vem de relato de amigo e o cartão não foi achado; v: interesse de S1 pela vítima, com explicação inocente plausível."
+  },
+  {
+   "evidencia": "E7",
+   "r": 0.3,
+   "vinculos": [],
+   "justificativa": "r: relato de amigos sobre estado emocional, segunda mão; sem vínculo com suspeito."
+  },
+  {
+   "evidencia": "E8",
+   "r": 0.5,
+   "vinculos": [
+    {
+     "suspeito": "S4",
+     "v": 0.1,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "r: depoimento de parte interessada sem corroboração; v: apenas contato e proximidade com a vítima, mera associação."
+  },
+  {
+   "evidencia": "E9",
+   "r": 0.5,
+   "vinculos": [],
+   "justificativa": "r: testemunho presencial sem corroboração direta; fixa horário da última vez em que foi vista, sem suspeito."
+  },
+  {
+   "evidencia": "E10",
+   "r": 0.9,
+   "vinculos": [],
+   "justificativa": "r: registro eletrônico bancário íntegro; sem suspeito citado."
+  },
+  {
+   "evidencia": "E11",
+   "r": 0.5,
+   "vinculos": [
+    {
+     "suspeito": "S1",
+     "v": 0.5,
+     "efeito": "Inocenta"
+    },
+    {
+     "suspeito": "S2",
+     "v": 0.3,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "r: testemunho de um casal com rosto encoberto e divergência entre as testemunhas; v: S1 (1,88 m) é muito mais alto que o descrito, afasta parcialmente; S2 compatível em altura e apontado só por uma testemunha, circunstancial."
+  },
+  {
+   "evidencia": "E12",
+   "r": 0.5,
+   "vinculos": [],
+   "justificativa": "r: reconhecimento de som por uma testemunha, sem corroboração; liga o homem do caixa ao carro da vítima, sem suspeito."
+  },
+  {
+   "evidencia": "E13",
+   "r": 0.7,
+   "vinculos": [
+    {
+     "suspeito": "S1",
+     "v": 0.5,
+     "efeito": "Incrimina"
+    },
+    {
+     "suspeito": "S2",
+     "v": 0.1,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "r: observação direta de policiais em diligência oficial; v: S1 mentiu ao dizer que estava sozinho, compatível com explicação inocente; S2 escondido por mandado pendente, mera associação."
+  },
+  {
+   "evidencia": "E14",
+   "r": 0.7,
+   "vinculos": [
+    {
+     "suspeito": "S1",
+     "v": 0.7,
+     "efeito": "Incrimina"
+    },
+    {
+     "suspeito": "S2",
+     "v": 0.3,
+     "efeito": "Inocenta"
+    }
+   ],
+   "justificativa": "r: achado físico policial sem laudo de custódia citado; v: cartão da vítima no bolso da jaqueta de S1 o liga fortemente ao uso do cartão; a jaqueta ser de S1 afasta circunstancialmente S2."
+  },
+  {
+   "evidencia": "E15",
+   "r": 0.7,
+   "vinculos": [
+    {
+     "suspeito": "S1",
+     "v": 0.7,
+     "efeito": "Incrimina"
+    },
+    {
+     "suspeito": "S5",
+     "v": 0.3,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "r: apreensão policial documentada com consentimento; v: chaves da vítima na casa de S1 e S5 são fortes para os moradores, mas S5 só por coabitação e circunstancial."
+  },
+  {
+   "evidencia": "E16",
+   "r": 0.7,
+   "vinculos": [
+    {
+     "suspeito": "S1",
+     "v": 0.7,
+     "efeito": "Incrimina"
+    },
+    {
+     "suspeito": "S2",
+     "v": 0.3,
+     "efeito": "Inocenta"
+    },
+    {
+     "suspeito": "S5",
+     "v": 0.3,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "r: número de série e digitais periciais, mas ligação ao dia exato incerta; v: TV da vítima com digitais de S1 é forte para ele; S2 não deixou digitais (afasta circunstancialmente); S5 não excluída entre digitais desconhecidas, circunstancial."
+  },
+  {
+   "evidencia": "E17",
+   "r": 0.5,
+   "vinculos": [
+    {
+     "suspeito": "S1",
+     "v": 0.5,
+     "efeito": "Incrimina"
+    },
+    {
+     "suspeito": "S5",
+     "v": 0.3,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "r: vestígios sem cadeia de custódia e comparação inconclusiva; v: indica o apartamento do térreo, compatível com grupo pequeno de moradores, S5 mais circunstancial."
+  },
+  {
+   "evidencia": "E18",
+   "r": 0.7,
+   "vinculos": [],
+   "justificativa": "r: laudo oficial, mas horário da morte por método hoje pouco confiável; cabo genérico sem especificidade; sem suspeito."
+  },
+  {
+   "evidencia": "E19",
+   "r": 0.5,
+   "vinculos": [],
+   "justificativa": "r: constatação policial da cena; contexto, sem suspeito."
+  },
+  {
+   "evidencia": "E20",
+   "r": 0.9,
+   "vinculos": [
+    {
+     "suspeito": "S1",
+     "v": 0.5,
+     "efeito": "Incrimina"
+    },
+    {
+     "suspeito": "S2",
+     "v": 0.7,
+     "efeito": "Inocenta"
+    },
+    {
+     "suspeito": "S4",
+     "v": 0.7,
+     "efeito": "Inocenta"
+    }
+   ],
+   "justificativa": "r: exame laboratorial oficial; v: tipo sanguíneo exclui S2 e S4 como fonte do sêmen (com força, pois o sêmen pode não ser do autor), S1 compatível mas com cerca de 4% da população, grupo pequeno."
+  },
+  {
+   "evidencia": "E21",
+   "r": 0.3,
+   "vinculos": [
+    {
+     "suspeito": "S1",
+     "v": 0.5,
+     "efeito": "Incrimina"
+    },
+    {
+     "suspeito": "S2",
+     "v": 0.1,
+     "efeito": "Inocenta"
+    }
+   ],
+   "justificativa": "r: acusação de parte interessada (S2 tinha mandado pendente) sem corroboração; v: atribui a S1 roubo de chaves e manuseio do pegador; sugere apenas que S2 não foi o autor."
+  },
+  {
+   "evidencia": "E22",
+   "r": 0.7,
+   "vinculos": [
+    {
+     "suspeito": "S1",
+     "v": 0.7,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "r: registro oficial do agente de condicional sobre as declarações; v: mudança de versão e posse do cartão da vítima, apesar de explicação inocente alegada."
+  },
+  {
+   "evidencia": "E23",
+   "r": 0.7,
+   "vinculos": [
+    {
+     "suspeito": "S1",
+     "v": 0.1,
+     "efeito": "Incrimina"
+    },
+    {
+     "suspeito": "S2",
+     "v": 0.1,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "r: registro oficial de antecedentes; v: antecedentes são mera associação, sem relação com o fato."
+  }
+ ]
+}

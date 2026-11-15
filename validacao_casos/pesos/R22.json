@@ -1,0 +1,290 @@
+{
+ "id": "R22",
+ "pesos": [
+  {
+   "evidencia": "E1",
+   "r": 0.7,
+   "vinculos": [],
+   "justificativa": "Constatacao da cena (r 0.7); contexto."
+  },
+  {
+   "evidencia": "E2",
+   "r": 0.7,
+   "vinculos": [],
+   "justificativa": "Constatacao da cena (r 0.7); contexto."
+  },
+  {
+   "evidencia": "E3",
+   "r": 0.7,
+   "vinculos": [],
+   "justificativa": "Registro documentado da cena (r 0.7); nomes sem ligacao a ninguem."
+  },
+  {
+   "evidencia": "E4",
+   "r": 0.9,
+   "vinculos": [],
+   "justificativa": "Laudo de autopsia oficial (r 0.9); sem suspeito."
+  },
+  {
+   "evidencia": "E5",
+   "r": 0.9,
+   "vinculos": [],
+   "justificativa": "Laudo laboratorial oficial (r 0.9); sem suspeito."
+  },
+  {
+   "evidencia": "E6",
+   "r": 0.9,
+   "vinculos": [],
+   "justificativa": "Laudo laboratorial oficial (r 0.9); sem suspeito."
+  },
+  {
+   "evidencia": "E7",
+   "r": 0.7,
+   "vinculos": [
+    {
+     "suspeito": "S1",
+     "v": 0.3,
+     "efeito": "Incrimina"
+    },
+    {
+     "suspeito": "S2",
+     "v": 0.3,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Classificacao do laboratorio estadual (r 0.7); 12 de 20 testados tem o mesmo perfil, compativel com muitas pessoas (v 0.3)."
+  },
+  {
+   "evidencia": "E8",
+   "r": 0.5,
+   "vinculos": [
+    {
+     "suspeito": "S1",
+     "v": 0.3,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Comparacao microscopica de cabelos, sem cadeia clara entre centenas de fios (r 0.5); 'consistente' e circunstancial (v 0.3)."
+  },
+  {
+   "evidencia": "E9",
+   "r": 0.5,
+   "vinculos": [
+    {
+     "suspeito": "S2",
+     "v": 0.3,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Contagem divergente entre peritos (r 0.5); compatibilidade microscopica circunstancial (v 0.3)."
+  },
+  {
+   "evidencia": "E10",
+   "r": 0.7,
+   "vinculos": [
+    {
+     "suspeito": "S3",
+     "v": 0.1,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Registro oficial de omissoes de comparacao (r 0.7); apenas ausencia de exame, sem fato contra ele (v 0.1)."
+  },
+  {
+   "evidencia": "E11",
+   "r": 0.5,
+   "vinculos": [],
+   "justificativa": "Testemunho sem corroboracao (r 0.5); sem suspeito."
+  },
+  {
+   "evidencia": "E12",
+   "r": 0.5,
+   "vinculos": [
+    {
+     "suspeito": "S3",
+     "v": 0.3,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Testemunhos divergentes (r 0.5); contato no estacionamento e circunstancial (v 0.3)."
+  },
+  {
+   "evidencia": "E13",
+   "r": 0.3,
+   "vinculos": [
+    {
+     "suspeito": "S3",
+     "v": 0.3,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Versao inconsistente entre falas (r 0.3); circunstancial (v 0.3)."
+  },
+  {
+   "evidencia": "E14",
+   "r": 0.5,
+   "vinculos": [
+    {
+     "suspeito": "S3",
+     "v": 0.3,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Testemunho de amigo sem corroboracao (r 0.5); periodo sem alibi firme, circunstancial (v 0.3)."
+  },
+  {
+   "evidencia": "E15",
+   "r": 0.3,
+   "vinculos": [
+    {
+     "suspeito": "S1",
+     "v": 0.3,
+     "efeito": "Incrimina"
+    },
+    {
+     "suspeito": "S3",
+     "v": 0.1,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Relato de S3, parte interessada que desvia suspeita (r 0.3); poe S1 com a vitima (v 0.3) e e mera associacao para S3 (v 0.1)."
+  },
+  {
+   "evidencia": "E16",
+   "r": 0.5,
+   "vinculos": [
+    {
+     "suspeito": "S3",
+     "v": 0.1,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Declaracao do proprio S3, nao verificada (r 0.5); versao nao checada, mera sugestao (v 0.1)."
+  },
+  {
+   "evidencia": "E17",
+   "r": 0.7,
+   "vinculos": [
+    {
+     "suspeito": "S3",
+     "v": 0.3,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Registro judicial de condenacao (r 0.7); antecedente violento e circunstancial (v 0.3)."
+  },
+  {
+   "evidencia": "E18",
+   "r": 0.3,
+   "vinculos": [
+    {
+     "suspeito": "S1",
+     "v": 0.1,
+     "efeito": "Inocenta"
+    }
+   ],
+   "justificativa": "Alibi dado pela mae, parte interessada (r 0.3); horario (antes das 22h) nao cobre a hora do crime, mera sugestao (v 0.1)."
+  },
+  {
+   "evidencia": "E19",
+   "r": 0.1,
+   "vinculos": [
+    {
+     "suspeito": "S1",
+     "v": 0.7,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Informante de cela com historico e interesse (r 0.1); confissao direta seria forte (v 0.7)."
+  },
+  {
+   "evidencia": "E20",
+   "r": 0.1,
+   "vinculos": [
+    {
+     "suspeito": "S1",
+     "v": 0.3,
+     "efeito": "Incrimina"
+    },
+    {
+     "suspeito": "S2",
+     "v": 0.3,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Detenta, relato de segunda mao e tardio (r 0.1); comentario ambiguo, circunstancial (v 0.3)."
+  },
+  {
+   "evidencia": "E21",
+   "r": 0.3,
+   "vinculos": [
+    {
+     "suspeito": "S1",
+     "v": 0.5,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Relato nao gravado nem assinado de agente interessado (r 0.3); 'sonho' compativel com explicacao inocente (v 0.5)."
+  },
+  {
+   "evidencia": "E22",
+   "r": 0.3,
+   "vinculos": [
+    {
+     "suspeito": "S1",
+     "v": 0.5,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Testemunhas relatando fala de terceiros (r 0.3); motivo mais declaracao, grupo pequeno (v 0.5)."
+  },
+  {
+   "evidencia": "E23",
+   "r": 0.5,
+   "vinculos": [
+    {
+     "suspeito": "S1",
+     "v": 0.3,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Depoimentos e relatorios policiais (r 0.5); temor e agressao anterior circunstanciais (v 0.3)."
+  },
+  {
+   "evidencia": "E24",
+   "r": 0.7,
+   "vinculos": [
+    {
+     "suspeito": "S1",
+     "v": 0.1,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Registros clinicos e processuais (r 0.7); mera associacao de condicao (v 0.1)."
+  },
+  {
+   "evidencia": "E25",
+   "r": 0.5,
+   "vinculos": [
+    {
+     "suspeito": "S4",
+     "v": 0.5,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Confissao em video sob efeito de drogas, sem corroboracao (r 0.5); detalhes compativeis com a cena, mas sem pista exclusiva (v 0.5)."
+  },
+  {
+   "evidencia": "E26",
+   "r": 0.5,
+   "vinculos": [
+    {
+     "suspeito": "S4",
+     "v": 0.1,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Registro de ausencia de teste (r 0.5); apenas omissao, mera sugestao (v 0.1)."
+  }
+ ]
+}

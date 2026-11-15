@@ -1,0 +1,34 @@
+{
+  "id": "R18",
+  "tipo": "real",
+  "resumo": "Um casal em lua de mel no exterior contratou um motorista de táxi para um passeio noturno. O carro foi sequestrado em um bairro periférico, o marido foi solto e a esposa foi encontrada morta no dia seguinte no banco traseiro, com um tiro no pescoço. Itens de valor da vítima sumiram.",
+  "suspeitos": [
+    {"id": "S1", "perfil": "marido da vítima, empresário em visita ao país; diz que foi expulso do carro e roubado pelos sequestradores"},
+    {"id": "S2", "perfil": "motorista do táxi contratado; diz ter sido expulso do carro e ser vítima do sequestro"},
+    {"id": "S3", "perfil": "recepcionista do hotel onde o casal ficou; apontado depois por um dos presos como pessoa conhecida dele"},
+    {"id": "S4", "perfil": "homem preso depois que sua impressão palmar foi achada no táxi abandonado"},
+    {"id": "S5", "perfil": "homem preso após dica de informante da comunidade local"}
+  ],
+  "evidencias": [
+    {"id": "E1", "tipo": "Documental", "texto": "O casal chegou ao país vários dias antes, passou uma temporada em uma reserva natural e, no dia do crime, contratou o motorista no aeroporto/hotel para um passeio.", "suspeitos": ["S2"]},
+    {"id": "E2", "tipo": "Depoimento", "texto": "O motorista e o marido contam que o carro foi tomado por homens armados em um bairro periférico, pouco depois de o veículo sair da via principal.", "suspeitos": ["S1", "S2"]},
+    {"id": "E3", "tipo": "Depoimento", "texto": "Segundo o motorista, ele foi jogado para fora do carro primeiro. O marido diz que foi roubado (dinheiro, carteira, relógio, celular) e expulso cerca de 20 minutos depois.", "suspeitos": ["S1", "S2"]},
+    {"id": "E4", "tipo": "Comportamento", "texto": "Um morador que viu o marido caminhando depois de ser solto chamou a polícia.", "suspeitos": ["S1"]},
+    {"id": "E5", "tipo": "Física", "texto": "Na manhã seguinte o carro foi achado abandonado em outro bairro, com a esposa morta no banco de trás, com um único tiro que atravessou a mão e o pescoço.", "suspeitos": []},
+    {"id": "E6", "tipo": "Física", "texto": "Faltavam o relógio de marca, uma pulseira de ouro branco com diamantes, a bolsa e o celular da vítima, avaliados em cerca de 6 mil dólares.", "suspeitos": []},
+    {"id": "E7", "tipo": "Pericial", "texto": "A necropsia achou hematomas na parte interna da perna, compatíveis com luta ou contenção, e não encontrou violência sexual.", "suspeitos": []},
+    {"id": "E8", "tipo": "Pericial", "texto": "Uma perícia balística inicial indicou disparo a curta distância, mas especialistas depois criticaram a coleta e a interpretação do material, e uma reportagem investigativa sustentou que a lesão do pescoço seria de saída e que o tiro teria ocorrido durante uma luta.", "suspeitos": []},
+    {"id": "E9", "tipo": "Digital", "texto": "Uma impressão palmar encontrada no táxi abandonado foi identificada e levou à prisão de um homem com antecedentes na região.", "suspeitos": ["S4"]},
+    {"id": "E10", "tipo": "Depoimento", "texto": "Um informante da comunidade deu à polícia uma dica que levou à prisão de outro homem, que admitiu participar do sequestro e do roubo, mas a princípio negou ter matado.", "suspeitos": ["S5"]},
+    {"id": "E11", "tipo": "Depoimento", "texto": "Esse segundo preso apontou o recepcionista do hotel como alguém ligado ao grupo; o recepcionista foi detido e, em primeiro momento, descreveu só um sequestro com roubo.", "suspeitos": ["S3", "S5"]},
+    {"id": "E12", "tipo": "Depoimento", "texto": "Nos primeiros depoimentos, dias após o crime, o motorista se descreveu como vítima inocente do sequestro. Depois de contratar um advogado, mudou a versão e passou a falar em um assassinato planejado.", "suspeitos": ["S2"]},
+    {"id": "E13", "tipo": "Depoimento", "texto": "O preso identificado pela impressão palmar gravou em vídeo uma declaração admitindo o sequestro e o roubo; depois seu advogado alegou que ela foi obtida com sufocamento por saco plástico.", "suspeitos": ["S4"]},
+    {"id": "E14", "tipo": "Depoimento", "texto": "O segundo preso alegou ter sido espancado pela polícia e passou a dizer que o crime foi um assassinato por encomenda, em que alguém pagou para a esposa morrer.", "suspeitos": ["S5"]},
+    {"id": "E15", "tipo": "Documental", "texto": "O motorista e o recepcionista citaram ligações e mensagens de texto que teriam ligado o marido à encomenda; depois essas comunicações não foram encontradas nos registros.", "suspeitos": ["S1", "S2", "S3"]},
+    {"id": "E16", "tipo": "Depoimento", "texto": "Gravações feitas durante a investigação mencionam uma quinta pessoa envolvida no plano; motorista e recepcionista se recusaram a identificá-la.", "suspeitos": ["S2", "S3"]},
+    {"id": "E17", "tipo": "Depoimento", "texto": "O segundo preso não soube ou não quis explicar por que o carro com a esposa foi levado para uma área residencial em vez de ser abandonado de imediato.", "suspeitos": ["S5"]},
+    {"id": "E18", "tipo": "Comportamento", "texto": "O recepcionista apresentou, em juízo, um discurso preparado quase idêntico ao que dera em outro julgamento, mas mentiu em pontos relevantes, segundo a juíza.", "suspeitos": ["S3"]},
+    {"id": "E19", "tipo": "Depoimento", "texto": "O homem da impressão palmar sustentou ter um álibi para o momento do crime.", "suspeitos": ["S4"]},
+    {"id": "E20", "tipo": "Motivação", "texto": "Parentes da vítima disseram, após a morte, que o marido havia mentido a eles sobre aspectos do casamento, mas depois afirmaram não crer que ele a tivesse matado.", "suspeitos": ["S1"]}
+  ]
+}

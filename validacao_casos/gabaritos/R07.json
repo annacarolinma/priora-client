@@ -1,0 +1,13 @@
+{
+  "id": "R07",
+  "titulo": "Caso Stacey Castor (Nova York, 2005-2009)",
+  "fonte": "Wikipedia (Stacey Castor)",
+  "url": "https://en.wikipedia.org/wiki/Stacey_Castor",
+  "licenca_ou_uso": "Wikipedia CC BY-SA 4.0; pistas reescritas",
+  "culpado": ["S1"],
+  "chave_nomes": {"S1": "Stacey Castor", "S2": "Ashley Wallace", "S3": "David Castor (vítima; hipótese de suicídio)"},
+  "solucao": "Em fevereiro de 2009 o júri condenou Stacey Castor por homicídio em segundo grau do marido David e por tentativa de homicídio da filha; pena de 25 anos a prisão perpétua mais 25 anos consecutivos (março de 2009). Não foi acusada pela morte do primeiro marido, embora a prova tenha sido admitida.",
+  "pais_epoca": "Estados Unidos, 2005-2009",
+  "tipo_crime": "envenenamento (etilenoglicol)",
+  "observacoes": "Só 3 'suspeitos', um deles a própria vítima (hipótese de suicídio), e o terceiro real (filha) tem pouquíssima evidência a favor. Wikipedia sem detalhes de datas exatas das perícias; o caso mistura dois eventos (morte do marido e tentativa contra a filha). Dica: sem testemunhas independentes. 18 pistas. Foram omitidos a sentença e o desfecho do julgamento."
+}

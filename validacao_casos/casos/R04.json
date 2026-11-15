@@ -1,0 +1,30 @@
+{
+  "id": "R04",
+  "tipo": "real",
+  "resumo": "Um juiz de execução penal é morto a tiros ao descer do carro em frente a uma academia, por dois ocupantes de uma motocicleta. Ele atuava contra o crime organizado no sistema prisional e havia se declarado ameaçado.",
+  "suspeitos": [
+    {"id": "S1", "perfil": "ocupante da motocicleta (atirador), preso em menos de 24 horas"},
+    {"id": "S2", "perfil": "segundo ocupante da motocicleta, preso em menos de 24 horas"},
+    {"id": "S3", "perfil": "homem que emprestou a arma usada no ataque"},
+    {"id": "S4", "perfil": "homem que emprestou a motocicleta"},
+    {"id": "S5", "perfil": "sargento da polícia militar que, segundo a investigação, monitorou a rotina da vítima"},
+    {"id": "S6", "perfil": "outro sargento da polícia militar, também ligado ao monitoramento da vítima"},
+    {"id": "S7", "perfil": "magistrado aposentado do mesmo estado, apontado pelo Ministério Público como possível mandante"},
+    {"id": "S8", "perfil": "coronel da reserva da polícia militar, que havia sido preso por ordem da vítima e transferido de estado"},
+    {"id": "S9", "perfil": "ex-policial civil acusado de participação; nega"}
+  ],
+  "evidencias": [
+    {"id": "E1", "tipo": "Pericial", "texto": "A vítima foi abordada ao sair do carro, ouviu seu nome ser chamado e levou três tiros: no peito à queima-roupa, na cabeça e um terceiro que atravessou braço e tórax.", "suspeitos": []},
+    {"id": "E2", "tipo": "Depoimento", "texto": "Dois ocupantes de uma motocicleta participaram do ataque e saíram do local seguidos por um carro preto, alto, com janelas escuras.", "suspeitos": ["S1","S2"]},
+    {"id": "E3", "tipo": "Comportamento", "texto": "O ataque ocorreu após estudo prolongado da rotina da vítima e num dia em que ela havia dispensado o segurança.", "suspeitos": ["S5","S6"]},
+    {"id": "E4", "tipo": "Documental", "texto": "Os dois ocupantes da moto foram presos em menos de 24 horas depois do crime.", "suspeitos": ["S1","S2"]},
+    {"id": "E5", "tipo": "Motivação", "texto": "A vítima atuava contra o crime organizado no sistema prisional e havia denunciado concessões irregulares de benefícios (liberdade condicional, progressão de regime) e transferências de detentos.", "suspeitos": ["S7"]},
+    {"id": "E6", "tipo": "Documental", "texto": "Cerca de um ano antes, a vítima e outro juiz entregaram a um juiz corregedor um relatório sobre as autorizações irregulares; o caso vazou para a imprensa.", "suspeitos": ["S7"]},
+    {"id": "E7", "tipo": "Antecedente", "texto": "A vítima denunciou um capitão da polícia militar e ordenou a prisão e a transferência para outro estado de um coronel da reserva da corporação.", "suspeitos": ["S8"]},
+    {"id": "E8", "tipo": "Antecedente", "texto": "Ele havia expedido cerca de 1.900 mandados de prisão, declarou publicamente sentir-se ameaçado e teve proteção da Polícia Federal, depois suspensa.", "suspeitos": []},
+    {"id": "E9", "tipo": "Física", "texto": "A arma usada foi emprestada por um conhecido dos executores, e a motocicleta por outro homem.", "suspeitos": ["S3","S4"]},
+    {"id": "E10", "tipo": "Comportamento", "texto": "Dois sargentos da polícia militar monitoraram a vítima e investigaram a sua rotina antes do ataque.", "suspeitos": ["S5","S6"]},
+    {"id": "E11", "tipo": "Depoimento", "texto": "As defesas de três dos acusados sustentaram que se tratou de latrocínio (assalto seguido de morte); o Ministério Público e o pai da vítima rebatem, alegando que o carona não sabia dirigir e que os dois ocupantes da moto não poderiam conduzir o carro da vítima ao mesmo tempo.", "suspeitos": ["S7","S8","S9"]},
+    {"id": "E12", "tipo": "Depoimento", "texto": "O ex-policial civil nega qualquer participação no crime.", "suspeitos": ["S9"]}
+  ]
+}

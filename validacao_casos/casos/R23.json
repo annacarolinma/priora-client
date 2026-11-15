@@ -1,0 +1,228 @@
+{
+ "id": "R23",
+ "tipo": "real",
+ "resumo": "Um carro carregado com cerca de 50 a 60 bananas de dinamite foi detonado em frente à sede de uma força policial numa grande cidade, em plena tarde de um dia útil. Uma policial ficou gravemente ferida e morreu semanas depois, e dezenas de pessoas ficaram feridas. A investigação seguiu pistas de veículos roubados, de um assalto a banco ocorrido no mesmo dia, de ligações anônimas e de um suspeito com retrato falado compatível.",
+ "suspeitos": [
+  {
+   "id": "S1",
+   "perfil": "assaltante armado profissional, com ressentimento conhecido contra a polícia; preso mais de dois meses depois do atentado numa cidade do interior"
+  },
+  {
+   "id": "S2",
+   "perfil": "criminoso com antecedentes, irmão mais velho de S4; encontrado num motel do interior horas depois da prisão de S1"
+  },
+  {
+   "id": "S3",
+   "perfil": "assaltante armado, reconhecido por um guarda de trânsito como motorista de um carro roubado; preso semanas depois do atentado após tiroteio com a polícia"
+  },
+  {
+   "id": "S4",
+   "perfil": "irmão mais novo de S2, encontrado com ele no motel do interior"
+  },
+  {
+   "id": "S5",
+   "perfil": "assaltante armado profissional, com ressentimento contra a polícia, cujo rosto coincidia com um retrato falado; preso em outra cidade semanas depois"
+  },
+  {
+   "id": "S6",
+   "perfil": "homem que telefonou à cúpula da polícia afirmando ter filmagem dos autores e exigindo pagamento"
+  },
+  {
+   "id": "S7",
+   "perfil": "conhecido de S3, sem antecedentes criminais, dono da casa em que S3 era visto com frequência"
+  }
+ ],
+ "evidencias": [
+  {
+   "id": "E1",
+   "tipo": "Documental",
+   "texto": "Cerca de cinco meses antes do atentado, dinamite e detonadores foram furtados de uma mina. Os materiais usados na bomba eram do mesmo tipo.",
+   "suspeitos": []
+  },
+  {
+   "id": "E2",
+   "tipo": "Documental",
+   "texto": "O carro-bomba, de modelo popular, tinha sido roubado no dia anterior ao atentado. A numeração do chassi nele havia sido removida com furos de broca.",
+   "suspeitos": []
+  },
+  {
+   "id": "E3",
+   "tipo": "Motivação",
+   "texto": "O ataque foi interpretado pelos investigadores como uma vingança contra a polícia. No início, acreditava-se que o alvo fosse o tribunal vizinho.",
+   "suspeitos": []
+  },
+  {
+   "id": "E4",
+   "tipo": "Documental",
+   "texto": "Uma possível ligação com ataques anteriores a um tribunal de família em outra cidade foi investigada e descartada.",
+   "suspeitos": []
+  },
+  {
+   "id": "E5",
+   "tipo": "Depoimento",
+   "texto": "Semanas antes, um guarda de trânsito perseguiu um sedã de luxo roubado, que bateu. O motorista fugiu a pé e roubou outro carro sob ameaça de arma. O guarda viu o rosto do motorista e, depois, o reconheceu em fotografias policiais como S3.",
+   "suspeitos": [
+    "S3"
+   ]
+  },
+  {
+   "id": "E6",
+   "tipo": "Física",
+   "texto": "No porta-malas do sedã roubado havia uma mochila com placas de automóvel cortadas em pedaços. Remontadas, eram placas de um carro esportivo roubado.",
+   "suspeitos": [
+    "S3"
+   ]
+  },
+  {
+   "id": "E7",
+   "tipo": "Pericial",
+   "texto": "O carro esportivo roubado foi usado, por volta das 16h do dia do atentado, num assalto a banco com arrombamento da fachada. Foi recuperado semanas depois num rio. A numeração do seu chassi também fora removida com furos de broca, e as marcas coincidiam com as do carro-bomba.",
+   "suspeitos": []
+  },
+  {
+   "id": "E8",
+   "tipo": "Depoimento",
+   "texto": "Uma testemunha viu um homem estacionar um carro idêntico ao carro-bomba diante do prédio, por volta de meio-dia e meia. O retrato falado feito com a sua descrição lembrava S5.",
+   "suspeitos": [
+    "S5"
+   ]
+  },
+  {
+   "id": "E9",
+   "tipo": "Física",
+   "texto": "Numa busca na casa de S5, a polícia encontrou um artefato explosivo caseiro sobre a mesa da cozinha. S5 disse que o artefato se destinava a outra delegacia e negou qualquer ligação com o atentado.",
+   "suspeitos": [
+    "S5"
+   ]
+  },
+  {
+   "id": "E10",
+   "tipo": "Antecedente",
+   "texto": "S5 era assaltante com longa ficha criminal e rancor declarado contra a polícia.",
+   "suspeitos": [
+    "S5"
+   ]
+  },
+  {
+   "id": "E11",
+   "tipo": "Telefônica",
+   "texto": "Duas semanas depois do atentado, um homem ligou cinco vezes para o gabinete do comandante da polícia dizendo ter filmagem dos autores. Pediu o equivalente a meio milhão de dólares numa conta no exterior. As ligações foram feitas de telefones públicos na mesma região da cidade.",
+   "suspeitos": [
+    "S6"
+   ]
+  },
+  {
+   "id": "E12",
+   "tipo": "Documental",
+   "texto": "Uma recompensa oferecida pelo governo levou à identificação do autor das ligações, S6. A informação que ele dizia ter se mostrou falsa.",
+   "suspeitos": [
+    "S6"
+   ]
+  },
+  {
+   "id": "E13",
+   "tipo": "Comportamento",
+   "texto": "Sob vigilância policial, S3 visitou várias vezes a casa de S7, que não tinha antecedentes criminais.",
+   "suspeitos": [
+    "S3",
+    "S7"
+   ]
+  },
+  {
+   "id": "E14",
+   "tipo": "Depoimento",
+   "texto": "S7 conhecia S1, S2 e S4. Em depoimento, afirmou ter encontrado, antes do atentado, uma caixa de explosivos em sua garagem.",
+   "suspeitos": [
+    "S1",
+    "S2",
+    "S4",
+    "S7"
+   ]
+  },
+  {
+   "id": "E15",
+   "tipo": "Física",
+   "texto": "Em casa de S3, a polícia encontrou dinamite embrulhada em jornal que tinha as impressões digitais de S4.",
+   "suspeitos": [
+    "S3",
+    "S4"
+   ]
+  },
+  {
+   "id": "E16",
+   "tipo": "Pericial",
+   "texto": "Armas de fogo de S3 tinham a numeração raspada com furos de broca semelhantes aos encontrados nos chassis dos carros.",
+   "suspeitos": [
+    "S3"
+   ]
+  },
+  {
+   "id": "E17",
+   "tipo": "Pericial",
+   "texto": "Um alicate de corte pertencente a S2 produz cortes parecidos com os dos fios dos detonadores. Uma lima com depósitos de latão apresentava latão compatível com o do local da explosão.",
+   "suspeitos": [
+    "S2"
+   ]
+  },
+  {
+   "id": "E18",
+   "tipo": "Física",
+   "texto": "No local de trabalho de S2 havia um bloco de madeira com uma parte serrada, compatível com um bloco usado na bomba, e fio de cobre estanhado semelhante ao encontrado na cena.",
+   "suspeitos": [
+    "S2"
+   ]
+  },
+  {
+   "id": "E19",
+   "tipo": "Pericial",
+   "texto": "Resíduos de dinamite num antigo endereço de S2 e S4 coincidiam com os resíduos da cena.",
+   "suspeitos": [
+    "S2",
+    "S4"
+   ]
+  },
+  {
+   "id": "E20",
+   "tipo": "Depoimento",
+   "texto": "Uma testemunha disse que S2 telefonou a ela por volta da Páscoa, semanas antes do atentado, perguntando sobre detonadores.",
+   "suspeitos": [
+    "S2"
+   ]
+  },
+  {
+   "id": "E21",
+   "tipo": "Depoimento",
+   "texto": "Outra testemunha viu S2 dirigindo, no centro da cidade e antes da explosão, um carro do mesmo modelo e ano do carro-bomba.",
+   "suspeitos": [
+    "S2"
+   ]
+  },
+  {
+   "id": "E22",
+   "tipo": "Depoimento",
+   "texto": "S4, após conversar com a mãe, admitiu algum envolvimento e disse que o mentor da ação era S1.",
+   "suspeitos": [
+    "S4",
+    "S1"
+   ]
+  },
+  {
+   "id": "E23",
+   "tipo": "Comportamento",
+   "texto": "S3 foi preso depois de um tiroteio com policiais no qual ele e um agente ficaram feridos. Em juízo disse que a polícia começou os disparos e que ele apenas se defendeu.",
+   "suspeitos": [
+    "S3"
+   ]
+  },
+  {
+   "id": "E24",
+   "tipo": "Comportamento",
+   "texto": "S1 foi preso numa cidade do interior mais de dois meses depois do atentado. Poucas horas depois, S2 e S4 foram encontrados num motel de outra cidade do interior.",
+   "suspeitos": [
+    "S1",
+    "S2",
+    "S4"
+   ]
+  }
+ ]
+}

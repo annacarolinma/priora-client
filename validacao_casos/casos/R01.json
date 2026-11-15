@@ -1,0 +1,34 @@
+{
+  "id": "R01",
+  "tipo": "real",
+  "resumo": "Um menino de 11 anos desaparece de casa numa sexta-feira. Dias depois seu corpo é encontrado enterrado em uma cova às margens de um rio, a dezenas de quilômetros de onde morava. A perícia detecta um sedativo no organismo.",
+  "suspeitos": [
+    {"id": "S1", "perfil": "pai da vítima, médico, com consultório próprio; afirmou que o filho dormiria na casa de um amigo"},
+    {"id": "S2", "perfil": "madrasta da vítima, casada com o pai; relação hostil com o menino segundo gravações"},
+    {"id": "S3", "perfil": "amiga próxima da madrasta, que se apresentava como assistente social"},
+    {"id": "S4", "perfil": "irmão da amiga da madrasta; diz que estava pescando na região onde o corpo foi achado"}
+  ],
+  "evidencias": [
+    {"id": "E1", "tipo": "Documental", "texto": "O menino morava com o pai, a madrasta e uma meia-irmã pequena. A mãe biológica havia morrido anos antes e deixou herança ao menino.", "suspeitos": ["S1","S2"]},
+    {"id": "E2", "tipo": "Audiovisual", "texto": "Gravações mostram brigas e hostilidade entre o menino e a madrasta, que chegou a fazer ameaças veladas a ele.", "suspeitos": ["S2"]},
+    {"id": "E3", "tipo": "Audiovisual", "texto": "Em outra gravação o menino aparece segurando um facão e o pai reage com desdém, provocando o filho.", "suspeitos": ["S1"]},
+    {"id": "E4", "tipo": "Depoimento", "texto": "Testemunhas dizem que o menino ficava dias fora de casa sem que o pai o procurasse. Uma ex-professora do pai afirma que ele foi criado com pouco afeto.", "suspeitos": ["S1"]},
+    {"id": "E5", "tipo": "Documental", "texto": "Meses antes, o menino havia pedido a um juiz para ser colocado em outra família, episódio que gerou debate sobre falhas na rede de proteção.", "suspeitos": ["S1","S2"]},
+    {"id": "E6", "tipo": "Depoimento", "texto": "O pai disse à polícia que o filho passaria a noite na casa de um amigo.", "suspeitos": ["S1"]},
+    {"id": "E7", "tipo": "Depoimento", "texto": "Dois dias depois, o pai foi à casa desse amigo e descobriu que o menino nunca tinha chegado lá.", "suspeitos": ["S1"]},
+    {"id": "E8", "tipo": "Documental", "texto": "No início da tarde do dia do desaparecimento, a madrasta foi multada por excesso de velocidade em uma rodovia, com o menino no banco de trás. Um policial rodoviário viu ambos tranquilos.", "suspeitos": ["S2"]},
+    {"id": "E9", "tipo": "Depoimento", "texto": "Nesse trajeto a madrasta ia em direção a uma cidade distante, onde se encontraria com a amiga.", "suspeitos": ["S2","S3"]},
+    {"id": "E10", "tipo": "Comportamento", "texto": "Na noite do desaparecimento o casal (pai e madrasta) foi a uma festa. No dia útil seguinte o pai trabalhou normalmente.", "suspeitos": ["S1","S2"]},
+    {"id": "E11", "tipo": "Física", "texto": "O corpo foi achado cerca de dez dias depois, sem roupas, dentro de um saco, numa cova vertical cavada dias antes à beira de um rio, a cerca de 80 km da casa, e coberto com soda cáustica.", "suspeitos": []},
+    {"id": "E12", "tipo": "Pericial", "texto": "A perícia detectou um sedativo (midazolam) no fígado, nos rins e no estômago. A decomposição impediu avaliar marcas de picada na pele.", "suspeitos": []},
+    {"id": "E13", "tipo": "Documental", "texto": "O sedativo poderia vir de comprimidos comprados em farmácia (compras ligadas à madrasta e à amiga) ou de ampolas do consultório do pai.", "suspeitos": ["S1","S2","S3"]},
+    {"id": "E14", "tipo": "Física", "texto": "Na casa da amiga da madrasta a polícia encontrou uma pá e uma cavadeira.", "suspeitos": ["S3"]},
+    {"id": "E15", "tipo": "Documental", "texto": "O conselho profissional informou que a amiga da madrasta não é assistente social, ao contrário do que ela dizia.", "suspeitos": ["S3"]},
+    {"id": "E16", "tipo": "Depoimento", "texto": "Uma conhecida da madrasta contou à polícia ter ouvido dela que o casal pretendia matar o menino.", "suspeitos": ["S1","S2"]},
+    {"id": "E17", "tipo": "Comportamento", "texto": "Segundo a investigação, o irmão da amiga esteve na região onde o corpo foi encontrado dias antes do desaparecimento do menino.", "suspeitos": ["S4"]},
+    {"id": "E18", "tipo": "Depoimento", "texto": "O irmão da amiga diz que estava pescando naquela região e nega qualquer participação.", "suspeitos": ["S4"]},
+    {"id": "E19", "tipo": "Motivação", "texto": "A herança deixada pela mãe do menino teria de ser dividida com ele, o que, segundo o Ministério Público, desagradava ao pai e à madrasta.", "suspeitos": ["S1","S2"]},
+    {"id": "E20", "tipo": "Motivação", "texto": "A madrasta teria oferecido dinheiro à amiga para quitar um imóvel.", "suspeitos": ["S2","S3"]},
+    {"id": "E21", "tipo": "Antecedente", "texto": "O relacionamento do casal era visto por ambos como prejudicado pela presença do menino, segundo a acusação.", "suspeitos": ["S1","S2"]}
+  ]
+}

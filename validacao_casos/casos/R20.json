@@ -1,0 +1,37 @@
+{
+  "id": "R20",
+  "tipo": "real",
+  "resumo": "Um político de destaque nacional foi baleado duas vezes, na cabeça e no abdômen, durante um comício em um bairro popular de uma cidade de fronteira, e morreu horas depois. Um homem foi capturado no ato, mas vários integrantes das equipes de segurança foram investigados por possível cumplicidade.",
+  "suspeitos": [
+    {"id": "S1", "perfil": "homem de cerca de 23 anos, operário, detido no local do crime logo após os disparos"},
+    {"id": "S2", "perfil": "participante do comício acusado de abrir caminho levantando os braços no momento do ataque"},
+    {"id": "S3", "perfil": "coordenador de um dos grupos de segurança do evento, detido na fase inicial"},
+    {"id": "S4", "perfil": "ex-policial que deteve o atirador e depois foi acusado de cumplicidade"},
+    {"id": "S5", "perfil": "motorista de um grupo de segurança, apontado depois como possível segundo atirador por três testemunhas"},
+    {"id": "S6", "perfil": "agente de inteligência detido perto da cena com roupa manchada de sangue"},
+    {"id": "S7", "perfil": "líder de outro grupo de segurança, acusado de falsear declarações"},
+    {"id": "S8", "perfil": "homem de óculos que apareceu em vídeo com postura suspeita e foi cogitado como segundo atirador"}
+  ],
+  "evidencias": [
+    {"id": "E1", "tipo": "Física", "texto": "A vítima levou dois tiros: um na cabeça, junto à orelha direita, a curta distância, e outro no abdômen. A necropsia atribuiu a morte ao projétil que perfurou o crânio.", "suspeitos": []},
+    {"id": "E2", "tipo": "Física", "texto": "A arma era um revólver calibre .38 de uma marca comum, recolhido na hora do crime; segundo os agentes de segurança, ele foi guardado por horas antes de ser entregue ao Ministério Público.", "suspeitos": ["S1"]},
+    {"id": "E3", "tipo": "Física", "texto": "Uma bala foi achada no local e entregue após horas sob custódia da segurança; a Promotoria depois a considerou plantada, e a cena não foi preservada, com um estojo lavado por engano.", "suspeitos": []},
+    {"id": "E4", "tipo": "Audiovisual", "texto": "Vídeos do comício mostram a multidão e o momento dos tiros; peritos divergiram sobre se os membros do grupo de segurança da frente pareciam combinar algo antes do ataque.", "suspeitos": ["S2", "S3"]},
+    {"id": "E5", "tipo": "Documental", "texto": "A segurança do comício somava 66 pessoas, entre elas 31 de um grupo, 17 de outro e 14 do estado-maior, e a logística de segurança foi separada do planejamento do evento.", "suspeitos": ["S3", "S7"]},
+    {"id": "E6", "tipo": "Depoimento", "texto": "Um coronel que caminhava à frente da vítima disse que um segurança, filho do ex-policial, o bloqueou no momento do ataque.", "suspeitos": ["S4"]},
+    {"id": "E7", "tipo": "Depoimento", "texto": "Acusou-se o homem que levantou os braços de abrir passagem ao atirador; ele foi detido, mas depois solto por falta de provas.", "suspeitos": ["S2"]},
+    {"id": "E8", "tipo": "Documental", "texto": "O coordenador de um grupo de segurança foi detido nos primeiros dias e solto semanas depois por falta de provas.", "suspeitos": ["S3"]},
+    {"id": "E9", "tipo": "Depoimento", "texto": "O ex-policial que deteve o atirador foi solto no dia seguinte, preso de novo semanas depois sob suspeita de cumplicidade e solto de novo por falta de prova.", "suspeitos": ["S4"]},
+    {"id": "E10", "tipo": "Depoimento", "texto": "Três testemunhas afirmaram ter visto o motorista de um grupo de segurança com uma arma; uma disse ter visto ele atirar. Depois se concluiu que os testemunhos eram falsos.", "suspeitos": ["S5"]},
+    {"id": "E11", "tipo": "Pericial", "texto": "Um agente de inteligência foi visto perto da cena com roupa manchada de sangue, deu positivo em resíduos de pólvora e foi liberado quase de imediato. O sangue era da vítima, sem prova de que ele tenha atirado.", "suspeitos": ["S6"]},
+    {"id": "E12", "tipo": "Documental", "texto": "O líder de um grupo de segurança foi acusado de falsear declarações, solto sob fiança e depois absolvido; um subordinado também respondeu por isso.", "suspeitos": ["S7"]},
+    {"id": "E13", "tipo": "Audiovisual", "texto": "Um homem de óculos aparece no vídeo em postura que chamou atenção, e foi cogitado como segundo atirador; não se achou vínculo dele com o homem detido.", "suspeitos": ["S8"]},
+    {"id": "E14", "tipo": "Comportamento", "texto": "Outro homem, apelidado por um mergulho em direção à vítima, foi acusado de bloquear o caminho dela; sua participação não foi provada.", "suspeitos": []},
+    {"id": "E15", "tipo": "Documental", "texto": "No porta-malas do carro do homem detido foram achados cadernos e anotações, usados para traçar seu perfil psicológico como alguém delirante, narcisista e competente.", "suspeitos": ["S1"]},
+    {"id": "E16", "tipo": "Documental", "texto": "O homem detido carregava uma faixa com uma mensagem, que ele disse não ter relação com o ataque.", "suspeitos": ["S1"]},
+    {"id": "E17", "tipo": "Documental", "texto": "O primeiro interrogatório do detido foi caótico, com cerca de 15 pessoas presentes; a ata oficial tinha só três páginas e meia, apesar de haver gravação de áudio.", "suspeitos": ["S1"]},
+    {"id": "E18", "tipo": "Depoimento", "texto": "A família do detido e seu advogado alegaram depois que ele foi coagido ou torturado a se declarar autor; a alegação não foi comprovada.", "suspeitos": ["S1"]},
+    {"id": "E19", "tipo": "Documental", "texto": "O coordenador de segurança e um major foram acusados de omissão por não proteger a vítima; a Promotoria não achou evidência de que a omissão fosse deliberada.", "suspeitos": []},
+    {"id": "E20", "tipo": "Pericial", "texto": "Os investigadores não conseguiram estabelecer a posição exata do corpo para definir a trajetória dos disparos.", "suspeitos": []}
+  ]
+}

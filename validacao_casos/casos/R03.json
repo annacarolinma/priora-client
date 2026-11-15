@@ -1,0 +1,24 @@
+{
+  "id": "R03",
+  "tipo": "real",
+  "resumo": "Uma religiosa estrangeira que defendia agricultores em uma região de conflito por terras é morta a tiros numa estrada de terra isolada, a caminho de uma reunião comunitária. Ela já havia recebido ameaças de morte de madeireiros e proprietários de terras.",
+  "suspeitos": [
+    {"id": "S1", "perfil": "homem armado que abordou a vítima; empregado de uma empresa pecuária da região"},
+    {"id": "S2", "perfil": "segundo homem armado presente na abordagem; também empregado da empresa pecuária"},
+    {"id": "S3", "perfil": "homem da região que atuava como intermediário entre fazendeiros e empregados"},
+    {"id": "S4", "perfil": "fazendeiro da região multado após denúncia da vítima por queimadas ilegais"},
+    {"id": "S5", "perfil": "fazendeiro da região com terras em área de disputa, também alvo de denúncias da vítima"}
+  ],
+  "evidencias": [
+    {"id": "E1", "tipo": "Antecedente", "texto": "A vítima defendia camponeses contra grupos armados que atuavam a serviço de fazendeiros interessados em seus lotes e havia recebido ameaças de morte de madeireiros e proprietários.", "suspeitos": ["S4","S5"]},
+    {"id": "E2", "tipo": "Pericial", "texto": "A vítima foi baleada seis vezes, um tiro na cabeça e cinco ao redor do corpo, por volta das 7h30, numa estrada de terra de difícil acesso a cerca de 50 km da sede do município.", "suspeitos": []},
+    {"id": "E3", "tipo": "Depoimento", "texto": "Uma testemunha que seguia a vítima viu dois homens armados a abordarem e perguntarem se ela estava armada. Ela mostrou uma Bíblia e leu trechos antes dos tiros.", "suspeitos": ["S1","S2"]},
+    {"id": "E4", "tipo": "Documental", "texto": "Os dois homens abordados na cena eram empregados de uma empresa pecuária local.", "suspeitos": ["S1","S2"]},
+    {"id": "E5", "tipo": "Documental", "texto": "Pouco antes, a vítima havia escrito a autoridades acusando um fazendeiro de provocar queimadas ilegais para limpar terra, o que gerou uma multa elevada contra ele.", "suspeitos": ["S4"]},
+    {"id": "E6", "tipo": "Documental", "texto": "A vítima atuava num projeto de assentamento autorizado pelo órgão agrário, em área cobiçada por fazendeiros da região.", "suspeitos": ["S4","S5"]},
+    {"id": "E7", "tipo": "Depoimento", "texto": "O homem que fez a intermediação declarou à polícia ter sido procurado pelos dois fazendeiros, que ofereceram R$ 50 mil pela morte da vítima por causa das denúncias de desmatamento. Ele depois foi também processado.", "suspeitos": ["S3","S4","S5"]},
+    {"id": "E8", "tipo": "Depoimento", "texto": "Um dos homens armados afirmou em juízo que agiu por motivo pessoal e que não foi contratado por ninguém.", "suspeitos": ["S1","S4","S5"]},
+    {"id": "E9", "tipo": "Antecedente", "texto": "Um dos fazendeiros já havia sido preso e solto antes, em outro processo; foi preso novamente anos depois.", "suspeitos": ["S5"]},
+    {"id": "E10", "tipo": "Depoimento", "texto": "Um agricultor convidado para a reunião estava poucos minutos atrás da vítima, viu a cena e se escondeu dos homens.", "suspeitos": ["S1","S2"]}
+  ]
+}

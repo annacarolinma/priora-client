@@ -1,0 +1,308 @@
+{
+ "id": "R23",
+ "pesos": [
+  {
+   "evidencia": "E1",
+   "r": 0.7,
+   "vinculos": [],
+   "justificativa": "Registro documental (r 0.7); contexto."
+  },
+  {
+   "evidencia": "E2",
+   "r": 0.7,
+   "vinculos": [],
+   "justificativa": "Registro documental (r 0.7); contexto."
+  },
+  {
+   "evidencia": "E3",
+   "r": 0.3,
+   "vinculos": [],
+   "justificativa": "Interpretacao dos investigadores (r 0.3); contexto."
+  },
+  {
+   "evidencia": "E4",
+   "r": 0.7,
+   "vinculos": [],
+   "justificativa": "Registro de linha investigativa descartada (r 0.7); contexto."
+  },
+  {
+   "evidencia": "E5",
+   "r": 0.7,
+   "vinculos": [
+    {
+     "suspeito": "S3",
+     "v": 0.3,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Testemunho presencial sem interesse, com reconhecimento fotografico (r 0.7); liga S3 a outro carro roubado, circunstancial (v 0.3)."
+  },
+  {
+   "evidencia": "E6",
+   "r": 0.7,
+   "vinculos": [
+    {
+     "suspeito": "S3",
+     "v": 0.3,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Achado fisico oficial (r 0.7); liga S3 a roubo de veiculo, nao a bomba (v 0.3)."
+  },
+  {
+   "evidencia": "E7",
+   "r": 0.7,
+   "vinculos": [],
+   "justificativa": "Exame pericial de marcas de broca (r 0.7); contexto sem suspeito."
+  },
+  {
+   "evidencia": "E8",
+   "r": 0.5,
+   "vinculos": [
+    {
+     "suspeito": "S5",
+     "v": 0.3,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Testemunho unico sem corroboracao (r 0.5); retrato falado compativel com muitas pessoas (v 0.3)."
+  },
+  {
+   "evidencia": "E9",
+   "r": 0.7,
+   "vinculos": [
+    {
+     "suspeito": "S5",
+     "v": 0.5,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Achado em busca oficial (r 0.7); explosivo caseiro com explicacao alternativa dada (v 0.5)."
+  },
+  {
+   "evidencia": "E10",
+   "r": 0.7,
+   "vinculos": [
+    {
+     "suspeito": "S5",
+     "v": 0.3,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Registro de antecedentes (r 0.7); motivo compativel com muitos (v 0.3)."
+  },
+  {
+   "evidencia": "E11",
+   "r": 0.7,
+   "vinculos": [
+    {
+     "suspeito": "S6",
+     "v": 0.1,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Registro telefonico de chamadas (r 0.7); extorsao posterior, mera associacao (v 0.1)."
+  },
+  {
+   "evidencia": "E12",
+   "r": 0.5,
+   "vinculos": [
+    {
+     "suspeito": "S6",
+     "v": 0.5,
+     "efeito": "Inocenta"
+    }
+   ],
+   "justificativa": "Depende de E11 (r 0.5); informacao falsa indica oportunismo, afasta parcialmente a autoria (v 0.5)."
+  },
+  {
+   "evidencia": "E13",
+   "r": 0.7,
+   "vinculos": [
+    {
+     "suspeito": "S3",
+     "v": 0.1,
+     "efeito": "Incrimina"
+    },
+    {
+     "suspeito": "S7",
+     "v": 0.1,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Vigilancia policial (r 0.7); mera associacao por contato (v 0.1 cada)."
+  },
+  {
+   "evidencia": "E14",
+   "r": 0.3,
+   "vinculos": [
+    {
+     "suspeito": "S1",
+     "v": 0.1,
+     "efeito": "Incrimina"
+    },
+    {
+     "suspeito": "S2",
+     "v": 0.1,
+     "efeito": "Incrimina"
+    },
+    {
+     "suspeito": "S4",
+     "v": 0.1,
+     "efeito": "Incrimina"
+    },
+    {
+     "suspeito": "S7",
+     "v": 0.3,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Declaracao do proprio S7, interessado (r 0.3); conhecimento e mera associacao (v 0.1), caixa de explosivos na garagem e circunstancial (v 0.3)."
+  },
+  {
+   "evidencia": "E15",
+   "r": 0.7,
+   "vinculos": [
+    {
+     "suspeito": "S3",
+     "v": 0.5,
+     "efeito": "Incrimina"
+    },
+    {
+     "suspeito": "S4",
+     "v": 0.5,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Achado em busca e pericia de digitais (r 0.7); dinamite em casa de S3 e digitais de S4 no invólucro, grupo pequeno (v 0.5)."
+  },
+  {
+   "evidencia": "E16",
+   "r": 0.7,
+   "vinculos": [
+    {
+     "suspeito": "S3",
+     "v": 0.5,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Pericia comparativa de marcas (r 0.7); metodo semelhante de raspagem, grupo pequeno (v 0.5)."
+  },
+  {
+   "evidencia": "E17",
+   "r": 0.7,
+   "vinculos": [
+    {
+     "suspeito": "S2",
+     "v": 0.3,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Pericia comparativa, resultados 'parecidos' (r 0.7); ferramentas comuns, circunstancial (v 0.3)."
+  },
+  {
+   "evidencia": "E18",
+   "r": 0.5,
+   "vinculos": [
+    {
+     "suspeito": "S2",
+     "v": 0.3,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Achados no local de trabalho sem cadeia clara (r 0.5); materiais comuns, circunstancial (v 0.3)."
+  },
+  {
+   "evidencia": "E19",
+   "r": 0.7,
+   "vinculos": [
+    {
+     "suspeito": "S2",
+     "v": 0.5,
+     "efeito": "Incrimina"
+    },
+    {
+     "suspeito": "S4",
+     "v": 0.5,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Pericia de residuos (r 0.7); endereco antigo compartilhado, grupo pequeno (v 0.5)."
+  },
+  {
+   "evidencia": "E20",
+   "r": 0.5,
+   "vinculos": [
+    {
+     "suspeito": "S2",
+     "v": 0.5,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Testemunho sem corroboracao (r 0.5); pergunta sobre detonadores, explicacao inocente plausivel (v 0.5)."
+  },
+  {
+   "evidencia": "E21",
+   "r": 0.5,
+   "vinculos": [
+    {
+     "suspeito": "S2",
+     "v": 0.3,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Testemunho sem corroboracao (r 0.5); modelo popular de carro, circunstancial (v 0.3)."
+  },
+  {
+   "evidencia": "E22",
+   "r": 0.5,
+   "vinculos": [
+    {
+     "suspeito": "S4",
+     "v": 0.7,
+     "efeito": "Incrimina"
+    },
+    {
+     "suspeito": "S1",
+     "v": 0.5,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Admissao contra o proprio interesse, mas apos conversa com a mae (r 0.5); admite envolvimento (v 0.7) e aponta S1 sem prova propria (v 0.5)."
+  },
+  {
+   "evidencia": "E23",
+   "r": 0.7,
+   "vinculos": [
+    {
+     "suspeito": "S3",
+     "v": 0.1,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Registro oficial do tiroteio (r 0.7); mera associacao de conduta (v 0.1)."
+  },
+  {
+   "evidencia": "E24",
+   "r": 0.7,
+   "vinculos": [
+    {
+     "suspeito": "S1",
+     "v": 0.1,
+     "efeito": "Incrimina"
+    },
+    {
+     "suspeito": "S2",
+     "v": 0.1,
+     "efeito": "Incrimina"
+    },
+    {
+     "suspeito": "S4",
+     "v": 0.1,
+     "efeito": "Incrimina"
+    }
+   ],
+   "justificativa": "Registro de prisoes (r 0.7); coincidencia temporal, mera associacao (v 0.1)."
+  }
+ ]
+}

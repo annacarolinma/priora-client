@@ -1,0 +1,24 @@
+{
+ "id": "R23",
+ "titulo": "Russell Street bombing (Melbourne, Australia, 27 de marco de 1986)",
+ "fonte": "Wikipedia (ponto de partida), State Library Victoria (Ergo), High Court of Australia Minogue v Victoria [2018] HCA 27",
+ "url": "https://en.wikipedia.org/wiki/Russell_Street_bombing ; https://ergo.slv.vic.gov.au/explore-history/rebels-outlaws/city-criminals/russell-street-bombing ; https://www.hcourt.gov.au/sites/default/files/eresources/2018/HCA/27.pdf ; https://en.wikipedia.org/wiki/Craig_Minogue",
+ "licenca_ou_uso": "Wikipedia CC BY-SA (fatos reescritos); Ergo/SLV e HCA: documentos publicos, uso interno de pesquisa com fatos reescritos",
+ "culpado": [
+  "S1",
+  "S2"
+ ],
+ "chave_nomes": {
+  "S1": "Stanley Taylor",
+  "S2": "Craig Minogue",
+  "S3": "Peter Reed (Peter Komiazyk)",
+  "S4": "Rodney Minogue",
+  "S5": "Claudio Crupi",
+  "S6": "Vladimir Rhychta",
+  "S7": "Karl Zelinka"
+ },
+ "solucao": "Taylor e Craig Minogue foram condenados por homicidio da policial Angela Taylor e crimes conexos na Suprema Corte de Victoria (julgamento de 1988, prisao perpetua). Reed e Rodney Minogue foram absolvidos das acusacoes ligadas a bomba (Reed foi condenado por crimes da propria prisao). Crupi nao foi acusado do atentado, Rhychta foi condenado por atrapalhar a investigacao com informacao falsa, e Zelinka foi apenas interrogado e testemunhou. Condenacao de Craig Minogue confirmada nos autos do Minogue v Victoria [2018] HCA 27.",
+ "pais_epoca": "Australia, 1986",
+ "tipo_crime": "atentado a bomba com homicidio",
+ "observacoes": "ATENCAO, itens possivelmente contrarios ao criterio 6 (surgiram depois que a polcia ja tinha foco nos autores): E15 a E22 (buscas e pericias apos a informacao de S7) e E22 (declaracao de S4 apontando S1, usada para identificar S1) e E24 (prisoes). Mantidos porque nenhum e confissao dos autores nem sentenca e porque tambem apontam para nao autores (S3, S4), mas o avaliador do projeto pode retirar esses itens. Fontes sao em boa parte Wikipedia (marcada com problemas de citacao); o julgamento de 1988 nao foi achado na AustLII. Reed foi absolvido no julgamento mas e tido como participante em parte da imprensa; no gabarito conta como nao autor por decisao judicial. S1 tem poucas pistas diretas (so E14, E22, E24), refletindo a fonte. Datas e numeros anonimizados nos arquivos cegos. Tipo de pista Audiovisual, Digital e DNA ausentes (epoca)."
+}

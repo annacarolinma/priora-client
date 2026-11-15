@@ -1,0 +1,13 @@
+{
+  "id": "R12",
+  "titulo": "Fraude de manipulação de ações Guinness (Guinness share-trading fraud, 1986-1990)",
+  "fonte": "Wikipedia (en): Guinness share-trading fraud; Saunders v United Kingdom",
+  "url": "https://en.wikipedia.org/wiki/Guinness_share-trading_fraud",
+  "licenca_ou_uso": "CC BY-SA 4.0 (texto reescrito com minhas palavras)",
+  "culpado": ["S1", "S2", "S3", "S4"],
+  "chave_nomes": {"S1": "Ernest Saunders", "S2": "Jack Lyons", "S3": "Anthony Parnes", "S4": "Gerald Ronson", "S5": "Tom Ward (absolvido de desonestidade; obrigado civilmente a devolver a comissão)"},
+  "solucao": "Em 1990 (Guinness One) Saunders, Lyons, Parnes e Ronson foram condenados por conspiração, falsidade contábil e furto (pena de prisão para Saunders, Parnes e Ronson; multa para Lyons e Ronson). Recursos de 1991 e posteriores mantiveram as condenações (a CEDH decidiu apenas sobre o uso das respostas dos inspetores, caso Saunders v UK). Ward foi absolvido no julgamento seguinte; casos contra Spens e Seelig ruíram em 1992.",
+  "pais_epoca": "Reino Unido, 1986-1990",
+  "tipo_crime": "fraude financeira / manipulação de mercado",
+  "observacoes": "Fonte pobre em fatos detalhados: só 9 evidências, várias coletivas. Excluí o relatório oficial de 1998 (posterior ao julgamento), as sentenças e o papel de S6 (Spens, Seelig, Green, Mayhew, J Rothschild) por falta de pistas individuais nas fontes abertas. As evidências ligadas a S1 são mais numerosas do que as dos demais, o que pode viciar a avaliação. Um dos cinco suspeitos (S5) foi absolvido; a documentação aberta não descreve provas individuais de S2, S3 e S4."
+}

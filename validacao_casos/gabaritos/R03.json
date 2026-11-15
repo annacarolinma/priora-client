@@ -1,0 +1,13 @@
+{
+  "id": "R03",
+  "titulo": "Assassinato da missionária Dorothy Stang (Anapu, PA, 2005)",
+  "fonte": "Wikipédia (pt e en); Conjur; Congresso em Foco; Tribuna PR (confissão do intermediário)",
+  "url": "https://pt.wikipedia.org/wiki/Dorothy_Stang ; https://www.conjur.com.br/2007-out-23/justica_mantem_pena_assassino_dorothy_stang/ ; https://www.tribunapr.com.br/noticias/fazendeiro-confessa-ter-oferecido-r-50-mil-pela-morte-de-dorothy/",
+  "licenca_ou_uso": "Wikipédia CC BY-SA 4.0; imprensa: fatos reescritos, uso interno",
+  "culpado": ["S1","S2","S3","S4","S5"],
+  "chave_nomes": {"S1": "Rayfran das Neves Sales (Fogoió)", "S2": "Clodoaldo Carlos Batista", "S3": "Amair Feijoli da Cunha (Tato)", "S4": "Vitalmiro Bastos de Moura (Bida)", "S5": "Regivaldo Pereira Galvão (Taradão)"},
+  "solucao": "Executores condenados (27 e 17 anos em 2007), intermediário a 18 anos, os dois fazendeiros condenados como mandantes a 30 anos cada (Bida em 2010 após dois julgamentos anteriores, um com absolvição; Galvão em 2010, pena reduzida a 25 anos pelo STJ e preso em 2019).",
+  "pais_epoca": "Brasil, 2005",
+  "tipo_crime": "homicídio qualificado por encomenda (conflito agrário)",
+  "observacoes": "Caso famoso, anonimizado pode ser reconhecido (religiosa estrangeira, Bíblia). Apenas 10 pistas, sem laudos balísticos nem álibis nas fontes lidas. Todos os 5 suspeitos são culpados (sem inocentes), o que facilita demais o teste; talvez adicionar suspeitos falsos manualmente seja inviável (não inventar). A pistas E7 (delação do intermediário) é antes do julgamento mas é praticamente a prova dos mandantes. Resultados dos julgamentos mudaram várias vezes (anulações), portanto a 'decisão definitiva' é discutível para S4 (absolvição no 2º júri depois revertida)."
+}

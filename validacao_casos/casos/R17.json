@@ -1,0 +1,32 @@
+{
+  "id": "R17",
+  "tipo": "real",
+  "resumo": "Uma jovem arquiteta desapareceu a pé, voltando de um encontro com colegas num bar, algumas noites antes do Natal. O corpo foi achado dias depois à margem de uma estrada rural, e a perícia concluiu estrangulamento. Não havia sinais de arrombamento no apartamento dela, num prédio dividido em unidades.",
+  "suspeitos": [
+    {"id": "S1", "perfil": "proprietário do prédio, homem mais velho e aposentado, morador do andar térreo e vizinho direto da vítima"},
+    {"id": "S2", "perfil": "namorado da vítima, que passou o fim de semana fora da cidade e voltou ao apartamento dois dias depois"},
+    {"id": "S3", "perfil": "vizinho de unidade contígua, engenheiro, que mora com a namorada; viajou ao exterior na virada do ano"}
+  ],
+  "evidencias": [
+    {"id": "E1", "tipo": "Audiovisual", "texto": "Registros mostram que a vítima saiu do bar com colegas e fez a pé um trajeto de cerca de 20 a 30 minutos, passando em lojas de conveniência. Uma câmera a flagrou saindo de um supermercado sem comprar nada, e depois comprando uma pizza e duas garrafas pequenas de sidra.", "suspeitos": []},
+    {"id": "E2", "tipo": "Telefônica", "texto": "Cerca de meia hora depois de sair do supermercado, a vítima ligou para uma amiga para combinar um encontro na véspera de Natal.", "suspeitos": []},
+    {"id": "E3", "tipo": "Física", "texto": "Casaco, botas, chaves, carteira e celular da vítima foram encontrados dentro do apartamento. O telefone tocava dentro do bolso do casaco.", "suspeitos": []},
+    {"id": "E4", "tipo": "Física", "texto": "Duas garrafas de sidra estavam no apartamento, uma delas parcialmente consumida. A pizza e sua embalagem nunca apareceram.", "suspeitos": []},
+    {"id": "E5", "tipo": "Pericial", "texto": "A perícia não achou arrombamento nem sinais de luta, o que levou a polícia a considerar que a vítima podia conhecer o agressor.", "suspeitos": []},
+    {"id": "E6", "tipo": "Depoimento", "texto": "Uma pessoa numa festa em prédio vizinho disse ter ouvido dois gritos altos pouco depois das 21h vindos da direção do apartamento. Outro vizinho lembrou de uma voz de mulher pedindo ajuda, sem lembrar a hora.", "suspeitos": []},
+    {"id": "E7", "tipo": "Depoimento", "texto": "O namorado voltou de viagem de fim de semana dois dias após o desaparecimento, encontrou o apartamento vazio e acionou a polícia.", "suspeitos": ["S2"]},
+    {"id": "E8", "tipo": "Digital", "texto": "O computador e o celular do namorado foram examinados pela polícia. Os testes não indicaram que ele tivesse estado no local no período do crime, e ele foi descartado como suspeito.", "suspeitos": ["S2"]},
+    {"id": "E9", "tipo": "Física", "texto": "O corpo foi achado no dia de Natal por um casal que passeava com o cachorro, em uma beira de estrada rural a poucos quilômetros de casa, coberto por neve.", "suspeitos": []},
+    {"id": "E10", "tipo": "Pericial", "texto": "A autópsia, atrasada pelo congelamento do corpo, concluiu estrangulamento. O patologista disse que a vítima morreu dias antes de ser achada. Não havia indícios de violência sexual.", "suspeitos": []},
+    {"id": "E11", "tipo": "Física", "texto": "Um meião cinza que a vítima usava não foi encontrado junto ao corpo nem no apartamento.", "suspeitos": []},
+    {"id": "E12", "tipo": "Depoimento", "texto": "O proprietário disse à polícia ter visto, naquela noite, três pessoas, entre elas a vítima, saírem do apartamento dela.", "suspeitos": ["S1"]},
+    {"id": "E13", "tipo": "Física", "texto": "O carro do proprietário foi retirado da frente do imóvel para exame forense.", "suspeitos": ["S1"]},
+    {"id": "E14", "tipo": "Documental", "texto": "O proprietário foi preso e interrogado por quase dois dias, depois solto sob fiança sem ser acusado.", "suspeitos": ["S1"]},
+    {"id": "E15", "tipo": "Depoimento", "texto": "O vizinho S3 contou à polícia que, naquela noite, o carro do proprietário teria sido movido.", "suspeitos": ["S3", "S1"]},
+    {"id": "E16", "tipo": "Depoimento", "texto": "A namorada de S3 deu informações sobre o proprietário à polícia enquanto o casal estava no exterior na virada do ano.", "suspeitos": ["S3", "S1"]},
+    {"id": "E17", "tipo": "Depoimento", "texto": "Ao tomar declarações do casal no exterior, os policiais notaram inconsistências no relato de S3.", "suspeitos": ["S3"]},
+    {"id": "E18", "tipo": "Comportamento", "texto": "Um policial descreveu S3 como calmo quando a polícia bateu à sua porta, enquanto a namorada estava visivelmente abalada.", "suspeitos": ["S3"]},
+    {"id": "E19", "tipo": "Audiovisual", "texto": "As imagens de câmeras de uma ponte no trajeto eram de má qualidade e não permitiam identificar pessoas nem placas. Havia uma ponte alternativa sem câmeras.", "suspeitos": []},
+    {"id": "E20", "tipo": "Documental", "texto": "A polícia verificou o paradeiro de centenas de agressores sexuais registrados na região, sem achar suspeito. Foi feita também comparação com um homicídio antigo não resolvido, sem ligação encontrada.", "suspeitos": []}
+  ]
+}

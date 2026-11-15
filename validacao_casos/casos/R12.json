@@ -1,0 +1,103 @@
+{
+ "id": "R12",
+ "tipo": "real",
+ "resumo": "Durante a disputa pela compra de uma grande empresa de bebidas, o preço das ações da empresa compradora foi sustentado por compras feitas por terceiros em diversos países. Uma investigação governamental, aberta após uma informação vinda de um operador estrangeiro preso por outro caso, apurou se essas compras eram manipulação de mercado e se houve desvio de dinheiro da companhia.",
+ "suspeitos": [
+  {
+   "id": "S1",
+   "perfil": "presidente-executivo da empresa compradora, ex-executivo de uma multinacional de alimentos"
+  },
+  {
+   "id": "S2",
+   "perfil": "financista com banco de investimento, participou das compras de ações"
+  },
+  {
+   "id": "S3",
+   "perfil": "operador do mercado financeiro, apontado como elo entre os compradores e as operações"
+  },
+  {
+   "id": "S4",
+   "perfil": "empresário de fora do setor bancário, com ampla rede de contatos no mercado financeiro"
+  },
+  {
+   "id": "S5",
+   "perfil": "advogado americano e diretor da empresa compradora, recebeu uma comissão por sucesso"
+  }
+ ],
+ "evidencias": [
+  {
+   "id": "E1",
+   "tipo": "Documental",
+   "texto": "A empresa compradora disputava a aquisição de uma empresa bem maior, em operação de cerca de 4 bilhões. A diretoria da empresa-alvo preferia o comprador a uma oferta hostil rival, e o preço das ações do comprador precisava subir para a oferta vencer.",
+   "suspeitos": []
+  },
+  {
+   "id": "E2",
+   "tipo": "Documental",
+   "texto": "Executivos da empresa compradora garantiram, sem limite, as perdas de quem comprasse ações dela. Se o preço caísse, os investidores seriam ressarcidos.",
+   "suspeitos": [
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+   ]
+  },
+  {
+   "id": "E3",
+   "tipo": "Documental",
+   "texto": "A empresa pagou cerca de 38 milhões a 11 empresas em ao menos seis países para que comprassem aproximadamente 300 milhões em suas próprias ações. Metade das compras foi feita por um banco europeu.",
+   "suspeitos": []
+  },
+  {
+   "id": "E4",
+   "tipo": "Depoimento",
+   "texto": "Um operador americano, preso nos Estados Unidos por outro caso, disse sob interrogatório que S1 aplicara cerca de 100 milhões com ele. Segundo o operador, a taxa de administração era a recompensa por sustentar o preço das ações. A informação foi repassada ao órgão de inspeção do governo, que investigou.",
+   "suspeitos": [
+    "S1"
+   ]
+  },
+  {
+   "id": "E5",
+   "tipo": "Documental",
+   "texto": "O aporte de 100 milhões equivalia a grande parte do lucro anual da empresa. Esse arranjo, assim como outros acordos secretos de sustentação do preço, não foi comunicado nem aprovado pelo conselho da empresa.",
+   "suspeitos": [
+    "S1"
+   ]
+  },
+  {
+   "id": "E6",
+   "tipo": "Documental",
+   "texto": "Nas contas da empresa, os 100 milhões teriam sido descritos de forma incorreta, segundo os investigadores. Alguns especialistas disseram que se tratava de uma operação legítima fora do balanço.",
+   "suspeitos": [
+    "S1"
+   ]
+  },
+  {
+   "id": "E7",
+   "tipo": "Documental",
+   "texto": "Depois da conclusão da aquisição, a empresa pagou 5,2 milhões como comissão de sucesso a um advogado americano que era também diretor. A forma do pagamento levou à suspeita de que parte dele tenha sido repassada secretamente ao presidente-executivo, fora do país de origem da empresa.",
+   "suspeitos": [
+    "S5",
+    "S1"
+   ]
+  },
+  {
+   "id": "E8",
+   "tipo": "Depoimento",
+   "texto": "A defesa afirmou que sustentar o preço de ações com garantia de perdas era uma prática incomum, mas antiga, do mercado, e não manipulação.",
+   "suspeitos": [
+    "S2",
+    "S3",
+    "S4"
+   ]
+  },
+  {
+   "id": "E9",
+   "tipo": "Depoimento",
+   "texto": "S1 respondeu a nove entrevistas com os inspetores do governo ao longo de alguns meses. Recusar-se a responder era crime, e as respostas puderam ser usadas depois em juízo.",
+   "suspeitos": [
+    "S1"
+   ]
+  }
+ ]
+}

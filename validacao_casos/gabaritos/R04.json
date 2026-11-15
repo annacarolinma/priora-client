@@ -1,0 +1,13 @@
+{
+  "id": "R04",
+  "titulo": "Assassinato do juiz Alexandre Martins de Castro Filho (Vila Velha, ES, 2003)",
+  "fonte": "Wikipédia (pt) - Alexandre Martins de Castro Filho; imprensa (Folha Vitória)",
+  "url": "https://pt.wikipedia.org/wiki/Alexandre_Martins_de_Castro_Filho",
+  "licenca_ou_uso": "Wikipédia CC BY-SA 4.0; fatos reescritos, uso interno",
+  "culpado": ["S1","S2","S3","S4","S5","S6"],
+  "chave_nomes": {"S1": "Giliarde Ferreira de Souza (Gi)", "S2": "Odessi Martins da Silva Filho (Lumbrigão)", "S3": "Leandro Celestino (Pardal)", "S4": "André Luiz Tavares (Yoxito)", "S5": "Heber Valêncio", "S6": "Ranilson Alves da Silva", "S7": "Antônio Leopoldo Teixeira (juiz aposentado)", "S8": "Walter Gomes Ferreira (coronel PM reserva)", "S9": "Cláudio Luiz Andrade Baptista (Calú)"},
+  "solucao": "Executores, quem emprestou arma e moto e os dois sargentos que monitoraram a vítima foram condenados (penas de 8 a 25 anos). Calú foi absolvido. O juiz aposentado (S7) foi condenado em 2026 pelo TJES a 24 anos, com recurso pendente. A página da Wikipédia é contraditória sobre o coronel (S8): cita condenação a 23 anos, mas também que aguarda julgamento em liberdade.",
+  "pais_epoca": "Brasil, 2003",
+  "tipo_crime": "homicídio qualificado por encomenda (crime organizado)",
+  "observacoes": "ATENÇÃO: gabarito incompleto. O desfecho definitivo de S7 e S8 não está confirmado (recurso pendente/dados contraditórios); S9 foi absolvido (único inocente claro). Por isso o culpado listado cobre só S1-S6, que têm condenação definitiva segundo a Wikipédia (executores, arma, moto, sargentos). O intermediário Fernando Reis (condenado a 23 anos, assassinado em 2020) foi omitido do arquivo cego por falta de pistas pré-solução sobre ele. As pistas vêm de um resumo da Wikipédia, sem escutas, perícias ou álibis; E7 (coronel preso por ordem da vítima) é inferência do texto. Recomendo usar com ressalva ou descartar se for exigido 'decisão definitiva' para todos os culpados."
+}

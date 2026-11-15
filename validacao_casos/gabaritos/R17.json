@@ -1,0 +1,13 @@
+{
+  "id": "R17",
+  "titulo": "Assassinato de Joanna Yeates (Bristol, Reino Unido)",
+  "fonte": "Wikipedia (Murder of Joanna Yeates); Crime + Investigation UK (crime file, investigation)",
+  "url": "https://en.wikipedia.org/wiki/Murder_of_Joanna_Yeates ; https://www.crimeandinvestigation.co.uk/crime-files/joanna-yeates/investigation",
+  "licenca_ou_uso": "Wikipedia CC BY-SA; site de TV com todos os direitos reservados (uso interno, fatos reescritos)",
+  "culpado": ["S3"],
+  "chave_nomes": {"S1": "Christopher Jefferies (proprietário, preso e depois inocentado)", "S2": "Greg Reardon (namorado)", "S3": "Vincent Tabak (vizinho)"},
+  "solucao": "Tabak, vizinho da unidade ao lado, foi preso 3 semanas depois, ligado à vítima por DNA e fibras, e condenado por homicídio em 2011 (prisão perpétua, mínimo de 20 anos). Ele havia tentado incriminar Jefferies com informações falsas. Jefferies, preso por 2 dias, foi inocentado e recebeu retratações da imprensa.",
+  "pais_epoca": "Reino Unido (Inglaterra), 2010-2011",
+  "tipo_crime": "homicídio",
+  "observacoes": "Só 3 suspeitos. Evidências limitadas aos fatos públicos pré-prisão do culpado; o laudo de DNA e fibras (que o ligou) foi omitido. E15 e E17 são pistas contra S3 que pesam por hindsight (fonte não permite datar bem a percepção pelo policial). Não é Ásia/África/Oceania: encaixa no critério 'inocente suspeito primeiro'. O verdadeiro autor já era vizinho interrogado na época. 20 pistas."
+}

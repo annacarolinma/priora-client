@@ -1,0 +1,31 @@
+{
+  "id": "R21",
+  "tipo": "real",
+  "resumo": "Um homem de meia-idade, que havia enriquecido de forma repentina alguns anos antes, foi morto a tiros na manhã de um dia de semana por dois homens encapuzados que chegaram de moto a um bar perto de sua propriedade rural, num município do interior. Ele estava sem os seguranças que costumavam acompanhá-lo. Os investigadores trabalharam com pessoas da família, da casa e da equipe de segurança.",
+  "suspeitos": [
+    {"id": "S1", "perfil": "esposa da vítima, casada havia cerca de um ano; deixou de trabalhar após o casamento e mudou o padrão de vida; segundo ela, não tinha interesse na morte do marido"},
+    {"id": "S2", "perfil": "ex-policial militar que trabalhava como segurança da vítima; marido da suspeita S5"},
+    {"id": "S3", "perfil": "ex-segurança da vítima, conhecido de S2"},
+    {"id": "S4", "perfil": "ex-segurança da vítima, cabo da polícia militar"},
+    {"id": "S5", "perfil": "professora de educação física, esposa de S2 e amiga de S1"},
+    {"id": "S6", "perfil": "motorista de van, que reconheceu ter tido relacionamento com S1"},
+    {"id": "S7", "perfil": "soldado da polícia militar, ex-segurança da vítima"}
+  ],
+  "evidencias": [
+    {"id": "E1", "tipo": "Documental", "texto": "Pouco antes do crime a vítima alterou o testamento para incluir a esposa como herdeira de metade do patrimônio, ao lado dos filhos e dos irmãos.", "suspeitos": ["S1"]},
+    {"id": "E2", "tipo": "Documental", "texto": "Cerca de quatro dias antes do crime, o gerente do banco informou à vítima que a esposa havia sacado 300 mil reais da conta conjunta para comprar uma cobertura em uma cidade litorânea.", "suspeitos": ["S1"]},
+    {"id": "E3", "tipo": "Motivação", "texto": "Depois de saber da compra, a vítima discutiu com a esposa e teria dito que a retiraria do testamento. A esposa saiu de casa no dia seguinte.", "suspeitos": ["S1"]},
+    {"id": "E4", "tipo": "Depoimento", "texto": "Um irmão da vítima declarou que ela havia descoberto um caso extraconjugal da esposa e a expulsado de casa dias antes de morrer. Uma irmã afirmou que só a esposa teria interesse na morte e que ela afastara a vítima dos irmãos. A filha da vítima disse à polícia, dois dias após o crime, que a madrasta mandara matá-lo.", "suspeitos": ["S1"]},
+    {"id": "E5", "tipo": "Física", "texto": "A vítima levou quatro tiros (nuca, têmpora, olho e queixo) disparados pelo carona da moto. Relógio e anel de ouro ficaram no corpo; a pochete foi levada. A polícia concluiu que o roubo não era a motivação.", "suspeitos": []},
+    {"id": "E6", "tipo": "Comportamento", "texto": "No dia do crime a esposa pediu nota fiscal em um supermercado, o que nunca fazia antes. A polícia interpretou o gesto como preparação de álibi, mas ele também é compatível com compras comuns.", "suspeitos": ["S1"]},
+    {"id": "E7", "tipo": "Comportamento", "texto": "No mesmo dia do crime a esposa alugou um caminhão para levar a mobília ao imóvel do litoral, em vez de esperar uma semana pela entrega. Dias depois voltou a frequentar motéis com parceiros, segundo a polícia.", "suspeitos": ["S1"]},
+    {"id": "E8", "tipo": "Depoimento", "texto": "A esposa teria passado a virada do ano na cobertura do litoral com um parceiro. Depois ela declarou que não sabia que constava como herdeira no testamento.", "suspeitos": ["S1"]},
+    {"id": "E9", "tipo": "Depoimento", "texto": "O motorista de van reconheceu o relacionamento com a esposa e disse que a vítima seria impotente. Em seu celular o número dela estava gravado com um apelido.", "suspeitos": ["S1", "S6"]},
+    {"id": "E10", "tipo": "Telefônica", "texto": "A Justiça quebrou o sigilo de mais de dez linhas telefônicas ligadas a pessoas da casa, da família e da segurança. O conteúdo das ligações não foi divulgado de forma detalhada.", "suspeitos": ["S1", "S2", "S3", "S4", "S5", "S6", "S7"]},
+    {"id": "E11", "tipo": "Antecedente", "texto": "S2 era ex-policial militar e foi segurança da vítima; S4 e S7 eram policiais militares e também ex-seguranças; S3 era ex-segurança. Todos conheciam a rotina da vítima.", "suspeitos": ["S2", "S3", "S4", "S7"]},
+    {"id": "E12", "tipo": "Comportamento", "texto": "No dia do crime a vítima estava sozinha no bar, sem os seguranças que costumavam acompanhá-la, e os atiradores chegaram de moto, encapuzados.", "suspeitos": ["S2", "S3", "S4", "S7"]},
+    {"id": "E13", "tipo": "Antecedente", "texto": "Meses depois, o chefe da segurança da vítima foi morto. Segundo a polícia, ele pesquisava o histórico de S2. O fato nunca foi imputado formalmente a ninguém neste caso.", "suspeitos": ["S2"]},
+    {"id": "E14", "tipo": "Depoimento", "texto": "Um comerciante local descreveu a vítima como pessoa generosa, que ajudava muita gente da cidade; ninguém relatou desafeto conhecido fora do círculo familiar.", "suspeitos": []},
+    {"id": "E15", "tipo": "Documental", "texto": "Sete pessoas ficaram presas durante a investigação. As defesas de S4, S5 e S7 sustentaram que o decreto de prisão não individualizava a conduta de cada um e se baseava em clamor público.", "suspeitos": ["S4", "S5", "S7"]}
+  ]
+}

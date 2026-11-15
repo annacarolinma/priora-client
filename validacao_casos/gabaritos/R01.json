@@ -1,0 +1,13 @@
+{
+  "id": "R01",
+  "titulo": "Caso Bernardo Boldrini (Três Passos, RS, 2014)",
+  "fonte": "Wikipédia (pt) - Caso Bernardo Boldrini",
+  "url": "https://pt.wikipedia.org/wiki/Caso_Bernardo_Boldrini",
+  "licenca_ou_uso": "Wikipédia CC BY-SA 4.0; fatos reescritos, uso interno",
+  "culpado": ["S1","S2","S3","S4"],
+  "chave_nomes": {"S1": "Leandro Boldrini (pai)", "S2": "Graciele Ugulini (madrasta)", "S3": "Edelvânia Wirganovicz", "S4": "Evandro Wirganovicz"},
+  "solucao": "Júri em Três Passos (março de 2019) condenou os quatro: madrasta 34a7m, Edelvânia 22a10m, Evandro 9a6m e o pai 33a8m. O TJRS anulou a condenação do pai (2021) e novo júri em 2023 o condenou a 31a8m por homicídio e falsidade ideológica. Mortes por sedativo midazolam seguido de ocultação do corpo.",
+  "pais_epoca": "Brasil, 2014",
+  "tipo_crime": "homicídio qualificado (infanticídio por envenenamento/sedação), ocultação de cadáver",
+  "observacoes": "Caso muito conhecido no Brasil; o anonimizado (menino sedado e enterrado à beira de rio) pode ser reconhecível. Omiti confissões/versões dadas no júri e a cooperação da S3 que levou ao corpo, para evitar viés de retrospectiva. Os 4 são culpados, então o número de pistas por suspeito pouco discrimina. Pistas vêm de um único resumo da Wikipédia; as fontes primárias (TJRS, imprensa) não foram lidas."
+}

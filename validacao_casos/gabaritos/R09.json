@@ -1,0 +1,13 @@
+{
+  "id": "R09",
+  "titulo": "Sequestro de George Weyerhaeuser (Tacoma, 1935)",
+  "fonte": "Wikipedia (Kidnapping of George Weyerhaeuser); página sinalizada como de fonte única",
+  "url": "https://en.wikipedia.org/wiki/Kidnapping_of_George_Weyerhaeuser",
+  "licenca_ou_uso": "Wikipedia CC BY-SA 4.0; pistas reescritas",
+  "culpado": ["S1", "S2", "S3", "S4"],
+  "chave_nomes": {"S1": "Harmon Metz Waley", "S2": "Margaret Waley", "S3": "William Dainard (alias Mahan)", "S4": "Edward Fliss (alias Frank Lane)", "S5": "avô de Margaret (testemunha, não acusado)"},
+  "solucao": "Tribunal federal em Tacoma: Harmon Waley (culpado, 45 anos), Margaret Waley (julgada, 20 anos), William Dainard (60 anos) e Edward Fliss (10 anos e multa, por ajudar a descartar o dinheiro). Cerca de 157 mil dólares foram recuperados.",
+  "pais_epoca": "Estados Unidos, 1935-1936",
+  "tipo_crime": "sequestro para resgate",
+  "observacoes": "Todos os suspeitos com evidência relevante são culpados; só S5 é inocente, então o caso discrimina mal inocentes. Caso conhecido nos EUA, mas o anonimizado removeu nomes, valores, lugares e pseudônimos, mantendo '200 mil dólares' (retirar se preferir). A Wikipedia diz fonte única; não verifiquei no site do FBI. Parte das pistas (E17 a E19) é de fase final da investigação (prisões). Não incluí confissões nem sentenças. 20 pistas."
+}

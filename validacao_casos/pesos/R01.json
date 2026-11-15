@@ -1,0 +1,26 @@
+{
+  "id": "R01",
+  "pesos": [
+    {"evidencia": "E1", "r": 0.7, "vinculos": [{"suspeito": "S1", "v": 0.1, "efeito": "Incrimina"}, {"suspeito": "S2", "v": 0.1, "efeito": "Incrimina"}], "justificativa": "r: documento sobre composição familiar e herança; v: mera associação (parentesco/convivência)."},
+    {"evidencia": "E2", "r": 0.7, "vinculos": [{"suspeito": "S2", "v": 0.5, "efeito": "Incrimina"}], "justificativa": "r: gravações são registro eletrônico sem laudo de cadeia de custódia; v: hostilidade e ameaças veladas, compatível com explicação inocente."},
+    {"evidencia": "E3", "r": 0.7, "vinculos": [{"suspeito": "S1", "v": 0.1, "efeito": "Incrimina"}], "justificativa": "r: gravação; v: desdém do pai é mera sugestão de relação ruim, sem ligação com o crime."},
+    {"evidencia": "E4", "r": 0.3, "vinculos": [{"suspeito": "S1", "v": 0.1, "efeito": "Incrimina"}], "justificativa": "r: testemunhas indiretas e opinião de ex-professora (segunda mão); v: falta de afeto é mera associação."},
+    {"evidencia": "E5", "r": 0.7, "vinculos": [{"suspeito": "S1", "v": 0.1, "efeito": "Incrimina"}, {"suspeito": "S2", "v": 0.1, "efeito": "Incrimina"}], "justificativa": "r: registro judicial; v: pedido ao juiz apenas associa o menino à família, sem apontar autoria."},
+    {"evidencia": "E6", "r": 0.5, "vinculos": [{"suspeito": "S1", "v": 0.3, "efeito": "Incrimina"}], "justificativa": "r: declaração do próprio interessado sem corroboração; v: circunstancial, pois ele foi a última pessoa a ter o menino."},
+    {"evidencia": "E7", "r": 0.5, "vinculos": [{"suspeito": "S1", "v": 0.5, "efeito": "Incrimina"}], "justificativa": "r: depoimento do próprio pai sem corroboração; v: a história era falsa, mas pode ter explicação inocente (engano) ou ser mentira."},
+    {"evidencia": "E8", "r": 0.7, "vinculos": [{"suspeito": "S2", "v": 0.5, "efeito": "Incrimina"}], "justificativa": "r: multa oficial e policial sem interesse; v: ela estava com o menino à tarde, o que a coloca como a última a vê-lo, mas ambos estavam tranquilos."},
+    {"evidencia": "E9", "r": 0.5, "vinculos": [{"suspeito": "S2", "v": 0.3, "efeito": "Incrimina"}, {"suspeito": "S3", "v": 0.3, "efeito": "Incrimina"}], "justificativa": "r: depoimento sem corroboração; v: circunstancial, encontro entre as duas sem prova do propósito."},
+    {"evidencia": "E10", "r": 0.5, "vinculos": [{"suspeito": "S1", "v": 0.3, "efeito": "Incrimina"}, {"suspeito": "S2", "v": 0.3, "efeito": "Incrimina"}], "justificativa": "r: comportamento observado sem registro formal; v: frieza é circunstancial, compatível com muitas explicações."},
+    {"evidencia": "E11", "r": 0.7, "vinculos": [], "justificativa": "r: achado policial oficial; contexto do local do corpo, sem relação com suspeito específico."},
+    {"evidencia": "E12", "r": 0.9, "vinculos": [], "justificativa": "r: laudo pericial oficial; sem vínculo específico com suspeito."},
+    {"evidencia": "E13", "r": 0.5, "vinculos": [{"suspeito": "S1", "v": 0.3, "efeito": "Incrimina"}, {"suspeito": "S2", "v": 0.3, "efeito": "Incrimina"}, {"suspeito": "S3", "v": 0.3, "efeito": "Incrimina"}], "justificativa": "r: registro de compras sem cadeia de custódia e sem prova do uso; v: acesso ao sedativo é circunstancial, compatível com os três."},
+    {"evidencia": "E14", "r": 0.7, "vinculos": [{"suspeito": "S3", "v": 0.3, "efeito": "Incrimina"}], "justificativa": "r: apreensão policial; v: pá e cavadeira são objetos comuns, circunstancial."},
+    {"evidencia": "E15", "r": 0.7, "vinculos": [{"suspeito": "S3", "v": 0.1, "efeito": "Incrimina"}], "justificativa": "r: informação de conselho profissional; v: mentira sobre profissão não se liga ao crime, mera associação."},
+    {"evidencia": "E16", "r": 0.3, "vinculos": [{"suspeito": "S1", "v": 0.7, "efeito": "Incrimina"}, {"suspeito": "S2", "v": 0.7, "efeito": "Incrimina"}], "justificativa": "r: relato de segunda mão de uma conhecida; v: se verdadeiro, aponta forte para o casal."},
+    {"evidencia": "E17", "r": 0.3, "vinculos": [{"suspeito": "S4", "v": 0.3, "efeito": "Incrimina"}], "justificativa": "r: conclusão da investigação sem fonte detalhada; v: presença na região é circunstancial."},
+    {"evidencia": "E18", "r": 0.3, "vinculos": [{"suspeito": "S4", "v": 0.3, "efeito": "Inocenta"}], "justificativa": "r: versão da parte interessada; v: explica a presença de forma plausível, afastando circunstancialmente."},
+    {"evidencia": "E19", "r": 0.3, "vinculos": [{"suspeito": "S1", "v": 0.3, "efeito": "Incrimina"}, {"suspeito": "S2", "v": 0.3, "efeito": "Incrimina"}], "justificativa": "r: caracterização feita pela acusação; v: motivo financeiro circunstancial."},
+    {"evidencia": "E20", "r": 0.3, "vinculos": [{"suspeito": "S2", "v": 0.3, "efeito": "Incrimina"}, {"suspeito": "S3", "v": 0.3, "efeito": "Incrimina"}], "justificativa": "r: 'teria oferecido', sem fonte clara; v: motivação circunstancial."},
+    {"evidencia": "E21", "r": 0.3, "vinculos": [{"suspeito": "S1", "v": 0.1, "efeito": "Incrimina"}, {"suspeito": "S2", "v": 0.1, "efeito": "Incrimina"}], "justificativa": "r: tese da acusação, reforça E19; v: mera associação."}
+  ]
+}

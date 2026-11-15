@@ -1,0 +1,251 @@
+{
+  "id": "R18",
+  "pesos": [
+    {
+      "evidencia": "E1",
+      "r": 0.7,
+      "vinculos": [
+        {
+          "suspeito": "S2",
+          "v": 0.1,
+          "efeito": "Incrimina"
+        }
+      ],
+      "justificativa": "r: registro documental da contratacao; v: mera associacao (contato)."
+    },
+    {
+      "evidencia": "E2",
+      "r": 0.3,
+      "vinculos": [
+        {
+          "suspeito": "S1",
+          "v": 0.3,
+          "efeito": "Inocenta"
+        },
+        {
+          "suspeito": "S2",
+          "v": 0.3,
+          "efeito": "Inocenta"
+        }
+      ],
+      "justificativa": "r: relato de partes interessadas; v: se verdadeiro afasta circunstancialmente ambos."
+    },
+    {
+      "evidencia": "E3",
+      "r": 0.3,
+      "vinculos": [
+        {
+          "suspeito": "S1",
+          "v": 0.3,
+          "efeito": "Inocenta"
+        },
+        {
+          "suspeito": "S2",
+          "v": 0.1,
+          "efeito": "Inocenta"
+        }
+      ],
+      "justificativa": "r: relatos de partes interessadas; v: sugere versoes de vitimas, fraco."
+    },
+    {
+      "evidencia": "E4",
+      "r": 0.5,
+      "vinculos": [
+        {
+          "suspeito": "S1",
+          "v": 0.3,
+          "efeito": "Inocenta"
+        }
+      ],
+      "justificativa": "r: testemunho sem corroboracao; v: marido solto e pedindo ajuda e compativel com vitima, circunstancial."
+    },
+    {
+      "evidencia": "E5",
+      "r": 0.7,
+      "vinculos": [],
+      "justificativa": "Contexto fisico sem vinculo."
+    },
+    {
+      "evidencia": "E6",
+      "r": 0.5,
+      "vinculos": [],
+      "justificativa": "Contexto fisico sem vinculo."
+    },
+    {
+      "evidencia": "E7",
+      "r": 0.7,
+      "vinculos": [],
+      "justificativa": "Contexto pericial sem vinculo."
+    },
+    {
+      "evidencia": "E8",
+      "r": 0.3,
+      "vinculos": [],
+      "justificativa": "Pericia contestada, sem vinculo com suspeito."
+    },
+    {
+      "evidencia": "E9",
+      "r": 0.7,
+      "vinculos": [
+        {
+          "suspeito": "S4",
+          "v": 0.7,
+          "efeito": "Incrimina"
+        }
+      ],
+      "justificativa": "r: identificacao oficial de impressao; v: forte, poucas explicacoes inocentes."
+    },
+    {
+      "evidencia": "E10",
+      "r": 0.5,
+      "vinculos": [
+        {
+          "suspeito": "S5",
+          "v": 0.7,
+          "efeito": "Incrimina"
+        }
+      ],
+      "justificativa": "r: dica de informante seguida de admissao, sem corroboracao; v: admite participacao."
+    },
+    {
+      "evidencia": "E11",
+      "r": 0.3,
+      "vinculos": [
+        {
+          "suspeito": "S3",
+          "v": 0.3,
+          "efeito": "Incrimina"
+        },
+        {
+          "suspeito": "S5",
+          "v": 0.1,
+          "efeito": "Incrimina"
+        }
+      ],
+      "justificativa": "r: acusacao de co-acusado interessado; v: circunstancial para S3, mera associacao para S5."
+    },
+    {
+      "evidencia": "E12",
+      "r": 0.5,
+      "vinculos": [
+        {
+          "suspeito": "S2",
+          "v": 0.3,
+          "efeito": "Incrimina"
+        }
+      ],
+      "justificativa": "r: mudanca de versao documentada mas sem corroboracao; v: circunstancial."
+    },
+    {
+      "evidencia": "E13",
+      "r": 0.3,
+      "vinculos": [
+        {
+          "suspeito": "S4",
+          "v": 0.5,
+          "efeito": "Incrimina"
+        }
+      ],
+      "justificativa": "r: confissao contestada por alegada coacao; v: compativel com grupo pequeno."
+    },
+    {
+      "evidencia": "E14",
+      "r": 0.3,
+      "vinculos": [
+        {
+          "suspeito": "S5",
+          "v": 0.1,
+          "efeito": "Inocenta"
+        }
+      ],
+      "justificativa": "r: alegacao de parte interessada; v: mera sugestao de enfraquecimento da admissao."
+    },
+    {
+      "evidencia": "E15",
+      "r": 0.3,
+      "vinculos": [
+        {
+          "suspeito": "S1",
+          "v": 0.3,
+          "efeito": "Incrimina"
+        },
+        {
+          "suspeito": "S2",
+          "v": 0.1,
+          "efeito": "Incrimina"
+        },
+        {
+          "suspeito": "S3",
+          "v": 0.1,
+          "efeito": "Incrimina"
+        }
+      ],
+      "justificativa": "r: citacoes de partes interessadas nao confirmadas; v: circunstancial/associacao."
+    },
+    {
+      "evidencia": "E16",
+      "r": 0.3,
+      "vinculos": [
+        {
+          "suspeito": "S2",
+          "v": 0.3,
+          "efeito": "Incrimina"
+        },
+        {
+          "suspeito": "S3",
+          "v": 0.3,
+          "efeito": "Incrimina"
+        }
+      ],
+      "justificativa": "r: gravacoes de segunda mao sobre terceiro; v: circunstancial."
+    },
+    {
+      "evidencia": "E17",
+      "r": 0.5,
+      "vinculos": [
+        {
+          "suspeito": "S5",
+          "v": 0.3,
+          "efeito": "Incrimina"
+        }
+      ],
+      "justificativa": "r: registro de depoimento sem corroboracao; v: circunstancial."
+    },
+    {
+      "evidencia": "E18",
+      "r": 0.7,
+      "vinculos": [
+        {
+          "suspeito": "S3",
+          "v": 0.3,
+          "efeito": "Incrimina"
+        }
+      ],
+      "justificativa": "r: avaliacao judicial oficial; v: mentira circunstancial."
+    },
+    {
+      "evidencia": "E19",
+      "r": 0.3,
+      "vinculos": [
+        {
+          "suspeito": "S4",
+          "v": 0.5,
+          "efeito": "Inocenta"
+        }
+      ],
+      "justificativa": "r: alibi alegado por parte interessada; v: afasta parcialmente."
+    },
+    {
+      "evidencia": "E20",
+      "r": 0.3,
+      "vinculos": [
+        {
+          "suspeito": "S1",
+          "v": 0.1,
+          "efeito": "Incrimina"
+        }
+      ],
+      "justificativa": "r: interpretacao de terceiros; v: mera associacao (parentesco)."
+    }
+  ]
+}

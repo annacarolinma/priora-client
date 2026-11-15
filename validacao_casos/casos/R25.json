@@ -1,0 +1,211 @@
+{
+ "id": "R25",
+ "tipo": "real",
+ "resumo": "Uma jovem universitária que morava sozinha no andar de cima de uma casa convertida em apartamentos sofreu, numa madrugada de feriado, uma invasão do seu apartamento. Poucos dias depois seu corpo foi achado num rio, com marcas de ligadura. Seu cartão bancário havia sido usado numa tentativa de saque na noite do desaparecimento. A polícia reuniu informações sobre várias pessoas ligadas a ela e ao prédio.",
+ "suspeitos": [
+  {
+   "id": "S1",
+   "perfil": "Morador adulto do apartamento do térreo do mesmo prédio, em liberdade condicional, que dividia a moradia com a companheira (S5). Disse à polícia que estava sozinho em casa e não sabia onde a vítima estava."
+  },
+  {
+   "id": "S2",
+   "perfil": "Conhecido de S1, com mandado de prisão pendente por infração menor; foi achado escondido no apartamento de S1 quando a polícia chegou."
+  },
+  {
+   "id": "S3",
+   "perfil": "Morador de um endereço próximo, para onde levavam as pegadas na neve depois da invasão; negou saber de qualquer coisa."
+  },
+  {
+   "id": "S4",
+   "perfil": "Ex-namorado da vítima, que continuava próximo dela e passou com ela as duas noites anteriores ao desaparecimento."
+  },
+  {
+   "id": "S5",
+   "perfil": "Companheira de S1, titular do contrato de aluguel do apartamento do térreo."
+  }
+ ],
+ "evidencias": [
+  {
+   "id": "E1",
+   "tipo": "Depoimento",
+   "texto": "Na madrugada de um feriado de fim de ano, a vítima contou a uma amiga que ouviu alguém tentando abrir sua porta com chaves. Ela telefonou ao ex-namorado, que foi à casa dela e ficou até cerca de 3h da manhã.",
+   "suspeitos": [
+    "S4"
+   ]
+  },
+  {
+   "id": "E2",
+   "tipo": "Física",
+   "texto": "Pouco depois de o ex-namorado sair, a vítima ouviu de novo alguém na porta; a cadeira que ela havia posto contra a porta foi derrubada e a pessoa entrou. Ela chamou a polícia. A porta tinha sinais leves, mas visíveis, de arrombamento, e os policiais seguiram pegadas na neve até um endereço próximo.",
+   "suspeitos": []
+  },
+  {
+   "id": "E3",
+   "tipo": "Depoimento",
+   "texto": "O morador do endereço onde terminavam as pegadas negou saber do arrombamento. O detetive declarou que ele nunca foi totalmente descartado como autor da invasão, mas que não havia prova para acusá-lo.",
+   "suspeitos": [
+    "S3"
+   ]
+  },
+  {
+   "id": "E4",
+   "tipo": "Depoimento",
+   "texto": "Uma amiga da vítima observou que a porta externa do prédio fazia um rangido alto ao abrir ou fechar. Como a vítima não ouviu esse rangido na noite da invasão, a amiga concluiu que o invasor já estava dentro do edifício. Ela contou o detalhe à polícia, sem apontar ninguém na ocasião.",
+   "suspeitos": [
+    "S1",
+    "S5"
+   ]
+  },
+  {
+   "id": "E5",
+   "tipo": "Depoimento",
+   "texto": "Amigos relataram que, nas semanas anteriores, o morador do térreo ficava parado na porta dele ou espiava pela cortina quando visitavam a vítima, e passou a telefonar de madrugada pedindo para subir ao apartamento dela. Mesmo depois de ela pedir que parasse, as ligações continuaram, e ela acabou trocando de número.",
+   "suspeitos": [
+    "S1"
+   ]
+  },
+  {
+   "id": "E6",
+   "tipo": "Documental",
+   "texto": "Um amigo contou que alguém deslizou sob a porta dos fundos da vítima um envelope dirigido a \"uma moça muito doce e confusa\", assinado com o primeiro nome do morador do térreo. A polícia achou o envelope no apartamento dela, mas não o cartão que estaria dentro.",
+   "suspeitos": [
+    "S1"
+   ]
+  },
+  {
+   "id": "E7",
+   "tipo": "Comportamento",
+   "texto": "Segundo amigos, depois da invasão a vítima passou de irritação a medo e pediu que alguém dormisse com ela nas noites seguintes.",
+   "suspeitos": []
+  },
+  {
+   "id": "E8",
+   "tipo": "Depoimento",
+   "texto": "O ex-namorado disse que a vítima não se sentia segura no apartamento. Na noite de sábado ele voltou, dormiu lá e os dois tiveram relação sexual. Ele saiu depois do almoço de domingo, na mesma hora em que ela saiu para ir ao cinema com outro amigo.",
+   "suspeitos": [
+    "S4"
+   ]
+  },
+  {
+   "id": "E9",
+   "tipo": "Depoimento",
+   "texto": "O amigo que foi ao cinema com ela contou que jantaram perto do cinema e se despediram entre 16h30 e 17h do domingo. Ela estava apreensiva e preocupada com a situação em que vivia. Foi a última pessoa a vê-la com vida.",
+   "suspeitos": []
+  },
+  {
+   "id": "E10",
+   "tipo": "Documental",
+   "texto": "O banco registrou seis tentativas de uso do cartão da vítima num caixa eletrônico entre 21h24 e 21h34 daquele domingo: três saques negados por falta de saldo, dois depósitos com envelopes vazios e uma transferência malsucedida.",
+   "suspeitos": []
+  },
+  {
+   "id": "E11",
+   "tipo": "Depoimento",
+   "texto": "Um casal que usou o mesmo caixa na mesma hora viu um homem com capuz e cachecol, só testa, olhos e ponte do nariz visíveis, que parecia não saber operar a máquina. A mulher, com cerca de 1,65 m, o descreveu como um pouco mais alto que ela; o marido, como de altura mediana. S1 mede cerca de 1,88 m e S2 cerca de 1,73 m. Numa fila com seis homens, incluindo S1 e S2, o marido não apontou ninguém e a mulher apontou S2.",
+   "suspeitos": [
+    "S1",
+    "S2"
+   ]
+  },
+  {
+   "id": "E12",
+   "tipo": "Física",
+   "texto": "O marido do casal viu o homem do caixa entrar num carro cujo motor fazia um ruído incomum. Na delegacia, entre 15 ou 20 veículos, ele apontou o carro da vítima e, quando o motor foi ligado, reconheceu o mesmo som.",
+   "suspeitos": []
+  },
+  {
+   "id": "E13",
+   "tipo": "Física",
+   "texto": "No dia seguinte à descoberta do corpo, policiais bateram na porta do apartamento do térreo. S1 os deixou entrar e disse que estava sozinho e não sabia onde a vítima estava. Ouviram-se então um estrondo e S1 disse algo como \"eu não disse que ele não estava aqui\". Os policiais acharam S2 escondido atrás de uma porta e o prenderam pelo mandado pendente.",
+   "suspeitos": [
+    "S1",
+    "S2"
+   ]
+  },
+  {
+   "id": "E14",
+   "tipo": "Física",
+   "texto": "Perto do quarto onde S2 estava havia uma jaqueta no chão; S2 disse que era de S1. No bolso havia o cartão bancário em nome da vítima e um cartão de assistência social em nome de S1. S1 foi preso em seguida.",
+   "suspeitos": [
+    "S1",
+    "S2"
+   ]
+  },
+  {
+   "id": "E15",
+   "tipo": "Física",
+   "texto": "Com o consentimento de S5, que constava como titular do aluguel, a polícia revistou o apartamento do térreo. Na lixeira do banheiro havia um chaveiro com dez chaves e a letra G; uma abria o apartamento da vítima e outra o carro dela.",
+   "suspeitos": [
+    "S1",
+    "S5"
+   ]
+  },
+  {
+   "id": "E16",
+   "tipo": "Física",
+   "texto": "No apartamento do térreo havia uma televisão desligada sobre uma cama. O número de série era o da caixa vazia encontrada no apartamento da vítima, onde um vão na estante estava vazio e um cabo de TV pendia. Dos nove fragmentos de impressão digital aproveitáveis na TV, quatro eram de S1 e cinco não pertenciam à vítima, a S1 nem a S2.",
+   "suspeitos": [
+    "S1",
+    "S2",
+    "S5"
+   ]
+  },
+  {
+   "id": "E17",
+   "tipo": "Física",
+   "texto": "Na lixeira da cozinha do apartamento do térreo havia um pegador de panela com cabelos e sujeira; um pegador igual estava sobre a geladeira da vítima. Os cabelos incluíam fios de um cabelo ruivo e pelos pubianos compatíveis com os da vítima, que era ruiva, além de fragmentos pequenos demais para comparação.",
+   "suspeitos": [
+    "S1",
+    "S5"
+   ]
+  },
+  {
+   "id": "E18",
+   "tipo": "Pericial",
+   "texto": "A autópsia do corpo, achado num rio, mostrou marcas de ligadura no pescoço e nos dois pulsos, hematomas no rosto, queixo, tronco e seios, e sinais de asfixia. O laudo da época indicou morte por volta das 23h15 do domingo, por um método (potássio no humor vítreo) hoje considerado pouco confiável. Um cabo telefônico de largura semelhante à das marcas, igual a milhares de outros, estava no porta-malas do carro da vítima.",
+   "suspeitos": []
+  },
+  {
+   "id": "E19",
+   "tipo": "Física",
+   "texto": "O apartamento da vítima não tinha vidros quebrados nem móveis revirados. Havia um prato de comida e uma garrafa de cerveja na mesa da cozinha. A porta estava trancada e não havia sangue na escada quando os policiais chegaram.",
+   "suspeitos": []
+  },
+  {
+   "id": "E20",
+   "tipo": "Pericial",
+   "texto": "Foi achado sêmen na coleta vaginal da vítima. Exames de sangue de 1986 mostraram que vinha de pessoa do tipo B não secretor. S4 é do tipo A secretor e S2 do tipo B secretor, portanto ambos foram excluídos. S1 é do tipo B não secretor, grupo que corresponde a cerca de 4% da população do mesmo grupo étnico, o que não bastava para identificá-lo.",
+   "suspeitos": [
+    "S1",
+    "S2",
+    "S4"
+   ]
+  },
+  {
+   "id": "E21",
+   "tipo": "Depoimento",
+   "texto": "S2 disse à polícia que, perto de um feriado de outono, S1 comentou ter roubado as chaves da vítima para entrar no apartamento dela e furtar seus pertences. Disse também que, no dia da prisão, viu S1 limpando a escada com um pegador de panela e que S1 lhe entregou chaves mandando jogá-las na lixeira do banheiro.",
+   "suspeitos": [
+    "S1",
+    "S2"
+   ]
+  },
+  {
+   "id": "E22",
+   "tipo": "Depoimento",
+   "texto": "O agente de condicional de S1 o ouviu duas vezes. Na primeira, S1 negou qualquer envolvimento. Na segunda, admitiu que a jaqueta era dele e disse ter achado o cartão no degrau da frente por volta das 11h30 do dia em que foi preso, tocado a campainha da vítima para devolvê-lo e guardado o cartão no bolso para entregar depois.",
+   "suspeitos": [
+    "S1"
+   ]
+  },
+  {
+   "id": "E23",
+   "tipo": "Antecedente",
+   "texto": "S1 estava em liberdade condicional e supervisionado por um agente. S2 tinha um mandado pendente por infração menor. S3, S4 e S5 não tinham antecedentes registrados na fonte consultada.",
+   "suspeitos": [
+    "S1",
+    "S2"
+   ]
+  }
+ ]
+}

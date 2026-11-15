@@ -1,0 +1,32 @@
+{
+  "id": "R15",
+  "tipo": "real",
+  "resumo": "Numa noite de dezembro, um incêndio num apartamento de um condomínio de cidade pequena leva vizinhos a encontrar um homem ferido no patamar e, depois, quatro corpos: uma mulher, sua mãe, seu filho pequeno e uma vizinha. O homem ferido é o marido da vizinha, que sobrevive por uma anomalia anatômica. O apartamento foi incendiado depois do ataque.",
+  "suspeitos": [
+    {"id": "S1", "perfil": "marido da vítima e pai da criança, nascido no exterior, com antecedentes por tráfico de drogas, solto por indulto; estava viajando no país de origem"},
+    {"id": "S2", "perfil": "vizinho de prédio, casado com S3, em litígio com a vítima por brigas e uma ação cível"},
+    {"id": "S3", "perfil": "esposa de S2, vizinha de prédio, muito ligada ao marido e isolada de parentes"},
+    {"id": "S4", "perfil": "desconhecido de pele oliva, descrito inicialmente pelo sobrevivente como o agressor, hipótese de acerto de contas ligado ao tráfico"}
+  ],
+  "evidencias": [
+    {"id": "E1", "tipo": "Física", "texto": "Por volta das 20h20 houve um incêndio no apartamento. Dois vizinhos, um deles bombeiro voluntário, entraram, arrastaram para longe do fogo um homem ferido no patamar e retiraram o corpo em chamas de uma mulher. Depois acharam outros três corpos.", "suspeitos": []},
+    {"id": "E2", "tipo": "Pericial", "texto": "As vítimas morreram por golpes de barra de ferro e facadas, com cortes na garganta; uma vizinha, ferida em 34 facadas e 8 pancadas, subiu ao andar de cima e morreu intoxicada pela fumaça. O marido da vizinha foi cortado na garganta, mas sobreviveu por uma malformação congênita na carótida.", "suspeitos": []},
+    {"id": "E3", "tipo": "Pericial", "texto": "Os exames indicam que os agressores foram dois, um deles canhoto, armados com duas facas (uma curta e uma longa) e uma barra de ferro.", "suspeitos": []},
+    {"id": "E4", "tipo": "Física", "texto": "O apartamento foi incendiado para esconder vestígios. A fumaça obrigou os agressores a fugir pela escada do prédio, por onde subiam o casal de vizinhos, atraídos pela fumaça.", "suspeitos": []},
+    {"id": "E5", "tipo": "Documental", "texto": "S1 estava no exterior, visitando os pais, na hora dos fatos. Os investigadores confirmaram o álibi.", "suspeitos": ["S1"]},
+    {"id": "E6", "tipo": "Motivação", "texto": "A imprensa e os investigadores levantaram a hipótese de que o crime teria sido um acerto de contas dirigido a S1, por causa de seus antecedentes de tráfico.", "suspeitos": ["S1", "S4"]},
+    {"id": "E7", "tipo": "Depoimento", "texto": "No leito do hospital, o sobrevivente descreveu o agressor como um desconhecido de pele oliva. Em depoimento posterior, passou a reconhecer S2 como o homem que o atacou.", "suspeitos": ["S4", "S2"]},
+    {"id": "E8", "tipo": "Comportamento", "texto": "Desde as primeiras horas, S2 e S3 se mostraram indiferentes ao ocorrido e, ao contrário dos outros moradores, não pediram explicações nem proteção à polícia.", "suspeitos": ["S2", "S3"]},
+    {"id": "E9", "tipo": "Física", "texto": "Na primeira noite, S2 tinha um hematoma na mão e outro no antebraço, e S3 tinha um corte já cicatrizado num dedo.", "suspeitos": ["S2", "S3"]},
+    {"id": "E10", "tipo": "Documental", "texto": "Ao serem abordados com perguntas de praxe, S2 e S3 mostraram espontaneamente um recibo de lanchonete de outra cidade, dizendo terem jantado lá. O horário no recibo era duas horas depois do crime e fora do horário habitual de jantar do casal.", "suspeitos": ["S2", "S3"]},
+    {"id": "E11", "tipo": "Telefônica", "texto": "Escutas ambientais mostram que, enquanto o país inteiro comentava o caso, S2 e S3 nunca tocavam no assunto em suas conversas.", "suspeitos": ["S2", "S3"]},
+    {"id": "E12", "tipo": "Biológica", "texto": "Na soleira da porta do motorista do carro de S2 e S3 foi achada uma mancha de sangue atribuída a uma das vítimas. Foi o único resíduo de sangue achado no carro, nas roupas e na casa do casal. A defesa disse tratar-se de contaminação.", "suspeitos": ["S2", "S3"]},
+    {"id": "E13", "tipo": "Motivação", "texto": "S2 e S3 tinham brigas frequentes com a vítima, uma discussão violenta na virada de ano e uma ação cível que seria julgada dois dias depois do crime. Segundo a vítima, na ocasião S2 e S3 a agrediram e ela registrou queixa, oferecendo retirá-la em troca de indenização.", "suspeitos": ["S2", "S3"]},
+    {"id": "E14", "tipo": "Depoimento", "texto": "Vizinhos relataram um clima de terror no prédio causado por S2 e S3: gritos, ameaças, vasos jogados nas sacadas, cartas de advogados. Vários moradores se mudaram. Amigos da vítima disseram que ela contou ter sido seguida pelo casal dias antes do crime.", "suspeitos": ["S2", "S3"]},
+    {"id": "E15", "tipo": "Documental", "texto": "Uma vizinha contou que, pouco antes do crime, S2 lhe entregou várias páginas manuscritas com a versão do casal das brigas com a vítima, pedindo que ela as datilografasse.", "suspeitos": ["S2"]},
+    {"id": "E16", "tipo": "Antecedente", "texto": "No início dos anos 80, o pai e o irmão de S2 registraram queixa contra ele depois de uma briga familiar. S2 e S3 estavam havia anos sem contato com parentes próximos e eram descritos como isolados e muito ligados um ao outro.", "suspeitos": ["S2", "S3"]},
+    {"id": "E17", "tipo": "Antecedente", "texto": "Parentes de S3 afirmaram que ela sofreu violência sexual aos dez anos, sem apoio algum depois. Uma psiquiatra da defesa disse que seria preciso avaliar o quociente de inteligência de S3.", "suspeitos": ["S3"]},
+    {"id": "E18", "tipo": "Pericial", "texto": "Laudos indicam a presença de um segundo agressor, canhoto. S3 é canhota.", "suspeitos": ["S3"]},
+    {"id": "E19", "tipo": "Depoimento", "texto": "A defesa sustentou, sem comprovar, que um estranho esteve na casa da vítima no dia do crime.", "suspeitos": ["S4"]}
+  ]
+}

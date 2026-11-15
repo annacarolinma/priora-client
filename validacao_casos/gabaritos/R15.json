@@ -1,0 +1,13 @@
+{
+  "id": "R15",
+  "titulo": "Chacina de Erba (Itália, 2006)",
+  "fonte": "Wikipedia (it): Strage di Erba",
+  "url": "https://it.wikipedia.org/wiki/Strage_di_Erba",
+  "licenca_ou_uso": "CC BY-SA 4.0 (texto reescrito com minhas palavras, em português)",
+  "culpado": ["S2", "S3"],
+  "chave_nomes": {"S1": "Azouz Marzouk", "S2": "Olindo Romano", "S3": "Rosa Bazzi", "S4": "desconhecido (hipótese defensiva e dos primeiros relatos)"},
+  "solucao": "Olindo Romano e Rosa Bazzi foram condenados à prisão perpétua em 2008 (Como), confirmados em 2010 (Milão) e em definitivo pela Cassazione em 3 de maio de 2011. Pedidos posteriores de revisão e recursos à CEDH foram rejeitados.",
+  "pais_epoca": "Itália (Lombardia), 2006",
+  "tipo_crime": "homicídio quádruplo com incêndio",
+  "observacoes": "Excluí as confissões (retratadas depois) e a sentença, por serem posteriores. E7 inclui o reconhecimento posterior pelo sobrevivente (data exata incerta na fonte), que é controverso. O caso é muito conhecido na Itália e foi anonimizado, mas não excluo reconhecimento. Só 4 suspeitos (S4 é uma hipótese, não uma pessoa nomeada) e 19 evidências, com forte concentração em S2/S3, o que entrega o culpado. Casal condenado como co-autores. Vítimas sensíveis."
+}
