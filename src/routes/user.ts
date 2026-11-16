@@ -5,6 +5,7 @@ interface RegisterUserData {
   primeiroNome: string;
   sobrenome: string;
   senha: string;
+  codigoAcesso?: string;
 }
 
 interface LoginData {
