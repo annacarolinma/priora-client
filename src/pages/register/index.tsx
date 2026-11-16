@@ -10,6 +10,7 @@ import FormAlert from "@/components/auth/FormAlert";
 import PasswordChecklist from "@/components/auth/PasswordChecklist";
 import {
   isValid,
+  validateConfirm,
   validateEmail,
   validateNewPassword,
   validateRequired,
@@ -20,10 +21,12 @@ type Form = {
   sobrenome: string;
   email: string;
   senha: string;
+  confirmSenha: string;
+  codigoAcesso: string;
 };
 type Errors = Partial<Record<keyof Form, string>>;
 
-const EMPTY: Form = { primeiroNome: "", sobrenome: "", email: "", senha: "" };
+const EMPTY: Form = { primeiroNome: "", sobrenome: "", email: "", senha: "", confirmSenha: "", codigoAcesso: "" };
 
 function validateForm(f: Form): Errors {
   return {
@@ -31,6 +34,8 @@ function validateForm(f: Form): Errors {
     sobrenome: validateRequired(f.sobrenome, "Informe seu sobrenome."),
     email: validateEmail(f.email),
     senha: validateNewPassword(f.senha),
+    confirmSenha: validateConfirm(f.senha, f.confirmSenha),
+    codigoAcesso: validateRequired(f.codigoAcesso, "Informe a senha de acesso."),
   };
 }
 
@@ -76,6 +81,7 @@ export default function Register() {
         primeiroNome: form.primeiroNome.trim(),
         sobrenome: form.sobrenome.trim(),
         senha: form.senha,
+        codigoAcesso: form.codigoAcesso.trim(),
       });
 
       toast.success("Conta criada com sucesso!");
@@ -170,7 +176,31 @@ export default function Register() {
           disabled={submitting}
         />
 
-        <PasswordChecklist password={form.senha} />
+        <PasswordField
+          label="Confirmar senha"
+          name="confirm-password"
+          autoComplete="new-password"
+          placeholder="Repita a senha"
+          icon={<FiLock size={16} />}
+          value={form.confirmSenha}
+          onChange={(e) => update("confirmSenha", e.target.value)}
+          onBlur={() => validateOnBlur("confirmSenha")}
+          error={errors.confirmSenha}
+          disabled={submitting}
+        />
+
+        <PasswordChecklist password={form.senha} confirm={form.confirmSenha} />
+
+        <PasswordField
+          label="Senha de acesso"
+          name="access-code"
+          autoComplete="off"
+          placeholder="Senha fornecida pela equipe do Priora"
+          value={form.codigoAcesso}
+          onChange={(e) => update("codigoAcesso", e.target.value)}
+          error={errors.codigoAcesso}
+          disabled={submitting}
+        />
 
         <SubmitButton loading={submitting} loadingText="Criando conta..." className="mt-1">
           Criar conta
