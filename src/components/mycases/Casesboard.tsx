@@ -2,6 +2,7 @@
 import { FiSearch } from "react-icons/fi";
 import { MdFilterList } from "react-icons/md";
 import CaseCard from "./CasesCard";
+import CaseSlot from "./CaseSlot";
 import FilterPanelCases from "./FilterPanelCases";
 import { TbHelp } from "react-icons/tb";
 import { FaRegFolderOpen } from "react-icons/fa";
@@ -297,6 +298,11 @@ export default function CasesSection({ onCreateCase }: { onCreateCase: () => voi
                     : "—"
                 }
               />
+            ))}
+
+            {/* espaços para novos casos: deixam a grade preenchida */}
+            {Array.from({ length: 5 }, (_, i) => (
+              <CaseSlot key={`slot-${i}`} onClick={onCreateCase} />
             ))}
           </div>
         </div>

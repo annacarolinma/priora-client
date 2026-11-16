@@ -155,6 +155,11 @@ export default function CreateCaseModal({
     data: "",
   });
 
+  // Contas marcadas pelo servidor com podeCriarCaso = false (ex.: conta de convidado) abrem o
+  // formulário, mas não conseguem salvar um caso novo.
+  const creationBlocked =
+    mode !== "edit" && JSON.parse(localStorage.getItem("user") || "{}").podeCriarCaso === false;
+
   const [loading, setLoading]       = useState(false);
   const [error, setError]           = useState<string | null>(null);
   const [cepLoading, setCepLoading] = useState(false);
@@ -419,7 +424,10 @@ export default function CreateCaseModal({
             <span className="text-red-400">*</span> Campos obrigatórios
           </p>
           {error && <p className={ERROR_CLASS}>{error}</p>}
-          <PrimaryButton onClick={handleSubmit}>
+          {creationBlocked && (
+            <p className="text-xs text-amber-300">Desativado para essa conta.</p>
+          )}
+          <PrimaryButton onClick={handleSubmit} disabled={creationBlocked}>
             {loading
             ? mode === "edit"
               ? "Salvando..."

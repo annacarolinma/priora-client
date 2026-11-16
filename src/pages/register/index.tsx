@@ -10,7 +10,6 @@ import FormAlert from "@/components/auth/FormAlert";
 import PasswordChecklist from "@/components/auth/PasswordChecklist";
 import {
   isValid,
-  validateConfirm,
   validateEmail,
   validateNewPassword,
   validateRequired,
@@ -21,11 +20,10 @@ type Form = {
   sobrenome: string;
   email: string;
   senha: string;
-  confirmSenha: string;
 };
 type Errors = Partial<Record<keyof Form, string>>;
 
-const EMPTY: Form = { primeiroNome: "", sobrenome: "", email: "", senha: "", confirmSenha: "" };
+const EMPTY: Form = { primeiroNome: "", sobrenome: "", email: "", senha: "" };
 
 function validateForm(f: Form): Errors {
   return {
@@ -33,7 +31,6 @@ function validateForm(f: Form): Errors {
     sobrenome: validateRequired(f.sobrenome, "Informe seu sobrenome."),
     email: validateEmail(f.email),
     senha: validateNewPassword(f.senha),
-    confirmSenha: validateConfirm(f.senha, f.confirmSenha),
   };
 }
 
@@ -173,20 +170,7 @@ export default function Register() {
           disabled={submitting}
         />
 
-        <PasswordField
-          label="Confirmar senha"
-          name="confirm-password"
-          autoComplete="new-password"
-          placeholder="Repita a senha"
-          icon={<FiLock size={16} />}
-          value={form.confirmSenha}
-          onChange={(e) => update("confirmSenha", e.target.value)}
-          onBlur={() => validateOnBlur("confirmSenha")}
-          error={errors.confirmSenha}
-          disabled={submitting}
-        />
-
-        <PasswordChecklist password={form.senha} confirm={form.confirmSenha} />
+        <PasswordChecklist password={form.senha} />
 
         <SubmitButton loading={submitting} loadingText="Criando conta..." className="mt-1">
           Criar conta
